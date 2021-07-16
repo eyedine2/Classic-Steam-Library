@@ -12,3 +12,4 @@ Included with my libraryroot.custom.css file (that goes in steamui) is a custom 
 place the fixes.txt file in steamoldglory's root folder. It should replace the already existing fixes.txt file. Start steamoldglory, head to the javascript tweaks section, and make sure there are only two tweaks and they are both checked. Then click the settings icon (which looks like a cog) and click remake JS. 
 
 If all goes well, the skin should be successfully installed with hopefully few issues!
+![Screenshot 2021-07-16 10 15 45](https://user-images.githubusercontent.com/65731940/125979354-e86bb0ec-40d1-45af-b755-45e70f8cf844.png)
