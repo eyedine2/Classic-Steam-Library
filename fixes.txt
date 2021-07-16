@@ -1,0 +1,13 @@
+
+### === CLASSIC Sticky image background and spillover into sidebar (beta) ===
+rgHeaderImages: this.props.rgHeaderImages,  rgHeaderImages: "",
+strMedium: "MediumWindow"~~};  }; var sURL,appId=g.a.currentGameListSelection.nAppId,sURL2="",sURL3="", sURL4="";sURL2="customimages/"+appId+"_hero.jpg",sURL="customimages/"+appId+"_hero.png",sURL3="assets/"+appId+"_library_hero.jpg", sURL4="https://steamcdn-a.akamaihd.net/steam/apps/"+appId+"/library_hero.jpg";
+className: t.join(" "),  className: t.join(" "), style: {background: "linear-gradient(to bottom, transparent, rgb(23,22,20) 100%), radial-gradient(at 33% 0%, #38363438, #3836346b, #38363487, #383634bd, #383634e6, #383634f5, #383634 32%), url(" + sURL + ")" + ", url(" + sURL2 + ")" + ", url(" + sURL3 + ")" + ", url(" + sURL4 + ")"},
+src: this.props.rgBlurImages[this.state.nBlurImageIndex],  src: "",
+(this.is_hero_custom_image ? "#CustomArt_ClearCustomBackground" : "#CustomArt_SetCustomBackground")),  ("#CustomArt_SetCustomBackground")), D.createElement(he.d, {is_hero_current_image: !1, onSelected: this.OnRemoveHero}, Object(D.f)("#CustomArt_ClearCustomBackground")),
+}, t.prototype.OnChangeLogo = function(e) {  }, t.prototype.OnRemoveHero = function(e) {this.OnChangeArtwork(Object.create({src: "src"}), this.m_refFileInputHero, 1)}, t.prototype.OnChangeLogo = function(e) {
+Object(a.c)([E.a], e.prototype, "OnChangeHero", null),  Object(a.c)([E.a], e.prototype, "OnChangeHero", null), Object(a.c)([E.a], e.prototype, "OnRemoveHero", null),
+
+### === Increase Number of Screenshots and DLC displayed ===
+vecScreenShots.slice(0, 4).map  vecScreenShots.slice(0, 9).map
+this.props.rgInfo.slice(0, 6)  this.props.rgInfo.slice(0, 12)
