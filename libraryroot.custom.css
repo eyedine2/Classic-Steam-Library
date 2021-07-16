@@ -145,11 +145,11 @@
 }
 
 .appdetailsplaysection_Container_3Yf8b /* Play Button Container */ {
-    	background: var(--backgroundstart);
+    background: var(--backgroundstart);
 }
 
 .appdetailssection_AppDetailsSection_2r4TK /* Other Containers */ {
-    	background: var(--backgroundstart);
+    background: var(--backgroundstart);
 }
 
 /* End Use Colors in Stuff */
@@ -200,38 +200,38 @@
 /* VERTICAL NAV BAR - BETA - REQUIRES JS TWEAKS */
 
 .sharedappdetailsheader_BoxSizerContainer_A14yd {
-  	z-index: 2 !important;
+  z-index: 2 !important;
 }
 
 .appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ.appdetailsgameinfocontainer_AppDetailsExpanded_3s6_6.appdetailsgameinfocontainer_Glassy_2QAgO {
-  	order: 2;
+  order: 2;
 }
 .appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ.appdetailsgameinfocontainer_AppDetailsCollapsed_3yfoe.appdetailsgameinfocontainer_Glassy_2QAgO {
-  	order: 2;
+  order: 2;
 }
 .appdetailsoverview_ColumnContainer_OhSdL {
-  	order: 3;
+  order: 3;
 }
 
 .appdetailssection_AppDetailsSection_2r4TK.appdetailsprimarylinkssection_LinksSection_3-V8v {
-  	margin-left: auto;
-  	left: 60%;
-  	transform: translate(5px, -295px) translateY(284px);
-  	position: sticky;
-  	height: 0px !important;
-  	min-width: 180px;
-  	max-width: 195px;
-  	border-radius: 4px;
-  	pointer-events: all;
-  	z-index: 5 !important;
-  	padding: 0px;
+  margin-left: auto;
+  left: 60%;
+  transform: translate(5px, -295px) translateY(284px);
+  position: sticky;
+  height: 0px !important;
+  min-width: 180px;
+  max-width: 195px;
+  border-radius: 4px;
+  pointer-events: all;
+  z-index: 5 !important;
+  padding: 0px;
 }
 
 .appdetailsprimarylinkssection_LinkInner_7k4qm {
 	opacity: 1 !important;
 	position: relative !important;
-    	pointer-events: all !important;
-    	z-index: 100 !important;
+    pointer-events: all !important;
+    z-index: 100 !important;
 }
 
 .appdetailsprimarylinkssection_MenuButton_1bIMO  {
@@ -239,15 +239,15 @@
 }
 
 .appdetailssection_AppDetailsSection_2r4TK.appdetailsprimarylinkssection_LinksSection_3-V8v>div {
-  	background: none !important;
-  	background-size: 93% 100% !important;
-  	background-repeat: no-repeat !important;
-  	height: 228.9px;
+  background: none !important;
+  background-size: 93% 100% !important;
+  background-repeat: no-repeat !important;
+  height: 228.9px;
 }
 
 .appdetailsprimarylinkssection_LinkInner_7k4qm {
-  	max-width: fit-content;
-  	overflow: visible;
+  max-width: fit-content;
+  overflow: visible;
 }
 
 .appdetailsprimarylinkssection_Links_DgVQa:before {
@@ -255,7 +255,7 @@
 }
 
 .appdetailsprimarylinkssection_Link_1b6LY {
-    	padding: 0 !important;
+    padding: 0 !important;
 	text-align: left !important;
 }
 
@@ -265,45 +265,45 @@
 }
 
 .appdetailsprimarylinkssection_LinksSection_3-V8v .appdetailsprimarylinkssection_Links_DgVQa {
-  	height: unset !important;
+  height: unset !important;
 }
 
 .appdetailsoverview_Container_27RcN .appdetailsoverview_LeftColumn_1sZgB:before {
-  	content: '';
-  	min-height: 0px;
+  content: '';
+  min-height: 0px;
 }
 
 .appdetailsoverview_ColumnContainer_OhSdL {}
 
 .appdetailsprimarylinkssection_LinkInner_7k4qm {
-  	padding: 4px 4px 4px 0px !important;
+  padding: 4px 4px 4px 0px !important;
 }
 
 .appdetailsprimarylinkssection_Links_DgVQa {
-  	width: fit-content;
+  width: fit-content;
 }
 
 /* single/multiplayer/controller support icons */
 .sharedappdetailsheader_TitleSection_30acA {
-  	z-index: 4;
+  z-index: 4;
 
   & .sharedappdetailsheader_Features_fqwOy {
-    	padding-right: 210px;
+    padding-right: 210px;
   }
 }
 
 /* categories */
 .appdetailsheader_HeaderFeatures_2b6Wk{
-  	right: 210px;
-  	pointer-events: all;
+  right: 210px;
+  pointer-events: all;
 }
 
 .sharedappdetailsheader_TopCapsule_NZMJ6 {
-    	min-height: 240px;
+    min-height: 240px;
 }
 
 .appdetailsprimarylinkssection_LinksSection_3-V8v {
-  	margin-top: 46px !important;
+  margin-top: 46px !important;
 }
 
 /* END VERTICAL NAV BAR */
@@ -324,7 +324,7 @@
 }
 
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 /* Activity Feed Max Width */ {
-    	max-width: 100% !important;
+    max-width: 100% !important;
 }
 
 .appdetailsoverview_ColumnContainer_OhSdL /* Classic Width */ {
@@ -341,8 +341,8 @@
 }
 
 .appdetailsoverview_BackdropGlass_Jbe-- /* remove background color */ {
-    	background: transparent !important;
-    	backdrop-filter: none !important;
+    background: transparent !important;
+    backdrop-filter: none !important;
 }
 
 .appdetailssection_AppDetailsSection_2r4TK, .appdetailsplaysection_Container_3Yf8b /* margins of play button and other panels */ {
@@ -357,7 +357,7 @@
 }
 
 .appdetailsplaysection_InnerContainer_3Y87Y /* Padding in Play Button Container */ {
-    	padding: 9px 10px 15px 10px !important;
+    padding: 9px 10px 15px 10px !important;
 }
 
 .appdetailsplaysection_PlayBarLabel_34lrt /* Margins Between text and stats */ {
@@ -365,15 +365,15 @@
 }
 
 .appdetailsheader_Container_6-WKl /* sets play button to the top */ {
-    	height: 76px !important;
+    height: 76px !important;
 }
 
 .appdetailsplaysection_PlayBarIconAndGame_2MBVR /* Game Title */ {
     opacity: 1 !important;
 	padding: 7px 10px 7px 4px !important;
-    	background: var(--backgroundstart) !important;
-    	top: 20px !important;
-    	left: 6px !important;
+    background: var(--backgroundstart) !important;
+    top: 20px !important;
+    left: 6px !important;
 	height: 46px !important;
 	width: fit-content !important;
 	position: fixed !important;
@@ -383,8 +383,8 @@
 }
 
 .appdetailsoverview_ColumnContainer_OhSdL /* left/right rows turned into columns */ {
-    	display: flex !important;
-    	flex-flow: column !important;
+    display: flex !important;
+    flex-flow: column !important;
 }
 
 .appdetailsplaysection_StatusAndStats_1YbtI /* Visible Overflow in Play button Container */ {
@@ -402,19 +402,19 @@
 /* Fonts and text and shit */
 
 .appactionbutton_ButtonText_33cnX {
-    	font-size: 14px !important;
-   	font-weight: 400 !important;
-    	text-transform: uppercase !important;
-    	font-family: Arial, Helvetica, sans-serif !important;
-    	letter-spacing: 0px !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    letter-spacing: 0px !important;
 	color: var(--text) !important;
 }
 
 .appdetailssectionheader_Label_1SQ30, .appdetailsplaysection_PlayBarLabel_34lrt, div.appdetailsplaysection_GameStatRight_3m_zj, .appdetailsprimarylinkssection_Links_DgVQa /* Header Colors */ {
 	color: var(--HeaderColor) /* Pick your Poison, Green, Red, or Blue */ !important;
-    	font-family: Arial, Helvetica, sans-serif !important;
-    	font-weight: 700 !important;
-    	font-size: 14px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
 	letter-spacing: 0px !important;
 }
 
@@ -427,12 +427,12 @@
 }
 
 .appdetailsplaysection_PlayBarDetailLabel_2TYVG, .appdetailsplaysection_LastPlayed_3pS8k .appdetailsplaysection_LastPlayedInfo_1nfJN, span.appdetailsprimarylinkssection_Text_2sNDj, button, .DialogHeader {
-   	 color: var(--Text) !important;
-    	font-weight: 100 !important;
-    	font-family: Arial, Helvetica, sans-serif !important;
+    color: var(--Text) !important;
+    font-weight: 100 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
 	font-size: 14px !important;
 	letter-spacing: 0px !important;
-    	text-transform: none !important;
+    text-transform: none !important;
 }
 
 /* Fonts and text and shit */
@@ -463,8 +463,8 @@
 
 .appactionbutton_PlayButton_3ydig svg /* Button Icons */ {
 	width: 15px !important;
-    	height: 15px !important;
-    	margin-right: 4px !important;
+    height: 15px !important;
+    margin-right: 4px !important;
 }
 
 .appdetails_PlayBar_2L3s2.appdetails_ShowPlayBar_jnXtv /* no sticky header */ {
@@ -477,8 +477,8 @@ div.appdetailsplaysection_GameStat_1kiZK.appdetailsplaysection_Playtime_1aKeg > 
 
 div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_GameStat_1kiZK.appdetailsplaysection_Playtime_1aKeg > div.appdetailsplaysection_GameStatRight_3m_zj:before {
 	content: "YOU'VE PLAYED";
-    	margin-left: -16px;
-    	margin-right: 10px;
+    margin-left: -16px;
+    margin-right: 10px;
 }
 
 /* End Play Button Stuff */
@@ -487,7 +487,7 @@ div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_Gam
 
 /* No Selection cursor in random stuff */
 .appactionbutton_PlayButtonContainer_1FnJ6, .appactionbutton_PlayButton_3ydig, .gamelistentry_Container_2-O4Z, button.DialogButton, .appportrait_LibraryItemBox_WYgDg, .appactivityday_PartnerEventMediumImage_Contents_2gv3E, .appactivityday_PartnerEventTextOnly_3QRf-.appactivityday_PartnerEvent_1AYE1.appactivityday_Event_UVeN0, .appactionbutton_StreamingSelector_2q-gZ.appactionbutton_ButtonChild_2AzIX.Focusable, .appdetailsachievementssection_AdditionalItem_2aVnD {
-    	cursor: default !important;
+    cursor: default !important;
 }
 /* End No Selection cursor in random stuff */
 
@@ -496,17 +496,17 @@ div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_Gam
 /* Play Button Stats */
 
 .appdetailsplaysection_GameStatRight_3m_zj /* row flow */ {
-    	flex-flow: row !important;
+    flex-flow: row !important;
 }
 
 .appdetailsplaysection_GameStat_1kiZK /* Compact Stats */ {
 	margin: 0px 0px 0px 25px !important;
-    	height: 16px !important;
+    height: 16px !important;
 }
 
 .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_GameStatsSection_1mDAV /* Column Stats */ {
 	flex-direction: column !important;
-    	flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
 }
 
 /* End Play Button Stats */
@@ -548,7 +548,7 @@ div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_Gam
 }
 
 .appdetailsplaysection_GameStatIcon_1tIg- /* Useless, space-taking stat icons */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appdetailsplaysection_MiniAchievements_UAhWi /* Worthless achievement stat */ {
@@ -556,35 +556,35 @@ div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_Gam
 }
 
 .appdetailsactivitysection_PostTextEntry_YFAtL /* Post to activity feed */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appactivityday_Event_UVeN0.appactivityday_ScreenshotUploaded_zmx3d /* Activity Feed Screenshots */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appactivityday_ActivityAchievementUnlocked_yJLy7 /* Activity Feed Achievements (helps a lot with lag :D) */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appactivityday_EventHeadline_QCKBq /* Activity Feed Avatar Images */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appactivityday_AppActivityDate_19LfM  /* Activity Feed Dates (unfortunately broken unless I disable them) */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .comment_thread_CommentThread_34ZDO /* Activity Feed Comments */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appactivityday_UserStatus_Yo3XX /* Activity Feed Shitty Blog Feature */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appactivityday_RecommendedGame_1i3Jy /* Activity Feed reviews (this one is harmless imo but I like consistency) */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appactivityday_TradingCardSection_2IS7Z /* Activity Feed Trading Cards */ {
@@ -592,27 +592,27 @@ div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_Gam
 }
 
 .appactivityday_MediumImageContainer_ddB5G /* Activity Feed News Images */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appactivityday_PartnerEventType_1ujzu /* Activity Feed News Type header */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .gamelistbar_GameListHomeAndSearch_2TKEa /* Redundant Home and Collection Buttons */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .library_TopGradient_34Cqr /* out of place top gradient */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .gamelistdropdown_ScrollToTop_uE7Pj.gamelistdropdown_Visible_rkfSf.Focusable /* Weird "go to top" button */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .comment_thread_CommentIcon_1R6Ou, .comment_thread_CommentCount_2RkIc /* Activity Feed Comment icon and number */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .comment_thread_RatingBar_1yWgP .comment_thread_RatingDetails_2lY7z /* Weird invisible thing in activity feed */ {
@@ -620,31 +620,31 @@ div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_Gam
 }
 
 .comment_thread_LikeButton_161IK /* Dumb, facebook-esque "likes" system */ {
-    	display: none !important;
+    display: none !important;
 }
 
 svg.SVGIcon_Button.SVGIcon_Achievement /* 100% achievement icon */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appdetailsachievementssection_RareAchievementIconGlowContainerRoot_3OWVm /* Rare Achievement icon */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appdetailsfriendssection_LabelHolder_21_CD /* Friends Rich Presence */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appactivityday_PartnerEventTextOnly_Icon_1-llQ /* Activity Feed Gearish icon */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appdetailsfriendssection_Subsection_39bm0.appdetailsfriendssection_Recent_xlk1b /* Friends Panel Recently Played */ {
-    	display: none !important;
+    display: none !important;
 }
 
 button.appdetailsfriendssection_ShowMore_34gmV.TextButton /* "Show more Friends" button */ {
-    	display: none !important;
+    display: none !important;
 }
 
 div.appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_AppDetailsSectionHasLabel_2G5B7.appdetailssection_RightColumnSection_3KfxI > div.appdetailssection_Body_5uvIN > div.appdetailsachievementssection_Additional_3eVRE /* Already Achieved Achievements */ {
@@ -652,19 +652,19 @@ div.appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_AppDeta
 }
 
 div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachievementssection_Featured_1j_gj > div.appdetailsachievementssection_TextSection_1s_9c > div.appdetailsachievementssection_Desc_2gLHb /* Achievement Description */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appactivityday_Event_UVeN0.appactivityday_VideoUploaded_PCZSj /* Activity Feed Video Upload */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appdetailsworkshopsection_FeaturedItemHeader_1jkfJ, .appdetailsworkshopsection_FeaturedItemDesc_3SzXr, .appdetailsworkshopsection_FeaturedLinks_3Mq6s /* Workshop item everything but title */ {
-    	display: none !important;
+    display: none !important;
 }
 
 .appdetailsworkshopsection_FeaturedItemHideButton_aZc8R.Focusable /* Workshop Panel X Button */ {
-    	display: none !important;
+    display: none !important;
 }
 
 /* End Removing Stuff one by one so I don't forget stuff like an idiot */
@@ -700,9 +700,9 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
 }
 
 .appactivityday_AppActivityDay_S2Fu9, .appactivityday_Event_UVeN0 /* No Padding, Margin Or Border */ {
-    	padding: 0 !important;
-    	margin: 0 !important;
-    	border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
 }
 
 .appactivityday_PartnerEvent_1AYE1, .appactivityday_PartnerEventMediumImage_Container_1HZy7, .appactivityday_PartnerEvent_1AYE1:hover, .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
@@ -722,30 +722,30 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
 }
 
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd .SVGIcon_SortBy /* aligned recent activity button */ {
-    	transform: translateX(3px) scale(1.25);
+    transform: translateX(3px) scale(1.25);
 }
 
 .gamelistbar_Container_3x1Hk /* from flex to grid */ {
-	display: grid;
-    	display: grid;
-    	grid-template-columns: 1fr 1fr 1fr;
-    	grid-template-rows: 0fr 1fr;
-    	gap: 0px 0px;
-    	grid-template-areas:
-        	"search query query"
-        	"content content content";
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "search query query"
+        "content content content";
 }
 
 .gamelistdropdown_Bar_1ZS_x {
-    	grid-area: query;
+    grid-area: query;
 }
 
 .gamelistsearchbar_Container_20QAC {
-    	grid-area: search;
+    grid-area: search;
 }
 
 .gamelist_Container_1ijTa {
-    	grid-area: content;
+    grid-area: content;
 }
 
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_ViewFiltersBar_36r2a, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd /* misc button margins */ {
@@ -753,35 +753,35 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
 }
 
 .gamelistsearchbar_Container_20QAC, .gamelistdropdown_Bar_1ZS_x {
-    	background-color: var(--darkclientbg);
+    background-color: var(--darkclientbg);
 }
 
 .gamelistdropdown_Bar_1ZS_x {
-    	border-bottom-right-radius: 5px;
-    	border-right: 1px solid var(--buttonbordersubtle);
-    	border-bottom: 1px solid var(--buttonborderfocussubtle);
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid var(--buttonbordersubtle);
+    border-bottom: 1px solid var(--buttonborderfocussubtle);
 }
 
 .gamelistsearchbar_Container_20QAC {
-    	border-bottom: 1px solid var(--buttonborderfocussubtle);
+    border-bottom: 1px solid var(--buttonborderfocussubtle);
 }
 
 .gamelistsearchbar_Container_20QAC, .gamelistdropdown_Bar_1ZS_x, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
-    	padding: 0 !important;
+    padding: 0 !important;
 	margin: 0 !important;
 }
 
 .gamelistdropdown_Bar_1ZS_x, .gamelistdropdown_SearchBar_2WgQE {
-    	height: 33px;
+    height: 33px;
 }
 
 .gamelistdropdown_ViewFiltersBar_36r2a /* smaller misc buttons */ {
-    	transform: scale(0.8) translateY(-5px);
+    transform: scale(0.8) translateY(-5px);
 }
 
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase:focus /* no search icon when searching */ {
 	padding-left: 0;
-    	background-image: none !important;
+    background-image: none !important;
 }
 
 /* End left View stupid stuff at the top */
@@ -791,11 +791,11 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
 /* Achievements Panel */
 
 .appdetailsachievementssection_AllAchieved_2YS0E /* no added padding on 100% completion */ {
-    	padding-left: 10px !important;
+    padding-left: 10px !important;
 }
 
 .appdetailsachievementssection_Icon_zcasg.appdetailsachievementssection_IconGlow_2V3rF /* no box shadow on rare achievement */{
-    	box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 .appdetailssection_Highlight_38t1m /* no background */ {
@@ -805,21 +805,21 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
 
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
 	background-color: var(--label) !important;
-    	border-radius: 0px !important;
+    border-radius: 0px !important;
 }
 
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 {
 	background-color: transparent;
-    	padding: 3px 3px;
-    	border: 1px solid var(--label);
+    padding: 3px 3px;
+    border: 1px solid var(--label);
 }
 
 /* Funky Re-ordering */
 
 img.appdetailsachievementssection_Icon_zcasg.appdetailsachievementssection_IconGlow_2V3rF {
 	padding: 3px;
-    	border-radius: 2px;
-    	background-image: linear-gradient(var(--buttonface), var(--buttonbordersubtle));
+    border-radius: 2px;
+    background-image: linear-gradient(var(--buttonface), var(--buttonbordersubtle));
 }
 
 .appdetailsachievementssection_AdditionalItem_2aVnD {
@@ -828,8 +828,8 @@ img.appdetailsachievementssection_Icon_zcasg.appdetailsachievementssection_IconG
 }
 
 .appdetailsachievementssection_AdditionalItem_2aVnD.appdetailsachievementssection_NotAchieved_3llpb {
-    	background-image: url(https://i.imgur.com/jCQuKJX.png) !important;
-    	background-size: contain;
+    background-image: url(https://i.imgur.com/jCQuKJX.png) !important;
+    background-size: contain;
 }
 
 .appdetailssection_Highlight_38t1m {
@@ -838,27 +838,27 @@ img.appdetailsachievementssection_Icon_zcasg.appdetailsachievementssection_IconG
 }
 
 .appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_Icon_zcasg, .appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_RareAchievementIconWrapper_1j20N, .appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_Remainder_2gISW {
-    	margin-right: 0px;
+    margin-right: 0px;
 }
 
 img.appdetailsachievementssection_Icon_zcasg {
-    	width: 40px;
-    	height: 40px;
+    width: 40px;
+    height: 40px;
 	margin: 4px;
 }
 
 .appdetailssection_Highlight_38t1m.appdetailsachievementssection_HighlightDiv_2xTb6 {
-    	margin-top: 35px;
-    	margin-bottom: -114px;
+    margin-top: 35px;
+    margin-bottom: -114px;
 }
 
 .appdetailsachievementssection_Featured_1j_gj.appdetailsachievementssection_RightAchievementSection_14U8e {
-    	margin-bottom: 67px;
+    margin-bottom: 67px;
 }
 
 .appdetailsachievementssection_UnlockedLabel_3jC8o {
-    	margin-left: 82px;
-    	margin-bottom: 20px;
+    margin-left: 82px;
+    margin-bottom: 20px;
 }
 
 .appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c {
@@ -870,14 +870,14 @@ div.appdetailssection_Body_5uvIN > div.appdetailsachievementssection_RightAchiev
 }
 
 .appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_TextSection_1s_9c .appdetailsachievementssection_Name_39Y01 {
-    	display: flex !important;
-    	flex-flow: column !important;
+    display: flex !important;
+    flex-flow: column !important;
 }
 
 div.appdetailssection_Body_5uvIN > div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachievementssection_Featured_1j_gj > div.appdetailsachievementssection_AchievementHoverContainer_2CK1m.Panel.Focusable {
-    	transform: scale(1.35);
-    	margin: 8px;
-    	margin-right: 22px;
+    transform: scale(1.35);
+    margin: 8px;
+    margin-right: 22px;
 }
 
 /* End funky Re-ordering */
@@ -907,66 +907,66 @@ div.appdetailssection_Body_5uvIN > div.appdetailsachievementssection_RightAchiev
 }
 
 .appdetailsfriendssection_InGame_X40qi .appdetailsfriendssection_Friends_1umjf /* row flow ingame */ {
-    	flex-direction: row !important;
+    flex-direction: row !important;
 }
 
 .steamavatar_avatar_3h-QR /* smaller avatars (for the borders) */ {
-  	height: 90% !important;
-  	width: 90% !important;
+  height: 90% !important;
+  width: 90% !important;
 }
 
 .overflowbox_OverflowBoxContent_3C0is {
-    	max-height: var(--profilesize) !important;
+    max-height: var(--profilesize) !important;
 }
 
 /* Cool borders */
 .awayOrSnooze .steamavatar_avatarStatus_3xUpb {
-  	opacity: 1;
-  	background-image: url(https://i.imgur.com/wbL1J9G.png) !important;
-  	-webkit-mask: none !important;
-  	width: var(--profilesize) !important;
-  	height: var(--profilesize) !important;
-  	background-size: 100%;
+  opacity: 1;
+  background-image: url(https://i.imgur.com/wbL1J9G.png) !important;
+  -webkit-mask: none !important;
+  width: var(--profilesize) !important;
+  height: var(--profilesize) !important;
+  background-size: 100%;
 }
 
 .offline .steamavatar_avatarStatus_3xUpb {
-  	opacity: 1;
-  	background-image: url(https://i.imgur.com/jCQuKJX.png) !important;
-  	-webkit-mask: none !important;
-  	width: var(--profilesize) !important;
-  	height: var(--profilesize) !important;
-  	background-size: 100%;
+  opacity: 1;
+  background-image: url(https://i.imgur.com/jCQuKJX.png) !important;
+  -webkit-mask: none !important;
+  width: var(--profilesize) !important;
+  height: var(--profilesize) !important;
+  background-size: 100%;
 }
 
 .ingame .steamavatar_avatarStatus_3xUpb {
-  	opacity: 1;
-  	background-image: url(https://i.imgur.com/ViFstvt.png) !important;
-  	-webkit-mask: none !important;
-  	width: var(--profilesize) !important;
-  	height: var(--profilesize) !important;
-  	background-size: 100%;
+  opacity: 1;
+  background-image: url(https://i.imgur.com/ViFstvt.png) !important;
+  -webkit-mask: none !important;
+  width: var(--profilesize) !important;
+  height: var(--profilesize) !important;
+  background-size: 100%;
 }
 
 .online .steamavatar_avatarStatus_3xUpb {
-  	opacity: 1;
-  	background-image: url(https://i.imgur.com/wbL1J9G.png) !important;
-  	-webkit-mask: none !important;
-  	width: var(--profilesize) !important;
-  	height: var(--profilesize) !important;
-  	background-size: 100%;
+  opacity: 1;
+  background-image: url(https://i.imgur.com/wbL1J9G.png) !important;
+  -webkit-mask: none !important;
+  width: var(--profilesize) !important;
+  height: var(--profilesize) !important;
+  background-size: 100%;
 }
 
 .steamavatar_avatarStatus_3xUpb.bottom, .steamavatar_avatarStatus_3xUpb.avatarStatus.right {
-  	top: 0 !important;
-  	left: 0 !important;
-  	right: 0 !important;
-  	bottom: 0 !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
 }
 
 .steamavatar_avatarHolder_nibod, .steamavatar_avatarHolder_nibod.X-Small, .steamavatar_avatarHolder_nibod.Medium {
-  	height: var(--profilesize) !important;
-  	width: var(--profilesize) !important;
-  	background-size: 100%;
+  height: var(--profilesize) !important;
+  width: var(--profilesize) !important;
+  background-size: 100%;
 }
 
 /* end cool borders */
@@ -1023,7 +1023,7 @@ button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover /
 }
 
 .appdetailsworkshopsection_ButtonContainer_2LXfs /* Weird ass workshop Container */ {
-    	max-height: 28px;
+    max-height: 28px;
 }
 
 /* End Buttons */
@@ -1034,33 +1034,33 @@ button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover /
 
 .appdetailsworkshopsection_FeaturedItem_1W34W:before /* old icon and description */ {
 	content: "Create, discover, and play content created by the Steam Community. ";
-    	background: url(https://i.imgur.com/KRXesxW.png);
-    	background-repeat: no-repeat;
-    	min-width: 195px;
-    	max-width: 195px;
-    	margin-right: 15px;
-    	padding-top: 52px;
+    background: url(https://i.imgur.com/KRXesxW.png);
+    background-repeat: no-repeat;
+    min-width: 195px;
+    max-width: 195px;
+    margin-right: 15px;
+    padding-top: 52px;
 }
 
 .appdetailsworkshopsection_FeaturedItem_1W34W.Panel.Focusable, .appdetailsworkshopsection_FeaturedItemName_1KR5X /* Colors! */ {
-    	color: var(--label) !important;
+    color: var(--label) !important;
 }
 
 .appdetailsworkshopsection_WorkshopSection_2PfKa .appdetailsworkshopsection_WorkshopHeader_139ka .appdetailsworkshopsection_FeaturedItem_1W34W .appdetailsworkshopsection_FeaturedItemImage_gh2rj /* Old Thumbnail */ {
-    	width: 110px !important;
-    	height: 106px !important;
-    	margin: 0 !important;
-    	padding: 0 40px 0 40px !important;
-    	border: 2px solid black !important;
+    width: 110px !important;
+    height: 106px !important;
+    margin: 0 !important;
+    padding: 0 40px 0 40px !important;
+    border: 2px solid black !important;
 }
 
 .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem /* Title to under thumbnail */ {
-    	margin-left: -194px !important;
-    	margin-top: 110px !important;
+    margin-left: -194px !important;
+    margin-top: 110px !important;
 }
 
 .appdetailssection_Body_5uvIN.appdetailsworkshopsection_WorkshopContainer_176QJ /* no gross bottom background */ {
-	background: none !important;
+    background: none !important;
 }
 
 .appdetailsworkshopsection_WorkshopSection_2PfKa .appdetailsworkshopsection_WorkshopHeader_139ka .appdetailsworkshopsection_FeaturedItem_1W34W .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem {
@@ -1079,28 +1079,28 @@ button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover /
 /* Modal */
 
 .ModalOverlayBackground {
-	background: none;
+    background: none;
 }
 
 .ModalPosition_TopBar /* begone top bar (I broke my own rules :O) */ {
-	display: none !important;
+    display: none !important;
 }
 
 .DialogContent, .DialogContentTransition {
-    	background-color: var(--dialogbg);
-    	background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--darkclientbg));
-    	border-width: 1px;
-    	border-style: solid;
-    	border-image-source: linear-gradient(115deg, black 75%, #4D668B 95%);
-    	border-image-slice: 1%;
-    	border-image-width: 1;
-	border-image-outset: 0;
-	border-image-repeat: stretch;
+    background-color: var(--dialogbg);
+    background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--darkclientbg));
+    border-width: 1px;
+    border-style: solid;
+    border-image-source: linear-gradient(115deg, black 75%, #4D668B 95%);
+    border-image-slice: 1%;
+    border-image-width: 1;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
 	padding: 12px !Important;
 }
 
 .DialogTwoColLayout>._DialogLayout {
-	max-width: fit-content !important;
+    max-width: fit-content !important;
 }
 
 ._DialogColLayout {
@@ -1108,12 +1108,12 @@ button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover /
 }
 
 button.DialogButton._DialogLayout.Primary, button.DialogButton._DialogLayout.Secondary {
-   	 line-height: 18px !important;
+    line-height: 18px !important;
 }
 
 .gamelistsearchbar_AdvancedSearchPane_Woh0k {
-  	  background-color: var(--dialogbg) !important;
-   	 background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--darkclientbg)) !important;
+    background-color: var(--dialogbg) !important;
+    background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--darkclientbg)) !important;
 }
 
 /* End Modal */
