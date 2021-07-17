@@ -17,11 +17,15 @@
 	--buttonborderfocussubtle: rgb(128,122,117);
 	--Text: rgb(209,207,205);
 	--Texthover: rgb(229,226,223);
-	--profilesize: 46px;
+	--profilesize: 47px;
 	--GameDetailsBlue: rgb(89,126,179);
 	--GameDetailsGreen: rgb(126,166,75);
 	--GameDetailsRed: rgb(173,69,71);
 	--PropertySheetBG: rgb(74,72,70);
+	--FriendsInGameColor: rgb(140,179,89);
+	--FriendsOnlineColor: rgb(134,181,217);
+	--stblue: rgb(54,106,179);
+	--Friendsdullgreen: rgb(124, 160, 78);
 }
 
 /* End Define vars */
@@ -727,7 +731,6 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
 
 .gamelistbar_Container_3x1Hk /* from flex to grid */ {
     display: grid;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0fr 1fr;
     gap: 0px 0px;
@@ -911,8 +914,8 @@ div.appdetailssection_Body_5uvIN > div.appdetailsachievementssection_RightAchiev
 }
 
 .steamavatar_avatar_3h-QR /* smaller avatars (for the borders) */ {
-  height: 90% !important;
-  width: 90% !important;
+  height: 100% !important;
+  width: 100% !important;
 }
 
 .overflowbox_OverflowBoxContent_3C0is {
@@ -920,7 +923,9 @@ div.appdetailssection_Body_5uvIN > div.appdetailsachievementssection_RightAchiev
 }
 
 /* Cool borders */
-.awayOrSnooze .steamavatar_avatarStatus_3xUpb {
+
+
+/*.awayOrSnooze .steamavatar_avatarStatus_3xUpb {
   opacity: 1;
   background-image: url(https://i.imgur.com/wbL1J9G.png) !important;
   -webkit-mask: none !important;
@@ -967,6 +972,42 @@ div.appdetailssection_Body_5uvIN > div.appdetailsachievementssection_RightAchiev
   height: var(--profilesize) !important;
   width: var(--profilesize) !important;
   background-size: 100%;
+}*/
+
+/* Let's Try again, this time using CSS borders */
+
+.steamavatar_avatarHolder_nibod {
+	height: var(--profilesize) !important;
+    width: var(--profilesize) !important;
+}
+
+img.steamavatar_avatar_3h-QR.avatar {
+    border: 4px solid transparent !important;
+    border-radius: 6px !important;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom, var(--FriendsInGameColor), var(--FriendsInGameColor));
+    background-size: 100% 125%;
+    background-position-y: -4px;
+}
+
+.online img.steamavatar_avatar_3h-QR.avatar, .awayOrSnooze img.steamavatar_avatar_3h-QR.avatar {
+    background-image: linear-gradient(to bottom, var(--FriendsOnlineColor), var(--stblue)) !important;
+}
+
+.offline img.steamavatar_avatar_3h-QR.avatar {
+    background-image: linear-gradient(to bottom, var(--buttonface), var(--buttonbordersubtle)) !important;
+}
+
+.ingame img.steamavatar_avatar_3h-QR.avatar {
+    background-image: linear-gradient(to bottom, var(--FriendsInGameColor), var(--Friendsdullgreen)) !important;
+}
+
+.steamavatar_avatarStatus_3xUpb.avatarStatus.bottom, .steamavatar_avatarStatus_3xUpb.avatarStatus.right {
+    display: none !important;
+}
+
+.steamavatar_avatarHolder_nibod.avatarHolder.no-drag.Medium.ingame /* Ingame borders need this for some reason */ {
+    margin-top: -2px;
 }
 
 /* end cool borders */
@@ -995,6 +1036,7 @@ div.appdetailssection_Body_5uvIN > div.appdetailsachievementssection_RightAchiev
 .appdetailsdlcsection_DLCSection_2ycfN .appdetailsdlcsection_Item_Ie7sd /* Fix DLC Size */ {
 	max-width: 100% !important;
 }
+
 
 /* End DLC Panel */
 
