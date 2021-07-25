@@ -124,7 +124,7 @@
 
 /* Use Colors in Stuff */
 
-.libraryhome_LibraryHome_3Sb2o, .allcollections_ScrollContainer_u1xD3 /* Grid View & Collection Page */ {
+.libraryhome_LibraryHome_3Sb2o, .allcollections_ScrollContainer_u1xD3, .collectionview_OuterContainer_2sNr7 /* Grid View & Collection Page */ {
 	background-image: linear-gradient(to bottom, var(--dialogbg) 0%, var(--backgroundstartsubtle) 130px) !important;
 }
 
@@ -220,7 +220,7 @@
 .appdetailssection_AppDetailsSection_2r4TK.appdetailsprimarylinkssection_LinksSection_3-V8v {
   margin-left: auto;
   left: 60%;
-  transform: translate(5px, -295px) translateY(284px);
+  transform: translate(5px, -275px) translateY(284px);
   position: sticky;
   height: 0px !important;
   min-width: 180px;
@@ -414,7 +414,7 @@
 	color: var(--text) !important;
 }
 
-.appdetailssectionheader_Label_1SQ30, .appdetailsplaysection_PlayBarLabel_34lrt, div.appdetailsplaysection_GameStatRight_3m_zj, .appdetailsprimarylinkssection_Links_DgVQa /* Header Colors */ {
+.appdetailssectionheader_Label_1SQ30, .appdetailsplaysection_PlayBarLabel_34lrt, div.appdetailsplaysection_GameStatRight_3m_zj, .appdetailsprimarylinkssection_Links_DgVQa, .appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable:before /* Header Colors */ {
 	color: var(--HeaderColor) /* Pick your Poison, Green, Red, or Blue */ !important;
     font-family: Arial, Helvetica, sans-serif !important;
     font-weight: 700 !important;
@@ -422,15 +422,15 @@
 	letter-spacing: 0px !important;
 }
 
-.appactionbutton_ButtonText_33cnX:hover {
-	color: var(--texthover) !important;
+.appactionbutton_ButtonText_33cnX:hover, .appdetailsheader_InCollection_1HS4t.Focusable:hover {
+	color: var(--Texthover) !important;
 }
 
 .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover, .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover, .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover {
 	background-color: transparent !important;
 }
 
-.appdetailsplaysection_PlayBarDetailLabel_2TYVG, .appdetailsplaysection_LastPlayed_3pS8k .appdetailsplaysection_LastPlayedInfo_1nfJN, span.appdetailsprimarylinkssection_Text_2sNDj, button, .DialogHeader {
+.appdetailsplaysection_PlayBarDetailLabel_2TYVG, .appdetailsplaysection_LastPlayed_3pS8k .appdetailsplaysection_LastPlayedInfo_1nfJN, span.appdetailsprimarylinkssection_Text_2sNDj, button, .DialogHeader, .contextmenu_contextMenuItem_1n7Wl.contextMenuItem, .appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable:after, .appdetailsheader_InCollection_1HS4t.Focusable {
     color: var(--Text) !important;
     font-weight: 100 !important;
     font-family: Arial, Helvetica, sans-serif !important;
@@ -485,6 +485,15 @@ div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_Gam
     margin-right: 10px;
 }
 
+.appdetailsplaysection_StatusAndStats_1YbtI {
+	max-height: 32px !important;
+}
+
+.appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
+    background: none !important;
+    transition: none !important;
+}
+
 /* End Play Button Stuff */
 
 
@@ -524,10 +533,6 @@ div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_Gam
 }
 
 .sharedappdetailsheader_TitleSection_30acA /* Genre Images */ {
-	display: none !important;
-}
-
-.appdetailsheader_HeaderFeatures_2b6Wk /* Collection Panel */ {
 	display: none !important;
 }
 
@@ -922,58 +927,6 @@ div.appdetailssection_Body_5uvIN > div.appdetailsachievementssection_RightAchiev
     max-height: var(--profilesize) !important;
 }
 
-/* Cool borders */
-
-
-/*.awayOrSnooze .steamavatar_avatarStatus_3xUpb {
-  opacity: 1;
-  background-image: url(https://i.imgur.com/wbL1J9G.png) !important;
-  -webkit-mask: none !important;
-  width: var(--profilesize) !important;
-  height: var(--profilesize) !important;
-  background-size: 100%;
-}
-
-.offline .steamavatar_avatarStatus_3xUpb {
-  opacity: 1;
-  background-image: url(https://i.imgur.com/jCQuKJX.png) !important;
-  -webkit-mask: none !important;
-  width: var(--profilesize) !important;
-  height: var(--profilesize) !important;
-  background-size: 100%;
-}
-
-.ingame .steamavatar_avatarStatus_3xUpb {
-  opacity: 1;
-  background-image: url(https://i.imgur.com/ViFstvt.png) !important;
-  -webkit-mask: none !important;
-  width: var(--profilesize) !important;
-  height: var(--profilesize) !important;
-  background-size: 100%;
-}
-
-.online .steamavatar_avatarStatus_3xUpb {
-  opacity: 1;
-  background-image: url(https://i.imgur.com/wbL1J9G.png) !important;
-  -webkit-mask: none !important;
-  width: var(--profilesize) !important;
-  height: var(--profilesize) !important;
-  background-size: 100%;
-}
-
-.steamavatar_avatarStatus_3xUpb.bottom, .steamavatar_avatarStatus_3xUpb.avatarStatus.right {
-  top: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
-  bottom: 0 !important;
-}
-
-.steamavatar_avatarHolder_nibod, .steamavatar_avatarHolder_nibod.X-Small, .steamavatar_avatarHolder_nibod.Medium {
-  height: var(--profilesize) !important;
-  width: var(--profilesize) !important;
-  background-size: 100%;
-}*/
-
 /* Let's Try again, this time using CSS borders */
 
 .steamavatar_avatarHolder_nibod {
@@ -1057,6 +1010,7 @@ button.DialogButton, .appdetailsactivitysection_ViewLastNews_1EC1x /* Buttons */
 	align-self: flex-start !important;
 	margin-top: 0 !important;
 	cursor: default !important;
+	border-radius: 4px !important;
 }
 
 button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover /* Button Borders */ {
@@ -1128,7 +1082,7 @@ button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover /
     display: none !important;
 }
 
-.DialogContent, .DialogContentTransition {
+div.FullModalOverlay > div.ModalOverlayContent.active > div > div > div.DialogContent._DialogLayout.GenericConfirmDialog._DialogCenterVertically {
     background-color: var(--dialogbg);
     background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--darkclientbg));
     border-width: 1px;
@@ -1158,4 +1112,70 @@ button.DialogButton._DialogLayout.Primary, button.DialogButton._DialogLayout.Sec
     background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--darkclientbg)) !important;
 }
 
+/* Context Menu */
+
+.contextmenu_contextMenu_PP7LM {
+	transition: none !important;
+    background-color: var(--dialogbg) !important;
+    background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--dialogbg)) !important;
+}
+
+/* Mini-profile */
+
+.miniprofile_miniProfileBackground_3HzZh, .miniprofile_miniProfileContent_1xTAT {
+    background-color: var(--dialogbg) !important;
+    background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--darkclientbg)) !important;
+}
+
+img.miniprofile_miniProfileBackgroundBlur_xUosY /* blurred pfp image in the background */ {
+    display: none !important;
+}
+
+.miniprofile_miniProfileVideoBackgroundContainer_3MrYv /* Dumb background videos */ {
+    display: none !important;
+}
+
+img.miniprofile_Frame_2nPON /* Profile Frames */ {
+    display: none !important;
+}
+
+.friendsnooze_SnoozeContainer_1Dsum.online.miniprofile_SnoozeContainer_1cAsx.friendsnooze_animating_2rXc7.friendsnooze_Large_3BESV /* Animated Icons */ {
+    display: none !important;
+}
+
 /* End Modal */
+
+
+/* Collections on links sections */
+
+.appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable {
+    top: 433px !important;
+    left: 60% !important;
+    width: fit-content !important;
+    margin-left: 15px !important;
+    right: 0 !important;
+    flex-flow: column !important;
+}
+
+.appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable:before {
+	content: "CATEGORIES";
+}
+
+.appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable:after {
+	content: "Set Categories...";
+    margin-top: 4px;
+}
+
+.appdetailsheader_InCollection_1HS4t.Focusable {
+    margin-top: 4px !important;
+    margin-left: 0 !important;
+}
+
+.appdetailsheader_InCollection_1HS4t.Focusable {
+    border: none;
+    background: none;
+    align-content: flex-start;
+    display: flex;
+    padding: 0 !important;
+	margin: 4px 0px 4px 0px !important;
+}
