@@ -160,25 +160,10 @@
 
 
 
-/* Remove Transitions */
-
-.collapseicon_Container_3SFRZ .SVGIcon_PlusCircle .verticalLine {
-	transition: none !important;
-}
-
-.appactionbutton_PlayButton_3ydig {
-	transition: none !important;
-}
-
-/* End Remove Transitions */
-
-
-
 /* Left View Collection Header */
 
 .gamelistsectionheader_Container_2sYIg {
 	border: 0px !important;
-	cursor: default !important;
 }
 
 /* Left View Collection Header */
@@ -405,7 +390,7 @@
 
 /* Fonts and text and shit */
 
-.appactionbutton_ButtonText_33cnX {
+.appactionbutton_ButtonText_33cnX, .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2 {
     font-size: 14px !important;
     font-weight: 400 !important;
     text-transform: uppercase !important;
@@ -414,7 +399,7 @@
 	color: var(--text) !important;
 }
 
-.appdetailssectionheader_Label_1SQ30, .appdetailsplaysection_PlayBarLabel_34lrt, div.appdetailsplaysection_GameStatRight_3m_zj, .appdetailsprimarylinkssection_Links_DgVQa, .appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable:before /* Header Colors */ {
+.appdetailssectionheader_Label_1SQ30, .appdetailsplaysection_PlayBarLabel_34lrt, div.appdetailsplaysection_GameStatRight_3m_zj, .appdetailsprimarylinkssection_Links_DgVQa, .appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable:before, .appportraithover_AppTitle_1Kdi2, .appportraithover_Header_MIHa_:before /* Header Colors */ {
 	color: var(--HeaderColor) /* Pick your Poison, Green, Red, or Blue */ !important;
     font-family: Arial, Helvetica, sans-serif !important;
     font-weight: 700 !important;
@@ -422,7 +407,7 @@
 	letter-spacing: 0px !important;
 }
 
-.appactionbutton_ButtonText_33cnX:hover, .appdetailsheader_InCollection_1HS4t.Focusable:hover {
+.appactionbutton_ButtonText_33cnX:hover, .appdetailsheader_InCollection_1HS4t.Focusable:hover, .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2:hover {
 	color: var(--Texthover) !important;
 }
 
@@ -445,23 +430,23 @@
 
 /* Play Button Stuff */
 
-.appdetailsplaysection_ActionSection_2zxzS, .appactionbutton_PlayButtonContainer_1FnJ6, .appactionbutton_StreamingSelector_2q-gZ /* Less Height in Play Button */ {
+.appdetailsplaysection_ActionSection_2zxzS, .appactionbutton_PlayButtonContainer_1FnJ6, .appactionbutton_StreamingSelector_2q-gZ, .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2 /* Less Height in Play Button */ {
 	height: 23px !important;
 }
 
-.appactionbutton_PlayButtonContainer_1FnJ6, .appactionbutton_PlayButton_3ydig /* Less Width in Play Button */ {
+.appactionbutton_PlayButtonContainer_1FnJ6, .appactionbutton_PlayButton_3ydig, .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2 /* Less Width in Play Button */ {
 	min-width: 69px !important;
-	width: fit-content !important;
+	max-width: fit-content !important;
 	padding: 0px !important;
 }
 
-.appactionbutton_PlayButton_3ydig, .appactionbutton_StreamingSelector_2q-gZ /* Play Button Colors! (and a border) */ {
+.appactionbutton_PlayButton_3ydig, .appactionbutton_StreamingSelector_2q-gZ, .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2  /* Play Button Colors! (and a border) */ {
 	background: linear-gradient(to bottom, var(--buttonface2) 0%, var(--almostblack) 100%) !important;
 	border: 1px solid var(--buttonbordersubtle) !important;
 	
 }
 
-.appactionbutton_PlayButton_3ydig:hover, .appactionbutton_StreamingSelector_2q-gZ:hover /* Play Button Colors! (and a border) But on Hover! */ {
+.appactionbutton_PlayButton_3ydig:hover, .appactionbutton_StreamingSelector_2q-gZ:hover, .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2:hover /* Play Button Colors! (and a border) But on Hover! */ {
 	border: 1px solid var(--buttonborderfocussubtle) !important;
 }
 
@@ -479,10 +464,18 @@ div.appdetailsplaysection_GameStat_1kiZK.appdetailsplaysection_Playtime_1aKeg > 
 	display: none !important;
 }
 
+.appportraithover_Header_MIHa_ {
+	color: transparent !important;
+}
+
 div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_GameStat_1kiZK.appdetailsplaysection_Playtime_1aKeg > div.appdetailsplaysection_GameStatRight_3m_zj:before {
 	content: "YOU'VE PLAYED";
     margin-left: -16px;
     margin-right: 10px;
+}
+
+.appportraithover_Header_MIHa_:before {
+	content: "YOU'VE PLAYED";
 }
 
 .appdetailsplaysection_StatusAndStats_1YbtI {
@@ -491,18 +484,9 @@ div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_Gam
 
 .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
     background: none !important;
-    transition: none !important;
 }
 
 /* End Play Button Stuff */
-
-
-
-/* No Selection cursor in random stuff */
-.appactionbutton_PlayButtonContainer_1FnJ6, .appactionbutton_PlayButton_3ydig, .gamelistentry_Container_2-O4Z, button.DialogButton, .appportrait_LibraryItemBox_WYgDg, .appactivityday_PartnerEventMediumImage_Contents_2gv3E, .appactivityday_PartnerEventTextOnly_3QRf-.appactivityday_PartnerEvent_1AYE1.appactivityday_Event_UVeN0, .appactionbutton_StreamingSelector_2q-gZ.appactionbutton_ButtonChild_2AzIX.Focusable, .appdetailsachievementssection_AdditionalItem_2aVnD {
-    cursor: default !important;
-}
-/* End No Selection cursor in random stuff */
 
 
 
@@ -716,7 +700,6 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
 
 .appactivityday_PartnerEvent_1AYE1, .appactivityday_PartnerEventMediumImage_Container_1HZy7, .appactivityday_PartnerEvent_1AYE1:hover, .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
 	background: transparent !important;
-	transition: none !important;
 	box-shadow: none !important;
 }
 
@@ -1006,16 +989,13 @@ button.DialogButton, .appdetailsactivitysection_ViewLastNews_1EC1x /* Buttons */
 	padding: 5px !important;
 	background: linear-gradient(to bottom, var(--buttonface2), var(--PropertySheetBG)) !important;
 	border: 1px solid var(--buttonbordersubtle) !important;
-	transition: none !important;
 	align-self: flex-start !important;
 	margin-top: 0 !important;
-	cursor: default !important;
 	border-radius: 4px !important;
 }
 
 button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover /* Button Borders */ {
 	border: 1px solid var(--buttonborderfocussubtle) !important;
-	transition: none !important
 }
 
 .appdetailsworkshopsection_ButtonContainer_2LXfs /* Weird ass workshop Container */ {
@@ -1115,7 +1095,6 @@ button.DialogButton._DialogLayout.Primary, button.DialogButton._DialogLayout.Sec
 /* Context Menu */
 
 .contextmenu_contextMenu_PP7LM {
-	transition: none !important;
     background-color: var(--dialogbg) !important;
     background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--dialogbg)) !important;
 }
@@ -1179,3 +1158,116 @@ img.miniprofile_Frame_2nPON /* Profile Frames */ {
     padding: 0 !important;
 	margin: 4px 0px 4px 0px !important;
 }
+
+/* End Collections on links sections */
+
+
+
+/* 1.4 additions */
+
+* /* Global Changes */ {
+	transition: none !important;
+	cursor: default !important;
+}
+
+input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
+    cursor: text !important;
+}
+
+.gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B /* no padding on game entry */ {
+	padding: 0 !important;
+}
+
+.gamelistentry_FriendIsPlaying_cNZ3w.Focusable /* no "friends playing" icon on game entry */ {
+    display: none !important;
+}
+
+.gamelist_Container_1ijTa /* more entries in list view */ {
+    zoom: 75% !important;
+}
+
+.gamelist_Container_1ijTa *::-webkit-scrollbar-thumb,  .gamelist_Container_1ijTa *::-webkit-scrollbar-button:single-button,  .gamelist_Container_1ijTa *::-webkit-scrollbar,  .gamelist_Container_1ijTa *::-webkit-scrollbar-track {
+	zoom: 133% !important;
+}
+
+.gamelistentry_Container_2-O4Z {
+	font-size: 15px !important;
+	font-weight: 400 !important;
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr /* Uninstalled color to grey */ {
+    color: unset !important;
+}
+
+.appportraithover_CapsuleBackgroundContainer_Yts2c /* remove grid hover background blur */ {
+    display: none !important;
+}
+
+.appportraithover_AppPortraitHover_2sGn0 {
+    background-color: var(--dialogbg) !important;
+    background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--darkclientbg)) !important;
+}
+
+.appportraithover_ScreenshotCrossfade_2R6-l {
+    width: 90% !important;
+    height: 111px !important;
+}
+
+.appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2 /* Grid Play Button Location and icon Flex */ {
+	top: 75% !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+}
+
+.appportrait_LibraryItemActionButton_3AjoL .SVGIcon_Play /* Grid Play button icon size */ {
+    width: 15px !important;
+    height: 15px !important;
+    margin-left: 2px !important;
+}
+
+.appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2.appportrait_Play_1_Bo2:after {
+	content: "PLAY";
+}
+
+.appportrait_HoversEnabled_54PuC .appportrait_LibraryItemActionButton_3AjoL:hover:not(.appportrait_Disabled_1aml4):after, .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemActionButton_3AjoL:hover:not(.appportrait_Disabled_1aml4) .SVGIcon_Play {
+	transform: scale(1) !important;
+}
+
+.appportrait_FooterBlurImageContainer_RhmvO {
+    display: none !important;
+}
+
+.appportrait_PortraitMessage_3gwMk, .appportrait_PlaytimeDetails_3bkuo {
+    padding-left: 45px !important;
+}
+
+/*
+.appportrait_PortraitImage_2IYf7.appportrait_Landscape_3VOR2 {
+    bottom: 0 !important;
+}
+
+.libraryassetimage_Container_1R9r2.libraryassetimage_LandscapeImage_ZsU8n {
+    padding-top: 0 !important;
+}
+
+
+.appportrait_RecentGameFooter_2d1hS {
+	background-color: transparent !important;
+}
+
+.appportrait_PortraitMessage_3gwMk.appportrait_Message_3CRLA, .appportrait_PortraitMessage_3gwMk.appportrait_SubMessage_3DR9f, .appportrait_PlaytimeDetails_3bkuo.appportrait_Header_2zIRl,
+.appportrait_PlaytimeDetails_3bkuo.appportrait_PlayedRecent_3JWBB, .appportrait_PlaytimeDetails_3bkuo.appportrait_PlayedTotal_ma8y_ {
+	padding: 0px 0px 5px 0px !important;
+	margin: 0 !important;
+    background: none !important;
+    border: none !important;
+}
+
+.appportrait_PortraitMessage_3gwMk, .appportrait_PlaytimeDetails_3bkuo {
+	padding: 5px !important;
+    margin-left: 60% !important;
+    height: fit-content !important;
+}*/
+
+/* End 1.4 additions */
