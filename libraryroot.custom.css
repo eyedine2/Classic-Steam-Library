@@ -5,6 +5,7 @@
 	--dialogbg: rgb(56,54,53);
 	--darkclientbg: rgb(36,35,34);
 	--label: rgb(166,164,161);
+	--label2: rgb(115,111,108);
 	--buttonborderdisabled: rgb(77,75,72);
 	--buttonface: rgb(105,102,99);
 	--buttonfaceactive: rgb(105,102,99);
@@ -13,7 +14,9 @@
 	--backgroundstartsubtle: rgb(20,20,20);
 	--almostwhite: rgb(242,242,242);
 	--backgroundstart: rgba(23,22,20,0.71);
+	--buttonborder: rgb(112,109,105);
 	--buttonbordersubtle: rgb(82,79,77);
+	--buttonborderfocus: rgb(153,147,141);
 	--buttonborderfocussubtle: rgb(128,122,117);
 	--Text: rgb(209,207,205);
 	--Texthover: rgb(229,226,223);
@@ -26,6 +29,8 @@
 	--FriendsOnlineColor: rgb(134,181,217);
 	--stblue: rgb(54,106,179);
 	--Friendsdullgreen: rgb(124, 160, 78);
+	--almostBlack: rgb(23,22,20);
+	--Highlight5: rgb(77,103,140);
 }
 
 /* End Define vars */
@@ -124,7 +129,7 @@
 
 /* Use Colors in Stuff */
 
-.libraryhome_LibraryHome_3Sb2o, .allcollections_ScrollContainer_u1xD3, .collectionview_OuterContainer_2sNr7 /* Grid View & Collection Page */ {
+.libraryhome_LibraryHome_3Sb2o, .allcollections_ScrollContainer_u1xD3, .collectionview_OuterContainer_2sNr7, .downloads_ItemListWrapper_1l0Lm /* Grid View & Collection Page */ {
 	background-image: linear-gradient(to bottom, var(--dialogbg) 0%, var(--backgroundstartsubtle) 130px) !important;
 }
 
@@ -133,7 +138,7 @@
 }
 
 .gamelistbar_Container_3x1Hk /* Left View */ {
-	background: transparent /* The spillover background controls this now */ !important
+	background: transparent /* The spillover background controls this now */ !important;
 }
 
 .gamelistsectionheader_Container_2sYIg /* Left View Collection Header */ {
@@ -186,7 +191,7 @@
 
 /* End Text Color */
 
-/* VERTICAL NAV BAR - BETA - REQUIRES JS TWEAKS */
+/* VERTICAL NAV BAR (this is lifted directly from oldglory) */
 
 .sharedappdetailsheader_BoxSizerContainer_A14yd {
   z-index: 2 !important;
@@ -250,7 +255,6 @@
 
 .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
 	background: none !important;
-	box-shadow: none !important;
 }
 
 .appdetailsprimarylinkssection_LinksSection_3-V8v .appdetailsprimarylinkssection_Links_DgVQa {
@@ -258,7 +262,7 @@
 }
 
 .appdetailsoverview_Container_27RcN .appdetailsoverview_LeftColumn_1sZgB:before {
-  content: '';
+  content: " ";
   min-height: 0px;
 }
 
@@ -359,7 +363,7 @@
 
 .appdetailsplaysection_PlayBarIconAndGame_2MBVR /* Game Title */ {
     opacity: 1 !important;
-	padding: 7px 10px 7px 4px !important;
+	padding: 7px 10px 7px 10px !important;
     background: var(--backgroundstart) !important;
     top: 20px !important;
     left: 6px !important;
@@ -394,14 +398,12 @@
     font-size: 14px !important;
     font-weight: 400 !important;
     text-transform: uppercase !important;
-    font-family: Arial, Helvetica, sans-serif !important;
     letter-spacing: 0px !important;
-	color: var(--text) !important;
+	color: var(--Text) !important;
 }
 
 .appdetailssectionheader_Label_1SQ30, .appdetailsplaysection_PlayBarLabel_34lrt, div.appdetailsplaysection_GameStatRight_3m_zj, .appdetailsprimarylinkssection_Links_DgVQa, .appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable:before, .appportraithover_AppTitle_1Kdi2, .appportraithover_Header_MIHa_:before /* Header Colors */ {
 	color: var(--HeaderColor) /* Pick your Poison, Green, Red, or Blue */ !important;
-    font-family: Arial, Helvetica, sans-serif !important;
     font-weight: 700 !important;
     font-size: 14px !important;
 	letter-spacing: 0px !important;
@@ -415,10 +417,9 @@
 	background-color: transparent !important;
 }
 
-.appdetailsplaysection_PlayBarDetailLabel_2TYVG, .appdetailsplaysection_LastPlayed_3pS8k .appdetailsplaysection_LastPlayedInfo_1nfJN, span.appdetailsprimarylinkssection_Text_2sNDj, button, .DialogHeader, .contextmenu_contextMenuItem_1n7Wl.contextMenuItem, .appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable:after, .appdetailsheader_InCollection_1HS4t.Focusable {
+.appdetailsplaysection_PlayBarDetailLabel_2TYVG, .appdetailsplaysection_LastPlayed_3pS8k .appdetailsplaysection_LastPlayedInfo_1nfJN, span.appdetailsprimarylinkssection_Text_2sNDj, button, .DialogHeader, .contextmenu_contextMenuItem_1n7Wl.contextMenuItem, .appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable:after, .appdetailsheader_InCollection_1HS4t.Focusable, .pagedsettings_PagedSettingsDialog_Title_2rjVT {
     color: var(--Text) !important;
     font-weight: 100 !important;
-    font-family: Arial, Helvetica, sans-serif !important;
 	font-size: 14px !important;
 	letter-spacing: 0px !important;
     text-transform: none !important;
@@ -684,10 +685,6 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
 	text-decoration: underline;
 }
 
-.comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9 {
-	color: var(--Text) !important;
-}
-
 .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover {
 	color: var(--Texthover) !important;
 }
@@ -700,7 +697,6 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
 
 .appactivityday_PartnerEvent_1AYE1, .appactivityday_PartnerEventMediumImage_Container_1HZy7, .appactivityday_PartnerEvent_1AYE1:hover, .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
 	background: transparent !important;
-	box-shadow: none !important;
 }
 
 /* End Activity Feed Tweaks */
@@ -757,17 +753,8 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
     border-bottom: 1px solid var(--buttonborderfocussubtle);
 }
 
-.gamelistsearchbar_Container_20QAC, .gamelistdropdown_Bar_1ZS_x, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
-    padding: 0 !important;
-	margin: 0 !important;
-}
-
-.gamelistdropdown_Bar_1ZS_x, .gamelistdropdown_SearchBar_2WgQE {
-    height: 33px;
-}
-
 .gamelistdropdown_ViewFiltersBar_36r2a /* smaller misc buttons */ {
-    transform: scale(0.8) translateY(-5px);
+    transform: scale(0.8) translateY(-10px);
 }
 
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase:focus /* no search icon when searching */ {
@@ -785,13 +772,8 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
     padding-left: 10px !important;
 }
 
-.appdetailsachievementssection_Icon_zcasg.appdetailsachievementssection_IconGlow_2V3rF /* no box shadow on rare achievement */{
-    box-shadow: none !important;
-}
-
 .appdetailssection_Highlight_38t1m /* no background */ {
 	background: transparent !important;
-	box-shadow: none !important;
 }
 
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
@@ -984,18 +966,20 @@ img.steamavatar_avatar_3h-QR.avatar {
 	background-color: transparent !important;
 }
 
-button.DialogButton, .appdetailsactivitysection_ViewLastNews_1EC1x /* Buttons */ {
+button.DialogButton, .appdetailsactivitysection_ViewLastNews_1EC1x, .DialogDropDown._DialogInputContainer.Panel.Focusable, .gamelistdropdown_MenuHeader_2PF_m, .DialogCheckbox_Container._DialogLayout.appproperties_Checkbox_2V2nc.Panel.Focusable /* Buttons */ {
 	margin-bottom: 15px !important;
 	padding: 5px !important;
 	background: linear-gradient(to bottom, var(--buttonface2), var(--PropertySheetBG)) !important;
-	border: 1px solid var(--buttonbordersubtle) !important;
+	border: 1px solid var(--buttonborder) !important;
 	align-self: flex-start !important;
 	margin-top: 0 !important;
-	border-radius: 4px !important;
+	border-radius: 3px !important;
+	font-size: 10px /* This is the Button font size */ !important;
+    text-transform: uppercase !important;
 }
 
-button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover /* Button Borders */ {
-	border: 1px solid var(--buttonborderfocussubtle) !important;
+button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover, .DialogDropDown._DialogInputContainer.Panel.Focusable:hover, .gamelistdropdown_MenuHeader_2PF_m:hover /* Button Borders */ {
+	border: 1px solid var(--buttonborderfocus) !important;
 }
 
 .appdetailsworkshopsection_ButtonContainer_2LXfs /* Weird ass workshop Container */ {
@@ -1084,19 +1068,27 @@ div.FullModalOverlay > div.ModalOverlayContent.active > div > div > div.DialogCo
 }
 
 button.DialogButton._DialogLayout.Primary, button.DialogButton._DialogLayout.Secondary {
-    line-height: 18px !important;
+    line-height: 12px !important;
 }
 
 .gamelistsearchbar_AdvancedSearchPane_Woh0k {
     background-color: var(--dialogbg) !important;
     background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--darkclientbg)) !important;
+	top: -1px !important;
+}
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k:before {
+	height: 26px !important;
+	left: -10px !important;
+	background: var(--buttonbordersubtle) !important;
 }
 
 /* Context Menu */
 
-.contextmenu_contextMenu_PP7LM {
+.contextmenu_contextMenu_PP7LM, .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer, .appgrid_SortingDropDownContainer_1ZpBQ>div {
     background-color: var(--dialogbg) !important;
     background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--dialogbg)) !important;
+	border: 0 !important;
 }
 
 /* Mini-profile */
@@ -1168,6 +1160,8 @@ img.miniprofile_Frame_2nPON /* Profile Frames */ {
 * /* Global Changes */ {
 	transition: none !important;
 	cursor: default !important;
+	font-family: Arial !important;
+	box-shadow: none !important;
 }
 
 input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
@@ -1191,7 +1185,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
 }
 
 .gamelistentry_Container_2-O4Z {
-	font-size: 15px !important;
+	font-size: 15px /* Game list entry height */ !important;
 	font-weight: 400 !important;
 }
 
@@ -1271,3 +1265,598 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
 }*/
 
 /* End 1.4 additions */
+
+
+
+/* 1.5 additions */
+
+
+/* Downloads page */
+
+.downloads_SectionItem_1VNuY /* fixed scrollbar */ {
+    overflow-y: auto !important;
+    height: 88px !important;
+}
+
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL {
+    background: linear-gradient(to top, var(--buttonbordersubtle) 30%, black 120%) !important;
+	padding-left: 10px !important;
+	height: 104px !important;
+}
+
+.downloadgraph_HeroAndLogo_3mZ2r /* upper Hero image */ {
+    display: none !important;
+}
+
+.downloads_DownloadsPage_1bq4x /* remove full page gradient */ {
+	background: transparent !important;
+}
+
+.downloads_SectionTitle_qq2xI /* Section... Title... */ {
+	background: linear-gradient(to right, var(--buttonface2) 0%, transparent 1100px) !important;
+	height: 20px;
+    padding-left: 5px;
+}
+
+.downloads_SectionTitle_qq2xI:before /* Minimizer that can't do anything :( */ {
+    content: "-";
+    font-size: 20px;
+    color: var(--label);
+}
+
+.downloads_SectionTitle_qq2xI:hover:before, .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9 {
+	color: var(--Text);
+}
+
+span.appdetailsplaysection_PlayBarGameName_3rpUk /* this is unrelated */ {
+    color: var(--Text);
+    font-size: 27px /* Big Game Name Font Size */;
+}
+
+.downloads_TitleAndCount_ROxNr /* Space inbetween minimizer and text */ {
+    padding-left: 5px;
+}
+
+.downloads_TopBar_SEmVp /* random, dumb as fuck element (why couldn't this be a goddamn border, valve?) */ {
+	display: none !important;
+}
+
+.downloads_SectionList_OINnO.Panel.Focusable /* dumb */ {
+    border: 0 !important;
+}
+
+.downloads_SectionList_OINnO.Panel.Focusable /* non-active entries */ {
+    background: black;
+    margin-left: 0;
+    padding: 0;
+}
+
+span.downloads_Title_TK9wv, span.downloads_Count_1CGnw /* Section Text */ {
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+	color: var(--label) !important;
+}
+
+span.downloads_Title_TK9wv:hover, span.downloads_Count_1CGnw:hover {
+	color: var(--Text) !important;
+}
+
+.downloads_Rule_1CTr1 /* weird line thing */ {
+    opacity: 0;
+}
+
+.downloads_SectionItemStatus_1Sygg .downloads_State_2ns4w.downloads_Downloading_33BlY, span.downloads_Value_1dHjj.downloads_Denominator_2ckIr, span.downloads_Value_1dHjj.downloads_InProgress_3Wavc.downloads_Active_IbePL, .downloads_ProgressDetails_sv3ZH, .downloads_SectionItemStatus_1Sygg .downloads_StartTime_3tEPp, span.downloads_Progress_FuJLs, .downloads_SectionItemStatus_1Sygg.downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE /* "Downloading" Text */ {
+    color: var(--label);
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+svg.downloads_Icon_-OgRz /* Download / Install icons */ {
+    display: none;
+}
+
+.downloads_DetailsAndType_Bku7J.Focusable /* Download & Install ordering */ {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+div.downloads_DetailsAndType_Bku7J.Focusable > div:nth-child(1) > span.downloads_Value_1dHjj.downloads_InProgress_3Wavc.downloads_Active_IbePL:before /* Replace Icon with text: Downloads */ {
+    content: "Downloaded ";
+	color: var(--label2);
+    font-weight: 400;
+	text-transform: uppercase;
+}
+
+div.downloads_DetailsAndType_Bku7J.Focusable > div:nth-child(2) > span.downloads_Value_1dHjj.downloads_InProgress_3Wavc.downloads_Active_IbePL:before /* Replace Icon with text: Installing */ {
+    content: "Installed ";
+	color: var(--label2);
+    font-weight: 400;
+	text-transform: uppercase;
+}
+
+span.downloads_Value_1dHjj.downloads_Denominator_2ckIr {
+    margin-left: 3px;
+}
+
+span.downloads_Value_1dHjj.downloads_InProgress_3Wavc.downloads_Active_IbePL {
+    margin-right: 3px;
+}
+
+.downloadgraph_Gradient_RfMM3 /* top gradient */ {
+    background-image: linear-gradient(to right, var(--almostblack) 0%, transparent 50%) !important;
+}
+
+.downloadgraph_GraphAndStats_3KDkL /* top order */ {
+	flex-direction: row-reverse;
+	background: var(--almostblack);
+	height: 130px !important;
+}
+
+.downloadgraph_StatsPanel_3mdnp {
+	padding: 0 10px !important;
+}
+
+.downloadgraph_StatsPanel_3mdnp .downloadgraph_Stats_3RfkF {
+	flex-direction: column !important;
+}
+
+.downloadgraph_Stat_5TdA4 {
+    flex-direction: row;
+    display: flex;
+}
+
+.downloadgraph_Figure_eXF8x, .downloadgraph_Status_3BdWq {
+    color: var(--Text) !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+}
+
+.downloadgraph_Label_34H1w {
+    color: var(--label2);
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 3px;
+}
+
+.downloads_SectionItem_1VNuY:hover, .downloads_SectionItem_1VNuY.downloads_Dragging_3-SbB {
+	background-color: dimgrey !important;
+	border-radius: 0 !important;
+}
+
+button.downloads_RemoveAllButton_1GdR5.DialogButton._DialogLayout.Secondary /* Fix "Clear all" button */ {
+    height: 18px;
+    padding: 0 !important;
+}
+
+.downloadgraph_SettingsButton_lzk4z.Focusable /* Fix Settings Button */ {
+    z-index: 9999;
+}
+
+.downloads_Section_3Mbhn {
+	margin-top: 4px;
+	padding-bottom: 4px !important;
+}
+
+.downloads_Section_3Mbhn:nth-child(n+2) {
+    margin-top: 4px !important;
+}
+
+.appportrait_LibraryItemBox_WYgDg.appportrait_InDownloads_3J3TT {
+	width: 184px !important;
+	height: 69px !important;
+}
+
+/* I have no clue what's going on with the download progress colors */
+
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg {
+	color: var(--Highlight5);
+}
+
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
+	color: transparent !important;
+	color: var(--Highlight5);
+	fill: currentColor;
+}
+
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarWrapper_gpPxC, .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL {
+	color: var(--Highlight5);
+}
+
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW /* Disk Activity Color */ {
+	stroke: white !important;
+}
+
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Disk_1QHr4 /* Disk Legend Color */ {
+	background-color: white !important;
+}
+
+.downloads_AppPortrait_2pjdg /* Game image bg */ {
+    box-shadow: 0px 0px 8px 8px var(--dialogbg) !important;
+}
+
+.downloads_SectionJumpBar_mw7VZ.downloads_Show_2S18z /* Unnecessary view completed downloads button */ {
+    display: none !important;
+}
+
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR.downloads_RemoveFromQueue_2xR-V, .downloads_SectionItem_1VNuY .downloads_Button_3oavR.downloads_RemoveFromQueue_2xR-V:enabled, .downloads_SectionItem_1VNuY .downloads_Button_3oavR.downloads_RemoveFromQueue_2xR-V:active, .downloads_SectionItem_1VNuY .downloads_Button_3oavR.downloads_RemoveFromQueue_2xR-V:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR.downloads_RemoveFromQueue_2xR-V:enabled:active:hover /* Holy shit this button */ {
+	height: 20px !important;
+	width: 20px !important;
+}
+
+.downloads_SectionItem_1VNuY .downloads_RemoveFromQueue_2xR-V /* X Button always visible */ {
+	opacity: 1 !important;
+}
+
+div.downloads_Section_3Mbhn.downloads_Active_IbePL > div > div > div > div.downloads_SectionItemButtons_31Ig9.downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE > div > div:nth-child(1) /* Old Pause Button */ {
+    position: fixed !important;
+    right: 90px !important;
+    top: 16px !important;
+}
+
+div.downloads_Section_3Mbhn.downloads_Active_IbePL > div > div > div > div.downloads_SectionItemButtons_31Ig9.downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE > div > div:nth-child(1) > button {
+    width: 59px !important;
+    height: 9px !important;
+    border-radius: 0 !important;
+}
+
+.downloads_StartTime_3tEPp:before {
+    content: "Time Remaining ";
+    color: var(--label2);
+    font-weight: 400;
+	text-decoration: none !important;
+	text-transform: uppercase !important;
+}
+
+.downloads_State_2ns4w /* redundant download percentage */ {
+    display: none !important;
+}
+
+.downloads_SectionItemStatus_1Sygg .downloads_SectionItemStatusLine_17xMw {
+    justify-content: flex-start !important;
+    margin-left: 23px !important;
+}
+
+div.downloads_Section_3Mbhn.downloads_Active_IbePL > div > div > div > div.downloads_SectionItemButtons_31Ig9.downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE > div > div.downloads_ButtonWrapper_2Zfas.downloads_Right_2WEwE.Focusable {
+    margin: 0 !important;
+}
+
+div.downloads_SectionItemStatus_1Sygg.downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE > div > span.downloads_InProgress_3Wavc {
+    color: var(--label2) !important;
+    font-weight: normal !important;
+}
+
+.downloads_AutoUpdateHours_117rQ.downloads_NoHours_Sil68 {
+    color: var(--label) !important;
+}
+
+.downloads_AutoUpdateHours_117rQ.downloads_NoHours_Sil68:hover {
+    color: var(--Text) !important;
+}
+
+.downloads_SectionItem_1VNuY .downloads_Buttons_1cMXI /* justify buttons end */ {
+	justify-content: flex-end !important;
+}
+
+.downloads_SectionItemButtons_31Ig9.downloads_SectionItemButtons_31Ig9 {
+	flex-grow: 1 !important;
+}
+
+.downloads_SectionItem_1VNuY .downloads_SectionItemColumn_kGTS5 {
+	flex-grow: 0;
+}
+
+.downloads_SectionItem_1VNuY .downloads_DetailsAndType_Bku7J .downloads_ProgressDetails_sv3ZH:not(:last-child) {
+	margin: 0 !important;
+}
+
+.downloads_SectionItemStatus_1Sygg {
+	flex-basis: unset !important;
+}
+
+.downloads_DragHandle_14DhZ {
+    display: none !important;
+}
+
+div.downloads_Section_3Mbhn.downloads_Active_IbePL > div > div > div > div.downloads_SectionItemStatus_1Sygg.downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE /* more padding on the downloaded game so it doesn't clip into the progress bar */ {
+    padding-left: 60px !important;
+}
+
+/* End Downloads page */
+
+.appdetailsplaysection_DetailsProgressBar_1FnTq /* Progress Bar */ {
+    background-color: var(--Highlight5) !important;
+    border-radius: 0 !important;
+}
+
+div.appdetailsplaysection_DetailsProgressContainer_25YVD.downloads_ProgressBar_1vMU1 {
+    height: 3px !important;
+	background: black !important;
+}
+
+div.downloads_SectionItemStatus_1Sygg.downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE > div.appdetailsplaysection_DetailsProgressContainer_25YVD.downloads_ProgressBar_1vMU1 {
+    position: absolute !important;
+    left: 220px !important;
+    width: 150px !important;
+    top: 75px !important;
+}
+
+.libraryhome_WhatsNewContainer_gdZT7 /* How did I forget to do this for so long? */ {
+    display: none !important;
+}
+
+/* Box-shadow test in other parts */
+
+.appportrait_Draggable_1pwP4.appportrait_Short_yGeS6 /* Short, all */ {
+    box-shadow: 0px 0px 3px 3px var(--dialogbg) !important;
+}
+
+div.libraryhomerecentgames_RecentGameMediaContainer_2XftM > div /* all sizes, horizontal panel */ {
+    box-shadow: 0px 0px 4px 4px var(--dialogbg) !important;
+}
+
+.appportrait_Draggable_1pwP4.appportrait_Large_NSf2V, .appportrait_Medium_3SNGK /* medium & large, full panel */ {
+    box-shadow: 0px 0px 6px 6px var(--dialogbg) !important;
+}
+
+.appportrait_LibraryItemBoxShine_MyNb5.appportrait_Portrait_1Pf6J, .appportrait_LibraryItemBoxShine_MyNb5.appportrait_Portrait_1Pf6J:hover, .appportrait_LibraryItemBoxShine_MyNb5, .appportrait_LibraryItemBoxShine_MyNb5:hover /* Fuck your shitty ass appstore-esque glare */ {
+    display: block !important;
+    box-shadow: inset 0px 0px 3px 3px var(--dialogbg) !important;
+    width: 100% !important;
+    height: 100%;
+    transform: none !important;
+    background: none !important;
+    opacity: 1 !important;
+}
+
+div.appportrait_LibraryItemBoxShine_MyNb5.appportrait_Landscape_3VOR2, div.appportrait_LibraryItemBoxShine_MyNb5.appportrait_Landscape_3VOR2:hover {
+    height: 66% !important;
+}
+
+div.downloads_SectionList_OINnO.Panel.Focusable > div > div > div.downloads_AppPortrait_2pjdg > div > div > div.appportrait_LibraryItemBoxShine_MyNb5.appportrait_Landscape_3VOR2 {
+    display: none !important;
+}
+
+.appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg:hover:not(.appportrait_Landscape_3VOR2), .appportrait_HoversEnabled_54PuC .appportrait_LibraryItemBox_WYgDg.appportrait_Landscape_3VOR2:hover .appportrait_PortraitImage_2IYf7.appportrait_Landscape_3VOR2 img {
+	transform: none !important;
+}
+
+.appportrait_RecentGameFooter_2d1hS {
+    background-color: var(--dialogbg);
+}
+
+.appportrait_LibraryItemBox_WYgDg {
+	border: none !important;
+}
+
+.appportrait_Draggable_1pwP4 {
+    background: var(--dialogbg);
+}
+
+/* End Box-shadow test in other parts */
+
+.appdetailsactivitysection_NoActivity_2-kDc, .appdetailsactivitysection_Loading_3UShz {
+    border: none;
+    color: var(--Text);
+}
+
+.appportrait_LibraryItemBoxSubscript_1LJqx, .gamelistsearchbar_FilterTag_3gzh_.Focusable {
+    background-color: var(--PropertySheetBG);
+    border: 1px solid var(--buttonborder);
+}
+
+.DialogDropDown_Arrow, .gamelistdropdown_Arrow_15aGn /* Dropdown Arrow */ {
+    background-image: url(https://i.imgur.com/DnP2rra.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: transparent !important;
+    width: 9px !IMPORTANT;
+    height: 11px !IMPORTANT;
+    align-self: center;
+    margin: 0 !IMPORTANT;
+    padding: 0px 0px 0px 8px;
+    top: auto;
+    right: 5px;
+}
+
+.DialogDropDown._DialogInputContainer.Panel.Focusable:hover .DialogDropDown_Arrow, .gamelistdropdown_MenuHeader_2PF_m:hover .gamelistdropdown_Arrow_15aGn {
+    background-image: url(https://i.imgur.com/WKww45Z.png);
+}
+
+div.DialogDropDown._DialogInputContainer.Panel.Focusable > div.DialogDropDown_Arrow > svg, div.gamelistdropdown_MenuHeader_2PF_m > div > svg {
+    display: none;
+}
+
+.DialogDropDown._DialogInputContainer.Panel.Focusable, .DialogDropDown_CurrentDisplay, .libraryhomeshowcases_CountDisplay_2qm05 /* Some more font mojo */ {
+    line-height: 12px;
+    align-items: center;
+	font-size: 11px !important;
+}
+
+div.libraryhomeshowcases_DragHandle_1OGfH > svg  /* these drag handles suck */{
+    display: none;
+}
+
+.DialogDropDown._DialogInputContainer.Panel.Focusable:after /* Arrow left line */ {
+    content: " ";
+    border-left: 1px solid var(--buttonborder);
+    height: 18px;
+    position: absolute;
+    right: 18px;
+}
+
+.gamelistdropdown_MenuHeader_2PF_m:after {
+    content: " ";
+    border-left: 1px solid var(--buttonborder);
+    height: 18px;
+    position: absolute;
+    right: 48px;
+}
+
+.DialogDropDown._DialogInputContainer.Panel.Focusable:hover:after, .gamelistdropdown_MenuHeader_2PF_m:hover:after {
+    border-color: var(--buttonborderfocus);
+}
+
+.appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_CurrentDisplay {
+    background-color: transparent;
+}
+
+span.gamelistsectionheader_SectionName_2mZ8L /* fixing something that broke with the font */ {
+    align-self: center;
+    height: 12px;
+}
+
+/* top left stuff 2.0 */
+
+.gamelistdropdown_MenuHeader_2PF_m {
+    height: 24px !important;
+}
+
+.gamelistsearchbar_AdvancedSearchContainer_vCCmY {
+    background: linear-gradient(to bottom, var(--buttonface2), var(--PropertySheetBG)) !important;
+    border: 1px solid var(--buttonborder) !important;
+    border-radius: 3px !important;
+	height: 26px !important;
+}
+
+.DialogInput_Wrapper._DialogLayout.Panel.Focusable {
+    border: 1px solid var(--buttonborder) !important;
+    border-right-style: none !IMPORTANT;
+    border-radius: 3px !important;
+	height: 24px !important;
+}
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase, .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase:hover {
+	background-color: transparent !important;
+}
+
+/* End top left stuff 2.0 */
+
+
+
+/* Properties panel fixes */
+
+.DialogDropDown._DialogInputContainer.Panel.Focusable {
+    display: flex;
+}
+
+input.DialogInput {
+    background-color: transparent !important;
+}
+
+.ModalDialogPopup .DialogContentTransition .DialogBody /* no more placeholder scrollbar */ {
+    overflow: auto !IMPORTANT;
+}
+
+.pagedsettings_PagedSettingsDialog_PageList_18QCu /* list items flex */ {
+    display: flex;
+	line-height: 12px !important;
+    border-bottom: 1px solid var(--buttonface);
+}
+
+.pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF.Panel.Focusable /* top bar size */ {
+    max-width: 100%;
+    max-height: fit-content;
+}
+
+.DialogContentTransition.Panel.Focusable /* main content size */ {
+    max-width: 100% !IMPORTANT;
+    width: calc(100% - 16px);
+}
+
+.pagedsettings_PagedSettingsDialog_2sssI.appproperties_AppProperties_1FyBL.Panel.Focusable /* change flow */ {
+    flex-flow: column;
+}
+
+.DialogHeader {
+    text-align: left !important;
+}
+
+/*.title-bar-actions {
+    position: fixed !important;
+    top: calc(100% - 37px) !important;
+	height: fit-content !important;
+    max-height: fit-content !important;
+    margin: 0px 7px 7px 7px;
+}
+
+.title-area-icon.closeButton {
+    min-width: 92px;
+}
+
+.title-area-icon.closeButton:before {
+    content: "CLOSE";
+    color: var(--label);
+    vertical-align: middle;
+}
+
+.title-area-icon .SVGIcon_X_Line {
+	display: none !important;
+}*/
+
+.pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF.Panel.Focusable /* gradient 1 */ {
+    background: linear-gradient(to bottom, var(--buttonbordersubtle), var(--dialogbg));
+}
+
+.DialogContentTransition /* expose page bg */ {
+    margin: 0px 8px 47px 8px;
+}
+
+.DialogContent /* gradient 2 */ {
+    background: linear-gradient(to top, var(--buttonbordersubtle), var(--dialogbg)) !important;
+}
+
+.pagedsettings_PagedSettingsDialog_2sssI.appproperties_AppProperties_1FyBL.Panel.Focusable /* whole page bg */ {
+    background-color: var(--dialogbg);
+}
+
+.appproperties_SectionTopLine_r3hOL /* no horizontal scrollbar */ {
+    max-width: 766px !important;
+}
+
+.pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF /* less title padding */ {
+    padding: 10px 8px 0px 8px !important;
+}
+
+.ModalDialogPopup .ModalDialogBody .title-area /* fix drag area */ {
+    height: 40px !important;
+}
+
+.pagedsettings_PagedSettingsDialog_PageListItem_1-vlr.pagedsettings_Active_2DpXj {
+    background: linear-gradient(to bottom, var(--buttonface), var(--dialogbg)) !important;
+    margin-left: 0;
+    margin-bottom: 0;
+    max-height: 15px;
+}
+
+.pagedsettings_PagedSettingsDialog_PageListItem_1-vlr {
+    min-width: 88px;
+    padding: 4px;
+    max-height: 12px;
+	font-size: 12px;
+    background: var(--PropertySheetBG);
+    margin: 2px;
+}
+
+.appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0, .appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopGrid_2ZL5A .appproperties_WorkshopHeader_2TJyz {
+	background: var(--PropertySheetBG) !important;
+	padding: 4px !important;
+	color: var(--label) !important;
+}
+
+.appproperties_DlcHeader_1SKB0:after, .appproperties_WorkshopHeader_2TJyz:after {
+    content: " ";
+    border-left: 1px solid black;
+    height: 16px;
+    position: absolute;
+    right: 4px;
+}
+
+/* End properties panel fixes */
+
+div.appdetailssection_Body_5uvIN > .appdetailsachievementssection_Featured_1j_gj:nth-child(2) /* fixes a weird bug where there's a second "most recent" achievement */ {
+    display: none;
+}
+
+/* End 1.5 Additions */
