@@ -1,7 +1,91 @@
 /* Define vars */
 
+/* this sucks ass */
+/* Change Headercolor to --GameDetailsBlue, --GameDetailsGreen, or --GameDetailsRed to change Section Colors! */
 :root {
-	--HeaderColor: var(--GameDetailsGreen); /* Change this to --GameDetailsBlue, --GameDetailsGreen, or --GameDetailsRed to change Section Colors! */
+	/* Master Colors 2013 */
+	
+	
+	
+	--HeaderColor: var(--GameDetailsGreen); 
+	--PanelColor: var(--backgroundstart);
+	--profilesize: 47px;
+	--profileborder: 4px;
+	--buttonradius: 3px;
+	--scrollradius: 5px;
+	--profileradius: 6px;
+	--dialogbg-master: var(--dialogbg);
+	--darkclientbg-master: var(--darkclientbg);
+	--label-master: var(--label);
+	--label2-master: var(--label2);
+	--buttonborderdisabled-master: var(--buttonborderdisabled);
+	--buttonface-master: var(--buttonface);
+	--buttonfaceactive-master: var(--buttonfaceactive);
+	--buttonface2-master: var(--buttonface2);
+	--backgroundstartsubtle-master: var(--backgroundstartsubtle);
+	--almostwhite-master: var(--almostwhite);
+	--backgroundstart-master: var(--backgroundstart);
+	--buttonborder-master: var(--buttonborder);
+	--buttonbordersubtle-master: var(--buttonbordersubtle);
+	--buttonborderfocus-master: var(--buttonborderfocus);
+	--buttonborderfocussubtle-master: var(--buttonborderfocussubtle);
+	--Text-master: var(--Text);
+	--Texthover-master: var(--Texthover);
+	--GameDetailsBlue-master: var(--GameDetailsBlue);
+	--GameDetailsGreen-master: var(--GameDetailsGreen);
+	--GameDetailsRed-master: var(--GameDetailsRed);
+	--PropertySheetBG-master: var(--PropertySheetBG);
+	--FriendsInGameColor-master: var(--FriendsInGameColor);
+	--FriendsOnlineColor-master: var(--FriendsOnlineColor);
+	--stblue-master: var(--stblue);
+	--Friendsdullgreen-master: var(--Friendsdullgreen);
+	--almostBlack-master: var(--almostBlack);
+	--Highlight5-master: var(--Highlight5);
+	
+	
+
+	/* Master Colors 2014 */
+	
+	/*
+	
+	--HeaderColor: var(--GameDetailsGreen-new);
+	--PanelColor: var(--backgroundstart-new);
+	--profilesize: 47px;
+	--profileborder: 2px;
+	--buttonradius: 0;
+	--scrollradius: 0;
+	--profileradius: 0;
+	--dialogbg-master: var(--dialogbg-new);
+	--darkclientbg-master: var(--darkclientbg-new);
+	--label-master: var(--label-new);
+	--label2-master: var(--label2-new);
+	--buttonborderdisabled-master: var(--buttonborderdisabled-new);
+	--buttonface-master: var(--buttonface-new);
+	--buttonfaceactive-master: var(--buttonfaceactive-new);
+	--buttonface2-master: var(--buttonface2-new);
+	--backgroundstartsubtle-master: var(--backgroundstartsubtle-new);
+	--almostwhite-master: var(--almostwhite-new);
+	--backgroundstart-master: var(--backgroundstart-new);
+	--buttonborder-master: var(--buttonborder-new);
+	--buttonbordersubtle-master: var(--buttonbordersubtle-new);
+	--buttonborderfocus-master: var(--buttonborderfocus-new);
+	--buttonborderfocussubtle-master: var(--buttonborderfocussubtle-new);
+	--Text-master: var(--Text-new);
+	--Texthover-master: var(--Texthover-new);
+	--GameDetailsBlue-master: var(--GameDetailsBlue-new);
+	--GameDetailsGreen-master: var(--GameDetailsGreen-new);
+	--GameDetailsRed-master: var(--GameDetailsRed-new);
+	--PropertySheetBG-master: var(--PropertySheetBG-new);
+	--FriendsInGameColor-master: var(--FriendsInGameColor-new);
+	--FriendsOnlineColor-master: var(--FriendsOnlineColor-new);
+	--stblue-master: var(--stblue-new);
+	--Friendsdullgreen-master: var(--Friendsdullgreen-new);
+	--almostBlack-master: var(--almostBlack-new);
+	--Highlight5-master: var(--Highlight5-new);
+	
+	*/
+	
+	/* 2013 Colors */
 	--dialogbg: rgb(56,54,53);
 	--darkclientbg: rgb(36,35,34);
 	--label: rgb(166,164,161);
@@ -10,7 +94,6 @@
 	--buttonface: rgb(105,102,99);
 	--buttonfaceactive: rgb(105,102,99);
 	--buttonface2: rgb(92,89,86);
-	--almostblack: rgb(23,22,20);
 	--backgroundstartsubtle: rgb(20,20,20);
 	--almostwhite: rgb(242,242,242);
 	--backgroundstart: rgba(23,22,20,0.71);
@@ -20,7 +103,6 @@
 	--buttonborderfocussubtle: rgb(128,122,117);
 	--Text: rgb(209,207,205);
 	--Texthover: rgb(229,226,223);
-	--profilesize: 47px;
 	--GameDetailsBlue: rgb(89,126,179);
 	--GameDetailsGreen: rgb(126,166,75);
 	--GameDetailsRed: rgb(173,69,71);
@@ -31,6 +113,36 @@
 	--Friendsdullgreen: rgb(124, 160, 78);
 	--almostBlack: rgb(23,22,20);
 	--Highlight5: rgb(77,103,140);
+	
+	/* 2014 colors */
+	--dialogbg-new: rgb(42,46,51);
+	--darkclientbg-new: rgb(36,35,34) /* This is just a copy to help with replacing */;
+	--label-new: rgb(168,172,179);
+	--label2-new: rgb(107,112,123);
+	--buttonborderdisabled-new: rgb(112,120,136);
+	--buttonface-new: rgb(98,108,119);
+	--buttonfaceactive-new: rgb(86,93,106);
+	--buttonface2-new: rgb(67,73,83);
+	--backgroundstartsubtle-new: rgb(0,13,40);
+	--almostwhite-new: rgb(242,242,242) /* This is just a copy to help with replacing */;
+	--backgroundstart-new: rgba(31,35,41, .71);
+	--buttonborder-new: rgb(75,84,102);
+	--buttonbordersubtle-new: rgb(75,84,102);
+	--buttonborderfocus-new: rgb(125,133,148);
+	--buttonborderfocussubtle-new: rgb(110,118,134);
+	--Text-new: rgb(200,208,220);
+	--Texthover-new: rgb(213,217,234);
+	--GameDetailsBlue-new: rgb(71,148,179);
+	--GameDetailsGreen-new: rgb(71,148,179);
+	--GameDetailsRed-new: rgb(71,148,179);
+	--PropertySheetBG-new: rgb(50,55,61);
+	--FriendsInGameColor-new: rgb(144,186,60);
+	--FriendsOnlineColor-new: rgb(84,165,196);
+	--stblue-new: rgb(94,109,140);
+	--Friendsdullgreen-new: rgb(92,126,16);
+	--almostBlack-new: rgb(22,25,28);
+	--Highlight5-new: rgb(24,53,82);
+	
 }
 
 /* End Define vars */
@@ -40,7 +152,7 @@
 /* Scrollbar */
 
 ::-webkit-scrollbar-thumb {
-	background-color: var(--buttonface2) !important;
+	background-color: var(--buttonface2-master) !important;
 	border-left: 2px solid transparent !important;
 	border-right: 2px solid transparent !important;
 	border-top: 0px !important;
@@ -48,11 +160,11 @@
 	background-image: url("https://i.imgur.com/R1VeTuY.png") !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
-	border-radius: 5px !important;
+	border-radius: var(--scrollradius) !important;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background-color: var(--buttonfaceactive) !important;
+	background-color: var(--buttonfaceactive-master) !important;
 	border-left: 2px solid transparent !important;
 	border-right: 2px solid transparent !important;
 	border-top: 0px !important;
@@ -60,7 +172,7 @@
 	background-image: url("https://i.imgur.com/R1VeTuY.png") !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
-	border-radius: 5px !important;
+	border-radius: var(--scrollradius) !important;
 }
 
 ::-webkit-scrollbar {
@@ -69,10 +181,10 @@
 
 ::-webkit-scrollbar-track {
 	display: block !important;
-	background-image: linear-gradient(to bottom, var(--buttonborderdisabled) 0px, transparent 200px) !important;
+	background-image: linear-gradient(to bottom, var(--buttonborderdisabled-master) 0px, transparent 200px) !important;
 	background-repeat: no-repeat;
 	border-left: 2px solid transparent;
-	border-radius: 5px;
+	border-radius: var(--scrollradius) !important;
 	border-right: 2px solid transparent;
 }
 
@@ -82,29 +194,29 @@
 	width: 17px !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
-	border-radius: 5px !important;
+	border-radius: var(--scrollradius) !important;
 	background-clip: content-box;
 	border: 2px solid transparent;
 }
 
 ::-webkit-scrollbar-button:single-button:vertical:decrement {
 	background-image: url("https://i.imgur.com/yq1K42i.png");
-	background-color: var(--buttonface2);
+	background-color: var(--buttonface2-master);
 }
 
 ::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
 	background-image: url("https://i.imgur.com/C1mnmlC.png");
-	background-color: var(--buttonfaceactive);
+	background-color: var(--buttonfaceactive-master);
 }
 
 ::-webkit-scrollbar-button:single-button:vertical:increment {
 	background-image: url("https://i.imgur.com/NX4Z0fU.png");
-	background-color: var(--buttonface2);
+	background-color: var(--buttonface2-master);
 }
 
 ::-webkit-scrollbar-button:vertical:single-button:increment:hover {
 	background-image: url("https://i.imgur.com/EKk8diC.png");
-	background-color: var(--buttonfaceactive);
+	background-color: var(--buttonfaceactive-master);
 }
 
 /* End Scrollbar */
@@ -130,11 +242,11 @@
 /* Use Colors in Stuff */
 
 .libraryhome_LibraryHome_3Sb2o, .allcollections_ScrollContainer_u1xD3, .collectionview_OuterContainer_2sNr7, .downloads_ItemListWrapper_1l0Lm /* Grid View & Collection Page */ {
-	background-image: linear-gradient(to bottom, var(--dialogbg) 0%, var(--backgroundstartsubtle) 130px) !important;
+	background-image: linear-gradient(to bottom, var(--dialogbg-master) 0%, var(--backgroundstartsubtle-master) 130px) !important;
 }
 
 .libraryhome_Container_2gSXC /* Grid View Container */ {
-	background: var(--backgroundstartsubtle) !important;
+	background: var(--backgroundstartsubtle-master) !important;
 }
 
 .gamelistbar_Container_3x1Hk /* Left View */ {
@@ -142,23 +254,19 @@
 }
 
 .gamelistsectionheader_Container_2sYIg /* Left View Collection Header */ {
-	background: linear-gradient(to right, var(--buttonface2) 0%, transparent 250px) !important;
+	background: linear-gradient(to right, var(--buttonface2-master) 0%, transparent 250px) !important;
 }
 
 .collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ /* SVG icons */ {
-	stroke: var(--label) !important;
+	stroke: var(--label-master) !important;
 }
 
 .collapseicon_CollapseIconParent_ehAsU .collapseicon_Container_3SFRZ:hover /* SVG icons HOVER */ {
-	stroke: var(--almostwhite) !important;
+	stroke: var(--almostwhite-master) !important;
 }
 
-.appdetailsplaysection_Container_3Yf8b /* Play Button Container */ {
-    background: var(--backgroundstart);
-}
-
-.appdetailssection_AppDetailsSection_2r4TK /* Other Containers */ {
-    background: var(--backgroundstart);
+.appdetailssection_AppDetailsSection_2r4TK, .appdetailsplaysection_Container_3Yf8b, .appdetailsplaysection_PlayBarIconAndGame_2MBVR /* Play Button & Other Containers */ {
+    background: var(--PanelColor);
 }
 
 /* End Use Colors in Stuff */
@@ -178,15 +286,15 @@
 /* Text Color */
 
 .gamelistsectionheader_SectionHeaderContent_3cV3O, .gamelistsectionheader_SectionCount_29ute /* label, Left View Collection Header */ {
-	color: var(--label) !important;
+	color: var(--label-master) !important;
 }
 
 .gamelistsectionheader_SectionHeaderContent_3cV3O:hover /* almostwhite, Left View Collection Header HOVER */ {
-	color: var(--almostwhite) !important;
+	color: var(--almostwhite-master) !important;
 }
 
 .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Text_2sNDj:hover {
-	color:var(--Texthover) !important;
+	color:var(--Texthover-master) !important;
 }
 
 /* End Text Color */
@@ -215,7 +323,6 @@
   height: 0px !important;
   min-width: 180px;
   max-width: 195px;
-  border-radius: 4px;
   pointer-events: all;
   z-index: 5 !important;
   padding: 0px;
@@ -364,7 +471,6 @@
 .appdetailsplaysection_PlayBarIconAndGame_2MBVR /* Game Title */ {
     opacity: 1 !important;
 	padding: 7px 10px 7px 10px !important;
-    background: var(--backgroundstart) !important;
     top: 20px !important;
     left: 6px !important;
 	height: 46px !important;
@@ -399,7 +505,7 @@
     font-weight: 400 !important;
     text-transform: uppercase !important;
     letter-spacing: 0px !important;
-	color: var(--Text) !important;
+	color: var(--Text-master) !important;
 }
 
 .appdetailssectionheader_Label_1SQ30, .appdetailsplaysection_PlayBarLabel_34lrt, div.appdetailsplaysection_GameStatRight_3m_zj, .appdetailsprimarylinkssection_Links_DgVQa, .appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable:before, .appportraithover_AppTitle_1Kdi2, .appportraithover_Header_MIHa_:before /* Header Colors */ {
@@ -410,7 +516,7 @@
 }
 
 .appactionbutton_ButtonText_33cnX:hover, .appdetailsheader_InCollection_1HS4t.Focusable:hover, .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2:hover {
-	color: var(--Texthover) !important;
+	color: var(--Texthover-master) !important;
 }
 
 .comment_thread_RatingBar_1yWgP .comment_thread_LikeButton_161IK.comment_thread_CanClick_3Mds9:hover, .comment_thread_RatingBar_1yWgP .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover, .comment_thread_RatingBar_1yWgP .comment_thread_Reactions_35yrb.comment_thread_CanClick_3Mds9:hover {
@@ -418,7 +524,7 @@
 }
 
 .appdetailsplaysection_PlayBarDetailLabel_2TYVG, .appdetailsplaysection_LastPlayed_3pS8k .appdetailsplaysection_LastPlayedInfo_1nfJN, span.appdetailsprimarylinkssection_Text_2sNDj, button, .DialogHeader, .contextmenu_contextMenuItem_1n7Wl.contextMenuItem, .appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable:after, .appdetailsheader_InCollection_1HS4t.Focusable, .pagedsettings_PagedSettingsDialog_Title_2rjVT {
-    color: var(--Text) !important;
+    color: var(--Text-master) !important;
     font-weight: 100 !important;
 	font-size: 14px !important;
 	letter-spacing: 0px !important;
@@ -442,13 +548,13 @@
 }
 
 .appactionbutton_PlayButton_3ydig, .appactionbutton_StreamingSelector_2q-gZ, .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2  /* Play Button Colors! (and a border) */ {
-	background: linear-gradient(to bottom, var(--buttonface2) 0%, var(--almostblack) 100%) !important;
-	border: 1px solid var(--buttonbordersubtle) !important;
+	background: linear-gradient(to bottom, var(--buttonface2-master) 0%, var(--almostBlack-master) 100%) !important;
+	border: 1px solid var(--buttonbordersubtle-master) !important;
 	
 }
 
 .appactionbutton_PlayButton_3ydig:hover, .appactionbutton_StreamingSelector_2q-gZ:hover, .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2:hover /* Play Button Colors! (and a border) But on Hover! */ {
-	border: 1px solid var(--buttonborderfocussubtle) !important;
+	border: 1px solid var(--buttonborderfocussubtle-master) !important;
 }
 
 .appactionbutton_PlayButton_3ydig svg /* Button Icons */ {
@@ -686,7 +792,7 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
 }
 
 .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9:hover {
-	color: var(--Texthover) !important;
+	color: var(--Texthover-master) !important;
 }
 
 .appactivityday_AppActivityDay_S2Fu9, .appactivityday_Event_UVeN0 /* No Padding, Margin Or Border */ {
@@ -740,17 +846,17 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
 }
 
 .gamelistsearchbar_Container_20QAC, .gamelistdropdown_Bar_1ZS_x {
-    background-color: var(--darkclientbg);
+    background-color: var(--darkclientbg-master);
 }
 
 .gamelistdropdown_Bar_1ZS_x {
     border-bottom-right-radius: 5px;
-    border-right: 1px solid var(--buttonbordersubtle);
-    border-bottom: 1px solid var(--buttonborderfocussubtle);
+    border-right: 1px solid var(--buttonbordersubtle-master);
+    border-bottom: 1px solid var(--buttonborderfocussubtle-master);
 }
 
 .gamelistsearchbar_Container_20QAC {
-    border-bottom: 1px solid var(--buttonborderfocussubtle);
+    border-bottom: 1px solid var(--buttonborderfocussubtle-master);
 }
 
 .gamelistdropdown_ViewFiltersBar_36r2a /* smaller misc buttons */ {
@@ -777,32 +883,32 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
 }
 
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36 {
-	background-color: var(--label) !important;
-    border-radius: 0px !important;
+	background-color: var(--label-master) !important;
+    border-radius: 0 !important;
 }
 
 .appdetailsachievementssection_AchievementProgressContainer_3ns91 {
 	background-color: transparent;
     padding: 3px 3px;
-    border: 1px solid var(--label);
+    border: 1px solid var(--label-master);
 }
 
 /* Funky Re-ordering */
 
-img.appdetailsachievementssection_Icon_zcasg.appdetailsachievementssection_IconGlow_2V3rF {
+img.appdetailsachievementssection_Icon_zcasg.appdetailsachievementssection_IconGlow_2V3rF, .appdetailsachievementssection_Featured_1j_gj .appdetailsachievementssection_Icon_zcasg {
 	padding: 3px;
-    border-radius: 2px;
-    background-image: linear-gradient(var(--buttonface), var(--buttonbordersubtle));
+    border-radius: var(--buttonradius);
+    background-image: linear-gradient(var(--buttonface-master), var(--buttonbordersubtle-master));
 }
 
 .appdetailsachievementssection_AdditionalItem_2aVnD {
-	background: linear-gradient(var(--buttonface), var(--buttonbordersubtle));
-	border-radius: 2px;
+	background: linear-gradient(var(--buttonface-master), var(--buttonbordersubtle-master));
+	border-radius: var(--buttonradius);
 }
 
 .appdetailsachievementssection_AdditionalItem_2aVnD.appdetailsachievementssection_NotAchieved_3llpb {
-    background-image: url(https://i.imgur.com/jCQuKJX.png) !important;
     background-size: contain;
+    height: fit-content;
 }
 
 .appdetailssection_Highlight_38t1m {
@@ -817,7 +923,7 @@ img.appdetailsachievementssection_Icon_zcasg.appdetailsachievementssection_IconG
 img.appdetailsachievementssection_Icon_zcasg {
     width: 40px;
     height: 40px;
-	margin: 4px;
+	margin: 3px;
 }
 
 .appdetailssection_Highlight_38t1m.appdetailsachievementssection_HighlightDiv_2xTb6 {
@@ -900,24 +1006,24 @@ div.appdetailssection_Body_5uvIN > div.appdetailsachievementssection_RightAchiev
 }
 
 img.steamavatar_avatar_3h-QR.avatar {
-    border: 4px solid transparent !important;
-    border-radius: 6px !important;
+    border: var(--profileborder) solid transparent !important;
+    border-radius: var(--profileradius) !important;
     box-sizing: border-box;
-    background-image: linear-gradient(to bottom, var(--FriendsInGameColor), var(--FriendsInGameColor));
+    background-image: linear-gradient(to bottom, var(--FriendsInGameColor-master), var(--FriendsInGameColor-master));
     background-size: 100% 125%;
     background-position-y: -4px;
 }
 
 .online img.steamavatar_avatar_3h-QR.avatar, .awayOrSnooze img.steamavatar_avatar_3h-QR.avatar {
-    background-image: linear-gradient(to bottom, var(--FriendsOnlineColor), var(--stblue)) !important;
+    background-image: linear-gradient(to bottom, var(--FriendsOnlineColor-master), var(--stblue-master)) !important;
 }
 
 .offline img.steamavatar_avatar_3h-QR.avatar {
-    background-image: linear-gradient(to bottom, var(--buttonface), var(--buttonbordersubtle)) !important;
+    background-image: linear-gradient(to bottom, var(--buttonface-master), var(--buttonbordersubtle-master)) !important;
 }
 
 .ingame img.steamavatar_avatar_3h-QR.avatar {
-    background-image: linear-gradient(to bottom, var(--FriendsInGameColor), var(--Friendsdullgreen)) !important;
+    background-image: linear-gradient(to bottom, var(--FriendsInGameColor-master), var(--Friendsdullgreen-master)) !important;
 }
 
 .steamavatar_avatarStatus_3xUpb.avatarStatus.bottom, .steamavatar_avatarStatus_3xUpb.avatarStatus.right {
@@ -969,17 +1075,17 @@ img.steamavatar_avatar_3h-QR.avatar {
 button.DialogButton, .appdetailsactivitysection_ViewLastNews_1EC1x, .DialogDropDown._DialogInputContainer.Panel.Focusable, .gamelistdropdown_MenuHeader_2PF_m, .DialogCheckbox_Container._DialogLayout.appproperties_Checkbox_2V2nc.Panel.Focusable /* Buttons */ {
 	margin-bottom: 15px !important;
 	padding: 5px !important;
-	background: linear-gradient(to bottom, var(--buttonface2), var(--PropertySheetBG)) !important;
-	border: 1px solid var(--buttonborder) !important;
+	background: linear-gradient(to bottom, var(--buttonface2-master), var(--PropertySheetBG-master)) !important;
+	border: 1px solid var(--buttonborder-master) !important;
 	align-self: flex-start !important;
 	margin-top: 0 !important;
-	border-radius: 3px !important;
+	border-radius: var(--buttonradius) !important;
 	font-size: 10px /* This is the Button font size */ !important;
     text-transform: uppercase !important;
 }
 
 button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover, .DialogDropDown._DialogInputContainer.Panel.Focusable:hover, .gamelistdropdown_MenuHeader_2PF_m:hover /* Button Borders */ {
-	border: 1px solid var(--buttonborderfocus) !important;
+	border: 1px solid var(--buttonborderfocus-master) !important;
 }
 
 .appdetailsworkshopsection_ButtonContainer_2LXfs /* Weird ass workshop Container */ {
@@ -1003,7 +1109,7 @@ button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover, 
 }
 
 .appdetailsworkshopsection_FeaturedItem_1W34W.Panel.Focusable, .appdetailsworkshopsection_FeaturedItemName_1KR5X /* Colors! */ {
-    color: var(--label) !important;
+    color: var(--label-master) !important;
 }
 
 .appdetailsworkshopsection_WorkshopSection_2PfKa .appdetailsworkshopsection_WorkshopHeader_139ka .appdetailsworkshopsection_FeaturedItem_1W34W .appdetailsworkshopsection_FeaturedItemImage_gh2rj /* Old Thumbnail */ {
@@ -1047,8 +1153,8 @@ button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover, 
 }
 
 div.FullModalOverlay > div.ModalOverlayContent.active > div > div > div.DialogContent._DialogLayout.GenericConfirmDialog._DialogCenterVertically {
-    background-color: var(--dialogbg);
-    background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--darkclientbg));
+    background-color: var(--dialogbg-master);
+    background-image: linear-gradient(to bottom, var(--buttonbordersubtle-master), transparent, transparent, var(--darkclientbg-master));
     border-width: 1px;
     border-style: solid;
     border-image-source: linear-gradient(115deg, black 75%, #4D668B 95%);
@@ -1072,30 +1178,30 @@ button.DialogButton._DialogLayout.Primary, button.DialogButton._DialogLayout.Sec
 }
 
 .gamelistsearchbar_AdvancedSearchPane_Woh0k {
-    background-color: var(--dialogbg) !important;
-    background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--darkclientbg)) !important;
+    background-color: var(--dialogbg-master) !important;
+    background-image: linear-gradient(to bottom, var(--buttonbordersubtle-master), transparent, transparent, var(--darkclientbg-master)) !important;
 	top: -1px !important;
 }
 
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k:before {
 	height: 26px !important;
 	left: -10px !important;
-	background: var(--buttonbordersubtle) !important;
+	background: var(--buttonbordersubtle-master) !important;
 }
 
 /* Context Menu */
 
 .contextmenu_contextMenu_PP7LM, .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer, .appgrid_SortingDropDownContainer_1ZpBQ>div {
-    background-color: var(--dialogbg) !important;
-    background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--dialogbg)) !important;
+    background-color: var(--dialogbg-master) !important;
+    background-image: linear-gradient(to bottom, var(--buttonbordersubtle-master), transparent, transparent, var(--dialogbg-master)) !important;
 	border: 0 !important;
 }
 
 /* Mini-profile */
 
 .miniprofile_miniProfileBackground_3HzZh, .miniprofile_miniProfileContent_1xTAT {
-    background-color: var(--dialogbg) !important;
-    background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--darkclientbg)) !important;
+    background-color: var(--dialogbg-master) !important;
+    background-image: linear-gradient(to bottom, var(--buttonbordersubtle-master), transparent, transparent, var(--darkclientbg-master)) !important;
 }
 
 img.miniprofile_miniProfileBackgroundBlur_xUosY /* blurred pfp image in the background */ {
@@ -1198,8 +1304,8 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
 }
 
 .appportraithover_AppPortraitHover_2sGn0 {
-    background-color: var(--dialogbg) !important;
-    background-image: linear-gradient(to bottom, var(--buttonbordersubtle), transparent, transparent, var(--darkclientbg)) !important;
+    background-color: var(--dialogbg-master) !important;
+    background-image: linear-gradient(to bottom, var(--buttonbordersubtle-master), transparent, transparent, var(--darkclientbg-master)) !important;
 }
 
 .appportraithover_ScreenshotCrossfade_2R6-l {
@@ -1279,7 +1385,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
 }
 
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL {
-    background: linear-gradient(to top, var(--buttonbordersubtle) 30%, black 120%) !important;
+    background: linear-gradient(to top, var(--buttonbordersubtle-master) 30%, black 120%) !important;
 	padding-left: 10px !important;
 	height: 104px !important;
 }
@@ -1293,7 +1399,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
 }
 
 .downloads_SectionTitle_qq2xI /* Section... Title... */ {
-	background: linear-gradient(to right, var(--buttonface2) 0%, transparent 1100px) !important;
+	background: linear-gradient(to right, var(--buttonface2-master) 0%, transparent 1100px) !important;
 	height: 20px;
     padding-left: 5px;
 }
@@ -1301,15 +1407,15 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
 .downloads_SectionTitle_qq2xI:before /* Minimizer that can't do anything :( */ {
     content: "-";
     font-size: 20px;
-    color: var(--label);
+    color: var(--label-master);
 }
 
 .downloads_SectionTitle_qq2xI:hover:before, .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9 {
-	color: var(--Text);
+	color: var(--Text-master);
 }
 
 span.appdetailsplaysection_PlayBarGameName_3rpUk /* this is unrelated */ {
-    color: var(--Text);
+    color: var(--Text-master);
     font-size: 27px /* Big Game Name Font Size */;
 }
 
@@ -1334,11 +1440,11 @@ span.appdetailsplaysection_PlayBarGameName_3rpUk /* this is unrelated */ {
 span.downloads_Title_TK9wv, span.downloads_Count_1CGnw /* Section Text */ {
     font-size: 12px !important;
     text-transform: uppercase !important;
-	color: var(--label) !important;
+	color: var(--label-master) !important;
 }
 
 span.downloads_Title_TK9wv:hover, span.downloads_Count_1CGnw:hover {
-	color: var(--Text) !important;
+	color: var(--Text-master) !important;
 }
 
 .downloads_Rule_1CTr1 /* weird line thing */ {
@@ -1346,7 +1452,7 @@ span.downloads_Title_TK9wv:hover, span.downloads_Count_1CGnw:hover {
 }
 
 .downloads_SectionItemStatus_1Sygg .downloads_State_2ns4w.downloads_Downloading_33BlY, span.downloads_Value_1dHjj.downloads_Denominator_2ckIr, span.downloads_Value_1dHjj.downloads_InProgress_3Wavc.downloads_Active_IbePL, .downloads_ProgressDetails_sv3ZH, .downloads_SectionItemStatus_1Sygg .downloads_StartTime_3tEPp, span.downloads_Progress_FuJLs, .downloads_SectionItemStatus_1Sygg.downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE /* "Downloading" Text */ {
-    color: var(--label);
+    color: var(--label-master);
     text-transform: capitalize;
     font-weight: normal;
 }
@@ -1364,14 +1470,14 @@ svg.downloads_Icon_-OgRz /* Download / Install icons */ {
 
 div.downloads_DetailsAndType_Bku7J.Focusable > div:nth-child(1) > span.downloads_Value_1dHjj.downloads_InProgress_3Wavc.downloads_Active_IbePL:before /* Replace Icon with text: Downloads */ {
     content: "Downloaded ";
-	color: var(--label2);
+	color: var(--label-master2);
     font-weight: 400;
 	text-transform: uppercase;
 }
 
 div.downloads_DetailsAndType_Bku7J.Focusable > div:nth-child(2) > span.downloads_Value_1dHjj.downloads_InProgress_3Wavc.downloads_Active_IbePL:before /* Replace Icon with text: Installing */ {
     content: "Installed ";
-	color: var(--label2);
+	color: var(--label-master2);
     font-weight: 400;
 	text-transform: uppercase;
 }
@@ -1385,12 +1491,12 @@ span.downloads_Value_1dHjj.downloads_InProgress_3Wavc.downloads_Active_IbePL {
 }
 
 .downloadgraph_Gradient_RfMM3 /* top gradient */ {
-    background-image: linear-gradient(to right, var(--almostblack) 0%, transparent 50%) !important;
+    background-image: linear-gradient(to right, var(--almostBlack-master) 0%, transparent 50%) !important;
 }
 
 .downloadgraph_GraphAndStats_3KDkL /* top order */ {
 	flex-direction: row-reverse;
-	background: var(--almostblack);
+	background: var(--almostBlack-master);
 	height: 130px !important;
 }
 
@@ -1408,13 +1514,13 @@ span.downloads_Value_1dHjj.downloads_InProgress_3Wavc.downloads_Active_IbePL {
 }
 
 .downloadgraph_Figure_eXF8x, .downloadgraph_Status_3BdWq {
-    color: var(--Text) !important;
+    color: var(--Text-master) !important;
     font-weight: normal !important;
     font-size: 12px !important;
 }
 
 .downloadgraph_Label_34H1w {
-    color: var(--label2);
+    color: var(--label-master2);
     font-size: 12px;
     font-weight: normal;
     margin-left: 3px;
@@ -1451,17 +1557,17 @@ button.downloads_RemoveAllButton_1GdR5.DialogButton._DialogLayout.Secondary /* F
 /* I have no clue what's going on with the download progress colors */
 
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg {
-	color: var(--Highlight5);
+	color: var(--Highlight5-master);
 }
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
 	color: transparent !important;
-	color: var(--Highlight5);
+	color: var(--Highlight5-master);
 	fill: currentColor;
 }
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarWrapper_gpPxC, .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL {
-	color: var(--Highlight5);
+	color: var(--Highlight5-master);
 }
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW /* Disk Activity Color */ {
@@ -1473,7 +1579,7 @@ button.downloads_RemoveAllButton_1GdR5.DialogButton._DialogLayout.Secondary /* F
 }
 
 .downloads_AppPortrait_2pjdg /* Game image bg */ {
-    box-shadow: 0px 0px 8px 8px var(--dialogbg) !important;
+    box-shadow: 0px 0px 8px 8px var(--dialogbg-master) !important;
 }
 
 .downloads_SectionJumpBar_mw7VZ.downloads_Show_2S18z /* Unnecessary view completed downloads button */ {
@@ -1503,7 +1609,7 @@ div.downloads_Section_3Mbhn.downloads_Active_IbePL > div > div > div > div.downl
 
 .downloads_StartTime_3tEPp:before {
     content: "Time Remaining ";
-    color: var(--label2);
+    color: var(--label-master2);
     font-weight: 400;
 	text-decoration: none !important;
 	text-transform: uppercase !important;
@@ -1523,16 +1629,16 @@ div.downloads_Section_3Mbhn.downloads_Active_IbePL > div > div > div > div.downl
 }
 
 div.downloads_SectionItemStatus_1Sygg.downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE > div > span.downloads_InProgress_3Wavc {
-    color: var(--label2) !important;
+    color: var(--label-master2) !important;
     font-weight: normal !important;
 }
 
 .downloads_AutoUpdateHours_117rQ.downloads_NoHours_Sil68 {
-    color: var(--label) !important;
+    color: var(--label-master) !important;
 }
 
 .downloads_AutoUpdateHours_117rQ.downloads_NoHours_Sil68:hover {
-    color: var(--Text) !important;
+    color: var(--Text-master) !important;
 }
 
 .downloads_SectionItem_1VNuY .downloads_Buttons_1cMXI /* justify buttons end */ {
@@ -1566,7 +1672,7 @@ div.downloads_Section_3Mbhn.downloads_Active_IbePL > div > div > div > div.downl
 /* End Downloads page */
 
 .appdetailsplaysection_DetailsProgressBar_1FnTq /* Progress Bar */ {
-    background-color: var(--Highlight5) !important;
+    background-color: var(--Highlight5-master) !important;
     border-radius: 0 !important;
 }
 
@@ -1589,20 +1695,20 @@ div.downloads_SectionItemStatus_1Sygg.downloads_SectionItemColumn_kGTS5.download
 /* Box-shadow test in other parts */
 
 .appportrait_Draggable_1pwP4.appportrait_Short_yGeS6 /* Short, all */ {
-    box-shadow: 0px 0px 3px 3px var(--dialogbg) !important;
+    box-shadow: 0px 0px 3px 3px var(--dialogbg-master) !important;
 }
 
 div.libraryhomerecentgames_RecentGameMediaContainer_2XftM > div /* all sizes, horizontal panel */ {
-    box-shadow: 0px 0px 4px 4px var(--dialogbg) !important;
+    box-shadow: 0px 0px 4px 4px var(--dialogbg-master) !important;
 }
 
 .appportrait_Draggable_1pwP4.appportrait_Large_NSf2V, .appportrait_Medium_3SNGK /* medium & large, full panel */ {
-    box-shadow: 0px 0px 6px 6px var(--dialogbg) !important;
+    box-shadow: 0px 0px 6px 6px var(--dialogbg-master) !important;
 }
 
 .appportrait_LibraryItemBoxShine_MyNb5.appportrait_Portrait_1Pf6J, .appportrait_LibraryItemBoxShine_MyNb5.appportrait_Portrait_1Pf6J:hover, .appportrait_LibraryItemBoxShine_MyNb5, .appportrait_LibraryItemBoxShine_MyNb5:hover /* Fuck your shitty ass appstore-esque glare */ {
     display: block !important;
-    box-shadow: inset 0px 0px 3px 3px var(--dialogbg) !important;
+    box-shadow: inset 0px 0px 3px 3px var(--dialogbg-master) !important;
     width: 100% !important;
     height: 100%;
     transform: none !important;
@@ -1623,7 +1729,7 @@ div.downloads_SectionList_OINnO.Panel.Focusable > div > div > div.downloads_AppP
 }
 
 .appportrait_RecentGameFooter_2d1hS {
-    background-color: var(--dialogbg);
+    background-color: var(--dialogbg-master);
 }
 
 .appportrait_LibraryItemBox_WYgDg {
@@ -1631,19 +1737,19 @@ div.downloads_SectionList_OINnO.Panel.Focusable > div > div > div.downloads_AppP
 }
 
 .appportrait_Draggable_1pwP4 {
-    background: var(--dialogbg);
+    background: var(--dialogbg-master);
 }
 
 /* End Box-shadow test in other parts */
 
 .appdetailsactivitysection_NoActivity_2-kDc, .appdetailsactivitysection_Loading_3UShz {
     border: none;
-    color: var(--Text);
+    color: var(--Text-master);
 }
 
 .appportrait_LibraryItemBoxSubscript_1LJqx, .gamelistsearchbar_FilterTag_3gzh_.Focusable {
-    background-color: var(--PropertySheetBG);
-    border: 1px solid var(--buttonborder);
+    background-color: var(--PropertySheetBG-master);
+    border: 1px solid var(--buttonborder-master);
 }
 
 .DialogDropDown_Arrow, .gamelistdropdown_Arrow_15aGn /* Dropdown Arrow */ {
@@ -1680,7 +1786,7 @@ div.libraryhomeshowcases_DragHandle_1OGfH > svg  /* these drag handles suck */{
 
 .DialogDropDown._DialogInputContainer.Panel.Focusable:after /* Arrow left line */ {
     content: " ";
-    border-left: 1px solid var(--buttonborder);
+    border-left: 1px solid var(--buttonborder-master);
     height: 18px;
     position: absolute;
     right: 18px;
@@ -1688,14 +1794,14 @@ div.libraryhomeshowcases_DragHandle_1OGfH > svg  /* these drag handles suck */{
 
 .gamelistdropdown_MenuHeader_2PF_m:after {
     content: " ";
-    border-left: 1px solid var(--buttonborder);
+    border-left: 1px solid var(--buttonborder-master);
     height: 18px;
     position: absolute;
     right: 48px;
 }
 
 .DialogDropDown._DialogInputContainer.Panel.Focusable:hover:after, .gamelistdropdown_MenuHeader_2PF_m:hover:after {
-    border-color: var(--buttonborderfocus);
+    border-color: var(--buttonborderfocus-master);
 }
 
 .appgrid_SortingDropDown_1tBzy ._DialogInputContainer .DialogDropDown_CurrentDisplay {
@@ -1714,16 +1820,16 @@ span.gamelistsectionheader_SectionName_2mZ8L /* fixing something that broke with
 }
 
 .gamelistsearchbar_AdvancedSearchContainer_vCCmY {
-    background: linear-gradient(to bottom, var(--buttonface2), var(--PropertySheetBG)) !important;
-    border: 1px solid var(--buttonborder) !important;
-    border-radius: 3px !important;
+    background: linear-gradient(to bottom, var(--buttonface2-master), var(--PropertySheetBG-master)) !important;
+    border: 1px solid var(--buttonborder-master) !important;
+    border-radius: var(--buttonradius) !important;
 	height: 26px !important;
 }
 
 .DialogInput_Wrapper._DialogLayout.Panel.Focusable {
-    border: 1px solid var(--buttonborder) !important;
+    border: 1px solid var(--buttonborder-master) !important;
     border-right-style: none !IMPORTANT;
-    border-radius: 3px !important;
+    border-radius: var(--buttonradius) !important;
 	height: 24px !important;
 }
 
@@ -1752,7 +1858,7 @@ input.DialogInput {
 .pagedsettings_PagedSettingsDialog_PageList_18QCu /* list items flex */ {
     display: flex;
 	line-height: 12px !important;
-    border-bottom: 1px solid var(--buttonface);
+    border-bottom: 1px solid var(--buttonface-master);
 }
 
 .pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF.Panel.Focusable /* top bar size */ {
@@ -1787,7 +1893,7 @@ input.DialogInput {
 
 .title-area-icon.closeButton:before {
     content: "CLOSE";
-    color: var(--label);
+    color: var(--label-master);
     vertical-align: middle;
 }
 
@@ -1796,7 +1902,7 @@ input.DialogInput {
 }*/
 
 .pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF.Panel.Focusable /* gradient 1 */ {
-    background: linear-gradient(to bottom, var(--buttonbordersubtle), var(--dialogbg));
+    background: linear-gradient(to bottom, var(--buttonbordersubtle-master), var(--dialogbg-master));
 }
 
 .DialogContentTransition /* expose page bg */ {
@@ -1804,11 +1910,11 @@ input.DialogInput {
 }
 
 .DialogContent /* gradient 2 */ {
-    background: linear-gradient(to top, var(--buttonbordersubtle), var(--dialogbg)) !important;
+    background: linear-gradient(to top, var(--buttonbordersubtle-master), var(--dialogbg-master)) !important;
 }
 
 .pagedsettings_PagedSettingsDialog_2sssI.appproperties_AppProperties_1FyBL.Panel.Focusable /* whole page bg */ {
-    background-color: var(--dialogbg);
+    background-color: var(--dialogbg-master);
 }
 
 .appproperties_SectionTopLine_r3hOL /* no horizontal scrollbar */ {
@@ -1824,7 +1930,7 @@ input.DialogInput {
 }
 
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr.pagedsettings_Active_2DpXj {
-    background: linear-gradient(to bottom, var(--buttonface), var(--dialogbg)) !important;
+    background: linear-gradient(to bottom, var(--buttonface-master), var(--dialogbg-master)) !important;
     margin-left: 0;
     margin-bottom: 0;
     max-height: 15px;
@@ -1835,14 +1941,14 @@ input.DialogInput {
     padding: 4px;
     max-height: 12px;
 	font-size: 12px;
-    background: var(--PropertySheetBG);
+    background: var(--PropertySheetBG-master);
     margin: 2px;
 }
 
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0, .appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopGrid_2ZL5A .appproperties_WorkshopHeader_2TJyz {
-	background: var(--PropertySheetBG) !important;
+	background: var(--PropertySheetBG-master) !important;
 	padding: 4px !important;
-	color: var(--label) !important;
+	color: var(--label-master) !important;
 }
 
 .appproperties_DlcHeader_1SKB0:after, .appproperties_WorkshopHeader_2TJyz:after {
@@ -1860,3 +1966,23 @@ div.appdetailssection_Body_5uvIN > .appdetailsachievementssection_Featured_1j_gj
 }
 
 /* End 1.5 Additions */
+
+
+/* 1.6? */
+
+.appdetailsbroadcastsection_BroadcastPlayer_2lAf2, .appdetailsbroadcastsection_BroadcastThumbnail_2l1gE {
+	width: 384px !important;
+	padding-top: 216px !important;
+}
+
+.appportrait_UninstalledBar_kX-tI .appportrait_UninstalledProgressBar_mA39H {
+	background-color: var(--Highlight5-master) !important;
+}
+
+.appportraithover_DownloadStatus_1KHOC .appportraithover_DownloadContainer_2RX1d .appportraithover_DownloadStatusDetails_3ddJw, .appportraithover_DownloadStatus_1KHOC .appportraithover_DownloadContainer_2RX1d .appportraithover_DownloadStatusTitle_2HOH9 {
+	color: var(--Highlight5-master) !important;
+}
+
+.appportraithover_DownloadStatus_1KHOC {
+	border-radius: 0 !important;
+}
