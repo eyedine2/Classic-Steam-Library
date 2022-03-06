@@ -586,7 +586,7 @@ div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_Gam
 }
 
 .appdetailsplaysection_StatusAndStats_1YbtI {
-	max-height: 32px !important;
+	max-height: 100% !important;
 }
 
 .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
@@ -1985,4 +1985,36 @@ div.appdetailssection_Body_5uvIN > .appdetailsachievementssection_Featured_1j_gj
 
 .appportraithover_DownloadStatus_1KHOC {
 	border-radius: 0 !important;
+}
+
+/*.appdetailsplaysection_GameStatIconForced_3bkqc.appdetailsplaysection_PlaytimeIconForced_1UXbB, .appdetailsplaysection_HideWhenNarrow_2YTg3.appdetailsplaysection_GameStatRight_3m_zj {
+    display: none;
+}
+
+div.appdetailsplaysection_GameStatsSection_1mDAV > div:nth-child(1) > * {
+    display: none !important;
+}*/
+
+.appdetailsplaysection_GameStat_1kiZK {
+	padding: 0 !important;
+}
+
+div.NarrowRightPanel .appdetailsplaysection_HideWhenNarrow_2YTg3 {
+    display: block;
+}
+
+div.appdetailsplaysection_HideWhenNarrow_2YTg3.appdetailsplaysection_GameStatRight_3m_zj > div.appdetailsplaysection_PlayBarDetailLabel_2TYVG.appdetailsplaysection_LastPlayedInfo_1nfJN {
+    display: none;
+}
+
+div.NarrowRightPanel .appdetailsplaysection_GameStat_1kiZK .appdetailsplaysection_GameStatIcon_1tIg-, .appdetailsplaysection_GameStat_1kiZK .appdetailsplaysection_GameStatIconForced_3bkqc {
+    height: 16px !important;
+    width: 16px;
+    position: absolute;
+    left: 75%;
+}
+
+div.NarrowRightPanel .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_StatusNameContainer_zjtAI {
+    max-height: 100%;
+    height: auto !important;
 }
