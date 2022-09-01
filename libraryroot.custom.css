@@ -12,7 +12,7 @@
 	--profilesize: 47px;
 	--profileborder: 4px;
 	--buttonradius: 3px;
-	--scrollradius: 5px;
+	--scrollradius: 3.5px;
 	--profileradius: 6px;
 	--dialogbg-master: var(--dialogbg);
 	--darkclientbg-master: var(--darkclientbg);
@@ -161,6 +161,7 @@
 	background-repeat: no-repeat !important;
 	background-position: center !important;
 	border-radius: var(--scrollradius) !important;
+	min-height: 21px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -318,7 +319,7 @@
 .appdetailssection_AppDetailsSection_2r4TK.appdetailsprimarylinkssection_LinksSection_3-V8v {
   margin-left: auto;
   left: 60%;
-  transform: translate(5px, -275px) translateY(284px);
+  transform: translate(5px, -285px) translateY(284px);
   position: sticky;
   height: 0px !important;
   min-width: 180px;
@@ -454,6 +455,7 @@
 
 .appdetailsplaysection_Container_3Yf8b /* Play Button Container Width */ {
 	width: fit-content !important;
+	min-width: 305px !important;
 }
 
 .appdetailsplaysection_InnerContainer_3Y87Y /* Padding in Play Button Container */ {
@@ -619,11 +621,11 @@ div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_Gam
 
 /* Removing Stuff one by one so I don't forget stuff like an idiot */
 
-.sharedappdetailsheader_BoxSizerContainer_A14yd /* Game logo images */ {
+.sharedappdetailsheader_BoxSizerContainer_A14yd, .sharedappdetailsheader_BoxSizerContainer_P_15e /* Game logo images */ {
 	display: none !important;
 }
 
-.sharedappdetailsheader_TitleSection_30acA /* Genre Images */ {
+.sharedappdetailsheader_TitleSection_30acA, .sharedappdetailsheader_TitleSection_1P_tv /* Genre Images */ {
 	display: none !important;
 }
 
@@ -1848,6 +1850,8 @@ span.gamelistsectionheader_SectionName_2mZ8L /* fixing something that broke with
 
 /* Properties panel fixes */
 
+/*
+
 .DialogDropDown._DialogInputContainer.Panel.Focusable {
     display: flex;
 }
@@ -1856,27 +1860,27 @@ input.DialogInput {
     background-color: transparent !important;
 }
 
-.ModalDialogPopup .DialogContentTransition .DialogBody /* no more placeholder scrollbar */ {
+.ModalDialogPopup .DialogContentTransition .DialogBody {
     overflow: auto !IMPORTANT;
 }
 
-.pagedsettings_PagedSettingsDialog_PageList_18QCu /* list items flex */ {
+.pagedsettings_PagedSettingsDialog_PageList_18QCu {
     display: flex;
 	line-height: 12px !important;
     border-bottom: 1px solid var(--buttonface-master);
 }
 
-.pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF.Panel.Focusable /* top bar size */ {
+.pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF.Panel.Focusable {
     max-width: 100%;
     max-height: fit-content;
 }
 
-.DialogContentTransition.Panel.Focusable /* main content size */ {
+.DialogContentTransition.Panel.Focusable {
     max-width: 100% !IMPORTANT;
     width: calc(100% - 16px);
 }
 
-.pagedsettings_PagedSettingsDialog_2sssI.appproperties_AppProperties_1FyBL.Panel.Focusable /* change flow */ {
+.pagedsettings_PagedSettingsDialog_3I6h_.appproperties_AppProperties_1FyBL.Panel.Focusable {
     flex-flow: column;
 }
 
@@ -1904,33 +1908,33 @@ input.DialogInput {
 
 .title-area-icon .SVGIcon_X_Line {
 	display: none !important;
-}*/
+}
 
-.pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF.Panel.Focusable /* gradient 1 */ {
+.pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF.Panel.Focusable {
     background: linear-gradient(to bottom, var(--buttonbordersubtle-master), var(--dialogbg-master));
 }
 
-.DialogContentTransition /* expose page bg */ {
+.DialogContentTransition {
     margin: 0px 8px 47px 8px;
 }
 
-.DialogContent /* gradient 2 */ {
+.DialogContent {
     background: linear-gradient(to top, var(--buttonbordersubtle-master), var(--dialogbg-master)) !important;
 }
 
-.pagedsettings_PagedSettingsDialog_2sssI.appproperties_AppProperties_1FyBL.Panel.Focusable /* whole page bg */ {
+.pagedsettings_PagedSettingsDialog_2sssI.appproperties_AppProperties_1FyBL.Panel.Focusable {
     background-color: var(--dialogbg-master);
 }
 
-.appproperties_SectionTopLine_r3hOL /* no horizontal scrollbar */ {
+.appproperties_SectionTopLine_r3hOL  {
     max-width: 766px !important;
 }
 
-.pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF /* less title padding */ {
+.pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF  {
     padding: 10px 8px 0px 8px !important;
 }
 
-.ModalDialogPopup .ModalDialogBody .title-area /* fix drag area */ {
+.ModalDialogPopup .ModalDialogBody .title-area  {
     height: 40px !important;
 }
 
@@ -1963,6 +1967,8 @@ input.DialogInput {
     position: absolute;
     right: 4px;
 }
+
+*/
 
 /* End properties panel fixes */
 
@@ -2028,4 +2034,33 @@ div.NarrowRightPanel .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplay
 
 .downloads_DetailsAndType_Bku7J.Focusable {
     display: block;
+}
+
+/* list selection */
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr:hover {
+	background-color: transparent !important;
+	color: var(--label) !important;
+}
+
+.gamelistentry_Container_2-O4Z:hover {
+	background-color: transparent !important;
+}
+
+.gamelistentry_Container_2-O4Z:not(.gamelistentry_Updating_1LVQp):not(.gamelistentry_Uninstalled_5YTBr) {
+	color: #ddd !important;
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Installed_2ws8D:hover {
+	color: white !important;
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_Updating_1LVQp:hover {
+	color: #62cbff;
+}
+
+/* ooooh I'm fixin' I'm fixin'!!!!! */
+
+.appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_Glassy_3DeO9 {
+    margin: 0;
 }
