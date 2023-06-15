@@ -319,7 +319,7 @@
 .appdetailssection_AppDetailsSection_2r4TK.appdetailsprimarylinkssection_LinksSection_3-V8v {
   margin-left: auto;
   left: 60%;
-  transform: translate(5px, -285px) translateY(284px);
+  transform: translate(115px, -285px) translateY(284px);
   position: sticky;
   height: 0px !important;
   min-width: 180px;
@@ -378,6 +378,7 @@
 
 .appdetailsprimarylinkssection_LinkInner_7k4qm {
   padding: 4px 4px 4px 0px !important;
+  left: 0 !important; 
 }
 
 .appdetailsprimarylinkssection_Links_DgVQa {
@@ -467,7 +468,8 @@
 }
 
 .appdetailsheader_Container_6-WKl /* sets play button to the top */ {
-    height: 76px !important;
+    height: 100%;
+    position: absolute !important;
 }
 
 .appdetailsplaysection_PlayBarIconAndGame_2MBVR /* Game Title */ {
@@ -478,6 +480,7 @@
 	height: 46px !important;
 	width: fit-content !important;
 	position: fixed !important;
+	margin-left: 280px !important;
 }
 .appdetailsoverview_RightColumn_2aor4 /* right column no margin */ {
 	margin-left: 0px !important;
@@ -826,7 +829,7 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
 }
 
 .gamelistbar_Container_3x1Hk /* from flex to grid */ {
-    display: grid;
+    display: grid !important;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0fr 1fr;
     gap: 0px 0px;
@@ -1006,37 +1009,41 @@ div.appdetailssection_Body_5uvIN > div.appdetailsachievementssection_RightAchiev
 
 /* Let's Try again, this time using CSS borders */
 
-.steamavatar_avatarHolder_nibod {
+.steamavatar_avatarHolder_1YGAH {
 	height: var(--profilesize) !important;
     width: var(--profilesize) !important;
 }
 
-img.steamavatar_avatar_3h-QR.avatar {
+img.steamavatar_avatar_1p_Qr.avatar {
     border: var(--profileborder) solid transparent !important;
     border-radius: var(--profileradius) !important;
-    box-sizing: border-box;
-    background-image: linear-gradient(to bottom, var(--FriendsInGameColor-master), var(--FriendsInGameColor-master));
-    background-size: 100% 125%;
-    background-position-y: -4px;
+    box-sizing: border-box !important;
+    background-image: linear-gradient(to bottom, var(--FriendsInGameColor-master), var(--FriendsInGameColor-master)) !important;
+    background-size: 100% 125% !important;
+    background-position-y: -4px !important;
+	width: 45px !important;
+    height: 45px !important;
 }
 
-.online img.steamavatar_avatar_3h-QR.avatar, .awayOrSnooze img.steamavatar_avatar_3h-QR.avatar {
+.online img.steamavatar_avatar_1p_Qr.avatar, .awayOrSnooze img..steamavatar_avatar_1p_Qr.avatar {
     background-image: linear-gradient(to bottom, var(--FriendsOnlineColor-master), var(--stblue-master)) !important;
 }
 
-.offline img.steamavatar_avatar_3h-QR.avatar {
+.offline img.steamavatar_avatar_1p_Qr.avatar {
     background-image: linear-gradient(to bottom, var(--buttonface-master), var(--buttonbordersubtle-master)) !important;
 }
 
-.ingame img.steamavatar_avatar_3h-QR.avatar {
+.ingame img.steamavatar_avatar_1p_Qr.avatar {
     background-image: linear-gradient(to bottom, var(--FriendsInGameColor-master), var(--Friendsdullgreen-master)) !important;
 }
 
-.steamavatar_avatarStatus_3xUpb.avatarStatus.bottom, .steamavatar_avatarStatus_3xUpb.avatarStatus.right {
+.steamavatar_avatarStatus_1yIzy.avatarStatus.bottom, .steamavatar_avatarStatus_1yIzy.avatarStatus.right {
     display: none !important;
+	width: 0;
+    height: 0;
 }
 
-.steamavatar_avatarHolder_nibod.avatarHolder.no-drag.Medium.ingame /* Ingame borders need this for some reason */ {
+.steamavatar_avatarHolder_1YGAH.avatarHolder.no-drag.Medium.ingame /* Ingame borders need this for some reason */ {
     margin-top: -2px;
 }
 
@@ -1235,7 +1242,7 @@ img.miniprofile_Frame_2nPON /* Profile Frames */ {
     top: 433px !important;
     left: 60% !important;
     width: fit-content !important;
-    margin-left: 15px !important;
+    margin-left: 125px !important;
     right: 0 !important;
     flex-flow: column !important;
 }
@@ -1286,14 +1293,23 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
 
 .gamelistentry_FriendIsPlaying_cNZ3w.Focusable /* no "friends playing" icon on game entry */ {
     display: none !important;
+	font-size: 12px;
 }
 
-.gamelist_Container_1ijTa /* more entries in list view */ {
+/*
+
+.gamelist_Container_1ijTa {
     zoom: 75% !important;
 }
 
 .gamelist_Container_1ijTa *::-webkit-scrollbar-thumb,  .gamelist_Container_1ijTa *::-webkit-scrollbar-button:single-button,  .gamelist_Container_1ijTa *::-webkit-scrollbar,  .gamelist_Container_1ijTa *::-webkit-scrollbar-track {
 	zoom: 133% !important;
+}
+
+*/
+
+.gamelistentry_Container_2-O4Z .gamelistentry_GameIcon_ga1hy {
+    width: 15px;
 }
 
 .gamelistentry_Container_2-O4Z {
@@ -2063,4 +2079,91 @@ div.NarrowRightPanel .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplay
 
 .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_Glassy_3DeO9 {
     margin: 0;
+}
+
+canvas.sharedappdetailsheader_ImgSrc__dije.sharedappdetailsheader_ImgBlur_3XYFK {
+    display: none;
+}
+
+.sharedappdetailsheader_TopCapsule_2meE3 {
+    background: none;
+	max-height: 100% !important;
+	height: 100% !important;
+	background: linear-gradient(to bottom, var(--dialogbg), var(--almostBlack));
+}
+
+img.sharedappdetailsheader_ImgSrc__dije {
+    -webkit-mask-image: radial-gradient(at 33% 0%, rgb(56 54 52 / 100%), rgb(56 54 52 / 95%), rgb(56 54 52 / 90%), rgb(56 54 52 / 80%), rgb(56 54 52 / 60%), rgb(56 54 52 / 40%), rgb(56 54 52 / 15%), rgb(56 54 52 / 3%), rgb(56 54 52 / 0%) 32%);
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+	max-width: 100%;
+}
+
+div.HighPerfMode .sharedappdetailsheader_HeaderBackgroundImage_1sarA {
+    transform: none !important;
+    max-height: 1080px !important;
+}
+
+.sharedappdetailsheader_ImgContainer_3VFZB { 
+
+	height: 100% !important;
+
+}
+
+.appdetailsoverview_Container_27RcN {
+    margin-top: 76px;
+	margin-left: 280px;
+    max-width: calc(100% - 280px);
+}
+
+.appdetails_ScrollContainer_2l416 .appdetails_InnerContainer_1Svpj {
+	position: static !important;
+}
+
+.library_LeftListSizableContainer_9sPoV {
+    position: absolute !important;
+    z-index: 999999;
+    height: 100% !important;
+}
+
+.contextmenu_contextMenu_LQkrb {
+    z-index: 9999999 !important;
+}
+
+.libraryhome_LibraryHome_3Sb2o {
+    margin-left: 280px !important;
+}
+
+.libraryhome_UpdatesContainer_17uEB {
+    margin-left: 280px !important;
+}
+
+.smartscrollcontainer_Container_15J5L.collectionview_OuterContainer_2sNr7 {
+    margin-left: 280px;
+}
+
+img.sharedappdetailsheader_ImgSrc__dije.sharedappdetailsheader_ImgBlur_3XYFK {
+    display: none !important;
+}
+
+.appdetails_Glassy_3Fmxx.appdetails_ScrollContainer_2l416 {
+    background: var(--almostBlack) !important;
+}
+
+.appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ.appdetailsgameinfocontainer_AppDetailsExpanded_3s6_6.appdetailsgameinfocontainer_SuppressTransition_2OLz4.appdetailsgameinfocontainer_Glassy_2QAgO {
+    display: none !important;
+}
+
+.allcollections_Container_1TBJ1 {
+    margin-left: 280px !important;
+}
+
+.appdetailsfriendssection_AvatarAndLabel_1GCZA {
+    height: auto !important;
+}
+
+.steamdesktop_LocalContentContainer_RGNMW .steamdesktop_URLBarReplacement_2Cmrn {
+	display: none !important;
 }
