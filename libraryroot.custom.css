@@ -1149,7 +1149,13 @@ button.DialogButton._DialogLayout.Primary, button.DialogButton._DialogLayout.Sec
 
 /* Context Menu */
 
-.contextmenu_contextMenu_LQkrb.library_LibraryContextMenu_1UOkn.visible.contextmenu_ContextMenuFocusContainer_2qyBZ, .DesktopUI .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer, .appgrid_SortingDropDownContainer_1ZpBQ>div.DesktopUI, .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ>div, .DesktopUI .contextmenu_contextMenu_LQkrb, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenu_LQkrb {
+.contextmenu_contextMenu_LQkrb.library_LibraryContextMenu_1UOkn.visible.contextmenu_ContextMenuFocusContainer_2qyBZ, 
+.DesktopUI .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer, 
+.appgrid_SortingDropDownContainer_1ZpBQ>div.DesktopUI, .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ>div, 
+.DesktopUI .contextmenu_contextMenu_LQkrb, 
+.contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenu_LQkrb, 
+[class*="contextmenu_contextMenu_"],
+[class*="contextmenu_ContextMenuFocusContainer_"] {
     background-color: var(--dialogbg-master) !important;
     background-image: linear-gradient(to bottom, var(--buttonbordersubtle-master), var(--dialogbg-master)) !important;
 	border: 1px solid transparent !important;
@@ -1158,12 +1164,18 @@ button.DialogButton._DialogLayout.Primary, button.DialogButton._DialogLayout.Sec
 	padding: 1px !important;
 }
 
-.DesktopUI .contextmenu_contextMenuItem_pFo3k:hover, .DesktopUI .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenuItem_pFo3k:hover, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU {
+.DesktopUI .contextmenu_contextMenuItem_pFo3k:hover, .DesktopUI .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenuItem_pFo3k:hover, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU, [class*="contextmenu_contextMenuItem_"]:hover {
     background: #314259;
 	color: var(--Text);
 }
 
-.contextmenu_contextMenuItem_pFo3k.contextMenuItem {
+[class*="contextmenu_contextMenuContents_"], .friendsContextMenu {
+	padding: 0 !important;
+	border-radius: 2px !important;
+	box-sizing: border-box !important;
+}
+
+.contextmenu_contextMenuItem_pFo3k.contextMenuItem, [class*="contextmenu_contextMenuItem_"] {
     font-size: 12px;
     padding: 6px;
     padding-top: 0px;
@@ -1175,7 +1187,8 @@ button.DialogButton._DialogLayout.Primary, button.DialogButton._DialogLayout.Sec
     margin-bottom: 1px;
 }
 
-html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb {
+html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb,
+[class*="contextmenu_contextMenu_"] {
     box-sizing: border-box;
 }
 
@@ -2320,10 +2333,6 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable::placehol
     flex: 0 0 61px;
 }
 
-.bottombar_BottomBarContainer_1_yS5 {
-    height: 61px;
-}
-
 .bottombar_AddGameButton_2foCk *, .bottombar_DownloadStatusContent_ip-YZ *, .bottombar_FriendsButton_1TdaA * {
     color: var(--label) !important;
 }
@@ -2497,7 +2506,7 @@ div.gamelistsearchbar_Container_20QAC > div.gamelistsearchbar_SearchInput_12vo5 
 }
 
 .ModalDialogPopup .ModalDialogBody .title-area {
-    height: 32px;
+    height: 32px !important;
 }
 
 .pagedsettings_PagedSettingsDialog_3I6h_ {
@@ -2608,4 +2617,29 @@ div.gamelistsearchbar_Container_20QAC > div.gamelistsearchbar_SearchInput_12vo5 
 
 .contentmanagement_LibraryContent_ybEU2 .contentmanagement_DriveUsage_1LvKJ .contentmanagement_DriveName_1rihl {
     color: var(--label2);
+}
+
+.updatealert_Alert_2iJsg {
+    background-color: var(--dialogbg-master);
+}
+
+.addnonsteamgamedialog_GameList_1e6tj, 
+.playersdialog_PlayersListBody_3kjEL,
+.serverbrowserdialog_ServerList_2_4_n {
+    background: linear-gradient(to bottom, #363433 12px, #1A1917 128px) !important;
+}
+
+.addnonsteamgamedialog_Header_3m0Mn,
+.playersdialog_PlayersListHeaderCtr_20eva,
+.serverbrowserdialog_ServerListHeaderCtr_2cIK- {
+    background: var(--PropertySheetBG-master) !important;
+}
+
+.DialogRoundCheckboxField_Control {
+    background: none;
+    border: 1px solid var(--label2);
+}
+
+.DialogRoundCheckboxField_Control .DialogRoundCheckboxField_InnerCircle {
+    background: var(--label2);
 }
