@@ -720,7 +720,7 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb,
 
 /* Content */
 
-.displayRow.minHeightZero.Panel.Focusable, .chatEntry.Panel.Focusable {
+.displayRow.minHeightZero.Panel, .chatEntry.Panel {
     background: var(--dialogbg);
 }
 
@@ -728,7 +728,7 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb,
     display: none;
 }
 
-.displayRow.minHeightZero.Panel.Focusable {
+.displayRow.minHeightZero.Panel {
 	background: linear-gradient(to bottom, var(--dialogbg), #262524, var(--dialogbg));
     border-top: 1px solid var(--buttonface);
 }
@@ -742,7 +742,7 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb,
     border-radius: 5px;
 }
 
-.ChatRoomSpeaker .speaker .speakerAvatar.hasAvatarFrame, .ChatMsgSlashEmote .speaker .speakerAvatar.hasAvatarFrame {
+.ChatRoomSpeaker .speaker .speakerAvatar, .ChatMsgSlashEmote .speaker .speakerAvatar {
     display: none;
 }
 
