@@ -242,12 +242,13 @@
 
 /* Use Colors in Stuff */
 
-.libraryhome_LibraryHome_3Sb2o, .allcollections_ScrollContainer_u1xD3, .collectionview_OuterContainer_2sNr7, .downloads_ItemListWrapper_1l0Lm /* Grid View & Collection Page */ {
-	background-image: linear-gradient(to bottom, var(--dialogbg-master) 0%, var(--backgroundstartsubtle-master) 130px) !important;
+.allcollections_ScrollContainer_u1xD3, .collectionview_OuterContainer_2sNr7, .downloads_ItemListWrapper_1l0Lm,
+.steamdesktop_LocalContentContainer_RGNMW, .marketingmessagesdialog_MarketingMessagesDialog_31Kke .DialogContent_InnerWidth /* Grid View & Collection Page */ {
+	background-image: linear-gradient(to bottom, var(--dialogbg), var(--almostBlack)) !important;
 }
 
-.libraryhome_Container_2gSXC /* Grid View Container */ {
-	background: var(--backgroundstartsubtle-master) !important;
+.libraryhome_Container_2gSXC, .libraryhome_LibraryHome_3Sb2o /* Grid View Container */ {
+	background: transparent !important;
 }
 
 .gamelistbar_Container_3x1Hk /* Left View */ {
@@ -514,14 +515,14 @@
 	color: var(--Text-master) !important;
 }
 
-.appdetailssectionheader_Label_1SQ30, .appdetailsplaysection_PlayBarLabel_34lrt, div.appdetailsplaysection_GameStatRight_3m_zj, .appdetailsprimarylinkssection_Links_DgVQa, .appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable:before, .appportraithover_AppTitle_1Kdi2, .appportraithover_Header_MIHa_:before /* Header Colors */ {
+.appdetailssectionheader_Label_1SQ30, .appdetailsplaysection_PlayBarLabel_34lrt, div.appdetailsplaysection_GameStatRight_3m_zj, .appdetailsprimarylinkssection_Links_DgVQa, .appdetailsheader_HeaderFeatures_2b6Wk:before, .appportraithover_AppTitle_1Kdi2, .appportraithover_Header_MIHa_:before /* Header Colors */ {
 	color: var(--HeaderColor) /* Pick your Poison, Green, Red, or Blue */ !important;
     font-weight: 700 !important;
     font-size: 14px !important;
 	letter-spacing: 0px !important;
 }
 
-.appactionbutton_ButtonText_33cnX:hover, .appdetailsheader_InCollection_1HS4t.Focusable:hover, .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2:hover {
+.appactionbutton_ButtonText_33cnX:hover, .appdetailsheader_InCollection_1HS4t:hover, .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2:hover {
 	color: var(--Texthover-master) !important;
 }
 
@@ -529,7 +530,7 @@
 	background-color: transparent !important;
 }
 
-.appdetailsplaysection_PlayBarDetailLabel_2TYVG, .appdetailsplaysection_LastPlayed_3pS8k .appdetailsplaysection_LastPlayedInfo_1nfJN, span.appdetailsprimarylinkssection_Text_2sNDj, button, .DialogHeader, .contextmenu_contextMenuItem_1n7Wl.contextMenuItem, .appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable:after, .appdetailsheader_InCollection_1HS4t.Focusable, .pagedsettings_PagedSettingsDialog_Title_2rjVT, .contextmenu_contextMenu_LQkrb.library_LibraryContextMenu_1UOkn.visible.contextmenu_ContextMenuFocusContainer_2qyBZ, .DesktopUI .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer, .appgrid_SortingDropDownContainer_1ZpBQ>div.DesktopUI, .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ>div, .DesktopUI .contextmenu_contextMenu_LQkrb, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenu_LQkrb {
+.appdetailsplaysection_PlayBarDetailLabel_2TYVG, .appdetailsplaysection_LastPlayed_3pS8k .appdetailsplaysection_LastPlayedInfo_1nfJN, span.appdetailsprimarylinkssection_Text_2sNDj, button, .DialogHeader, .contextmenu_contextMenuItem_1n7Wl.contextMenuItem, .appdetailsheader_HeaderFeatures_2b6Wk:after, .appdetailsheader_InCollection_1HS4t, .pagedsettings_PagedSettingsDialog_Title_2rjVT, .contextmenu_contextMenu_LQkrb.library_LibraryContextMenu_1UOkn.visible.contextmenu_ContextMenuFocusContainer_2qyBZ, .DesktopUI .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer, .appgrid_SortingDropDownContainer_1ZpBQ>div.DesktopUI, .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ>div, .DesktopUI .contextmenu_contextMenu_LQkrb, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenu_LQkrb {
     color: var(--Text-master) !important;
     font-weight: 100 !important;
 	font-size: 14px !important;
@@ -717,7 +718,7 @@ div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_Gam
     display: none !important;
 }
 
-.gamelistdropdown_ScrollToTop_uE7Pj.gamelistdropdown_Visible_rkfSf.Focusable /* Weird "go to top" button */ {
+.gamelistdropdown_ScrollToTop_uE7Pj.gamelistdropdown_Visible_rkfSf /* Weird "go to top" button */ {
     display: none !important;
 }
 
@@ -773,7 +774,7 @@ div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachiev
     display: none !important;
 }
 
-.appdetailsworkshopsection_FeaturedItemHideButton_aZc8R.Focusable /* Workshop Panel X Button */ {
+.appdetailsworkshopsection_FeaturedItemHideButton_aZc8R /* Workshop Panel X Button */ {
     display: none !important;
 }
 
@@ -914,7 +915,7 @@ div.appdetailssection_Body_5uvIN > div.appdetailsachievementssection_RightAchiev
     flex-flow: column !important;
 }
 
-div.appdetailssection_Body_5uvIN > div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachievementssection_Featured_1j_gj > div.appdetailsachievementssection_AchievementHoverContainer_2CK1m.Panel.Focusable {
+div.appdetailssection_Body_5uvIN > div.appdetailsachievementssection_RightAchievementSection_14U8e.appdetailsachievementssection_Featured_1j_gj > div.appdetailsachievementssection_AchievementHoverContainer_2CK1m.Panel {
     transform: scale(1.35);
     margin: 8px;
     margin-right: 22px;
@@ -1037,7 +1038,7 @@ img.steamavatar_avatar_1p_Qr.avatar {
 	background-color: transparent !important;
 }
 
-button.DialogButton, .appdetailsactivitysection_ViewLastNews_1EC1x, .DialogDropDown._DialogInputContainer.Panel.Focusable, .DialogCheckbox_Container._DialogLayout.appproperties_Checkbox_2V2nc.Panel.Focusable /* Buttons */ {
+button.DialogButton, .appdetailsactivitysection_ViewLastNews_1EC1x, .DialogDropDown._DialogInputContainer.Panel, .DialogCheckbox_Container._DialogLayout.appproperties_Checkbox_2V2nc.Panel /* Buttons */ {
 	margin-bottom: 15px !important;
 	padding: 5px !important;
 	background: linear-gradient(to bottom, var(--buttonface2-master), var(--PropertySheetBG-master)) !important;
@@ -1049,7 +1050,7 @@ button.DialogButton, .appdetailsactivitysection_ViewLastNews_1EC1x, .DialogDropD
     text-transform: uppercase !important;
 }
 
-button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover, .DialogDropDown._DialogInputContainer.Panel.Focusable:hover /* Button Borders */ {
+button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover, .DialogDropDown._DialogInputContainer.Panel:hover /* Button Borders */ {
 	border: 1px solid var(--buttonborderfocus-master) !important;
 }
 
@@ -1073,7 +1074,7 @@ button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover, 
     padding-top: 52px;
 }
 
-.appdetailsworkshopsection_FeaturedItem_1W34W.Panel.Focusable, .appdetailsworkshopsection_FeaturedItemName_1KR5X /* Colors! */ {
+.appdetailsworkshopsection_FeaturedItem_1W34W.Panel, .appdetailsworkshopsection_FeaturedItemName_1KR5X /* Colors! */ {
     color: var(--label-master) !important;
 }
 
@@ -1158,7 +1159,7 @@ button.DialogButton._DialogLayout.Primary, button.DialogButton._DialogLayout.Sec
 [class*="contextmenu_ContextMenuFocusContainer_"] {
     background-color: var(--dialogbg-master) !important;
     background-image: linear-gradient(to bottom, var(--buttonbordersubtle-master), var(--dialogbg-master)) !important;
-	border: 1px solid transparent !important;
+	border: 1.5px solid transparent !important;
 	border-radius: 1.5px;
 	box-shadow: 0 0 0px 1.5px var(--buttonbordersubtle-master) !important;
 	padding: 1px !important;
@@ -1242,8 +1243,8 @@ img.miniprofile_Frame_2nPON /* Profile Frames */ {
 
 /* Collections on links sections */
 
-.appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable {
-    top: 433px !important;
+.appdetailsheader_HeaderFeatures_2b6Wk {
+    top: 456px !important;
     left: 60% !important;
     width: fit-content !important;
     margin-left: 125px !important;
@@ -1251,21 +1252,21 @@ img.miniprofile_Frame_2nPON /* Profile Frames */ {
     flex-flow: column !important;
 }
 
-.appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable:before {
+.appdetailsheader_HeaderFeatures_2b6Wk:before {
 	content: "CATEGORIES";
 }
 
-.appdetailsheader_HeaderFeatures_2b6Wk.Panel.Focusable:after {
+.appdetailsheader_HeaderFeatures_2b6Wk:after {
 	content: "Set Categories...";
     margin-top: 4px;
 }
 
-.appdetailsheader_InCollection_1HS4t.Focusable {
+.appdetailsheader_InCollection_1HS4t {
     margin-top: 4px !important;
     margin-left: 0 !important;
 }
 
-.appdetailsheader_InCollection_1HS4t.Focusable {
+.appdetailsheader_InCollection_1HS4t {
     border: none;
     background: none;
     align-content: flex-start;
@@ -1295,7 +1296,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
 	padding: 0 !important;
 }
 
-.gamelistentry_FriendIsPlaying_cNZ3w.Focusable /* no "friends playing" icon on game entry */ {
+.gamelistentry_FriendIsPlaying_cNZ3w /* no "friends playing" icon on game entry */ {
     display: none !important;
 	font-size: 12px;
 }
@@ -1413,11 +1414,11 @@ span.appdetailsplaysection_PlayBarGameName_3rpUk /* this is unrelated */ {
 	display: none !important;
 }
 
-.downloads_SectionList_OINnO.Panel.Focusable /* dumb */ {
+.downloads_SectionList_OINnO.Panel /* dumb */ {
     border: 0 !important;
 }
 
-.downloads_SectionList_OINnO.Panel.Focusable /* non-active entries */ {
+.downloads_SectionList_OINnO.Panel /* non-active entries */ {
     background: black;
     margin-left: 0;
     padding: 0;
@@ -1447,21 +1448,21 @@ svg.downloads_Icon_-OgRz /* Download / Install icons */ {
     display: none;
 }
 
-.downloads_DetailsAndType_Bku7J.Focusable /* Download & Install ordering */ {
+.downloads_DetailsAndType_Bku7J /* Download & Install ordering */ {
     display: flex;
     flex-flow: column;
     align-items: flex-start;
     width: fit-content;
 }
 
-div.downloads_DetailsAndType_Bku7J.Focusable > div:nth-child(1) > span.downloads_Value_1dHjj.downloads_InProgress_3Wavc.downloads_Active_IbePL:before /* Replace Icon with text: Downloads */ {
+div.downloads_DetailsAndType_Bku7J > div:nth-child(1) > span.downloads_Value_1dHjj.downloads_InProgress_3Wavc.downloads_Active_IbePL:before /* Replace Icon with text: Downloads */ {
     content: "Downloaded ";
 	color: var(--label-master2);
     font-weight: 400;
 	text-transform: uppercase;
 }
 
-div.downloads_DetailsAndType_Bku7J.Focusable > div:nth-child(2) > span.downloads_Value_1dHjj.downloads_InProgress_3Wavc.downloads_Active_IbePL:before /* Replace Icon with text: Installing */ {
+div.downloads_DetailsAndType_Bku7J > div:nth-child(2) > span.downloads_Value_1dHjj.downloads_InProgress_3Wavc.downloads_Active_IbePL:before /* Replace Icon with text: Installing */ {
     content: "Installed ";
 	color: var(--label-master2);
     font-weight: 400;
@@ -1522,7 +1523,7 @@ button.downloads_RemoveAllButton_1GdR5.DialogButton._DialogLayout.Secondary /* F
     padding: 0 !important;
 }
 
-.downloadgraph_SettingsButton_lzk4z.Focusable /* Fix Settings Button */ {
+.downloadgraph_SettingsButton_lzk4z /* Fix Settings Button */ {
     z-index: 9999;
 }
 
@@ -1611,7 +1612,7 @@ div.downloads_Section_3Mbhn.downloads_Active_IbePL > div > div > div > div.downl
     margin-left: 23px !important;
 }
 
-div.downloads_Section_3Mbhn.downloads_Active_IbePL > div > div > div > div.downloads_SectionItemButtons_31Ig9.downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE > div > div.downloads_ButtonWrapper_2Zfas.downloads_Right_2WEwE.Focusable {
+div.downloads_Section_3Mbhn.downloads_Active_IbePL > div > div > div > div.downloads_SectionItemButtons_31Ig9.downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE > div > div.downloads_ButtonWrapper_2Zfas.downloads_Right_2WEwE {
     margin: 0 !important;
 }
 
@@ -1707,7 +1708,7 @@ div.appportrait_LibraryItemBoxShine_MyNb5.appportrait_Landscape_3VOR2, div.apppo
     height: 100% !important;
 }
 
-div.downloads_SectionList_OINnO.Panel.Focusable > div > div > div.downloads_AppPortrait_2pjdg > div > div > div.appportrait_LibraryItemBoxShine_MyNb5.appportrait_Landscape_3VOR2 {
+div.downloads_SectionList_OINnO.Panel > div > div > div.downloads_AppPortrait_2pjdg > div > div > div.appportrait_LibraryItemBoxShine_MyNb5.appportrait_Landscape_3VOR2 {
     display: none !important;
 }
 
@@ -1734,7 +1735,7 @@ div.downloads_SectionList_OINnO.Panel.Focusable > div > div > div.downloads_AppP
     color: var(--Text-master);
 }
 
-.appportrait_LibraryItemBoxSubscript_1LJqx, .gamelistsearchbar_FilterTag_3gzh_.Focusable {
+.appportrait_LibraryItemBoxSubscript_1LJqx, .gamelistsearchbar_FilterTag_3gzh_ {
     background-color: var(--PropertySheetBG-master);
     border: 1px solid var(--buttonborder-master);
 }
@@ -1753,15 +1754,15 @@ div.downloads_SectionList_OINnO.Panel.Focusable > div > div > div.downloads_AppP
     right: 5px;
 }
 
-.DialogDropDown._DialogInputContainer.Panel.Focusable:hover .DialogDropDown_Arrow, .gamelistdropdown_MenuHeader_2PF_m:hover .gamelistdropdown_Arrow_15aGn {
+.DialogDropDown._DialogInputContainer.Panel:hover .DialogDropDown_Arrow, .gamelistdropdown_MenuHeader_2PF_m:hover .gamelistdropdown_Arrow_15aGn {
     background-image: url(https://i.imgur.com/WKww45Z.png);
 }
 
-div.DialogDropDown._DialogInputContainer.Panel.Focusable > div.DialogDropDown_Arrow > svg, div.gamelistdropdown_MenuHeader_2PF_m > div > svg {
+div.DialogDropDown._DialogInputContainer.Panel > div.DialogDropDown_Arrow > svg, div.gamelistdropdown_MenuHeader_2PF_m > div > svg {
     display: none;
 }
 
-.DialogDropDown._DialogInputContainer.Panel.Focusable, .DialogDropDown_CurrentDisplay, .libraryhomeshowcases_CountDisplay_2qm05 /* Some more font mojo */ {
+.DialogDropDown._DialogInputContainer.Panel, .DialogDropDown_CurrentDisplay, .libraryhomeshowcases_CountDisplay_2qm05 /* Some more font mojo */ {
     line-height: 12px;
     align-items: center;
 	font-size: 11px !important;
@@ -1771,7 +1772,7 @@ div.libraryhomeshowcases_DragHandle_1OGfH > svg  /* these drag handles suck */{
     display: none;
 }
 
-.DialogDropDown._DialogInputContainer.Panel.Focusable:after /* Arrow left line */ {
+.DialogDropDown._DialogInputContainer.Panel:after /* Arrow left line */ {
     content: " ";
     border-left: 1px solid var(--buttonborder-master);
     height: 18px;
@@ -1779,7 +1780,7 @@ div.libraryhomeshowcases_DragHandle_1OGfH > svg  /* these drag handles suck */{
     right: 18px;
 }
 
-.DialogDropDown._DialogInputContainer.Panel.Focusable:hover:after, .gamelistdropdown_MenuHeader_2PF_m:hover:after {
+.DialogDropDown._DialogInputContainer.Panel:hover:after, .gamelistdropdown_MenuHeader_2PF_m:hover:after {
     border-color: var(--buttonborderfocus-master);
 }
 
@@ -1848,8 +1849,8 @@ div.NarrowRightPanel .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplay
 }
 
 /* cloud fix */
-
-.appdetailsplaysection_PlayBarCloudStatusContainer_2cRYm .Focusable {
+/*
+.appdetailsplaysection_PlayBarCloudStatusContainer_2cRYm  {
     position: absolute;
     width: 100%;
 }
@@ -1857,14 +1858,14 @@ div.NarrowRightPanel .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplay
 .appdetailsplaysection_PlayBarCloudStatusContainer_2cRYm {
     height: 16px;
 }
-
+*/
 /* more fixes */
 
 .downloads_SectionItemButtons_31Ig9.downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE {
     z-index: 999999;
 }
 
-.downloads_DetailsAndType_Bku7J.Focusable {
+.downloads_DetailsAndType_Bku7J {
     display: block;
 }
 
@@ -2091,7 +2092,7 @@ img.sharedappdetailsheader_ImgSrc__dije.sharedappdetailsheader_ImgBlur_3XYFK {
     width: auto !important;
 }
 
-input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable::placeholder {
+input.DialogInput.DialogInputPlaceholder.DialogTextInputBase::placeholder {
 	color: var(--label2-master) !important;
 }
 
@@ -2110,7 +2111,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable::placehol
     transform: none;
 }
 
-.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.Focusable #Layer_1 {
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd #Layer_1 {
     background-image: url(https://i.imgur.com/J4cibCm.png);
 }
 
@@ -2128,15 +2129,15 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable::placehol
     border-radius: 3px;
 }
 
-.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.Focusable #Layer_1:hover {
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd #Layer_1:hover {
     background-color: rgba(156,154,153,.1) !important;
 }
 
-.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd.Focusable svg.SVGIcon_Button.SVGIcon_ReadyToPlay:hover {
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg.SVGIcon_Button.SVGIcon_ReadyToPlay:hover {
     background-color: rgba(156,154,153,.1) !important;
 }
 
-.gamelistdropdown_CheckboxWithImage_3mzKd.Focusable {
+.gamelistdropdown_CheckboxWithImage_3mzKd {
     margin-right: 3px !important;
 	margin-left: 0 !important;
 }
@@ -2177,7 +2178,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable::placehol
     z-index: 0;
 }
 
-.titlebarcontrols_AnnouncementsButton_5wILZ, .titlebarcontrols_NotificationButtonContainer_3mGEz {
+.titlebarcontrols_AnnouncementsButton_5wILZ, .titlebarcontrols_NotificationButtonContainer_3mGEz, .titlebarcontrols_SoundtrackControls_Utdt7 {
     width: 30px !important;
     height: 30px !important;
     margin-right: 10px !important;
@@ -2187,6 +2188,10 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable::placehol
     background: linear-gradient(to bottom, var(--darkclientbg-master), var(--dialogbg-master));
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.titlebarcontrols_SoundtrackControls_Utdt7 {
+    width: 60px !important;
 }
 
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk {
@@ -2209,7 +2214,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable::placehol
     color: var(--label-master);
 }
 
-.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I:not(.titlebarcontrols_Disabled_1QQWj):hover, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk:not(.titlebarcontrols_Disabled_1QQWj):hover {
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I:not(.titlebarcontrols_Disabled_1QQWj):hover, .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk:not(.titlebarcontrols_Disabled_1QQWj):hover, .titlebarcontrols_AnnouncementsButton_5wILZ:hover, .titlebarcontrols_SoundtrackControls_Utdt7:not(.titlebarcontrols_Disabled_1QQWj):hover {
     background: var(--buttonface-master);
 }
 
@@ -2312,7 +2317,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable::placehol
 	overflow: visible;
 }
 
-.steamdesktop_LocalContentContainer_RGNMW {
+.steamdesktop_LocalContentContainer_RGNMW, .marketingmessagesdialog_MarketingMessagesDialog_31Kke .DialogContent_InnerWidth {
     border-radius: 2px;
     border: 1px solid rgb(23,22,20);
     box-shadow: 0px 0px 0px 1px rgb(77,75,72) !important;
@@ -2389,14 +2394,14 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable::placehol
 
 /* Check icon */
 
-.gamepaddialog_Toggle_24G4g.Focusable {
+.gamepaddialog_Toggle_24G4g {
     width: 15px;
     height: 15px;
     border: 1px solid var(--buttonface);
     border-radius: 2px;
 }
 
-.gamepaddialog_Toggle_24G4g.gamepaddialog_On_3ld7T.Focusable {
+.gamepaddialog_Toggle_24G4g.gamepaddialog_On_3ld7T {
     background-image: url(https://i.imgur.com/jBePFDn.png);
 }
 
@@ -2418,12 +2423,12 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable::placehol
     background-color: transparent;
 }
 
-.radio_Button_3lwcR.RadioButton.Focusable {
+.radio_Button_3lwcR.RadioButton {
     display: flex;
     flex-flow: row;
 }
 
-.radio_Button_3lwcR.RadioButton.Focusable:before {
+.radio_Button_3lwcR.RadioButton:before {
     content: "";
     display: block;
     width: 15px;
@@ -2433,7 +2438,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable::placehol
 	margin-right: 10px;
 }
 
-.radio_Button_3lwcR.RadioButton.radio_Active_3ZBFo.Focusable:before {
+.radio_Button_3lwcR.RadioButton.radio_Active_3ZBFo:before {
     background-color: var(--label);
     padding: 1px;
     background-clip: content-box;
@@ -2443,7 +2448,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable::placehol
 
 /* Input selector */
 
-input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
+input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
     height: 24px;
     padding: 0;
     background: none;
@@ -2452,11 +2457,11 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable {
 	padding-right: 5px;
 }
 
-.DialogInput_Wrapper._DialogLayout.Panel.Focusable {
+.DialogInput_Wrapper._DialogLayout.Panel {
     margin-top: 1px;
 }
 
-.DialogInput_Wrapper._DialogLayout.Panel.Focusable, .appproperties_BetaAccessCodeRow_2WZcp.appproperties_TopGapSmall_2evqi.Panel.Focusable {
+.DialogInput_Wrapper._DialogLayout.Panel, .appproperties_BetaAccessCodeRow_2WZcp.appproperties_TopGapSmall_2evqi.Panel {
     height: 24px;
 }
 
@@ -2501,7 +2506,7 @@ div.gamelistsearchbar_Container_20QAC > div.gamelistsearchbar_SearchInput_12vo5 
     top: -26px;
 }
 
-.pagedsettings_PagedSettingsDialog_PageListColumn_RTicB.PageListColumn.Panel.Focusable {
+.pagedsettings_PagedSettingsDialog_PageListColumn_RTicB.PageListColumn.Panel {
     padding-top: 1px;
 }
 
@@ -2509,7 +2514,7 @@ div.gamelistsearchbar_Container_20QAC > div.gamelistsearchbar_SearchInput_12vo5 
     height: 32px !important;
 }
 
-.pagedsettings_PagedSettingsDialog_3I6h_ {
+.pagedsettings_PagedSettingsDialog_3I6h_:not(.gamenotes_NotesPagedSettings_1dBCP) {
     padding-right: 9px;
     height: 585px !important;
     width: auto !important;
@@ -2523,7 +2528,7 @@ div.gamelistsearchbar_Container_20QAC > div.gamelistsearchbar_SearchInput_12vo5 
     background: linear-gradient(to bottom, #383635, #494745) !important;
 }
 
-.pagedsettings_PagedSettingsDialog_PageListColumn_RTicB.PageListColumn.Panel.Focusable {
+.pagedsettings_PagedSettingsDialog_PageListColumn_RTicB.PageListColumn.Panel {
     background: linear-gradient(to bottom, #252423 0%, #363433 5%, #1A1917 95%);
 }
 
@@ -2531,7 +2536,7 @@ div.gamelistsearchbar_Container_20QAC > div.gamelistsearchbar_SearchInput_12vo5 
     padding-top: 0 !important;
 }
 
-.pagedsettings_PagedSettingsDialog_PageListColumn_RTicB.PageListColumn.Panel.Focusable:before {
+.pagedsettings_PagedSettingsDialog_PageListColumn_RTicB.PageListColumn.Panel:before {
     content: "";
     display: block;
     height: 10px;
@@ -2568,11 +2573,11 @@ div.gamelistsearchbar_Container_20QAC > div.gamelistsearchbar_SearchInput_12vo5 
     display: none;
 }
 
-.contentmanagement_InstallFolder_12aBP.contentmanagement_AddFolder_3C0_9.Panel.Focusable svg {
+.contentmanagement_InstallFolder_12aBP.contentmanagement_AddFolder_3C0_9.Panel svg {
     color: var(--label2);
 }
 
-.contentmanagement_InstallFolder_12aBP.contentmanagement_AddFolder_3C0_9.Panel.Focusable:hover svg {
+.contentmanagement_InstallFolder_12aBP.contentmanagement_AddFolder_3C0_9.Panel:hover svg {
     color: var(--label);
 }
 
@@ -2642,4 +2647,382 @@ div.gamelistsearchbar_Container_20QAC > div.gamelistsearchbar_SearchInput_12vo5 
 
 .DialogRoundCheckboxField_Control .DialogRoundCheckboxField_InnerCircle {
     background: var(--label2);
+}
+
+button.DialogButton::before {
+	display: none !important;
+}
+
+.settings_SettingsDialogFatButton_UqEiV.DesktopUI svg, .DesktopUI .settings_SettingsDialogFatButton_UqEiV svg {
+    display: none;
+}
+
+.familysettings_UserListHeader_2LOrs, .settings_SettingsDialogSubHeader_2rK4Y.DesktopUI, .DesktopUI .settings_SettingsDialogSubHeader_2rK4Y, .notificationssettings_FriendsDescription_3fPiC.notificationssettings_FriendsDescription_3fPiC.DesktopUI, .DesktopUI .notificationssettings_FriendsDescription_3fPiC.notificationssettings_FriendsDescription_3fPiC {
+    color: var(--label2);
+}
+
+/* ????? */
+
+.appdetails_ScrollContainer_2l416 .appdetails_InnerContainer_1Svpj {
+	overflow: visible !important;
+}
+
+.appdetailsheader_Container_6-WKl, .sharedappdetailsheader_TopCapsule_2meE3, .sharedappdetailsheader_HeaderBackgroundImage_1sarA, .sharedappdetailsheader_ImgContainer_3VFZB, img.sharedappdetailsheader_ImgSrc__dije {
+    position: sticky !important;
+    top: 0 !important;
+}
+
+.sharedappdetailsheader_TopCapsule_2meE3 {
+    height: max-content !important;
+    max-height: max-content !important;
+}
+
+.appdetailsheader_Container_6-WKl {
+    height: 0;
+}
+
+.appdetailsheader_HeaderFeatures_2b6Wk {
+	position: fixed !important;
+}
+
+.titlebarcontrols_Playing_1nKxf {
+    background: linear-gradient(to bottom, #53ACCC, #377E9B) !important;
+	border-color: #53ACCC;
+}
+
+.titlebarcontrols_Playing_1nKxf:hover {
+    background: var(--GameDetailsBlue) !important;
+    border-color: var(--GameDetailsBlue) !important;
+}
+
+/* overlay */
+
+.steamdesktopoverlay_OverlayPopup_C9tvu {
+    background: linear-gradient(to bottom, var(--buttonbordersubtle-master), var(--dialogbg-master)) !important;
+    box-shadow: 0 0 0px 1.5px var(--buttonbordersubtle-master) !important;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    height: calc(100% - 4px) !important;
+    width: calc(100% - 4px);
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+
+.steamdesktopoverlay_OverlayPopup_C9tvu.PopupFullWindow.steamdesktopoverlay_FitToContent_Wt45H.Settings {
+	width: auto !important;
+	height: auto !important;
+}
+
+.steamdesktopoverlay_GameOverview_27m9Q {
+    background: none;
+}
+
+.steamdesktopoverlay_GameOverview_27m9Q .steamdesktopoverlay_GameOverviewSection_1vG-v.steamdesktopoverlay_HasBackground_P46KV,
+.steamdesktopoverlay_GameOverview_27m9Q .steamdesktopoverlay_GameOverviewSection_1vG-v .steamdesktopoverlay_GuideListItem_2OwqX {
+    background-color: var(--backgroundstartsubtle);
+}
+
+.steamdesktopoverlay_GameOverview_27m9Q .steamdesktopoverlay_GameOverviewSection_1vG-v .steamdesktopoverlay_GameOverviewSectionHeader_2wBK7 {
+    background-color: var(--buttonfaceactive);
+}
+
+.steamdesktopoverlay_OverlayPopup_C9tvu.PopupFullWindow.steamdesktopoverlay_Resizable_290hv.OverlayBrowser_Browser {
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+    background: url(https://i.imgur.com/styFQYb.png), linear-gradient(to bottom, #1A1917 50%, #2f2e2d 100%) !important;
+    background-repeat: no-repeat !important;
+    background-position: left -44px !important;
+    background-color: #2f2e2d !important;
+}
+
+.desktopbrowser_BrowserTab_TSlxC {
+    padding: 0 !important;
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+    height: 23px !important;
+    background: linear-gradient(to bottom, var(--buttonface) , var(--dialogbg));
+    border-radius: 0;
+    border: none !important;
+    margin-right: 6px;
+}
+
+.desktopbrowser_URLBar_26Gmf {
+    background: var(--dialogbg);
+    border-top: 1px solid var(--buttonface);
+	
+}
+
+.steamdesktopoverlay_OverlayPopup_C9tvu .title-area-children {
+    padding: 0;
+}
+
+.desktopbrowser_URLBar_26Gmf .desktopbrowser_StatusIcon_2UTNf {
+    color: var(--label);
+}
+
+.desktopbrowser_URLBar_26Gmf .desktopbrowser_NavigationButton_1oXr_.desktopbrowser_Disabled_1f6yY {
+    color: var(--label2);
+}
+
+.desktopbrowser_URLBar_26Gmf .desktopbrowser_NavigationButton_1oXr_:hover {
+    background: none;
+}
+
+.desktopbrowser_URLBar_26Gmf .desktopbrowser_URLBarText_1d2NZ:hover {
+    background: none;
+}
+
+.OverlayBrowser_Browser input {
+    border: none !important;
+}
+
+.desktopbrowser_BrowserTab_TSlxC.desktopbrowser_Active_1W4bb {
+    transform: translateY(1px);
+}
+
+.desktopbrowser_BrowserTabs_aqvbk {
+    z-index: 1;
+    overflow: visible;
+}
+
+.screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Secondary_2Wyma,
+.serverbrowserdialog_ServerBrowserDialog_2rxrV .serverbrowserdialog_DialogBody_2SvsK .serverbrowserdialog_ServerTabPane_2YSm1 .serverbrowserdialog_ServerList_2_4_n .serverbrowserdialog_SelectColumnsButton_3mCrT {
+    background-color: var(--PropertySheetBG);
+    border: 1px solid var(--buttonborder-master);
+}
+
+.screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Secondary_2Wyma:hover,
+.serverbrowserdialog_ServerBrowserDialog_2rxrV .serverbrowserdialog_DialogBody_2SvsK .serverbrowserdialog_ServerTabPane_2YSm1 .serverbrowserdialog_ServerList_2_4_n .serverbrowserdialog_SelectColumnsButton_3mCrT:hover {
+    background-color: var(--PropertySheetBG);
+    border-color: var(--buttonborderfocus-master) !important;
+}
+
+.screenshotmanagerdialog_CaptionField_oQafB, .screenshotmanagerdialog_ExplainerBox_2lrrN, .screenshotmanagerdialog_FocusedScreenshots_PKkxu {
+    background-color: transparent;
+    border: 1px solid var(--label2);
+}
+
+.screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Secondary_2Wyma.screenshotmanagerdialog_Disabled_2DImO {
+    background-color: var(--dialogbg);
+}
+
+.DialogDropDown._DialogInputContainer.Panel {
+    display: flex;
+}
+
+.serverbrowserdialog_ServerBrowserDialog_2rxrV .serverbrowserdialog_DialogBody_2SvsK .serverbrowserdialog_ServerTabPane_2YSm1 .serverbrowserdialog_ServerList_2_4_n .serverbrowserdialog_ColumnResizer_1XAm7 {
+    background: none !important;
+}
+
+.serverbrowserdialog_ServerBrowserDialog_2rxrV .serverbrowserdialog_DialogBody_2SvsK .serverbrowserdialog_ServerTabPane_2YSm1 .serverbrowserdialog_ServerList_2_4_n .serverbrowserdialog_ColumnResizer_1XAm7 span {
+    border-color: var(--label2);
+}
+
+.serverbrowserdialog_SearchButton_2KYMM svg {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.serverbrowserdialog_ServerBrowserDialog_2rxrV .serverbrowserdialog_DialogBody_2SvsK {
+    overflow: hidden;
+}
+
+.ModalDialogPopup .DialogContentTransition .DialogBody {
+    overflow-y: auto;
+}
+
+.steamdesktopoverlay_OverlayPopup_C9tvu.PopupFullWindow.steamdesktopoverlay_FitToContent_Wt45H.SoundtrackPlayer {
+    height: fit-content !important;
+    min-width: 320px !important;
+}
+
+.steamdesktopoverlay_OverlayPopup_C9tvu .appdetailssoundtrack_SoundtrackContainer_1c7FW {
+    margin-left: 0;
+}
+
+.soundtrackoverlay_Overlay_fMMMD {
+    padding: 6px !important;
+}
+
+.SoundtrackPlayer {
+    background-image: url(https://i.imgur.com/styFQYb.png), linear-gradient(to bottom, black, var(--dialogbg-master) 175px) !important;
+    background-repeat: no-repeat !important;
+}
+
+.SoundtrackPlayer .steamdesktopoverlay_WindowControls_2O7tj, .SoundtrackPlayer .TitleBar.title-area {
+    height: 24px !important;
+}
+
+button.soundtrackcontrols_IconButton_1iFnR {
+    background: none !important;
+    border: none !important;
+	margin: auto !important;
+}
+
+button.soundtrackcontrols_IconButton_1iFnR:hover {
+    border: none !important;
+}
+
+button.soundtrackcontrols_IconButton_1iFnR svg path {
+    stroke: var(--label2);
+    fill: var(--label2);
+}
+
+button.soundtrackcontrols_IconButton_1iFnR:hover svg path {
+    stroke: var(--label);
+    fill: var(--label);
+}
+
+button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P svg path {
+    stroke: var(--label) !important;
+    fill: var(--label) !important;
+}
+
+button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P:hover svg path {
+    stroke: var(--Text) !important;
+    fill: var(--Text) !important;
+}
+
+button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.soundtrackcontrols_Large_Upr_V.DialogButton._DialogLayout.Secondary {
+    border: 3px solid var(--label) !important;
+    border-radius: 100% !important;
+}
+
+button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.soundtrackcontrols_Large_Upr_V.DialogButton._DialogLayout.Secondary:hover {
+    border-color: var(--Text) !important;
+}
+
+.soundtrackoverlay_Overlay_fMMMD.Panel button {
+    width: auto;
+}
+
+/* What? */
+
+.gamepadslider_SliderTrack_Mq25N {
+    background: white;
+    height: 3px;
+    border-radius: 0 !important;
+    overflow: visible;
+}
+
+.gamepadslider_SliderTrack_Mq25N::before {
+    background-color: var(--label);
+}
+
+.gamepadslider_SliderTrack_Mq25N:after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 17px;
+    background-color: var(--label);
+    left: calc(var(--normalized-width-handle) - 1px);
+    top: -7px;
+    position: absolute;
+    --normalized-fill-start: calc( ( 100% ) * min( var( --normalized-slider-value ), var( --normalized-slider-origin ) ) );
+    --normalized-fill-end: calc( ( 100% ) * max( var( --normalized-slider-value ), var( --normalized-slider-origin ) ) );
+    --normalized-width-handle: calc( var( --normalized-fill-end ) - var( --normalized-fill-start ) );
+}
+
+.gamepadslider_SliderHandleContainer_1pQZi {
+    display: none;
+}
+
+.soundtrackcontrols_SoundtrackName_I1Aqd {
+    font-size: 15px !important;
+    font-weight: bold !IMPORTANT;
+}
+
+.soundtrackcontrols_TrackName_2mM3t {
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+
+.soundtrackcontrols_SoundtrackName_I1Aqd {
+    margin-bottom: 5px;
+}
+
+.soundtrackoverlay_Overlay_fMMMD.Panel > button:nth-child(2), .soundtrackcontrols_ContextMenu_20v4M > button:nth-child(2) {
+    background: linear-gradient(to bottom, #1A1917 12px, #363433 128px) !important;
+    width: -webkit-fill-available;
+}
+
+.soundtrackcontrols_ControlBlock_3DLyr {
+    flex-direction: row;
+}
+
+.appdetailssoundtrack_LeftColumn_23WS1 .soundtrackcontrols_ControlBlock_3DLyr {
+    flex-direction: column;
+}
+
+.appdetailsplaysection_PlayBarCloudStatusContainer_2cRYm button {
+    background: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-transform: none !important;
+    font-size: 14px !important;
+    font-weight: 100 !important;
+    color: var(--Text-master) !important;
+}
+
+.appdetailsplaysection_PlayBarCloudStatusContainer_2cRYm button:hover {
+    border: none !important;
+}
+
+.appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_StatusNameContainer_zjtAI {
+    height: 48px;
+}
+
+.SoundtrackPlayer, .DialogContent._DialogLayout.marketingmessagesdialog_MarketingMessagesDialog_31Kke, .soundtrackcontrols_ContextMenu_20v4M {
+    background-image: url(https://i.imgur.com/styFQYb.png), linear-gradient(to bottom, black, var(--dialogbg-master) 175px) !important;
+    background-repeat: no-repeat !important;
+}
+
+.appdetailssoundtrack_AlbumName_oW5xv {
+    padding: 5px 10px 5px 10px !important;
+    width: fit-content !important;
+    background: var(--PanelColor);
+	font-size: 27px !important;
+	letter-spacing: normal !important;
+	color: var(--Text) !important;
+}
+
+.appdetailssoundtrack_ArtistName_2bTdS {
+    padding: 10px 0px 0px 10px !important;
+    color: var(--Text) !important;
+}
+
+.appdetailssoundtrack_StatsAndParent_3pUBu {
+    padding-left: 10px;
+}
+
+.appdetailssoundtrack_AlbumStats_1qxAZ, .appdetailssoundtrack_ParentGameLink_2pcGG {
+    color: var(--label) !important;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l {
+    border-bottom: 0;
+}
+
+.appdetailssoundtrack_SoundtrackPanel_23zCI {
+	background-image: linear-gradient(to bottom, var(--dialogbg), var(--almostBlack)) !important;
+	background-color: transparent !important;
+}
+
+.appdetailssoundtrack_BackgroundContainer_26bNl {
+    display: none;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep {
+    background: none;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_LeftColumn_23WS1 .appdetailssoundtrack_AlbumArt_1R0eE {
+    width: 250px;
+    height: 250px;
+}
+
+.appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Content_22Q27 .appdetailssoundtrack_RightColumn_1s3Ep .appdetailssoundtrack_TrackListContainer_1Rrhq .appdetailssoundtrack_Disc_17Yl1 {
+    background: none;
 }
