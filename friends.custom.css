@@ -780,12 +780,61 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb,
     background: none;
 }
 
+.inviteAnotherFriendButton {
+    border-radius: 5px;
+    background: linear-gradient(to bottom, var(--buttonface2), var(--PropertySheetBG));
+    border: 1px solid var(--buttonborder);
+    right: 24px;
+    top: 17px;
+}
+
+.inviteAnotherFriendButton .SVGIcon_Button {
+    fill: var(--label);
+}
+
+.inviteAnotherFriendButton .SVGIcon_Button line, .chatRoomButton .SVGIcon_Button line {
+    stroke: var(--label);
+}
+
+.inviteAnotherFriendButton:hover .invitePlus, .chatRoomButton:hover:not(.Disabled) .invitePlus {
+    transform: none;
+}
+
 /* Chat tools / "Footer" */
 
-form.chatentry_chatEntryControls_2gP0D, .chatentry_chatEntryActionsGroup_3grea .chatentry_chatSubmitButton_1IEiK {
+form.chatentry_chatEntryControls_2gP0D, .chatentry_chatEntryActionsGroup_3grea .chatentry_chatSubmitButton_1IEiK, .VoiceToggle {
     background: none !important;
     border: 1px solid var(--buttonface) !important;
     border-radius: 5px !important;
+}
+
+.VoiceToggle {
+    max-width: 52px !important;
+    max-height: 52px !important;
+    min-width: 52px !important;
+    width: 52px !important;
+    height: 52px !important;
+}
+
+.VoiceToggleIconCtn {
+    position: relative;
+}
+
+.ChatMessageEntryVoice {
+    background-color: transparent;
+}
+
+.friendsui-container .SVGIcon_TextRoom, .friendsui-container .SVGIcon_Button.SVGIcon_TextRoom, .friendsui-container .SVGIcon_VoiceRoom, .friendsui-container .SVGIcon_Button.SVGIcon_VoiceRoom {
+    fill: var(--label2) !important;
+    stroke: var(--label2) !important;
+}
+
+.VoiceToggleIconCtn .SVGIcon_VoiceRoom .Microphone {
+    fill: var(--label2) !important;
+}
+
+.VoiceToggle:not(.Disabled):focus .SVGIcon_VoiceRoom .Microphone, .VoiceToggle:not(.Disabled):hover .SVGIcon_VoiceRoom .Microphone, .VoiceToggle:not(.Disabled):focus .SVGIcon_VoiceRoom .AudioLines, .VoiceToggle:not(.Disabled):hover .SVGIcon_VoiceRoom .AudioLines {
+	fill: #fff !important;
 }
 
 .chatentry_chatSubmitButton_1IEiK {
@@ -824,4 +873,37 @@ form.chatentry_chatEntryControls_2gP0D, .chatentry_chatEntryActionsGroup_3grea .
 
 .chatentry_chatEntryActionsContainer_1X1-n {
     max-height: 100%;
+}
+
+@keyframes fade {
+	
+	0% {
+		
+		opacity: 1;
+		
+	}
+	100% {
+		
+		opacity: 0;
+	}
+}
+
+.friendlist.compactView:before {
+    content: "Turn off compact mode, please.";
+	font-size: 18px;
+	font-weight: bold;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    z-index: 999999999999;
+    text-align: center;
+    color: white;
+    margin: auto;
+    animation: fade 0.5s ease-in;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	pointer-events: none !important;
 }
