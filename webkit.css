@@ -1,0 +1,518 @@
+/* Client */
+
+.messagelist_MessageListPage_1N7O3 {
+    background: linear-gradient(to top, #1A1917 30%, rgb(56,54,53) 70%) !important;
+}
+
+.image_GameImage_2It5b.image_IsBlur_2lGtR {
+    display: none;
+}
+
+.messagelist_MessageListScroll_2RW7G {
+    margin-top: 15px;
+}
+
+/* Global */
+
+* {
+  	font-family: Arial, Helvetica, sans-serif !important;
+}
+
+a.whiteLink:hover, .whiteLink:hover, a.linkStandard:hover, a.linkTitle:hover, a.underlinedLink:hover, .weblink a:hover {
+  	color: #ebebeb !important;
+  	text-decoration: underline !important;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar-thumb {
+	background-color: rgb(92,89,86) !important;
+	border-left: 2px solid transparent !important;
+	border-right: 2px solid transparent !important;
+	border-top: 0px !important;
+	border-bottom: 0px !important;
+	background-image: url("https://i.imgur.com/R1VeTuY.png") !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	border-radius: 3.5px !important;
+	min-height: 21px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(105,102,99) !important;
+	border-left: 2px solid transparent !important;
+	border-right: 2px solid transparent !important;
+	border-top: 0px !important;
+	border-bottom: 0px !important;
+	background-image: url("https://i.imgur.com/R1VeTuY.png") !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	border-radius: 3.5px !important;
+}
+
+::-webkit-scrollbar {
+	width: 17px !important;
+}
+
+::-webkit-scrollbar-track {
+	display: block !important;
+	background-image: linear-gradient(to bottom, rgb(77,75,72) 0px, transparent 200px) !important;
+	background-repeat: no-repeat;
+	border-left: 2px solid transparent;
+	border-radius: 3.5px !important;
+	border-right: 2px solid transparent;
+}
+
+::-webkit-scrollbar-button:single-button {
+	display: block !important;
+	height: 24px !important;
+	width: 17px !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	border-radius: 3.5px !important;
+	background-clip: content-box;
+	border: 2px solid transparent;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+	background-image: url("https://i.imgur.com/yq1K42i.png");
+	background-color: rgb(92,89,86);
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+	background-image: url("https://i.imgur.com/C1mnmlC.png");
+	background-color: rgb(105,102,99);
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+	background-image: url("https://i.imgur.com/NX4Z0fU.png");
+	background-color: rgb(92,89,86);
+}
+
+::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+	background-image: url("https://i.imgur.com/EKk8diC.png");
+	background-color: rgb(105,102,99);
+}
+
+
+/*=============
+===COMMUNITY===
+=============*/
+
+/*==Discussions Page==*/
+
+body {
+	background: #262627 !important;
+}
+
+.discussionSearchTextContainer {
+  	background-image: url(https://web.archive.org/web/20131118022222im_/http://cdn.steamcommunity.com/public/images/sharedfiles/ig/searchbox_workshop_bg_wide_blue.png);
+}
+
+.game_page_background.game {
+  	background-blend-mode: luminosity;
+  	background-color: #262627 !important;
+}
+
+.apphub_background {
+  	background-image: url( 'https://web.archive.org/web/20140301024027im_/http://cdn.steamcommunity.com/public/images/groups/group_page_background.png' ) !important;
+  	background-repeat: repeat-x;
+  	background-position: center top;
+  	background-color: #262627;
+  	background-size: auto;
+  	background-attachment: inherit;
+}
+
+/* Discussions leftcol */
+
+.discussions_page {
+  	background-image: url( 'https://community.cloudflare.steamstatic.com/public/images/groups/group_content_background.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.group_content.bottomless {
+  	background: url( 'https://web.archive.org/web/20131118022223im_/http://cdn.steamcommunity.com/public/images/groups/group_content_topbackground.png' ) top left no-repeat;
+}
+
+.grouppage_content_area h2, a.large_title, h2.large_title {
+  	color: #529cde;
+  	font-size: 24px;
+  	padding: 0;
+  	text-decoration: none;
+}
+
+.steam_discussions_intro {
+  	color: #989898;
+}
+
+/* Discussions rightcol */
+
+.rightbox_header, .rightbox_footer {
+  	background-image: url( 'https://community.cloudflare.steamstatic.com/public/images/groups/rightcol_box_topbtm.png' ) !important;
+	background-repeat: no-repeat;
+}
+
+.rightbox {
+  	background-color: transparent !important;
+  	background-image: url( 'https://community.cloudflare.steamstatic.com/public/images/groups/rightcol_box_repeat.png' ) !important;
+	background-repeat: repeat-y;
+}
+
+.rightbox_list_header, .rightbox_content_header {
+  	color: #676765;
+}
+
+.rightbox .rule {
+  	width: 100%;
+  	background-color: #333;
+}
+
+/* Discussions header */
+
+.discussions_header {
+  	border-bottom: 5px solid #364862;
+}
+
+.group_tab, .group_tab:hover {
+  	margin-right: 3px !important;
+  	background-color: #444444 !important;
+  	line-height: 26px !important;
+  	border-top-left-radius: 3px !important;
+  	border-top-right-radius: 3px !important;
+	color: #dadada !important;
+	height: auto !important;
+	margin-top: 10px;
+}
+
+.group_tab.active {
+  	line-height: 34px;
+  	color: #ffffff;
+  	padding: 0 14px;
+  	margin-top: 0;
+  	border: 1px solid #57739d;
+  	border-bottom: none !important;
+  	background-color: #364862 !important;
+  	background-image: url( 'https://web.archive.org/web/20131118022223im_/http://cdn.steamcommunity.com/public/images/groups/tab_blue_active.png' );
+	background-repeat: repeat-x;
+	background-position: top center;
+	height: 35px !important;
+}
+
+.group_tab.active > span {
+  	background: none;
+  	padding: 0;
+  	border-radius: 0;
+}
+
+/* "Game Forums" Tab */
+
+.discussions_game_browseoption {
+  	background-color: #303031;
+  	border-radius: 3px;
+}
+
+.discussions_game_header, .forum_topic, .discussions_game_footer {
+  	background-color: #2f2f30;
+}
+
+.forum_topic:hover {
+  	background-color: #3c3c3d;
+}
+
+.forum_topic_op, .forum_topic:hover .forum_topic_op {
+  	color: #717171;
+}
+
+.forum_topic_lastpost, .forum_topic:hover .forum_topic_lastpost {
+  	color: #969696;
+  	line-height: 48px;
+}
+
+.forum_topic_tooltip {
+  	background-color: #2f2f30;
+  	border: 1px solid #3c3c3d;
+}
+
+/* Forum imgs */
+
+.forum_topic_icon a img, .discussions_forumlist_icon img, .recent_game_discussions_unread_indicator img, .discussions_recentlyplayed img {
+  	filter: grayscale(0.5);
+}
+
+.forum_topic_reply_count img {
+  	filter: contrast(0);
+}
+
+.forum_topic_award_count {
+	display: none;
+}
+
+/*==Forum Page==*/
+
+/* Footer */
+
+#footer {
+  height: 78px;
+}
+
+#footerLogo img {
+  	filter: brightness(0.5) grayscale(1);
+}
+
+#footerText {
+  	color: #777;
+	font-size: 11px;
+	padding: 2px 0 0 113px;
+}
+
+#footer a {
+  	color: #777;
+  	text-decoration: underline;
+}
+
+.valve_links {
+  	margin: 0;
+}
+
+/* Apphub sections */
+
+.apphub_sectionTab.active > span {
+  	background: linear-gradient(to bottom, #445b7c 5%,#364963 95%);
+}
+
+.apphub_sectionTab.active, .apphub_sectionTab.active:hover {
+  	background: linear-gradient(to bottom, #57749e 5%,#364963 95%);
+}
+
+.apphub_sectionTab:hover {
+  	background: linear-gradient(to bottom, #57749e 5%,#364963 95%);
+}
+
+.apphub_sectionTabsHR {
+  	background: #364963;
+}
+
+.apphub_HeaderTop {
+  	background: url(https://steamcommunity-a.akamaihd.net/public/shared/images/apphubs/bg_hub_header.png);
+  	height: 78px;
+}
+
+.apphub_sectionTabs {
+  	bottom: 5px;
+}
+
+.apphub_OtherSiteInfo {
+  	right: 11px;
+}
+
+/* Blue buttons */
+
+.btnv6_blue_hoverfade,
+.btn_darkblue_white_innerfade {
+  	color: #fff !important;
+  	background: linear-gradient(to bottom, #57749e 5%,#364963 95%);
+}
+
+.btnv6_blue_hoverfade:hover,
+.btn_darkblue_white_innerfade:hover {
+  	background: linear-gradient(to bottom, #688bb1 5%,#415877 95%) !important;
+}
+
+.btnv6_blue_hoverfade.btn_medium > span,
+.btn_darkblue_white_innerfade.btn_medium > span {
+  	background: linear-gradient(to bottom, #445b7c 5%,#364963 95%);
+}
+
+.btnv6_blue_hoverfade.btn_medium:hover > span,
+.btn_darkblue_white_innerfade.btn_medium:hover > span {
+  	background: linear-gradient(to bottom, #526d95 5%,#415877 95%) !important;
+}
+
+/* Forum leftcol */
+
+.forum_paging {
+  	background-color: #1c1c1d;
+  	color: #747474;
+	margin: 8px 0px;
+}
+
+/* Forum Rightcol */
+
+.rightbox_list_selection_background {
+  	background-image: url( 'https://web.archive.org/web/20140228191351im_/http://cdn.steamcommunity.com/public/images/groups/rightcol_option_selected.png' );
+}
+
+/* pagebtn */
+
+.pagebtn.disabled, .pagebtn.disabled:hover, a.pagebtn.disabled, a.pagebtn.disabled:hover {
+	border: 1px solid #333333;
+  	background-color: transparent;
+  	color: #333333;
+  	cursor: default;
+  	opacity: 1;
+}
+
+.pagebtn, a.pagebtn {
+  	display: inline-block;
+  	line-height: 24px;
+  	background-color: #000000;
+  	border: 1px solid #000000;
+  	color: #939393;
+}
+
+.pagebtn:not(.disabled):hover, a.pagebtn:not(.disabled):hover {
+  	background-color: #97C0E3 !important;
+  	border-color: #97C0E3 !important;
+  	color: #3C3D3E !important;
+  	text-decoration: none !important;
+}
+
+.forum_paging_pagelink.active, .forum_paging_controls .commentthread_pagelink.active {
+  	color: #747474;
+}
+
+/*==Forum Thread Page==*/
+
+/* Thread lefcol */
+
+/* Thread Breadcrumbs */
+
+.forum_breadcrumbs, .forum_breadcrumbs a {
+  	color: #9b9b9b;
+  	font-size: 14px;
+}
+
+/* OP And replies */
+
+.forum_op {
+  	position: relative;
+  	border: 1px solid #45484c;
+  	border-radius: 3px;
+  	background-color: #262627;
+  	background-image: url( 'https://web.archive.org/web/20131119201149im_/http://cdn.steamcommunity.com/public/images//skin_1/forum_op_gradient.png?v=2' );
+	box-shadow: none;
+}
+
+.forumtopic_comments .commentthread_comment {
+  	background-color: #343435;
+  	color: #898989;
+  	border: 1px solid #3d3d3e;
+	box-shadow: none;
+}
+
+.forum_comment_permlink a {
+  	color: #535354;
+}
+
+.commentthread_comment_text {
+  	font-size: 14px;
+}
+
+.forumtopic_comments .commentthread_comment_text {
+  	color: #ccc !important;
+}
+
+/* Avatar Borders */
+
+.playerAvatar {
+  	padding: 3px;
+  	border-radius: 3px;
+}
+
+.playerAvatar.online {
+  	background: linear-gradient(to bottom, #7bafd6 5%,#506d92 95%);
+}
+
+/* Thread Rightcol */
+
+.topicstats_label {
+  	color: #494947;
+}
+
+.topicstats_value {
+  	color: #82827e;
+}
+
+/*==Screenshots Page==*/
+
+/* Section Filter */
+
+.apphub_SectionFilter {
+  	margin-top: 8px;
+  	background-color: rgba( 0, 0, 0, 0.2 );
+  	border: 1px solid #364050;
+  	height: 46px;
+}
+
+.apphub_HeaderBottomBG {
+  	background: url('https://web.archive.org/web/20131104163049im_/http://cdn.steamcommunity.com/public/shared/images/apphubs/bg_filter_blue.png') no-repeat top center;
+  	z-index: 0;
+}
+
+.apphub_SectionFilterLabel {
+  	color: #58759f;
+}
+
+.filterselect {
+  	background: #7095ca !important;
+  	border: 1px solid #79a1db !important;
+  	color: white !important;
+}
+
+.filterselect_options {
+  	background: #7095ca !important;
+  	border: 1px solid #79a1db !important;
+}
+
+.appHubSearchTextInput {
+  	background-color: #1a1a1a !important;
+  	color: #909090 !important;
+  	border: 1px solid #707070 !important;
+}
+
+/* Cards */
+
+.apphub_Card {
+  	background-color: #1b1b1b;
+  	border: 1px solid #343434;
+  	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+
+.apphub_Card.interactable:hover {
+  	border: 1px solid #97c0e3;
+}
+
+.apphub_CardContentAuthorBlock.tall {
+  	border: none;
+  	background-color: #3e3d3d;
+}
+
+.apphub_Card.interactable:hover .apphub_CardContentAuthorBlock {
+  	background-color: #494949;
+}
+
+.apphub_CardContentType {
+  	background-color: #282B31CF;
+  	background-image: none;
+	font-weight: bold;
+}
+
+/* Awards tooltip begone */
+
+.review_award_aggregated {
+  	display: none !important;
+}
+
+/*=="All" Page==*/
+
+.apphub_StoreInfoHeader {
+  	background-image: url( 'https://community.cloudflare.steamstatic.com/public/images/apphubs/bg_gameinfo.png' );
+  	position: relative;
+}
+
+.apphub_CardContentMain .UserReviewCardContent_Footer .gradient {
+  filter: grayscale(1);
+}
+
+/*=="Guides" Page==*/
