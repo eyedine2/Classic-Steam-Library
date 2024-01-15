@@ -3349,3 +3349,7 @@ span.gamelistsectionheader_SectionName_2mZ8L {
     z-index: 9999999;
     pointer-events: none;
 }
+
+.DialogMenuPosition.visible.contextmenu_ContextMenuFocusContainer_2qyBZ {
+    z-index: 9999999;
+}
