@@ -11,3 +11,5 @@ Installation differs between Millennium and SFP. For SFP, drop the theme in the 
 For Millennium, open the Millennium Community page and drop the theme onto Millennium. Then enable in your interface settings.
 
 For Manual Installation in Millennium, drop the theme in your `steamui > skins` Folder.
+
+<div style="color:red; border:10px; font-size:48px">Test</div>
