@@ -1,0 +1,19 @@
+{
+    "Steam-WebKit": "webkit.css",
+    "UseDefaultPatches": true,
+    "author": "naii_",
+    "description": "2013 in today",
+    "name": "2013 Inspired Steam UI",
+    "version": "1.0",
+    "source": "https://github.com/eyedine2/Classic-Steam-Library/tree/main",
+    "github": {
+        "owner": "eyedine2",
+        "repo_name": "Classic-Steam-Library"
+    },
+    "tags": [
+        "Dark",
+        "Classic",
+    ],
+    "header_image": "https://i.imgur.com/BmV004U.png",
+    "splash_image": "https://i.imgur.com/aSt3P37.png"
+}
