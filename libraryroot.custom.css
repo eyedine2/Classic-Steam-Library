@@ -2020,6 +2020,7 @@ img.sharedappdetailsheader_ImgSrc__dije.sharedappdetailsheader_ImgBlur_3XYFK {
     padding: 0;
     height: 26px;
     border-radius: 3px;
+	margin: 0;
 }
 
 .gamelistdropdown_ViewFiltersBar_36r2a:before {
@@ -2579,6 +2580,8 @@ div.gamelistsearchbar_Container_20QAC > div.gamelistsearchbar_SearchInput_12vo5 
     padding-top: 32px;
     padding-bottom: 46px;
     background: #383635 !important;
+	min-width: 0 !important;
+    min-height: 0 !important;
 }
 
 .DialogContent, .DialogContentTransition {
