@@ -6,7 +6,7 @@ Returns the Steam library to it's 2010-era look with CSS tweaks instead of rever
 
 # Installation
 
-Installation differs between Millennium and SFP. For SFP, drop the theme in the `steamui` folder with SFP left patching. 
+Installation differs slightly between Millennium and SFP. For SFP, drop the theme in the `steamui` folder or the `skins` folder inside steamui with SFP left patching. 
 
 For Millennium, open the Millennium Community page and drop the theme onto Millennium. Then enable in your interface settings.
 
