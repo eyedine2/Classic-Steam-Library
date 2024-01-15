@@ -2574,7 +2574,7 @@ div.gamelistsearchbar_Container_20QAC > div.gamelistsearchbar_SearchInput_12vo5 
 
 .pagedsettings_PagedSettingsDialog_3I6h_:not(.gamenotes_NotesPagedSettings_1dBCP) {
     padding-right: 9px;
-    height: 585px !important;
+    height: -webkit-fill-available !important;
     width: auto !important;
     padding-left: 9px;
     padding-top: 32px;
@@ -3355,4 +3355,8 @@ span.gamelistsectionheader_SectionName_2mZ8L {
 
 .DialogMenuPosition.visible.contextmenu_ContextMenuFocusContainer_2qyBZ {
     z-index: 9999999;
+}
+
+.pagedsettings_PagedSettingsDialog_PageListColumn_RTicB.DesktopUI, .DesktopUI .pagedsettings_PagedSettingsDialog_PageListColumn_RTicB {
+    min-height: 0;
 }
