@@ -1,3 +1,5 @@
+<!-- div style="color:red; border:10px; font-size:48px">Test</div -->
+
 # 2013 Inspired Steam UI
 
 [![Video](https://user-images.githubusercontent.com/65731940/125979354-e86bb0ec-40d1-45af-b755-45e70f8cf844.png)](https://www.youtube.com/watch?v=IoKg5fYlZLs)
@@ -11,5 +13,3 @@ Installation differs slightly between Millennium and SFP. For SFP, drop the them
 For Millennium, open the Millennium Community page and drop the theme onto Millennium. Then enable in your interface settings.
 
 For Manual Installation in Millennium, drop the theme in your `steamui > skins` Folder.
-
-<div style="color:red; border:10px; font-size:48px">Test</div>
