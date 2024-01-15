@@ -704,8 +704,8 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb,
     width: 10px;
     height: 10px;
     position: absolute;
-    right: 3px;
-    top: 2px;
+    right: 7px;
+	top: 5px;
 }
 
 .chattabs_CloseButton_7gMwY .SVGIcon_X_Line line {
@@ -822,6 +822,10 @@ form.chatentry_chatEntryControls_2gP0D, .chatentry_chatEntryActionsGroup_3grea .
 
 .ChatMessageEntryVoice {
     background-color: transparent;
+	padding: 0;
+    max-width: 52px;
+    max-height: 52px;
+    flex: 1;
 }
 
 .friendsui-container .SVGIcon_TextRoom, .friendsui-container .SVGIcon_Button.SVGIcon_TextRoom, .friendsui-container .SVGIcon_VoiceRoom, .friendsui-container .SVGIcon_Button.SVGIcon_VoiceRoom {
