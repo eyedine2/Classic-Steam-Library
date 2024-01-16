@@ -13,3 +13,5 @@ Installation differs slightly between Millennium and SFP. For SFP, drop the them
 For Millennium, open the Millennium Community page and drop the theme onto Millennium. Then enable in your interface settings.
 
 For Manual Installation in Millennium, drop the theme in your `steamui > skins` Folder.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N1KXPVY)
