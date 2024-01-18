@@ -111,8 +111,7 @@ body {
 #navbar {
     background: url(https://i.imgur.com/ihujOpD.jpg) !important;
     border-bottom: 1px solid #4D4B48 !important;
-    background-size: auto 111px !important;
-}
+    background-size: auto 100% !important;
 
     
 .nav-item {
