@@ -5,9 +5,19 @@
 
 Returns the Steam library to it's 2010-era look with CSS tweaks instead of reverting it.
 
-<div class="image-gradient">
-    <img src="https://i.imgur.com/9dRmkpO.png" alt="Friends">
+This is a large scale and somewhat messy project that has taken place over the course of several years. Things are not perfect here, but you probably aren't here for that.
+
+<div class="a-container">
+    <div class="image-gradient" id="left">
+        <img src="https://i.imgur.com/9dRmkpO.png" alt="Friends">
+    </div>
+    <div id="right">
+        <h1>Test</h1>
+        <p>Test</p>
+    </div>
 </div>
+
+# A Complete Rework
 
 # Installation
 
@@ -24,8 +34,13 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
   
   /* These are styles for the theme page on Millennium. You can see this on github */
 
-.image-gradient img {
+#left.image-gradient img {
     -webkit-mask-image: linear-gradient(to left, transparent 0px, #0000001f 10px, #00000045 20px, #000000a3 40px, black 75px);
+}
+
+.a-container {
+  display: flex;
+  flex-wrap: wrap;
 }
   
 .addon-details-segment {
