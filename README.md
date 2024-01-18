@@ -19,7 +19,7 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N1KXPVY)
 
-<!-- style>
+<style>
   
   /* These are styles for the theme page on Millennium. You can see this on github */
   
@@ -54,4 +54,4 @@ body {
   background: black !important;
 }
   
-</style -->
+</style>
