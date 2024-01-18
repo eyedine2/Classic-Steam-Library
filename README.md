@@ -66,25 +66,20 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
     object-position: bottom left !important;
 }
 
-/*
 footer#section-footer {
     background: black !important;
 }
-*/
     
 body {
     background: black !important;
     font-family: Arial, Helvetica, sans-serif !important;
 }
-
-/*
     
 #navbar {
     background: url(https://i.imgur.com/ihujOpD.jpg) !important;
     height: 104px !important;
     border-bottom: 1px solid #4D4B48 !important;
 }
-
 
     
 .nav-item {
@@ -93,6 +88,5 @@ body {
     text-transform: uppercase;
 }
 
-*/
     
 </style>
