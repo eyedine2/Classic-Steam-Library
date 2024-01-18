@@ -24,7 +24,7 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
   
   /* These are styles for the theme page on Millennium. You can see this on github */
 
-.image-gradient {
+.image-gradient img {
     -webkit-mask-image: linear-gradient(to left, transparent 0px, #0000001f 10px, #00000045 20px, #000000a3 40px, black 75px);
 }
   
