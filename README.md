@@ -25,6 +25,7 @@ This is a large scale and somewhat messy project that has taken place over the c
     <img src="https://i.imgur.com/PO8RHyN.png">
 </div>
 <br>
+
 ## Trimming the Fat
 Poorly performing and visually noisy areas of the vanilla client have been smoothed over. No longer will your system be assaulted by achievement spam! Certain "Problem games" (Such as PAYDAY 2) used to add thousands of elements to facilitate poorly thought out community features. All of this has been removed.
 
@@ -36,6 +37,7 @@ Everything is repositioned to maximize both space and content on screen in a sen
     <img src="https://i.imgur.com/3C485lX.png">
 </div>
 <br>
+
 ## The Activity Feed, Rethought!
 What was once a hub of useless spam is now a re-envisioned version of the old "News" panel. All of your game's updates, now in one place!
 
