@@ -37,7 +37,7 @@ Everything is repositioned to maximize both space and content on screen in a sen
 </div>
 
 # The Activity Feed, Rethought!
-What was once a hub of useless spam is now a reinvisioned version of the old "News" panel. All of your game's updates, now in one place!
+What was once a hub of useless spam is now a re-envisioned version of the old "News" panel. All of your game's updates, now in one place!
 
 I mean, it's not like you actually use the "What's New" shelf... right?
 <br>
