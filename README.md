@@ -6,10 +6,8 @@
 Returns the Steam library to it's 2010-era look with CSS tweaks instead of reverting it.
 
 <div class="image-gradient">
-![Friends](https://i.imgur.com/9dRmkpO.png)
+    <img src="https://i.imgur.com/9dRmkpO.png" alt="Friends">
 </div>
-
-![Friends](https://i.imgur.com/9dRmkpO.png)
 
 # Installation
 
