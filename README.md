@@ -12,12 +12,10 @@ This is a large scale and somewhat messy project that has taken place over the c
         <img src="https://i.imgur.com/9dRmkpO.png" alt="Friends">
     </div>
     <div id="right">
-        <h1>Test</h1>
-        <p>Test</p>
+        <h1>A Complete Rework</h1>
+        <p>Almost every panel has been given a complete makeover, looking more in line with the Steam we used to know. Every part of the library, friends list, and even some parts of the Store and Community pages have been touched in some way.</p>
     </div>
 </div>
-
-# A Complete Rework
 
 # Installation
 
@@ -39,8 +37,14 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
 }
 
 .a-container {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-flow: row;
+}
+
+#left, #right {
+    flex: 1;
 }
   
 .addon-details-segment {
@@ -62,25 +66,33 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
     object-position: bottom left !important;
 }
 
+/*
 footer#section-footer {
     background: black !important;
 }
-
+*/
+    
 body {
     background: black !important;
     font-family: Arial, Helvetica, sans-serif !important;
 }
 
+/*
+    
 #navbar {
     background: url(https://i.imgur.com/ihujOpD.jpg) !important;
     height: 104px !important;
     border-bottom: 1px solid #4D4B48 !important;
 }
 
+
+    
 .nav-item {
     font-weight: normal !important;
     font-size: 14px !important;
     text-transform: uppercase;
 }
-  
+
+*/
+    
 </style>
