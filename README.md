@@ -3,9 +3,13 @@
 
 # 2013 Inspired Steam UI
 
+<div class="c-block">
+
 [![Video](https://user-images.githubusercontent.com/65731940/125979354-e86bb0ec-40d1-45af-b755-45e70f8cf844.png)](https://www.youtube.com/watch?v=IoKg5fYlZLs)
 
 Returns the Steam library to it's 2010-era look with CSS tweaks instead of reverting it.
+
+</div>
 
 # Installation
 
@@ -16,3 +20,13 @@ For Millennium, open the Millennium Community page and drop the theme onto Mille
 For Manual Installation in Millennium, drop the theme in your `steamui > skins` Folder.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N1KXPVY)
+
+<style>
+  
+  /* These are styles for the theme page on Millennium. You can see this on github */
+  
+  .c-block {
+    background: black;
+  }
+  
+</style>
