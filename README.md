@@ -1,5 +1,5 @@
 <!-- div style="color:red; border:10px; font-size:48px">Test</div -->
-<style> .addon-details-segment { background: black !important; } </style>
+<!-- style> .addon-details-segment { background: black !important; } </style -->
 
 # 2013 Inspired Steam UI
 
