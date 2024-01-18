@@ -9,6 +9,8 @@ Returns the Steam library to it's 2010-era look with CSS tweaks instead of rever
 
 </div>
 
+![Friends](https://i.imgur.com/9dRmkpO.png)
+
 # Installation
 
 Installation differs slightly between Millennium and SFP. For SFP, drop the theme in the `steamui` folder or the `skins` folder inside steamui with SFP left patching. 
@@ -23,14 +25,14 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
   
   /* These are styles for the theme page on Millennium. You can see this on github */
 
-  .addon-details-segment {
+.addon-details-segment {
     background: none !important;
     box-shadow: none !important;
     padding: 0 !important;
     border-radius: 0 !important;
 }
 
-  .markdown-body h1 {
+.markdown-body h1 {
     border: none !important;
 }
 
@@ -47,7 +49,20 @@ footer#section-footer {
 }
 
 body {
-  background: black !important;
+    background: black !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#navbar {
+    background: url(https://i.imgur.com/ihujOpD.jpg) !important;
+    height: 104px !important;
+    border-bottom: 1px solid #4D4B48 !important;
+}
+
+.nav-item {
+    font-weight: normal !important;
+    font-size: 14px !important;
+    text-transform: uppercase;
 }
   
 </style>
