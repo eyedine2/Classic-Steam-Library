@@ -14,7 +14,7 @@ This is a large scale and somewhat messy project that has taken place over the c
         <img src="https://i.imgur.com/9dRmkpO.png" alt="Friends">
     </div>
     <div id="right">
-        <h1>A Complete Rework</h1>
+        <h2>A Complete Rework</h2>
         <p>Almost every panel has been given a complete makeover, looking more in line with the Steam we used to know. Every part of the library, friends list, and even some parts of the Store and Community pages have been touched in some way.</p>
     </div>
 </div>
@@ -36,14 +36,14 @@ Everything is repositioned to maximize both space and content on screen in a sen
     <img src="https://i.imgur.com/3C485lX.png">
 </div>
 
-# The Activity Feed, Rethought!
+## The Activity Feed, Rethought!
 What was once a hub of useless spam is now a re-envisioned version of the old "News" panel. All of your game's updates, now in one place!
 
 I mean, it's not like you actually use the "What's New" shelf... right?
 <br>
 <br>
 <br>
-# Installation
+## Installation
 Installation differs slightly between Millennium and SFP. For SFP, drop the theme in the `steamui` folder or the `skins` folder inside steamui with SFP left patching. 
 
 For Millennium, open the Millennium Community page and drop the theme onto Millennium. Then enable in your interface settings.
@@ -83,8 +83,10 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
     border-radius: 0 !important;
 }
 
-.markdown-body h1 {
+.markdown-body h1, .markdown-body h2 {
     border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .addon-backdrop {
