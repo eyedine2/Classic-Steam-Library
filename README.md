@@ -22,10 +22,6 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
 <style>
   
   /* These are styles for the theme page on Millennium. You can see this on github */
-  
-  .c-block {
-    background: black;
-  }
 
   .addon-details-segment {
     background: none !important;
