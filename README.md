@@ -9,6 +9,8 @@ Returns the Steam library to it's 2010-era look with CSS tweaks instead of rever
 ![Friends](https://i.imgur.com/9dRmkpO.png)
 </div>
 
+![Friends](https://i.imgur.com/9dRmkpO.png)
+
 # Installation
 
 Installation differs slightly between Millennium and SFP. For SFP, drop the theme in the `steamui` folder or the `skins` folder inside steamui with SFP left patching. 
