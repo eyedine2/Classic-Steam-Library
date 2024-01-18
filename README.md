@@ -7,6 +7,7 @@ Returns the Steam library to it's 2010-era look with CSS tweaks instead of rever
 
 This is a large scale and somewhat messy project that has taken place over the course of several years. Things are not perfect here, but you probably aren't here for that.
 
+
 <div class="a-container">
     <div class="image-gradient" id="left">
         <img src="https://i.imgur.com/9dRmkpO.png" alt="Friends">
@@ -34,6 +35,10 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
 
 #left.image-gradient img {
     -webkit-mask-image: linear-gradient(to left, transparent 0px, #0000001f 10px, #00000045 20px, #000000a3 40px, black 75px);
+}
+
+#right.image-gradient img {
+    -webkit-mask-image: linear-gradient(to right, transparent 0px, #0000001f 10px, #00000045 20px, #000000a3 40px, black 75px);
 }
 
 .a-container {
