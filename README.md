@@ -1,15 +1,13 @@
 <!-- div style="color:red; border:10px; font-size:48px">Test</div -->
 <!-- style> .addon-details-segment { background: black !important; } </style -->
 
-<div class="c-block">
-
 [![Video](https://user-images.githubusercontent.com/65731940/125979354-e86bb0ec-40d1-45af-b755-45e70f8cf844.png)](https://www.youtube.com/watch?v=IoKg5fYlZLs)
 
 Returns the Steam library to it's 2010-era look with CSS tweaks instead of reverting it.
 
-</div>
-
+<div class="image-gradient">
 ![Friends](https://i.imgur.com/9dRmkpO.png)
+</div>
 
 # Installation
 
@@ -19,12 +17,17 @@ For Millennium, open the Millennium Community page and drop the theme onto Mille
 
 For Manual Installation in Millennium, drop the theme in your `steamui > skins` Folder.
 
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N1KXPVY)
 
 <style>
   
   /* These are styles for the theme page on Millennium. You can see this on github */
 
+.image-gradient {
+    -webkit-mask-image: linear-gradient(to left, transparent 0px, #0000001f 10px, #00000045 20px, #000000a3 40px, black 75px);
+}
+  
 .addon-details-segment {
     background: none !important;
     box-shadow: none !important;
