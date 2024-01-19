@@ -46,7 +46,7 @@
     display: none !important;
 }
 
-#main-page-content {
+section#addon-details {
     background: linear-gradient(to bottom, #393835, black 640px);
 }
 
