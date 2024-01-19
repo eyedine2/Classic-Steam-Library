@@ -30,12 +30,24 @@
     margin: 0 !important;
 }
 
+/*
+
 .addon-backdrop {
     opacity: 1 !important;
     -webkit-mask: none !important;
     height: 720px !important;
     width: 100% !important;
     object-position: bottom left !important;
+}
+
+*/
+
+.addon-backdrop {
+    display: none !important;
+}
+
+#main-page-content {
+    background: linear-gradient(to bottom, #393835, black 640px);
 }
 
 footer#section-footer {
