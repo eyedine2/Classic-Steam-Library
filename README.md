@@ -78,13 +78,12 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
 <br>
 <!-- The dots/circles -->
 <div style="text-align:center">
-    <span class="dot" id="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" id="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" id="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" id="dot1" onclick="currentSlide(1)"></span>
+    <span class="dot" id="dot2" onclick="currentSlide(2)"></span>
+    <span class="dot" id="dot3" onclick="currentSlide(3)"></span>
 </div> 
 <script>
-const element = document.getElementById("dot");
-element.addEventListener("click", function() {
+document.getElementById("dot1").addEventListener("click", function() {
     currentSlide(1);
 });
 let slideIndex = 1;
