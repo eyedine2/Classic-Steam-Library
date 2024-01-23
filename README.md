@@ -54,6 +54,27 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
 <br>
 <div class="naii-kofi"><a href="https://ko-fi.com/N4N1KXPVY"><img src="https://ko-fi.com/img/githubbutton_sm.svg"></img></a></div>
 
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+if (this.readyState == 4 && this.status == 200) {
+var site_data = JSON.parse(this.responseText);
+var num_arr = site_data.info.views.toString().split("");
+var num_str = "";
+for (i = 0; i < num_arr.length; i++) {
+num_str += num_arr[i];
+if ( (num_arr.length-1 - i) % 3 == 0 && (num_arr.length-1 - i) != 0 ) {num_str += ",";}
+var date_str = site_data.info.last_updated;
+var date_obj = new Date(site_data.info.last_updated);
+document.getElementById("lastupdate").innerHTML = (date_obj.getMonth()+1) + "-" + date_obj.getDate() + "-" + date_obj.getFullYear();
+}
+document.getElementById("hitcount").innerHTML = num_str;
+}
+};
+xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=naii", true);
+xhttp.send();
+</script>
+
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -89,24 +110,3 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
 <span class="dot" onclick="currentSlide(2)"></span>
 <span class="dot" onclick="currentSlide(3)"></span>
 </div> 
-
-<script>
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
-if (this.readyState == 4 && this.status == 200) {
-var site_data = JSON.parse(this.responseText);
-var num_arr = site_data.info.views.toString().split("");
-var num_str = "";
-for (i = 0; i < num_arr.length; i++) {
-num_str += num_arr[i];
-if ( (num_arr.length-1 - i) % 3 == 0 && (num_arr.length-1 - i) != 0 ) {num_str += ",";}
-var date_str = site_data.info.last_updated;
-var date_obj = new Date(site_data.info.last_updated);
-document.getElementById("lastupdate").innerHTML = (date_obj.getMonth()+1) + "-" + date_obj.getDate() + "-" + date_obj.getFullYear();
-}
-document.getElementById("hitcount").innerHTML = num_str;
-}
-};
-xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=naii", true);
-xhttp.send();
-</script>
