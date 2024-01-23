@@ -2,10 +2,11 @@
 <!-- style> .addon-details-segment { background: black !important; } </style -->
 
 [![Video](https://user-images.githubusercontent.com/65731940/125979354-e86bb0ec-40d1-45af-b755-45e70f8cf844.png)](https://www.youtube.com/watch?v=IoKg5fYlZLs)
-
+<div class ="intro">
 Returns the Steam library to it's 2010-era look with CSS tweaks instead of reverting it.
 
 This is a large scale and somewhat messy project that has taken place over the course of several years. Things are not perfect here, but you probably aren't here for that.
+</div>
 <br>
 <br>
 <br>
