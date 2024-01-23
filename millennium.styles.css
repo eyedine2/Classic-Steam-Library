@@ -54,7 +54,7 @@ footer#section-footer {
     background: black !important;
 }
     
-section#main-page-content {
+.page-section-inner {
     font-family: Arial, Helvetica, sans-serif !important;
 }
     
