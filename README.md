@@ -53,7 +53,6 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
 <br>
 <br>
 <div class="naii-kofi"><a href="https://ko-fi.com/N4N1KXPVY"><img src="https://ko-fi.com/img/githubbutton_sm.svg"></img></a></div>
-
 <script>
 let slideIndex = 1;
 showSlides(slideIndex);
