@@ -24,7 +24,7 @@
     border-radius: 0 !important;
 }
 
-.markdown-body h1, .markdown-body h2 {
+h1, h2 {
     border: none !important;
     padding: 0 !important;
     margin: 0 !important;
@@ -37,16 +37,16 @@
   color: #b0aeac;
 }
 
-.markdown-body h1 {
+h1 {
     font-size: 30px;
 }
 
-.markdown-body h2 {
+h2 {
     font-size: 24px;
     color: #e1e1e1;
 }
 
-.markdown-body p {
+p {
     margin-bottom: 12px;
     color: #b0aeac;
     line-height: 20px;
