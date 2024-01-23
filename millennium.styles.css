@@ -99,7 +99,7 @@ footer#section-footer {
   order: 4;
 }
 
-.addon-info-item {
+.addon-info-item, .title-description {
   color: #666465;
   font-size: 12px;
 }
