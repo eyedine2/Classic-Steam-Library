@@ -28,9 +28,7 @@ This is a large scale and somewhat messy project that has taken place over the c
 <br>
 
 ## Trimming the Fat
-Poorly performing and visually noisy areas of the vanilla client have been smoothed over. No longer will your system be assaulted by achievement spam! Certain "Problem games" (Such as PAYDAY 2) used to add thousands of elements to facilitate poorly thought out community features. All of this has been removed.
-
-Everything is repositioned to maximize both space and content on screen in a sensible way. Gone are the distracting game banners that hide crucial features for aesthetic purposes. Everything unnecessary is out of the way or straight up gone — as they should be.
+Poorly performing and visually noisy areas of the vanilla client have been smoothed over. No longer will your system be assaulted by achievement spam! Certain "Problem games" (Such as PAYDAY 2) used to add thousands of elements to facilitate poorly thought out community features. All of this has been removed. Everything is repositioned to maximize both space and content on screen in a sensible way. Gone are the distracting game banners that hide crucial features for aesthetic purposes. Everything unnecessary is out of the way or straight up gone — as they should be.
 <br>
 <br>
 <br>
@@ -40,17 +38,15 @@ Everything is repositioned to maximize both space and content on screen in a sen
 <br>
 
 ## The Activity Feed, Rethought!
-What was once a hub of useless spam is now a re-envisioned version of the old "News" panel. All of your game's updates, now in one place!
-
-I mean, it's not like you actually use the "What's New" shelf... right?
+What was once a hub of useless spam is now a re-envisioned version of the old "News" panel. All of your game's updates, now in one place! I mean, it's not like you actually use the "What's New" shelf... right?
 <br>
 <br>
 <br>
 ## Installation
 Installation differs slightly between Millennium and SFP. For SFP, drop the theme in the `steamui` folder or the `skins` folder inside steamui with SFP left patching. 
-
+<br>
 For Millennium, open the Millennium Community page and drop the theme onto Millennium. Then enable in your interface settings.
-
+<br>
 For Manual Installation in Millennium, drop the theme in your `steamui > skins` Folder.
-
+<br>
 <div class="naii-kofi"><a href="https://ko-fi.com/N4N1KXPVY"><img src="https://ko-fi.com/img/githubbutton_sm.svg"></img></a></div>
