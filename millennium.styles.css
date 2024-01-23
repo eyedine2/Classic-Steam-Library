@@ -103,6 +103,10 @@ footer#section-footer {
 
 */
 
+#addon-info-container, .title-description {
+  margin: 0;
+}
+
 .addon-info-item, .title-description {
   color: #666465;
   font-size: 12px;
