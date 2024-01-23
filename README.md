@@ -83,9 +83,7 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
     <span class="dot" id="dot3" onclick="currentSlide(3)"></span>
 </div> 
 <script>
-document.getElementById("dot1").addEventListener("click", function() {
-    currentSlide(1);
-});
+document.getElementById("dot1").addEventListener("click", currentSlide(1));
 let slideIndex = 1;
 showSlides(slideIndex);
 // Next/previous controls
