@@ -45,8 +45,11 @@ What was once a hub of useless spam is now a re-envisioned version of the old "N
 ## Installation
 Installation differs slightly between Millennium and SFP. For SFP, drop the theme in the `steamui` folder or the `skins` folder inside steamui with SFP left patching. 
 <br>
+<br>
 For Millennium, open the Millennium Community page and drop the theme onto Millennium. Then enable in your interface settings.
 <br>
+<br>
 For Manual Installation in Millennium, drop the theme in your `steamui > skins` Folder.
+<br>
 <br>
 <div class="naii-kofi"><a href="https://ko-fi.com/N4N1KXPVY"><img src="https://ko-fi.com/img/githubbutton_sm.svg"></img></a></div>
