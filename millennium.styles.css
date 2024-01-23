@@ -28,6 +28,7 @@
     border: none !important;
     padding: 0 !important;
     margin: 0 !important;
+    font-weight: normal !important;
 }
 
 .intro {
@@ -38,7 +39,6 @@
 
 .markdown-body h1 {
     font-size: 30px;
-    font-weight: normal;
 }
 
 .markdown-body h2 {
