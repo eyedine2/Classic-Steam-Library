@@ -30,6 +30,12 @@
     margin: 0 !important;
 }
 
+.intro {
+  font-size: 16px;
+  line-height: 22px;
+  color: #b0aeac;
+}
+
 .markdown-body h1 {
     font-size: 30px;
     font-weight: normal;
