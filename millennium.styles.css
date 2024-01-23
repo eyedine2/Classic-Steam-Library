@@ -57,7 +57,7 @@ footer#section-footer {
 .page-section-inner {
     font-family: Arial, Helvetica, sans-serif !important;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif !important;
+    display: flex;
 }
 
 #addon-details-title {
