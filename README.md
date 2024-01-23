@@ -79,7 +79,7 @@ dots[i].className = dots[i].className.replace(" active", "");
 slides[slideIndex-1].style.display = "block";
 dots[slideIndex-1].className += " active";
 }
-element.addEventListener("dot:nth-child(1)", currentSlide(1));
+element.addEventListener("dot", currentSlide(1));
 </script>
 <!-- Slideshow container -->
 <div class="slideshow-container">
