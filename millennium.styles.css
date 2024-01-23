@@ -56,6 +56,29 @@ footer#section-footer {
     
 .page-section-inner {
     font-family: Arial, Helvetica, sans-serif !important;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#addon-details-title {
+  order: 2;
+}
+
+#addon-info-container {
+  order: 1;
+}
+
+.title-description {
+  order: 3;
+}
+
+#addon-splitview-container {
+  order: 4;
+}
+
+.addon-info-item {
+  color: #666465;
+  font-size: 12px;
 }
     
 #navbar {
