@@ -83,6 +83,8 @@ footer#section-footer {
     display: flex;
 }
 
+/* Looks cool, messes with page order too much
+
 #addon-details-title {
   order: 2;
 }
@@ -98,6 +100,8 @@ footer#section-footer {
 #addon-splitview-container {
   order: 4;
 }
+
+*/
 
 .addon-info-item, .title-description {
   color: #666465;
