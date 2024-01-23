@@ -30,6 +30,23 @@
     margin: 0 !important;
 }
 
+.markdown-body h1 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.markdown-body h2 {
+    font-size: 24px;
+    color: #e1e1e1;
+}
+
+.markdown-body p {
+    margin-bottom: 12px;
+    color: #b0aeac;
+    line-height: 20px;
+    font-size: 14px;
+}
+
 /*
 
 .addon-backdrop {
