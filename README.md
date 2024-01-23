@@ -54,6 +54,7 @@ For Manual Installation in Millennium, drop the theme in your `steamui > skins` 
 <br>
 <div class="naii-kofi"><a href="https://ko-fi.com/N4N1KXPVY"><img src="https://ko-fi.com/img/githubbutton_sm.svg"></img></a></div>
 <script>
+element.addEventListener("dot", currentSlide(1));
 let slideIndex = 1;
 showSlides(slideIndex);
 // Next/previous controls
@@ -79,7 +80,6 @@ dots[i].className = dots[i].className.replace(" active", "");
 slides[slideIndex-1].style.display = "block";
 dots[slideIndex-1].className += " active";
 }
-element.addEventListener("dot", currentSlide(1));
 </script>
 <!-- Slideshow container -->
 <div class="slideshow-container">
