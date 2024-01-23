@@ -52,5 +52,4 @@ For Millennium, open the Millennium Community page and drop the theme onto Mille
 
 For Manual Installation in Millennium, drop the theme in your `steamui > skins` Folder.
 
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N1KXPVY)
+<div class="naii-kofi"><a href="https://ko-fi.com/N4N1KXPVY"><img src="https://ko-fi.com/img/githubbutton_sm.svg"></img></a></div>
