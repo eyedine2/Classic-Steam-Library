@@ -2,6 +2,7 @@
 <!-- style> .addon-details-segment { background: black !important; } </style -->
 
 [![Video](https://user-images.githubusercontent.com/65731940/125979354-e86bb0ec-40d1-45af-b755-45e70f8cf844.png)](https://www.youtube.com/watch?v=IoKg5fYlZLs)
+<div class="naii-kofi"><a href="https://ko-fi.com/N4N1KXPVY"><img src="https://ko-fi.com/img/githubbutton_sm.svg"></img></a></div>
 <div class ="intro">
 Returns the Steam library to it's 2010-era look with CSS tweaks instead of reverting it.
 <br>
@@ -50,6 +51,3 @@ For Millennium, open the Millennium Community page and drop the theme onto Mille
 <br>
 <br>
 For Manual Installation in Millennium, drop the theme in your `steamui > skins` Folder.
-<br>
-<br>
-<div class="naii-kofi"><a href="https://ko-fi.com/N4N1KXPVY"><img src="https://ko-fi.com/img/githubbutton_sm.svg"></img></a></div>
