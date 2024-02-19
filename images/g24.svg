@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="10.514126"
-   height="5.8819923"
-   viewBox="0 0 10.514126 5.8819923"
+   width="12.896406"
+   height="7.0959015"
+   viewBox="0 0 12.896406 7.0959015"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -17,19 +17,20 @@
          id="stop9" /></linearGradient><filter
        style="color-interpolation-filters:sRGB"
        id="filter23"
-       x="-0.056608423"
-       y="-0.1110932"
-       width="1.1132168"
-       height="1.2221864"><feGaussianBlur
+       x="-0.18230917"
+       y="-0.25942937"
+       width="1.3654485"
+       height="1.474418"><feGaussianBlur
          stdDeviation="0.22277334"
          id="feGaussianBlur23" /></filter></defs><g
      id="layer2"
-     transform="translate(-17.258562,-18.652788)"><g
+     style="display:inline"
+     transform="translate(-16.071342,-17.938894)"><g
        id="g24"
        style="display:inline;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:0.145963;image-rendering:auto"><path
-         style="display:inline;opacity:1;mix-blend-mode:normal;fill:#b0aeae;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.145963;paint-order:stroke fill markers"
+         style="display:inline;opacity:1;mix-blend-mode:normal;fill:none;fill-opacity:1;stroke:#b6afaf;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.137255;paint-order:stroke fill markers;filter:url(#filter23)"
          d="M 17.793218,24.000125 27.238032,24 22.493407,19.187445 Z"
-         id="path23" /><path
-         style="display:inline;opacity:1;mix-blend-mode:normal;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.145963;paint-order:stroke fill markers;filter:url(#filter23)"
+         id="path4" /><path
+         style="display:inline;opacity:1;mix-blend-mode:normal;fill:#b0aeae;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.145963;paint-order:stroke fill markers;image-rendering:auto"
          d="M 17.793218,24.000125 27.238032,24 22.493407,19.187445 Z"
-         id="path4" /></g></g></svg>
+         id="path23" /></g></g></svg>
