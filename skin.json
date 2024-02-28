@@ -15,5 +15,13 @@
         "Classic"
     ],
     "header_image": "https://i.imgur.com/BmV004U.png",
-    "splash_image": "https://i.imgur.com/qeMRemL.png"
+    "splash_image": "https://i.imgur.com/qeMRemL.png",
+
+    "Patches": [
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetCss": "libraryroot.custom.css",
+            "TargetJs": "categories-fix.js"
+        }
+    ]
 }
