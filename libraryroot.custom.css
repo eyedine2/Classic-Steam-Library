@@ -477,12 +477,15 @@
 .appdetailsplaysection_PlayBarIconAndGame_2MBVR /* Game Title */ {
     opacity: 1 !important;
 	padding: 7px 10px 7px 10px !important;
-    top: 20px !important;
+    top: -53px !important;
     left: 6px !important;
 	height: 46px !important;
 	width: fit-content !important;
 	position: fixed !important;
-	margin-left: 271px !important;
+	/* margin-left: 271px !important; */
+    height: 46px !important;
+    width: fit-content !important;
+    position: fixed !important;
 }
 .appdetailsoverview_RightColumn_2aor4 /* right column no margin */ {
 	margin-left: 0px !important;
@@ -616,7 +619,7 @@ div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_Gam
 }
 
 .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_GameStatsSection_1mDAV /* Column Stats */ {
-	flex-direction: column !important;
+	/* flex-direction: column !important; */
     flex-wrap: nowrap !important;
 }
 
@@ -3025,9 +3028,9 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.sound
     border: none !important;
 }
 
-.appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_StatusNameContainer_zjtAI {
+/* .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_StatusNameContainer_zjtAI {
     height: 48px;
-}
+} */
 
 .SoundtrackPlayer, .DialogContent._DialogLayout.marketingmessagesdialog_MarketingMessagesDialog_31Kke, .soundtrackcontrols_ContextMenu_20v4M {
     background-image: url(https://i.imgur.com/styFQYb.png), linear-gradient(to bottom, black, var(--dialogbg-master) 175px) !important;
@@ -3359,4 +3362,67 @@ span.gamelistsectionheader_SectionName_2mZ8L {
 
 .pagedsettings_PagedSettingsDialog_PageListColumn_RTicB.DesktopUI, .DesktopUI .pagedsettings_PagedSettingsDialog_PageListColumn_RTicB {
     min-height: 0;
+}
+
+.DesktopUI .title-area-icon .SVGIcon_Minimize, .DesktopUI .title-area-icon .SVGIcon_Maximize, .DesktopUI .title-area-icon .SVGIcon_X_Line, .DesktopUI .title-area-icon .SVGIcon_Restore, .friendsui-container .title-area-icon .SVGIcon_Minimize, .friendsui-container .title-area-icon .SVGIcon_Maximize, .friendsui-container .title-area-icon .SVGIcon_X_Line, .friendsui-container .title-area-icon .SVGIcon_Restore {
+    width: 14px !important;
+    height: 14px !important;
+}
+
+/* Adjust padding properly to match old Steam UI */
+.title-bar-actions.window-controls {
+    margin-right: 2px !important; 
+}
+
+/* Remove background color on account ribbon in the titlebar as it historically never had one */
+.titlebarcontrols_AccountMenu_3yD46 {
+    background: none;
+}
+
+/* Adjust notification and announcment buttons to overflow the main window frame */
+.titlebarcontrols_NotificationButtonContainer_3mGEz,
+.titlebarcontrols_Button_2Szzh.titlebarcontrols_AnnouncementsButton_5wILZ{
+    margin-top: -2px !important;
+}
+
+.appdetailsheader_HeaderFeatures_2b6Wk.Panel {
+    position: unset !important;
+    margin-left: 0px !important;
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+/* FIX LIBRARY SCROLL HIDING GAME CONTENT */
+.appdetailsoverview_HidePlayBar_3SSPI.appdetailsplaysection_Container_3Yf8b.appdetailsplaysection_InPage_1U7LK.appdetailsplaysection_StickyHeader_39Rhe {
+    opacity: 1 !important;
+}
+
+.appdetailsplaysection_StatusAndStats_1YbtI {
+    height: 48px !important;
+    flex-wrap: wrap !important;
+}
+
+.appdetailsplaysection_GameStatsSection_1mDAV {
+    flex-direction: column-reverse !important;
+}
+
+.appdetailsplaysection_StatusNameContainer_zjtAI {
+    min-width: unset !important;
+}
+
+.appdetailsplaysection_GameStatsSection_1mDAV {
+    transform: unset !important;
+    opacity: 1 !important;
+}
+
+.appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_Glassy_3DeO9 {
+    padding-top: unset !important;
+}
+
+.appdetailsplaysection_StickyHeaderShadow_2_86Q.appdetailsplaysection_Visible_2sKVn {
+    display: none !important;
+}
+
+.libraryhome_UpdatesContainer_17uEB {
+    display: none !important;
 }
