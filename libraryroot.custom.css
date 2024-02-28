@@ -458,11 +458,10 @@
 
 .appdetailsplaysection_Container_3Yf8b /* Play Button Container Width */ {
 	width: fit-content !important;
-	min-width: 305px !important;
 }
 
 .appdetailsplaysection_InnerContainer_3Y87Y /* Padding in Play Button Container */ {
-    padding: 9px 10px 15px 10px !important;
+    padding: 10px !important;
 }
 
 .appdetailsplaysection_PlayBarLabel_34lrt /* Margins Between text and stats */ {
@@ -511,7 +510,7 @@
 /* Fonts and text and shit */
 
 .appactionbutton_ButtonText_33cnX, .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2 {
-    font-size: 14px !important;
+    font-size: 13px !important;
     font-weight: 400 !important;
     text-transform: uppercase !important;
     letter-spacing: 0px !important;
@@ -560,6 +559,7 @@
 .appactionbutton_PlayButton_3ydig, .appactionbutton_StreamingSelector_2q-gZ, .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2  /* Play Button Colors! (and a border) */ {
 	background: linear-gradient(to bottom, var(--buttonface2-master) 0%, var(--almostBlack-master) 100%) !important;
 	border: 1px solid var(--buttonbordersubtle-master) !important;
+	border-radius: 3px !important;
 	
 }
 
@@ -587,8 +587,6 @@ div.appdetailsplaysection_GameStat_1kiZK.appdetailsplaysection_Playtime_1aKeg > 
 
 div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_GameStat_1kiZK.appdetailsplaysection_Playtime_1aKeg > div.appdetailsplaysection_GameStatRight_3m_zj:before {
 	content: "YOU'VE PLAYED";
-    margin-left: -16px;
-    margin-right: 10px;
 }
 
 .appportraithover_Header_MIHa_:before {
@@ -611,6 +609,8 @@ div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_Gam
 
 .appdetailsplaysection_GameStatRight_3m_zj /* row flow */ {
     flex-flow: row !important;
+    flex: 1;
+    justify-content: space-between;
 }
 
 .appdetailsplaysection_GameStat_1kiZK /* Compact Stats */ {
@@ -1079,6 +1079,10 @@ button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover, 
     padding-top: 62px;
     font-size: 12px;
     color: var(--label);
+}
+
+.appdetailsworkshopsection_FeaturedItem_1W34W {
+    align-items: start;
 }
 
 .appdetailsworkshopsection_FeaturedItem_1W34W.Panel, .appdetailsworkshopsection_FeaturedItemName_1KR5X /* Colors! */ {
@@ -1961,7 +1965,7 @@ div.HighPerfMode .sharedappdetailsheader_HeaderBackgroundImage_1sarA {
 
 .library_LeftListSizableContainer_9sPoV {
     position: absolute !important;
-    z-index: 999999;
+    z-index: 1;
     height: 100% !important;
 }
 
@@ -3028,10 +3032,6 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.sound
     border: none !important;
 }
 
-/* .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_StatusNameContainer_zjtAI {
-    height: 48px;
-} */
-
 .SoundtrackPlayer, .DialogContent._DialogLayout.marketingmessagesdialog_MarketingMessagesDialog_31Kke, .soundtrackcontrols_ContextMenu_20v4M {
     background-image: url(https://i.imgur.com/styFQYb.png), linear-gradient(to bottom, black, var(--dialogbg-master) 175px) !important;
     background-repeat: no-repeat !important;
@@ -3243,7 +3243,7 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.sound
     position: absolute;
     bottom: 1px;
     background: linear-gradient(to top, rgba(0,0,0,0.3) 50%, transparent);
-    z-index: 9999999;
+    z-index: 1;
 	pointer-events: none;
 }
 
@@ -3254,7 +3254,7 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.sound
     height: 18px;
     position: absolute;
     background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.2) 25%, rgba(0,0,0,0.2) 50%, transparent);
-    z-index: 9999999;
+    z-index: 1;
     pointer-events: none;
     top: 0;
     right: 0;
@@ -3397,11 +3397,6 @@ span.gamelistsectionheader_SectionName_2mZ8L {
     opacity: 1 !important;
 }
 
-.appdetailsplaysection_StatusAndStats_1YbtI {
-    height: 48px !important;
-    flex-wrap: wrap !important;
-}
-
 .appdetailsplaysection_GameStatsSection_1mDAV {
     flex-direction: column-reverse !important;
 }
@@ -3425,4 +3420,34 @@ span.gamelistsectionheader_SectionName_2mZ8L {
 
 .libraryhome_UpdatesContainer_17uEB {
     display: none !important;
+}
+
+.appdetailsplaysection_PlayBarLabel_34lrt, div.appdetailsplaysection_GameStatsSection_1mDAV > div.appdetailsplaysection_GameStat_1kiZK.appdetailsplaysection_Playtime_1aKeg > div.appdetailsplaysection_GameStatRight_3m_zj:before {
+    width: 125px;
+    text-align: right;
+}
+
+.appdetailsplaysection_PlayBarDetailLabel_2TYVG {
+    text-align: left;
+    width: 100px;
+}
+
+.appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_StatusNameContainer_zjtAI {
+    height: auto;
+}
+
+.appdetailsplaysection_PlayBarCloudStatusContainer_2cRYm {
+    height: 16px;
+}
+
+.appactionbutton_Green_3cI5T>.appactionbutton_ButtonChild_2AzIX svg {
+    fill: var(--Text-master);
+}
+
+.appdetailsactivitysection_ViewLastNews_1EC1x.Panel {
+    color: var(--Text-master) !important;
+}
+
+.gamepaddialog_Toggle_24G4g:not(.gamepaddialog_Disabled_1pmyx):hover {
+    border-radius: 2px;
 }
