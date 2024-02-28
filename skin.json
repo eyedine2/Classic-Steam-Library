@@ -21,7 +21,7 @@
         {
             "MatchRegexString": "^Steam$",
             "TargetCss": "libraryroot.custom.css",
-            "TargetJs": "categories-fix.js"
+            "TargetJs": "libraryroot.custom.js"
         }
     ]
 }
