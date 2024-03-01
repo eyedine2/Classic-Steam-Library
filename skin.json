@@ -21,5 +21,6 @@
             "MatchRegexString": "^Steam$",
             "TargetCss": "libraryroot.custom.css",
             "TargetJs": "libraryroot.custom.js"
+        }
     ]
 }
