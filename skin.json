@@ -16,29 +16,10 @@
     ],
     "header_image": "https://i.imgur.com/BmV004U.png",
     "splash_image": "https://i.imgur.com/qeMRemL.png",
-    "Configuration": [
-        {
-            "Name": "2015 Theme (Test)",
-            "ToolTip": "2015ish colors (Test)",
-            "Type": "CheckBox",
-            "Value": false
-        }
-    ]
     "Patches": [
         {
             "MatchRegexString": "^Steam$",
             "TargetCss": "libraryroot.custom.css",
             "TargetJs": "libraryroot.custom.js"
-            "Statement": {
-                "If": "2015 Theme (Test)",
-                "Equals": true,
-                "True": {
-                    "TargetCss": "millennium-2014.custom.css"
-                },
-                "False": {
-                    "TargetCss": "millennium-2014.custom.css"
-                }
-            }
-        }
     ]
 }
