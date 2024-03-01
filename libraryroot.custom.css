@@ -4,10 +4,10 @@
 /* Change Headercolor to --GameDetailsBlue, --GameDetailsGreen, or --GameDetailsRed to change Section Colors! */
 :root {
 	/* Master Colors 2013 */
-	
-	
-	
-	--HeaderColor: var(--GameDetailsGreen); 
+
+
+
+	--HeaderColor: var(--GameDetailsGreen-master); 
 	--PanelColor: var(--backgroundstart);
 	--profilesize: 47px;
 	--profileborder: 4px;
@@ -41,13 +41,21 @@
 	--Friendsdullgreen-master: var(--Friendsdullgreen);
 	--almostBlack-master: var(--almostBlack);
 	--Highlight5-master: var(--Highlight5);
-	
+	--clientbg-master: var(--clientbg);
 	
 
+	--logotexture: url(https://i.imgur.com/Dsr2r4l.png);
+	--clientstretch: url(https://i.imgur.com/WKlQeut.png);
+	--clientnostretch: url(https://i.imgur.com/styFQYb.png);
+	--clientstretch2: none;
+	--clientstretch3: url(https://i.imgur.com/vOcCyrv.png);
+
+
+
 	/* Master Colors 2014 */
-	
-	/*
-	
+
+/*
+
 	--HeaderColor: var(--GameDetailsGreen-new);
 	--PanelColor: var(--backgroundstart-new);
 	--profilesize: 47px;
@@ -82,10 +90,19 @@
 	--Friendsdullgreen-master: var(--Friendsdullgreen-new);
 	--almostBlack-master: var(--almostBlack-new);
 	--Highlight5-master: var(--Highlight5-new);
-	
-	*/
-	
+	--clientbg-master: var(--clientbg-new);
+
+
+	--logotexture: none;
+	--clientstretch: url(https://i.imgur.com/PTZcGPR.png);
+	--clientnostretch: url(https://i.imgur.com/BNUdipg.png);
+	--clientstretch2: url(https://i.imgur.com/YVHm42z.png);
+	--clientstretch3: url(https://i.imgur.com/vOcCyrv.png);
+
+*/
+
 	/* 2013 Colors */
+
 	--dialogbg: rgb(56,54,53);
 	--darkclientbg: rgb(36,35,34);
 	--label: rgb(166,164,161);
@@ -113,6 +130,7 @@
 	--Friendsdullgreen: rgb(124, 160, 78);
 	--almostBlack: rgb(23,22,20);
 	--Highlight5: rgb(77,103,140);
+	--clientbg: black;
 	
 	/* 2014 colors */
 	--dialogbg-new: rgb(42,46,51);
@@ -142,6 +160,7 @@
 	--Friendsdullgreen-new: rgb(92,126,16);
 	--almostBlack-new: rgb(22,25,28);
 	--Highlight5-new: rgb(24,53,82);
+	--clientbg-new: rgb(18,26,42);
 	
 }
 
@@ -244,7 +263,7 @@
 
 .allcollections_ScrollContainer_u1xD3, .collectionview_OuterContainer_2sNr7, .downloads_ItemListWrapper_1l0Lm,
 .steamdesktop_LocalContentContainer_RGNMW, .marketingmessagesdialog_MarketingMessagesDialog_31Kke .DialogContent_InnerWidth /* Grid View & Collection Page */ {
-	background-image: linear-gradient(to bottom, var(--dialogbg), var(--almostBlack)) !important;
+	background-image: linear-gradient(to bottom, var(--dialogbg-master), var(--almostBlack-master)) !important;
 }
 
 .libraryhome_Container_2gSXC, .libraryhome_LibraryHome_3Sb2o /* Grid View Container */ {
@@ -559,7 +578,7 @@
 .appactionbutton_PlayButton_3ydig, .appactionbutton_StreamingSelector_2q-gZ, .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2  /* Play Button Colors! (and a border) */ {
 	background: linear-gradient(to bottom, var(--buttonface2-master) 0%, var(--almostBlack-master) 100%) !important;
 	border: 1px solid var(--buttonbordersubtle-master) !important;
-	border-radius: 3px !important;
+	border-radius: var(--buttonradius) !important;
 	
 }
 
@@ -1078,7 +1097,7 @@ button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover, 
     margin-right: 15px;
     padding-top: 62px;
     font-size: 12px;
-    color: var(--label);
+    color: var(--label-master);
 }
 
 .appdetailsworkshopsection_FeaturedItem_1W34W {
@@ -1094,14 +1113,14 @@ button.DialogButton:hover, .appdetailsactivitysection_ViewLastNews_1EC1x:hover, 
     height: 106px !important;
     margin: 0 !important;
     padding: 0 40px 0 40px !important;
-    border: 3px solid var(--dialogbg) !important;
+    border: 3px solid var(--dialogbg-master) !important;
     border-radius: 3px;
 }
 
 .appdetailsworkshopsection_FeaturedItemName_1KR5X {
     margin-top: 10px;
     font-size: 12px !important;
-    color: var(--Text) !important;
+    color: var(--Text-master) !important;
 }
 
 .appdetailsworkshopsection_FeaturedItemDetailsContainer_3Dyem /* Title to under thumbnail */ {
@@ -1185,7 +1204,7 @@ button.DialogButton._DialogLayout.Primary, button.DialogButton._DialogLayout.Sec
 
 .DesktopUI .contextmenu_contextMenuItem_pFo3k:hover, .DesktopUI .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenuItem_pFo3k:hover, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU, [class*="contextmenu_contextMenuItem_"]:hover {
     background: #314259;
-	color: var(--Text);
+	color: var(--Text-master);
 }
 
 [class*="contextmenu_contextMenuContents_"], .friendsContextMenu {
@@ -1199,7 +1218,7 @@ button.DialogButton._DialogLayout.Primary, button.DialogButton._DialogLayout.Sec
     padding: 6px;
     padding-top: 0px;
     padding-bottom: 0px;
-    color: var(--Text);
+    color: var(--Text-master);
 	line-height: 22px;
 	font-weight: bold;
     margin-top: 1px;
@@ -1753,7 +1772,7 @@ div.downloads_SectionList_OINnO.Panel > div > div > div.downloads_AppPortrait_2p
 
 .appdetailsactivitysection_NoActivity_2-kDc, .appdetailsactivitysection_Loading_3UShz {
     border: none;
-    color: var(--label);
+    color: var(--label-master);
 }
 
 .appportrait_LibraryItemBoxSubscript_1LJqx, .gamelistsearchbar_FilterTag_3gzh_ {
@@ -1893,7 +1912,7 @@ div.NarrowRightPanel .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplay
 /* list selection */
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr:hover {
-	color: var(--label) !important;
+	color: var(--label-master) !important;
 }
 
 .gamelistentry_Container_2-O4Z:not(.gamelistentry_Selected_1UBpA):hover {
@@ -1930,7 +1949,7 @@ canvas.sharedappdetailsheader_ImgSrc__dije.sharedappdetailsheader_ImgBlur_3XYFK 
     background: none;
 	max-height: 100% !important;
 	height: 100% !important;
-	background: linear-gradient(to bottom, var(--dialogbg), var(--almostBlack));
+	background: linear-gradient(to bottom, var(--dialogbg-master), var(--almostBlack-master));
 }
 
 img.sharedappdetailsheader_ImgSrc__dije {
@@ -1994,7 +2013,7 @@ img.sharedappdetailsheader_ImgSrc__dije.sharedappdetailsheader_ImgBlur_3XYFK {
 }
 
 .appdetails_Glassy_3Fmxx.appdetails_ScrollContainer_2l416 {
-    background: var(--almostBlack) !important;
+    background: var(--almostBlack-master) !important;
 }
 
 .appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ.appdetailsgameinfocontainer_AppDetailsExpanded_3s6_6.appdetailsgameinfocontainer_SuppressTransition_2OLz4.appdetailsgameinfocontainer_Glassy_2QAgO {
@@ -2171,36 +2190,12 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase::placeholder {
 
 .steamdesktop_TopBar_3Z7VQ {
     height: 103px;
-    background-image: url(https://i.imgur.com/styFQYb.png), linear-gradient(to bottom, black, var(--dialogbg-master) 175px);
+    background-image: var(--logotexture), var(--clientstretch), var(--clientnostretch), var(--clientstretch2), var(--clientstretch3), linear-gradient(to bottom, var(--clientbg-master), var(--dialogbg-master) 175px);
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: top right, top left, top left, top left, top left, top left;
     background-color: transparent;
-}
-
-.steamdesktop_TopBar_3Z7VQ:before {
-    content: "";
-    display: block;
-    background: url(https://i.imgur.com/1YGQRJ6.png);
-    width: 100%;
-    height: 103px;
-    position: absolute;
-    pointer-events: none;
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.steamdesktop_TopBar_3Z7VQ:after {
-    content: "";
-    display: block;
-    background: url(https://i.imgur.com/Dsr2r4l.png);
-    width: 100%;
-    height: 103px;
-    position: absolute;
-    pointer-events: none;
-    background-position: top right;
-    background-repeat: no-repeat;
-    z-index: 0;
+    background-size: auto, 100% auto, auto, 100% auto, 100% auto, auto;
+	background-blend-mode: normal;
 }
 
 .titlebarcontrols_AnnouncementsButton_5wILZ, .titlebarcontrols_SoundtrackControls_Utdt7 {
@@ -2210,8 +2205,8 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase::placeholder {
     padding: 0 !important;
     border: 1px solid var(--buttonface2-master);
     background: linear-gradient(to bottom, var(--darkclientbg-master), var(--dialogbg-master));
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: var(--buttonradius);
+    border-bottom-right-radius: var(--buttonradius);
 }
 
 .titlebarcontrols_NotificationsButton_RtSv3 {
@@ -2220,8 +2215,8 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase::placeholder {
     margin-right: 10px !important;
     padding: 0 !important;
     background: linear-gradient(to bottom, var(--darkclientbg-master), var(--dialogbg-master)) !important;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: var(--buttonradius);
+    border-bottom-right-radius: var(--buttonradius);
 }
 
 .titlebarcontrols_SoundtrackControls_Utdt7 {
@@ -2320,7 +2315,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase::placeholder {
 }
 
 .steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s .steamdesktop_URLBarText_2m_or .steamdesktop_URL_MZPxE, .steamdesktop_BrowserWrapper_1bGew .steamdesktop_URLBar_UkR3s .steamdesktop_StatusIcon_3izqE {
-    color: var(--label);
+    color: var(--label-master);
 }
 
 /* Text inside */
@@ -2375,7 +2370,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase::placeholder {
 .steamdesktop_ContentFrame_1rDh5 {
     padding-left: 10px;
     padding-right: 10px;
-    background-image: url(https://i.imgur.com/styFQYb.png), linear-gradient(to bottom, black 0, var(--dialogbg-master) 175px);
+    background-image: var(--clientnostretch), linear-gradient(to bottom, var(--clientbg-master), var(--dialogbg-master) 175px);
     background-repeat: no-repeat;
     background-position: left -103px;
 	background-color: var(--dialogbg-master);
@@ -2404,7 +2399,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase::placeholder {
 }
 
 .bottombar_AddGameButton_2foCk *, .bottombar_DownloadStatusContent_ip-YZ *, .bottombar_FriendsButton_1TdaA * {
-    color: var(--label) !important;
+    color: var(--label-master) !important;
 }
 
 .bottombar_DetailedDownloadProgress_2VtAq .bottombar_Icon_1KrJ3 {
@@ -2462,7 +2457,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase::placeholder {
 .gamepaddialog_Toggle_24G4g {
     width: 15px;
     height: 15px;
-    border: 1px solid var(--buttonface);
+    border: 1px solid var(--buttonface-master);
     border-radius: 2px;
 }
 
@@ -2498,13 +2493,13 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase::placeholder {
     display: block;
     width: 15px;
     height: 15px;
-    border: 1.5px solid var(--buttonface);
+    border: 1.5px solid var(--buttonface-master);
     border-radius: 100%;
 	margin-right: 10px;
 }
 
 .radio_Button_3lwcR.RadioButton.radio_Active_3ZBFo:before {
-    background-color: var(--label);
+    background-color: var(--label-master);
     padding: 1px;
     background-clip: content-box;
     width: 13px;
@@ -2613,7 +2608,7 @@ div.gamelistsearchbar_Container_20QAC > div.gamelistsearchbar_SearchInput_12vo5 
 }
 
 .gamepaddialog_FieldDescription_2OJfk {
-    color: var(--label) !important;
+    color: var(--label-master) !important;
 }
 
 .gamepaddialog_Field_S-_La.gamepaddialog_WithBottomSeparatorStandard_3s1Rk::after {
@@ -2641,11 +2636,11 @@ div.gamelistsearchbar_Container_20QAC > div.gamelistsearchbar_SearchInput_12vo5 
 }
 
 .contentmanagement_InstallFolder_12aBP.contentmanagement_AddFolder_3C0_9.Panel svg {
-    color: var(--label2);
+    color: var(--label2-master);
 }
 
 .contentmanagement_InstallFolder_12aBP.contentmanagement_AddFolder_3C0_9.Panel:hover svg {
-    color: var(--label);
+    color: var(--label-master);
 }
 
 .steamavatar_avatarFrameImg_338kJ {
@@ -2656,23 +2651,23 @@ div.gamelistsearchbar_Container_20QAC > div.gamelistsearchbar_SearchInput_12vo5 
     background-color: transparent;
     border-radius: 2px;
     min-height: 13px;
-    background-image: linear-gradient(to right, var(--label), var(--buttonface2));
+    background-image: linear-gradient(to right, var(--label-master), var(--buttonface2-master));
 }
 
 .contentmanagement_DriveUsageGames_22KCi {
-    background-color: var(--stblue);
+    background-color: var(--stblue-master);
 }
 
 .contentmanagement_DriveUsageWorkshop_1W6jW {
-    background-color: var(--GameDetailsGreen);
+    background-color: var(--GameDetailsGreen-master);
 }
 
 .contentmanagement_DriveUsageDLC_2W7tN {
-    background-color: var(--GameDetailsRed);
+    background-color: var(--GameDetailsRed-master);
 }
 
 .contentmanagement_DriveUsageFreeSpace_3Lz1R {
-    background-color: var(--label2);
+    background-color: var(--label2-master);
 }
 
 .contentmanagement_DriveUsageDot_2jcmN {
@@ -2680,15 +2675,15 @@ div.gamelistsearchbar_Container_20QAC > div.gamelistsearchbar_SearchInput_12vo5 
 }
 
 .contentmanagement_DriveUsageNumber_181OY {
-    color: var(--label);
+    color: var(--label-master);
 }
 
 .contentmanagement_DriveUsageText_1DFCG, .contentmanagement_DriveUsageNumber_181OY {
-    color: var(--Text);
+    color: var(--Text-master);
 }
 
 .contentmanagement_LibraryContent_ybEU2 .contentmanagement_DriveUsage_1LvKJ .contentmanagement_DriveName_1rihl {
-    color: var(--label2);
+    color: var(--label2-master);
 }
 
 .updatealert_Alert_2iJsg {
@@ -2709,11 +2704,11 @@ div.gamelistsearchbar_Container_20QAC > div.gamelistsearchbar_SearchInput_12vo5 
 
 .DialogRoundCheckboxField_Control {
     background: none;
-    border: 1px solid var(--label2);
+    border: 1px solid var(--label2-master);
 }
 
 .DialogRoundCheckboxField_Control .DialogRoundCheckboxField_InnerCircle {
-    background: var(--label2);
+    background: var(--label2-master);
 }
 
 button.DialogButton::before {
@@ -2725,7 +2720,7 @@ button.DialogButton::before {
 }
 
 .familysettings_UserListHeader_2LOrs, .settings_SettingsDialogSubHeader_2rK4Y.DesktopUI, .DesktopUI .settings_SettingsDialogSubHeader_2rK4Y, .notificationssettings_FriendsDescription_3fPiC.notificationssettings_FriendsDescription_3fPiC.DesktopUI, .DesktopUI .notificationssettings_FriendsDescription_3fPiC.notificationssettings_FriendsDescription_3fPiC {
-    color: var(--label2);
+    color: var(--label2-master);
 }
 
 /* ????? */
@@ -2782,11 +2777,11 @@ button.DialogButton::before {
 
 .steamdesktopoverlay_GameOverview_27m9Q .steamdesktopoverlay_GameOverviewSection_1vG-v.steamdesktopoverlay_HasBackground_P46KV,
 .steamdesktopoverlay_GameOverview_27m9Q .steamdesktopoverlay_GameOverviewSection_1vG-v .steamdesktopoverlay_GuideListItem_2OwqX {
-    background-color: var(--backgroundstartsubtle);
+    background-color: var(--backgroundstartsubtle-master);
 }
 
 .steamdesktopoverlay_GameOverview_27m9Q .steamdesktopoverlay_GameOverviewSection_1vG-v .steamdesktopoverlay_GameOverviewSectionHeader_2wBK7 {
-    background-color: var(--buttonfaceactive);
+    background-color: var(--buttonfaceactive-master);
 }
 
 .steamdesktopoverlay_OverlayPopup_C9tvu.PopupFullWindow.steamdesktopoverlay_Resizable_290hv.OverlayBrowser_Browser {
@@ -2803,15 +2798,15 @@ button.DialogButton::before {
     padding-left: 6px !important;
     padding-right: 6px !important;
     height: 23px !important;
-    background: linear-gradient(to bottom, var(--buttonface) , var(--dialogbg));
+    background: linear-gradient(to bottom, var(--buttonface-master) , var(--dialogbg-master));
     border-radius: 0;
     border: none !important;
     margin-right: 6px;
 }
 
 .desktopbrowser_URLBar_26Gmf {
-    background: var(--dialogbg);
-    border-top: 1px solid var(--buttonface);
+    background: var(--dialogbg-master);
+    border-top: 1px solid var(--buttonface-master);
 	
 }
 
@@ -2820,11 +2815,11 @@ button.DialogButton::before {
 }
 
 .desktopbrowser_URLBar_26Gmf .desktopbrowser_StatusIcon_2UTNf {
-    color: var(--label);
+    color: var(--label-master);
 }
 
 .desktopbrowser_URLBar_26Gmf .desktopbrowser_NavigationButton_1oXr_.desktopbrowser_Disabled_1f6yY {
-    color: var(--label2);
+    color: var(--label2-master);
 }
 
 .desktopbrowser_URLBar_26Gmf .desktopbrowser_NavigationButton_1oXr_:hover {
@@ -2850,23 +2845,23 @@ button.DialogButton::before {
 
 .screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Secondary_2Wyma,
 .serverbrowserdialog_ServerBrowserDialog_2rxrV .serverbrowserdialog_DialogBody_2SvsK .serverbrowserdialog_ServerTabPane_2YSm1 .serverbrowserdialog_ServerList_2_4_n .serverbrowserdialog_SelectColumnsButton_3mCrT {
-    background-color: var(--PropertySheetBG);
+    background-color: var(--PropertySheetBG-master);
     border: 1px solid var(--buttonborder-master);
 }
 
 .screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Secondary_2Wyma:hover,
 .serverbrowserdialog_ServerBrowserDialog_2rxrV .serverbrowserdialog_DialogBody_2SvsK .serverbrowserdialog_ServerTabPane_2YSm1 .serverbrowserdialog_ServerList_2_4_n .serverbrowserdialog_SelectColumnsButton_3mCrT:hover {
-    background-color: var(--PropertySheetBG);
+    background-color: var(--PropertySheetBG-master);
     border-color: var(--buttonborderfocus-master) !important;
 }
 
 .screenshotmanagerdialog_CaptionField_oQafB, .screenshotmanagerdialog_ExplainerBox_2lrrN, .screenshotmanagerdialog_FocusedScreenshots_PKkxu {
     background-color: transparent;
-    border: 1px solid var(--label2);
+    border: 1px solid var(--label2-master);
 }
 
 .screenshotmanagerdialog_ButtonBox_1FPJY.screenshotmanagerdialog_Secondary_2Wyma.screenshotmanagerdialog_Disabled_2DImO {
-    background-color: var(--dialogbg);
+    background-color: var(--dialogbg-master);
 }
 
 .DialogDropDown._DialogInputContainer.Panel {
@@ -2878,7 +2873,7 @@ button.DialogButton::before {
 }
 
 .serverbrowserdialog_ServerBrowserDialog_2rxrV .serverbrowserdialog_DialogBody_2SvsK .serverbrowserdialog_ServerTabPane_2YSm1 .serverbrowserdialog_ServerList_2_4_n .serverbrowserdialog_ColumnResizer_1XAm7 span {
-    border-color: var(--label2);
+    border-color: var(--label2-master);
 }
 
 .serverbrowserdialog_SearchButton_2KYMM svg {
@@ -2927,32 +2922,32 @@ button.soundtrackcontrols_IconButton_1iFnR:hover {
 }
 
 button.soundtrackcontrols_IconButton_1iFnR svg path {
-    stroke: var(--label2);
-    fill: var(--label2);
+    stroke: var(--label2-master);
+    fill: var(--label2-master);
 }
 
 button.soundtrackcontrols_IconButton_1iFnR:hover svg path {
-    stroke: var(--label);
-    fill: var(--label);
+    stroke: var(--label-master);
+    fill: var(--label-master);
 }
 
 button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P svg path {
-    stroke: var(--label) !important;
-    fill: var(--label) !important;
+    stroke: var(--label-master) !important;
+    fill: var(--label-master) !important;
 }
 
 button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P:hover svg path {
-    stroke: var(--Text) !important;
-    fill: var(--Text) !important;
+    stroke: var(--Text-master) !important;
+    fill: var(--Text-master) !important;
 }
 
 button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.soundtrackcontrols_Large_Upr_V.DialogButton._DialogLayout.Secondary {
-    border: 3px solid var(--label) !important;
+    border: 3px solid var(--label-master) !important;
     border-radius: 100% !important;
 }
 
 button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.soundtrackcontrols_Large_Upr_V.DialogButton._DialogLayout.Secondary:hover {
-    border-color: var(--Text) !important;
+    border-color: var(--Text-master) !important;
 }
 
 .soundtrackoverlay_Overlay_fMMMD.Panel button {
@@ -2969,7 +2964,7 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.sound
 }
 
 .gamepadslider_SliderTrack_Mq25N::before {
-    background-color: var(--label);
+    background-color: var(--label-master);
 }
 
 .gamepadslider_SliderTrack_Mq25N:after {
@@ -2977,7 +2972,7 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.sound
     display: block;
     width: 8px;
     height: 17px;
-    background-color: var(--label);
+    background-color: var(--label-master);
     left: calc(var(--normalized-width-handle) - 1px);
     top: -7px;
     position: absolute;
@@ -3043,12 +3038,12 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.sound
     background: var(--PanelColor);
 	font-size: 27px !important;
 	letter-spacing: normal !important;
-	color: var(--Text) !important;
+	color: var(--Text-master) !important;
 }
 
 .appdetailssoundtrack_ArtistName_2bTdS {
     padding: 10px 0px 0px 10px !important;
-    color: var(--Text) !important;
+    color: var(--Text-master) !important;
 }
 
 .appdetailssoundtrack_StatsAndParent_3pUBu {
@@ -3056,7 +3051,7 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.sound
 }
 
 .appdetailssoundtrack_AlbumStats_1qxAZ, .appdetailssoundtrack_ParentGameLink_2pcGG {
-    color: var(--label) !important;
+    color: var(--label-master) !important;
 }
 
 .appdetailssoundtrack_SoundtrackContainer_1c7FW .appdetailssoundtrack_Header_4f23l {
@@ -3064,7 +3059,7 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.sound
 }
 
 .appdetailssoundtrack_SoundtrackPanel_23zCI {
-	background-image: linear-gradient(to bottom, var(--dialogbg), var(--almostBlack)) !important;
+	background-image: linear-gradient(to bottom, var(--dialogbg-master), var(--almostBlack-master)) !important;
 	background-color: transparent !important;
 }
 
@@ -3090,7 +3085,7 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.sound
 }
 
 .rootmenu_RootMenuButton_2UyOB:hover {
-    color: var(--Text);
+    color: var(--Text-master);
     background: linear-gradient(to bottom, #666360, #314259);
     padding: 3px;
     height: auto;
@@ -3132,7 +3127,7 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.sound
 }
 
 .appactivityday_PartnerEventMediumImage_Summary_Ru7OB {
-    color: var(--label);
+    color: var(--label-master);
 }
 
 .appactivityday_PartnerEventMediumImage_Contents_2gv3E, .appactivityday_PartnerEventTextOnly_Container_1wJJQ {
@@ -3178,7 +3173,7 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.sound
 }
 
 .appactivityday_PartnerEventLargeImage_Summary_3zwBR, .appactivityday_PartnerEventTextOnly_LimitedSummary_2OrhE, .comment_thread_CommentButton_3i62H.comment_thread_CanClick_3Mds9, .appactivityday_PartnerEventTextOnly_Summary_3ZUP3 {
-    color: var(--label);
+    color: var(--label-master);
 }
 
 .appactivityday_AppActivityDay_S2Fu9 > div > .Panel {
@@ -3190,11 +3185,11 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.sound
 }
 
 .appdetailsscreenshotssection_ScreenshotsSection_2_TE0 .appdetailsscreenshotssection_NoneTaken_2_Wwn, .appdetailsscreenshotssection_ScreenshotsSection_2_TE0 .appdetailsscreenshotssection_InstructionText_2QCkj, .appdetailsachievementssection_UnachievedSection_3ca11 .appdetailsachievementssection_Label_uoFNF {
-    color: var(--label) !important;
+    color: var(--label-master) !important;
 }
 
 .appdetailsachievementssection_UnlockedLabelPercent_14kZV {
-    color: var(--label2);
+    color: var(--label2-master);
 }
 
 .appdetailsachievementssection_NotAchieved_3llpb .appdetailsachievementssection_Icon_zcasg img.achievementiconbase_Icon_2bzHb {
@@ -3267,11 +3262,11 @@ button.soundtrackcontrols_IconButton_1iFnR.soundtrackcontrols_Active_h782P.sound
 }
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce .contentmanagement_AppUsageText_1G9v2, .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce svg.DesktopUI, .DesktopUI .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce svg {
-    color: var(--label);
+    color: var(--label-master);
 }
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppInfo__g4ce .contentmanagement_AppUsageValue_2B8dj {
-    color: var(--label2);
+    color: var(--label2-master);
 }
 
 /* Cringe list view overrides (sucks bad ) */
@@ -3313,7 +3308,7 @@ span.gamelistsectionheader_SectionName_2mZ8L {
 }
 
 .appdetailsfriendssection_Subsection_39bm0 .appdetailsfriendssection_SubsectionHeader_nTb1N {
-    color: var(--label);
+    color: var(--label-master);
 }
 
 .titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_HasNew_3L1c8 {
@@ -3332,8 +3327,8 @@ span.gamelistsectionheader_SectionName_2mZ8L {
 }
 
 .titlebarcontrols_Button_2Szzh.titlebarcontrols_SoundtrackControls_Utdt7.titlebarcontrols_Playing_1nKxf:hover {
-    background: var(--GameDetailsBlue) !important;
-    border-color: var(--GameDetailsBlue) !important;
+    background: var(--GameDetailsBlue-master) !important;
+    border-color: var(--GameDetailsBlue-master) !important;
 }
 
 .progressbar_ProgressBar_yZ55N.progressbar_AnimateProgress_1Ccdv::after {
@@ -3341,7 +3336,7 @@ span.gamelistsectionheader_SectionName_2mZ8L {
 }
 
 .bottombar_AddGameButton_2foCk:hover *, .bottombar_FriendsButton_1TdaA:hover * {
-    color: var(--Text) !important;
+    color: var(--Text-master) !important;
 }
 
 .pagedsettings_PagedSettingsDialog_PageListColumn_RTicB.PageListColumn.Panel:after {
