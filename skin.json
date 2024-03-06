@@ -5,6 +5,9 @@
     "description": "2013 in today",
     "name": "2013 Inspired Steam UI",
     "version": "1.0",
+    "discord_support": {
+        "inviteCodeExcludingLink": "9VAEuGT"
+    },
     "source": "https://github.com/eyedine2/Classic-Steam-Library/tree/main",
     "github": {
         "owner": "eyedine2",
