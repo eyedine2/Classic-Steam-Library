@@ -2,7 +2,6 @@
 <!-- style> .addon-details-segment { background: black !important; } </style -->
 
 [![Video](https://user-images.githubusercontent.com/65731940/125979354-e86bb0ec-40d1-45af-b755-45e70f8cf844.png)](https://www.youtube.com/watch?v=IoKg5fYlZLs)
-<div class="naii-kofi"><a href="https://ko-fi.com/N4N1KXPVY"><img src="https://ko-fi.com/img/githubbutton_sm.svg"></img></a></div>
 <div class ="intro">
 <hr>
 <br>
