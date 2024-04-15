@@ -1,0 +1,42 @@
+{
+    "name": "2013 Inspired Steam UI",
+    "author": "naii_",
+    "target": "Desktop",
+    "version": "1.0",
+    "description": "Returns the Steam library to it's 2010-era look with CSS tweaks instead of reverting it.",
+    "manifest_version": 9,
+    "tabs": {
+        "library": ["Steam|SteamLibraryWindow", "desktopoverlay", "desktopcontextmenu"],
+        "friends": ["desktopchat", "Remote Play"],
+        "all": ["library", "friends"]
+    },
+    "patches": {
+        "Main Window": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "libraryroot.custom.css": ["library"]
+                },
+                "No": {}
+            }
+        },
+        "Friends & Chat": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "friends.custom.css": ["friends"]
+                },
+                "No": {}
+            }
+        },
+        "Web Pages": {
+            "type": "checkbox",
+            "values": {
+                "Yes": {
+                    "webkit.css": ["store"]
+                },
+                "No": {}
+            }
+        }
+    }
+}
