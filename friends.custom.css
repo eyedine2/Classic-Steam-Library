@@ -237,7 +237,7 @@ html.friendsui-container.client_chat_frame.fullheight.SavedDimensionsPopup {
     opacity: 1 !important;
 }
 
-.friendSearchInput[type=text] {
+.friendSearchInput[type="text"] {
     background-color: var(--dialogbg) !important;
     box-shadow: none !important;
     transition: none !important;
@@ -260,7 +260,7 @@ html.friendsui-container.client_chat_frame.fullheight.SavedDimensionsPopup {
     color: var(--label2);
 }
 
-.tabSearchTransitionGroup:before {
+.tabSearchTransitionGroup::before {
     content: "Search Friends";
     text-transform: none;
     font-style: oblique;
@@ -353,11 +353,11 @@ html.friendsui-container.client_chat_frame.fullheight.SavedDimensionsPopup {
     box-sizing: border-box;
 }
 
-.online .personanameandstatus_playerName_r62qz, .online .personanameandstatus_richPresenceLabel_1k82N, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:hover, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:active, .online .personanameandstatus_gameName_2wpap.personanameandstatus_richPresenceLabel_1k82N a:visited {
+.online .r62qzcdJQ0qezZglOtiUX, .online ._1k82NiWym4STegDGxRBHz2, .online ._2wpaptjZY-3Gn1HOPlL85O._1k82NiWym4STegDGxRBHz2 a, .online ._2wpaptjZY-3Gn1HOPlL85O._1k82NiWym4STegDGxRBHz2 a:hover, .online ._2wpaptjZY-3Gn1HOPlL85O._1k82NiWym4STegDGxRBHz2 a:active, .online ._2wpaptjZY-3Gn1HOPlL85O._1k82NiWym4STegDGxRBHz2 a:visited {
     color: var(--FriendsOnlineColor);
 }
 
-.personanameandstatus_playerName_r62qz {
+.r62qzcdJQ0qezZglOtiUX {
     font-size: 12px !important;
 }
 
@@ -509,13 +509,13 @@ html.friendsui-container.client_chat_frame.fullheight.SavedDimensionsPopup {
     width: 100%;
 }
 
-.addFriendButton:before {
+.addFriendButton::before {
     content: "+ Add a Friend...";
     color: var(--label);
 	font-weight: bold;
 }
 
-.addFriendButton:hover:before {
+.addFriendButton:hover::before {
     color: var(--Text);
 }
 
@@ -561,13 +561,7 @@ html.friendsui-container.client_chat_frame.fullheight.SavedDimensionsPopup {
 
 /* This sucks so fucking much */
 
-.contextmenu_contextMenu_LQkrb.library_LibraryContextMenu_1UOkn.visible.contextmenu_ContextMenuFocusContainer_2qyBZ, 
-.DesktopUI .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer, 
-.appgrid_SortingDropDownContainer_1ZpBQ>div.DesktopUI, .DesktopUI .appgrid_SortingDropDownContainer_1ZpBQ>div, 
-.DesktopUI .contextmenu_contextMenu_LQkrb, 
-.contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenu_LQkrb, 
-[class*="contextmenu_contextMenu_"],
-[class*="contextmenu_ContextMenuFocusContainer_"] {
+.LQkrbbayZPY11qHm01t7F._1UOkn2fGQ25jnyqcEJbnlo.visible._2qyBZV8YvxstXuSKiYDF19, .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz ._DialogInputContainer, ._1ZpBQtDqcKBbfIIv01Vs1R > div.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R > div, .DesktopUI .LQkrbbayZPY11qHm01t7F, ._7K1n9EZg9218K75ZOzcHl .LQkrbbayZPY11qHm01t7F, .LQkrbbayZPY11qHm01t7F, ._2qyBZV8YvxstXuSKiYDF19 {
     background-color: var(--dialogbg) !important;
     background-image: linear-gradient(to bottom, var(--buttonbordersubtle), var(--dialogbg)) !important;
 	border: 1px solid transparent !important;
@@ -576,18 +570,18 @@ html.friendsui-container.client_chat_frame.fullheight.SavedDimensionsPopup {
 	padding: 1px !important;
 }
 
-.DesktopUI .contextmenu_contextMenuItem_pFo3k:hover, .DesktopUI .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenuItem_pFo3k:hover, .contextmenu_ForceDesktop_7K1n9 .contextmenu_contextMenuItem_pFo3k.contextmenu_active_1KPWU, [class*="contextmenu_contextMenuItem_"]:hover {
+.DesktopUI .pFo3kQOzrl9qVLPXXGIMp:hover, .DesktopUI .pFo3kQOzrl9qVLPXXGIMp._1KPWUt7wYWSfD3V7sYpsyT, ._7K1n9EZg9218K75ZOzcHl .pFo3kQOzrl9qVLPXXGIMp:hover, ._7K1n9EZg9218K75ZOzcHl .pFo3kQOzrl9qVLPXXGIMp._1KPWUt7wYWSfD3V7sYpsyT, .pFo3kQOzrl9qVLPXXGIMp:hover {
     background: #314259;
 	color: var(--Text);
 }
 
-[class*="contextmenu_contextMenuContents_"], .friendsContextMenu {
+._2y2tUbsMx8OIwkimGSyHmb, .friendsContextMenu {
 	padding: 0 !important;
 	border-radius: 2px !important;
 	box-sizing: border-box !important;
 }
 
-.contextmenu_contextMenuItem_pFo3k.contextMenuItem, [class*="contextmenu_contextMenuItem_"] {
+.pFo3kQOzrl9qVLPXXGIMp.contextMenuItem, .pFo3kQOzrl9qVLPXXGIMp {
     font-size: 12px;
     padding: 6px;
     padding-top: 0px;
@@ -599,8 +593,7 @@ html.friendsui-container.client_chat_frame.fullheight.SavedDimensionsPopup {
     margin-bottom: 1px;
 }
 
-html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb,
-[class*="contextmenu_contextMenu_"] {
+html._2GpKTB_eizdXpH2xVGbMKi .LQkrbbayZPY11qHm01t7F, .LQkrbbayZPY11qHm01t7F {
     box-sizing: border-box;
 }
 
@@ -650,7 +643,7 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb,
     margin-right: 101px;
 }
 
-.chattabs_ChatTab_2Vrcp {
+.X2iywwN7fcdh9zXpXVsrk {
     padding-left: 6px;
     padding-right: 6px;
     min-width: 150px;
@@ -660,15 +653,15 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb,
     border-radius: 0;
 }
 
-.chattabs_ChatTab_2Vrcp:not(:first-child) {
+.X2iywwN7fcdh9zXpXVsrk:not(:first-child) {
     margin-left: 4px;
 }
 
-.chattabs_ChatTab_2Vrcp:before, .chattabs_ChatTab_2Vrcp:last-of-type:after {
+.X2iywwN7fcdh9zXpXVsrk::before, .X2iywwN7fcdh9zXpXVsrk:last-of-type::after {
 	display: none;
 }
 
-.chattabs_ChatTabContent_Friend_2ZiZ7 .steamavatar_avatarHolder_1YGAH {
+._3tIp1VL2rG6tO8sY0CeRl9 ._1YGAHSfGavQI6MODJq-pJB {
     display: none;
 }
 
@@ -680,7 +673,7 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb,
     height: auto;
 }
 
-.personanameandstatus_playerName_r62qz {
+.r62qzcdJQ0qezZglOtiUX {
     line-height: 12px;
 }
 
@@ -713,9 +706,15 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb,
     stroke-width: 48px;
 }
 
-.chattabs_ChatTab_2Vrcp:not(.chattabs_Active_Lrqoj) {
+.X2iywwN7fcdh9zXpXVsrk:not(._1BNlZUYDbVr8VhCTmq7ksk) {
     transform: translatey(-1px);
     border-bottom: 1px solid black;
+}
+
+/* Fixes dumb scroll bar */
+
+.HorizontalMiniSliderScroll {
+    overflow: hidden;
 }
 
 /* Content */
@@ -724,7 +723,7 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb,
     background: var(--dialogbg);
 }
 
-.insetshadow_FriendsListInsetShadowCtn_17ewz {
+._17ewzMiLZXQiOFFbpXAZdw {
     display: none;
 }
 
@@ -760,7 +759,7 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb,
     font-size: 12px !important;
 }
 
-.speakerTimeStamp:after {
+.speakerTimeStamp::after {
     content: "-";
     margin-left: 3px;
     margin-right: 3px;
@@ -802,7 +801,7 @@ html.contextmenu_ContextMenuPopup_2GpKT .contextmenu_contextMenu_LQkrb,
 
 /* Chat tools / "Footer" */
 
-form.chatentry_chatEntryControls_2gP0D, .chatentry_chatEntryActionsGroup_3grea .chatentry_chatSubmitButton_1IEiK, .VoiceToggle {
+form._2gP0DqVyb1aEACymAe6if3, ._3grea2u6WuuGLHj9gJFmzY ._1IEiKQnjHpIv-m601y6hvP, .VoiceToggle {
     background: none !important;
     border: 1px solid var(--buttonface) !important;
     border-radius: 5px !important;
@@ -841,33 +840,33 @@ form.chatentry_chatEntryControls_2gP0D, .chatentry_chatEntryActionsGroup_3grea .
 	fill: #fff !important;
 }
 
-.chatentry_chatSubmitButton_1IEiK {
+._1IEiKQnjHpIv-m601y6hvP {
     background: none !important;
     border: none !important;
 }
 
-.chatentry_disabled_2GM2k .SVGIcon_Submit path {
+._2GM2kkVRqL-SdkG4oQjUzY .SVGIcon_Submit path {
     fill: var(--label2) !important;
 }
 
-.chatentry_chatSubmitButton_1IEiK .SVGIcon_Submit path {
+._1IEiKQnjHpIv-m601y6hvP .SVGIcon_Submit path {
     fill: var(--Text);
 }
 
-.chatentry_chatEntryActionsGroup_3grea {
+._3grea2u6WuuGLHj9gJFmzY {
     background-color: transparent;
     padding: 0;
 }
 
-.chatentry_EmoticonPickerButton_K-lPM .SVGIcon_Emoticon line, .chatentry_EmoticonPickerButton_K-lPM .SVGIcon_Emoticon circle, .chatentry_EmoticonPickerButton_K-lPM .SVGIcon_Emoticon path, .chatentry_EmbedButton_24xNx .SVGIcon_Paperclip path {
+.K-lPMiafCuZRqjfXykujt .SVGIcon_Emoticon line, .K-lPMiafCuZRqjfXykujt .SVGIcon_Emoticon circle, .K-lPMiafCuZRqjfXykujt .SVGIcon_Emoticon path, ._24xNxnnkSf6A1WY3MnCCeg .SVGIcon_Paperclip path {
     stroke: var(--label2);
 }
 
-.chatentry_chatEntryActionsGroup_3grea button:not(:last-child) {
+._3grea2u6WuuGLHj9gJFmzY button:not(:last-child) {
     margin-right: 8px;
 }
 
-.chatentry_chatEntryActionsGroup_3grea button {
+._3grea2u6WuuGLHj9gJFmzY button {
     max-width: 52px !important;
     max-height: 52px !important;
     width: 52px;
@@ -875,7 +874,7 @@ form.chatentry_chatEntryControls_2gP0D, .chatentry_chatEntryActionsGroup_3grea .
 	min-width: 52px !important;
 }
 
-.chatentry_chatEntryActionsContainer_1X1-n {
+._1X1-nhi0oX1Wy7y1mEIc1o {
     max-height: 100%;
 }
 
@@ -892,7 +891,7 @@ form.chatentry_chatEntryControls_2gP0D, .chatentry_chatEntryActionsGroup_3grea .
 	}
 }
 
-.friendlist.compactView:before {
+.friendlist.compactView::before {
     content: "Turn off compact mode, please.";
 	font-size: 18px;
 	font-weight: bold;
