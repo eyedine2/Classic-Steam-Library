@@ -26,7 +26,7 @@
         {
             "MatchRegexString": "^Steam$",
             "TargetCss": "libraryroot.custom.css",
-            "TargetJs": "libraryroot.custom.js"
+            "TargetJs": "friends_online_count.js"
         }
     ]
 }
