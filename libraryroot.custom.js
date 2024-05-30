@@ -1,3 +1,5 @@
+// Collection Panel repositioned beneath linkssection, by shadow
+
 const h = '._2b6WkTnmJxMuX1biL7aS3C.Panel'
 const i = '_2meE3N6-Wkw3yQUVtQK-i8'
 const n = '.DgVQapkBmhAW6oPY5rPZo.Panel'
@@ -9,6 +11,8 @@ new MutationObserver((mo) => {
 		});
 	});
 }).observe(document.body, { childList: true, subtree: true });
+
+// Friends count near friends button, by ricewind012
 
 if (document.title == 'Steam') {
 	const {
