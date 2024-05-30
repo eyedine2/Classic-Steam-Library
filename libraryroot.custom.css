@@ -3,6 +3,9 @@
 /* this sucks ass */
 /* Change Headercolor to --GameDetailsBlue, --GameDetailsGreen, or --GameDetailsRed to change Section Colors! */
 :root {
+    /* in seconds */
+    --friends-update-interval: 60;
+
 	/* Master Colors 2013 */
 
 
@@ -2257,7 +2260,15 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase::placeholder {
 }
 
 ._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k {
-    margin-bottom: 26px;
+    margin-bottom: 16px;
+}
+
+._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k::after {
+    content: var(--friends-online-count) ' ' var(--Menu_Status_Online);
+    display: block;
+    text-align: right;
+    text-transform: none;
+    color: var(--label-master);
 }
 
 ._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F {
