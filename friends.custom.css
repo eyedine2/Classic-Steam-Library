@@ -151,10 +151,13 @@ Comment these out like I am doing right now if you miss this stuff */
     overflow: visible;
 }
 
-html.friendsui-container.client_chat_frame.fullheight.SavedDimensionsPopup {
+#popup_target {
     border: 1px solid black;
-    height: calc(100% + -2px);
-    border-image: linear-gradient(-225deg, transparent 50%, #4D678C);
+    box-sizing: border-box;
+}
+
+.WindowFocus #popup_target {
+    border-image: linear-gradient(-225deg, black 50%, #4D678C);
     border-image-slice: 1;
 }
 

@@ -2381,7 +2381,17 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase::placeholder {
 }
 
 ._1ENHEsrSLcTRtPQFl1F-wL {
-    border-top: 1px solid black;
+    border: none;
+}
+
+#popup_target {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.WindowFocus #popup_target {
+    border-image: linear-gradient(-225deg, black 50%, #4D678C);
+    border-image-slice: 1;
 }
 
 /* bottom */
