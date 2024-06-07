@@ -2199,37 +2199,21 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase::placeholder {
 	background-blend-mode: normal;
 }
 
-._5wILZhsLODVwGfcJ0hKmJ, .Utdt7JrpIm5JlpQmqyj1v {
+._2Szzh5sKyGgnLUR870zbDE:not(._3LKQ3S_yqrebeNLF6aeiog) {
     width: 30px !important;
     height: 30px !important;
     margin-right: 10px !important;
     padding: 0 !important;
     border: 1px solid var(--buttonface2-master);
     background: linear-gradient(to bottom, var(--darkclientbg-master), var(--dialogbg-master));
-    border-bottom-left-radius: var(--buttonradius);
-    border-bottom-right-radius: var(--buttonradius);
-}
-
-.RtSv39ZoBOySnb8XQ5hJf {
-    width: 30px !important;
-    height: 30px !important;
-    margin-right: 10px !important;
-    padding: 0 !important;
-    background: linear-gradient(to bottom, var(--darkclientbg-master), var(--dialogbg-master)) !important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
     border-bottom-left-radius: var(--buttonradius);
     border-bottom-right-radius: var(--buttonradius);
 }
 
 .Utdt7JrpIm5JlpQmqyj1v {
     width: 60px !important;
-}
-
-.RtSv39ZoBOySnb8XQ5hJf._9YK5IY219Pm_F53DAxyYp, .RtSv39ZoBOySnb8XQ5hJf._3qhGkQ5qLVNQQ-J2-uPoHt {
-	background: none;
-}
-
-._2Szzh5sKyGgnLUR870zbDE.RtSv39ZoBOySnb8XQ5hJf {
-    padding: 0 3px;
 }
 
 /*
@@ -3379,7 +3363,7 @@ span._2mZ8LlvoUiyeEUtIWuTri {
 
 /* Adjust notification and announcment buttons to overflow the main window frame */
 ._3mGEzzp18imtSzGPkduedi, ._2Szzh5sKyGgnLUR870zbDE._5wILZhsLODVwGfcJ0hKmJ{
-    margin-top: -2px !important;
+    margin-top: -1px !important;
 }
 
 ._2b6WkTnmJxMuX1biL7aS3C.Panel {
