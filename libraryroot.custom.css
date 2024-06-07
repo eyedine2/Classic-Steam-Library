@@ -1077,6 +1077,7 @@ button.DialogButton, ._1EC1xjjUGqI7fqX6PVzJA3, .DialogDropDown._DialogInputConta
 	font-size: 10px /* This is the Button font size */ !important;
     text-transform: uppercase !important;
 	letter-spacing: 0.3px !important;
+    line-height: 12px !important;
 }
 
 button.DialogButton:hover, ._1EC1xjjUGqI7fqX6PVzJA3:hover, .DialogDropDown._DialogInputContainer.Panel:hover /* Button Borders */ {
@@ -1172,10 +1173,6 @@ div.FullModalOverlay > div.ModalOverlayContent.active > div > div > div.DialogCo
 
 ._DialogColLayout {
 	justify-content: space-evenly !important;
-}
-
-button.DialogButton._DialogLayout.Primary, button.DialogButton._DialogLayout.Secondary {
-    line-height: 12px !important;
 }
 
 .Woh0kBQCmatzC1daBX9i6 {
@@ -1788,8 +1785,9 @@ div.OINnOU8K5HzPe2nzczpZi.Panel > div > div > div._2pjdgFqp04LlhgtFS0rQn_ > div 
     align-self: center;
     margin: 0 !IMPORTANT;
     padding: 0px 0px 0px 8px;
-    top: auto;
-    right: 5px;
+    position: absolute !important;
+    top: auto !important;
+    right: 5px !important;
 }
 
 .DialogDropDown._DialogInputContainer.Panel:hover .DialogDropDown_Arrow, ._2PF_m-I5yte3WnQhpcz8RC:hover ._15aGnszAf3gHD-PFdJBoFD {
@@ -1800,10 +1798,15 @@ div.DialogDropDown._DialogInputContainer.Panel > div.DialogDropDown_Arrow > svg,
     display: none;
 }
 
-.DialogDropDown._DialogInputContainer.Panel, .DialogDropDown_CurrentDisplay, ._2qm05e8tWSAb-_fAHytQCP /* Some more font mojo */ {
+.DialogDropDown._DialogInputContainer.Panel,
+.DialogDropDown_CurrentDisplay,
+.uDBZWGBy_BP0IFXToHYjk,
+._2qm05e8tWSAb-_fAHytQCP /* Some more font mojo */ {
     line-height: 12px;
     align-items: center;
 	font-size: 11px !important;
+    color: var(--Text) !important;
+    padding-right: 5px !important;
 }
 
 div._1OGfHXv6ksR1Ub-OuLN2NB > svg  /* these drag handles suck */{
@@ -1824,6 +1827,8 @@ div._1OGfHXv6ksR1Ub-OuLN2NB > svg  /* these drag handles suck */{
 
 ._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer .DialogDropDown_CurrentDisplay {
     background-color: transparent;
+    padding: 0 !important;
+    padding-right: 20px !important;
 }
 
 span._2mZ8LlvoUiyeEUtIWuTri /* fixing something that broke with the font */ {
