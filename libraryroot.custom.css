@@ -1161,9 +1161,36 @@ button.DialogButton:hover, ._1EC1xjjUGqI7fqX6PVzJA3:hover, .DialogDropDown._Dial
     display: none !important;
 }
 
-div.FullModalOverlay > div.ModalOverlayContent.active > div > div > div.DialogContent._DialogLayout.GenericConfirmDialog._DialogCenterVertically {
-    background-color: var(--dialogbg-master);
-    background-image: linear-gradient(to bottom, var(--buttonbordersubtle-master), transparent, transparent, var(--darkclientbg-master));
+.ModalPosition_Content > .DialogContent .DialogHeader {
+    font-size: 11px !important;
+    padding: 0;
+    transform: none;
+    position: absolute;
+    left: 12px;
+    top: 2px;
+    z-index: 999;
+}
+
+.PopupFullWindow .ModalPosition_Content > .DialogContent .DialogHeader {
+    position: fixed;
+}
+
+.ModalPosition_Content > .DialogContent .DialogContent_InnerWidth {
+    margin-top: 16px !important;
+}
+
+.PopupFullWindow .TitleBar,
+.FullModalOverlay .DialogContent {
+    background-color: var(--dialogbg-master) !important;
+    background-image: linear-gradient(to bottom, var(--buttonbordersubtle-master), var(--dialogbg-master)) !important;
+}
+
+.FullModalOverlay .DialogContent {
+    background-repeat: no-repeat !important;
+    background-size: 100% 32px !important;
+}
+
+.DialogContent.GenericConfirmDialog {
 	padding: 12px !Important;
 }
 
@@ -1785,7 +1812,7 @@ div.OINnOU8K5HzPe2nzczpZi.Panel > div > div > div._2pjdgFqp04LlhgtFS0rQn_ > div 
     align-self: center;
     margin: 0 !IMPORTANT;
     padding: 0px 0px 0px 8px;
-    position: absolute !important;
+    position: unset !important;
     top: auto !important;
     right: 5px !important;
 }
@@ -1804,6 +1831,7 @@ div.DialogDropDown._DialogInputContainer.Panel > div.DialogDropDown_Arrow > svg,
 ._2qm05e8tWSAb-_fAHytQCP /* Some more font mojo */ {
     line-height: 12px;
     align-items: center;
+    flex-grow: 1;
 	font-size: 11px !important;
     color: var(--Text) !important;
     padding-right: 5px !important;
@@ -2565,13 +2593,18 @@ div._20QAC4WMXm8qFE8waUT5oo > div._12vo5L1hsNGdao6_ssuirS > div > input {
 
 ._3qEgQJqeb0zyM12KXq64Or {
     color: transparent;
+    font-weight: normal;
     height: 24px;
     margin: 0;
     padding: 0;
-    padding-left: 5px;
     margin-bottom: 10px;
     position: absolute;
     top: -26px;
+    z-index: 2;
+}
+
+._EebF_xe4DGRZ9a0XkyDj {
+    overflow: auto !important;
 }
 
 .RTicBCbDcEGkjsbmWzA8C.PageListColumn.Panel {
@@ -2580,6 +2613,7 @@ div._20QAC4WMXm8qFE8waUT5oo > div._12vo5L1hsNGdao6_ssuirS > div > input {
 
 .ModalDialogPopup .ModalDialogBody .title-area {
     height: 32px !important;
+    inset: 1px !important;
 }
 
 ._3I6h_oySuLmmLY9TjIKT9s:not(._1dBCPkyWYRX7FwOcOEDrOo) {
@@ -2867,6 +2901,7 @@ button.DialogButton::before {
 }
 
 .DialogDropDown._DialogInputContainer.Panel {
+    gap: 0;
     display: flex;
 }
 
@@ -2889,6 +2924,11 @@ button.DialogButton::before {
 
 .ModalDialogPopup .DialogContentTransition .DialogBody {
     overflow-y: auto;
+}
+
+.DialogBody a {
+    color: var(--label) !important;
+    text-decoration: underline !important;
 }
 
 .C9tvuqqEXGcrkcAtHrQ_R.PopupFullWindow.Wt45HcpWivkdscTAM-XYu.SoundtrackPlayer {
