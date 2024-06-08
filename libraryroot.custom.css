@@ -1066,6 +1066,8 @@ img._1p_QrI3ixF-RAwnxad9pEm.avatar {
 	background-color: transparent !important;
 }
 
+._1FPJYJrOP3sGOAaFkUKvsa,
+._3mCrTKGesl-jD-k-buQ13_,
 button.DialogButton, ._1EC1xjjUGqI7fqX6PVzJA3, .DialogDropDown._DialogInputContainer.Panel, .DialogCheckbox_Container._DialogLayout._2V2nc3qHRjg_726Zc2HT28.Panel /* Buttons */ {
 	margin-bottom: 15px !important;
 	padding: 5px !important;
@@ -1080,6 +1082,8 @@ button.DialogButton, ._1EC1xjjUGqI7fqX6PVzJA3, .DialogDropDown._DialogInputConta
     line-height: 12px !important;
 }
 
+._1FPJYJrOP3sGOAaFkUKvsa:hover,
+._3mCrTKGesl-jD-k-buQ13_:hover,
 button.DialogButton:hover, ._1EC1xjjUGqI7fqX6PVzJA3:hover, .DialogDropDown._DialogInputContainer.Panel:hover /* Button Borders */ {
 	border: 1px solid var(--buttonborderfocus-master) !important;
 }
@@ -1802,6 +1806,7 @@ div.OINnOU8K5HzPe2nzczpZi.Panel > div > div > div._2pjdgFqp04LlhgtFS0rQn_ > div 
     border: 1px solid var(--buttonborder-master);
 }
 
+._1G-9fAzW5CfKYrYh48dMgL svg,
 .DialogDropDown_Arrow, ._15aGnszAf3gHD-PFdJBoFD /* Dropdown Arrow */ {
     background-image: url(https://i.imgur.com/DnP2rra.png);
     background-position: right;
@@ -1817,16 +1822,21 @@ div.OINnOU8K5HzPe2nzczpZi.Panel > div > div > div._2pjdgFqp04LlhgtFS0rQn_ > div 
     right: 5px !important;
 }
 
+._1G-9fAzW5CfKYrYh48dMgL:hover svg,
 .DialogDropDown._DialogInputContainer.Panel:hover .DialogDropDown_Arrow, ._2PF_m-I5yte3WnQhpcz8RC:hover ._15aGnszAf3gHD-PFdJBoFD {
     background-image: url(https://i.imgur.com/WKww45Z.png);
 }
 
+._1G-9fAzW5CfKYrYh48dMgL path,
 div.DialogDropDown._DialogInputContainer.Panel > div.DialogDropDown_Arrow > svg, div._2PF_m-I5yte3WnQhpcz8RC > div > svg {
     display: none;
 }
 
 .DialogDropDown._DialogInputContainer.Panel,
 .DialogDropDown_CurrentDisplay,
+._1DrNvKetbw02_jhMu6TcLc, /* Screenshot manager combobox text */
+._3GkZspseDhJvv1lGh90GZb, /* Screenshot manager metadata */
+.XXxRYXxr1rFPzz6sbQaAL, /* Screenshot manager cloud storage impact */
 .uDBZWGBy_BP0IFXToHYjk,
 ._2qm05e8tWSAb-_fAHytQCP /* Some more font mojo */ {
     line-height: 12px;
@@ -1841,6 +1851,7 @@ div._1OGfHXv6ksR1Ub-OuLN2NB > svg  /* these drag handles suck */{
     display: none;
 }
 
+._1G-9fAzW5CfKYrYh48dMgL::after,
 .DialogDropDown._DialogInputContainer.Panel::after /* Arrow left line */ {
     content: " ";
     border-left: 1px solid var(--buttonborder-master);
@@ -1849,6 +1860,7 @@ div._1OGfHXv6ksR1Ub-OuLN2NB > svg  /* these drag handles suck */{
     right: 18px;
 }
 
+._1G-9fAzW5CfKYrYh48dMgL:hover::after,
 .DialogDropDown._DialogInputContainer.Panel:hover::after, ._2PF_m-I5yte3WnQhpcz8RC:hover::after {
     border-color: var(--buttonborderfocus-master);
 }
@@ -2170,7 +2182,7 @@ img._dijeIFQK07Fymccmf6qA._3XYFKZ4dGPY0v1xxXRIwm6 {
     width: auto !important;
 }
 
-input.DialogInput.DialogInputPlaceholder.DialogTextInputBase::placeholder {
+::placeholder {
 	color: var(--label2-master) !important;
 }
 
@@ -2881,14 +2893,10 @@ button.DialogButton::before {
     overflow: visible;
 }
 
-._1FPJYJrOP3sGOAaFkUKvsa._2WymaTKNIM1vyXh6dWqpnk, ._2rxrVvbku0AC8Qbequ4-z9 ._2SvsKGOQeIoV8laKj5Ql5s ._2YSm1vJtLeKb9BbihsLY1F ._2_4_nZy-T2C3pHa81tGH76 ._3mCrTKGesl-jD-k-buQ13_ {
-    background-color: var(--PropertySheetBG-master);
-    border: 1px solid var(--buttonborder-master);
-}
-
-._1FPJYJrOP3sGOAaFkUKvsa._2WymaTKNIM1vyXh6dWqpnk:hover, ._2rxrVvbku0AC8Qbequ4-z9 ._2SvsKGOQeIoV8laKj5Ql5s ._2YSm1vJtLeKb9BbihsLY1F ._2_4_nZy-T2C3pHa81tGH76 ._3mCrTKGesl-jD-k-buQ13_:hover {
-    background-color: var(--PropertySheetBG-master);
-    border-color: var(--buttonborderfocus-master) !important;
+._1FPJYJrOP3sGOAaFkUKvsa,
+._3mCrTKGesl-jD-k-buQ13_ {
+    margin-bottom: 0 !important;
+    position: relative !important;
 }
 
 .oQafBNf0Aso9mt7Tt5wQi, ._2lrrNsbFXBpMmd7sl1W8zv, .PKkxuW-HGAJI2pUIDh6nM {
@@ -2896,8 +2904,59 @@ button.DialogButton::before {
     border: 1px solid var(--label2-master);
 }
 
-._1FPJYJrOP3sGOAaFkUKvsa._2WymaTKNIM1vyXh6dWqpnk._2DImOBZViQSVUAGzChzYs7 {
+._1FPJYJrOP3sGOAaFkUKvsa._2DImOBZViQSVUAGzChzYs7 {
     background-color: var(--dialogbg-master);
+    background-image: none !important;
+}
+
+._3ZfdmuosxYV0ADrSETwjR8 {
+    flex-direction: column !important;
+    align-items: end !important;
+}
+
+._3ZfdmuosxYV0ADrSETwjR8 ._24G4gV0rYtRbebXM44GkKk {
+    margin-right: 0 !important;
+}
+
+.QwnO04wZVg-ARlc_JAndT {
+    display: block !important;
+}
+
+.MT9J_J9hCotTlQQCrTT4 {
+    display: none !important;
+}
+
+/* Screenshot manager button icon */
+._3xSgI5J3gGSy1D53uL4BLr {
+    display: none;
+}
+
+._1PC3nI-Sy0MXajufJ-Wqhn > div:nth-child(1) > .Focusable > ._1FPJYJrOP3sGOAaFkUKvsa::before {
+    content: 'Show on disk';
+}
+
+._1PC3nI-Sy0MXajufJ-Wqhn > div:nth-child(2) > .Focusable > ._1FPJYJrOP3sGOAaFkUKvsa::before {
+    content: 'Settings';
+}
+
+._1PC3nI-Sy0MXajufJ-Wqhn > div:last-child > .Focusable > :nth-child(1)::before {
+    content: 'View as list';
+}
+
+._1PC3nI-Sy0MXajufJ-Wqhn > div:last-child > .Focusable > :nth-child(2)::before {
+    content: 'View as grid';
+}
+
+._29F9fh1NTycevT8TquWCou > ._3ZfdmuosxYV0ADrSETwjR8 > div > div:nth-child(1):nth-last-child(2) > div::before {
+    content: 'Copy link to screenshot';
+}
+
+._29F9fh1NTycevT8TquWCou > ._3ZfdmuosxYV0ADrSETwjR8 > div > div:nth-child(1):nth-last-child(3) > div::before {
+    content: 'Show on disk';
+}
+
+._29F9fh1NTycevT8TquWCou > ._3ZfdmuosxYV0ADrSETwjR8 > div > div:nth-child(2):nth-last-child(2) > div::before {
+    content: 'Delete';
 }
 
 .DialogDropDown._DialogInputContainer.Panel {
