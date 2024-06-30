@@ -1,0 +1,80 @@
+:root {
+    /* in seconds */
+    --friends-update-interval: 60;
+
+	/* Master Colors 2013 */
+
+	--HeaderColor: var(--GameDetailsGreen-master); 
+	--PanelColor: var(--backgroundstart);
+	--profilesize: 47px;
+	--profileborder: 4px;
+	--buttonradius: 3px;
+	--scrollradius: 3.5px;
+	--profileradius: 6px;
+	--dialogbg-master: var(--dialogbg);
+	--darkclientbg-master: var(--darkclientbg);
+	--label-master: var(--label);
+	--label2-master: var(--label2);
+	--buttonborderdisabled-master: var(--buttonborderdisabled);
+	--buttonface-master: var(--buttonface);
+	--buttonfaceactive-master: var(--buttonfaceactive);
+	--buttonface2-master: var(--buttonface2);
+	--backgroundstartsubtle-master: var(--backgroundstartsubtle);
+	--almostwhite-master: var(--almostwhite);
+	--backgroundstart-master: var(--backgroundstart);
+	--buttonborder-master: var(--buttonborder);
+	--buttonbordersubtle-master: var(--buttonbordersubtle);
+	--buttonborderfocus-master: var(--buttonborderfocus);
+	--buttonborderfocussubtle-master: var(--buttonborderfocussubtle);
+	--Text-master: var(--Text);
+	--Texthover-master: var(--Texthover);
+	--GameDetailsBlue-master: var(--GameDetailsBlue);
+	--GameDetailsGreen-master: var(--GameDetailsGreen);
+	--GameDetailsRed-master: var(--GameDetailsRed);
+	--PropertySheetBG-master: var(--PropertySheetBG);
+	--FriendsInGameColor-master: var(--FriendsInGameColor);
+	--FriendsOnlineColor-master: var(--FriendsOnlineColor);
+	--stblue-master: var(--stblue);
+	--Friendsdullgreen-master: var(--Friendsdullgreen);
+	--almostBlack-master: var(--almostBlack);
+	--Highlight5-master: var(--Highlight5);
+	--clientbg-master: var(--clientbg);
+	
+
+	--logotexture: url(https://i.imgur.com/Dsr2r4l.png);
+	--clientstretch: url(https://i.imgur.com/WKlQeut.png);
+	--clientnostretch: url(https://i.imgur.com/styFQYb.png);
+	--clientstretch2: none;
+	--clientstretch3: url(https://i.imgur.com/vOcCyrv.png);
+
+	/* 2013 Colors */
+	--dialogbg: rgb(56,54,53);
+	--darkclientbg: rgb(36,35,34);
+	--label: rgb(166,164,161);
+	--label2: rgb(115,111,108);
+	--buttonborderdisabled: rgb(77,75,72);
+	--buttonface: rgb(105,102,99);
+	--buttonfaceactive: rgb(105,102,99);
+	--buttonface2: rgb(92,89,86);
+	--backgroundstartsubtle: rgb(20,20,20);
+	--almostwhite: rgb(242,242,242);
+	--backgroundstart: rgba(23,22,20,0.71);
+	--buttonborder: rgb(112,109,105);
+	--buttonbordersubtle: rgb(82,79,77);
+	--buttonborderfocus: rgb(153,147,141);
+	--buttonborderfocussubtle: rgb(128,122,117);
+	--Text: rgb(209,207,205);
+	--Texthover: rgb(229,226,223);
+	--GameDetailsBlue: rgb(89,126,179);
+	--GameDetailsGreen: rgb(126,166,75);
+	--GameDetailsRed: rgb(173,69,71);
+	--PropertySheetBG: rgb(74,72,70);
+	--FriendsInGameColor: rgb(140,179,89);
+	--FriendsOnlineColor: rgb(134,181,217);
+	--stblue: rgb(54,106,179);
+	--Friendsdullgreen: rgb(124, 160, 78);
+	--almostBlack: rgb(23,22,20);
+	--Highlight5: rgb(77,103,140);
+	--clientbg: black;
+	
+}
