@@ -52,14 +52,11 @@
     },
     "header_image": "https://i.imgur.com/BmV004U.png",
     "name": "2013 Inspired Steam UI",
-    "native-name": "a",
-    "remote": false,
     "source": "https://github.com/eyedine2/Classic-Steam-Library/tree/main",
     "splash_image": "https://i.imgur.com/qeMRemL.png",
     "tags": [
         "Dark",
         "Classic"
     ],
-    "update_required": false,
     "version": "1.0"
 }
