@@ -1,32 +1,65 @@
 {
-    "Steam-WebKit": "webkit.css",
-    "UseDefaultPatches": true,
-    "author": "naii_",
-    "description": "2013 in today",
-    "name": "2013 Inspired Steam UI",
-    "version": "1.0",
-    "discord_support": {
-        "inviteCodeExcludingLink": "9VAEuGT"
-    },
-    "source": "https://github.com/eyedine2/Classic-Steam-Library/tree/main",
-    "github": {
-        "owner": "eyedine2",
-        "repo_name": "Classic-Steam-Library"
-    },
-    "tags": [
-        "Dark",
-        "Classic"
+    "Configuration": [
+        {
+            "Name": "2015 Theme",
+            "ToolTip": "Bluer but still old",
+            "Type": "CheckBox",
+            "Value": false
+        }
     ],
-    "funding": {
-        "kofi": "naii_"
-    },
-    "header_image": "https://i.imgur.com/BmV004U.png",
-    "splash_image": "https://i.imgur.com/qeMRemL.png",
     "Patches": [
         {
             "MatchRegexString": "^Steam$",
             "TargetCss": "libraryroot.custom.css",
             "TargetJs": "libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": ".*",
+            "Statement": [
+                {
+                    "Equals": true,
+                    "False": {
+                        "TargetCss": "2013steam/vars2013.css"
+                    },
+                    "If": "2015 Theme",
+                    "True": {
+                        "TargetCss": "2015steam/vars2015.css"
+                    }
+                }
+            ]
         }
-    ]
+    ],
+    "Steam-WebKit": "webkit.css",
+    "UseDefaultPatches": true,
+    "author": "naii_",
+    "description": "2013 in today",
+    "discord_support": {
+        "inviteCodeExcludingLink": "9VAEuGT"
+    },
+    "funding": {
+        "kofi": "naii_"
+    },
+    "git": {
+        "commit": "558d3bf5a9560d63a8828241f5faf1e1dc5ec161",
+        "date": "2024-06-09T12:37:39Z",
+        "download": "https://codeload.github.com/eyedine2/Classic-Steam-Library/zip/refs/heads/main",
+        "message": "Merge pull request #15 from ricewind012/patch-1\n\nscreenshot manager & stuff",
+        "url": "https://github.com/eyedine2/Classic-Steam-Library/commit/558d3bf5a9560d63a8828241f5faf1e1dc5ec161"
+    },
+    "github": {
+        "owner": "eyedine2",
+        "repo_name": "Classic-Steam-Library"
+    },
+    "header_image": "https://i.imgur.com/BmV004U.png",
+    "name": "2013 Inspired Steam UI",
+    "native-name": "a",
+    "remote": false,
+    "source": "https://github.com/eyedine2/Classic-Steam-Library/tree/main",
+    "splash_image": "https://i.imgur.com/qeMRemL.png",
+    "tags": [
+        "Dark",
+        "Classic"
+    ],
+    "update_required": false,
+    "version": "1.0"
 }
