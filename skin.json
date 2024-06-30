@@ -32,7 +32,7 @@
     "Steam-WebKit": "webkit.css",
     "UseDefaultPatches": true,
     "author": "naii_",
-    "description": "2013 in today",
+    "description": "Brings Steam's 2013 & 2015 looks to the modern day",
     "discord_support": {
         "inviteCodeExcludingLink": "9VAEuGT"
     },
@@ -43,10 +43,10 @@
         "owner": "eyedine2",
         "repo_name": "Classic-Steam-Library"
     },
-    "header_image": "https://i.imgur.com/BmV004U.png",
-    "name": "2013 Inspired Steam UI",
+    "header_image": "https://i.imgur.com/vHOXT4X.png",
+    "name": "Classic Steam Library",
     "source": "https://github.com/eyedine2/Classic-Steam-Library/tree/main",
-    "splash_image": "https://i.imgur.com/qeMRemL.png",
+    "splash_image": "https://i.imgur.com/vHOXT4X.png",
     "tags": [
         "Dark",
         "Classic"
