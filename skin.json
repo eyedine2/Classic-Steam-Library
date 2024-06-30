@@ -39,13 +39,6 @@
     "funding": {
         "kofi": "naii_"
     },
-    "git": {
-        "commit": "558d3bf5a9560d63a8828241f5faf1e1dc5ec161",
-        "date": "2024-06-09T12:37:39Z",
-        "download": "https://codeload.github.com/eyedine2/Classic-Steam-Library/zip/refs/heads/main",
-        "message": "Merge pull request #15 from ricewind012/patch-1\n\nscreenshot manager & stuff",
-        "url": "https://github.com/eyedine2/Classic-Steam-Library/commit/558d3bf5a9560d63a8828241f5faf1e1dc5ec161"
-    },
     "github": {
         "owner": "eyedine2",
         "repo_name": "Classic-Steam-Library"
