@@ -1,4 +1,4 @@
-[![Video](https://user-images.githubusercontent.com/65731940/125979354-e86bb0ec-40d1-45af-b755-45e70f8cf844.png)](https://www.youtube.com/watch?v=IoKg5fYlZLs)
+[![Video](https://i.imgur.com/vHOXT4X.png)](https://www.youtube.com/watch?v=IoKg5fYlZLs)
 <div class ="intro">
 <hr>
 <br>
@@ -12,7 +12,7 @@ This is a large scale and somewhat messy project that has taken place over the c
 <br>
 <div class="a-container">
     <div class="image-gradient" id="left">
-        <img src="https://i.imgur.com/9dRmkpO.png" alt="Friends">
+        <img src="https://i.imgur.com/jyZZCCl.png" alt="Friends">
     </div>
     <div id="right">
         <h2>A Complete Rework</h2>
@@ -23,7 +23,7 @@ This is a large scale and somewhat messy project that has taken place over the c
 <br>
 <br>
 <div class="image-gradient" id="left">
-    <img src="https://i.imgur.com/PO8RHyN.png">
+    <img src="https://i.imgur.com/Y5wJeOA.png">
 </div>
 <br>
 
@@ -33,7 +33,7 @@ Poorly performing and visually noisy areas of the vanilla client have been smoot
 <br>
 <br>
 <div class="image-gradient" id="left">
-    <img src="https://i.imgur.com/3C485lX.png">
+    <img src="https://i.imgur.com/lpfzOPl.png">
 </div>
 <br>
 
