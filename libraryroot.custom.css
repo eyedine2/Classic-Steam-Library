@@ -406,14 +406,15 @@
 }
 
 ._3ydigb6zZAjJ0JCDgHwSYA, ._2q-gZ3XJzlvSGHSF-GvSmi, ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5  /* Play Button Colors! (and a border) */ {
-	background: linear-gradient(to bottom, var(--buttonface2-master) 0%, var(--almostBlack-master) 100%) !important;
-	border: 1px solid var(--buttonbordersubtle-master) !important;
+	background: var(--playbuttoncolor) !important;
+	border: var(--playbuttonborder) !important;
 	border-radius: var(--buttonradius) !important;
 	
 }
 
 ._3ydigb6zZAjJ0JCDgHwSYA:hover, ._2q-gZ3XJzlvSGHSF-GvSmi:hover, ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5:hover /* Play Button Colors! (and a border) But on Hover! */ {
-	border: 1px solid var(--buttonborderfocussubtle-master) !important;
+	border: var(--playbuttonborderfocus) !important;
+	background: var(--playbuttonfocus) !important;
 }
 
 ._3ydigb6zZAjJ0JCDgHwSYA svg /* Button Icons */ {
@@ -1014,8 +1015,8 @@ button.DialogButton:hover, ._1EC1xjjUGqI7fqX6PVzJA3:hover, .DialogDropDown._Dial
 
 .PopupFullWindow .TitleBar,
 .FullModalOverlay .DialogContent {
-    background-color: var(--dialogbg-master) !important;
-    background-image: linear-gradient(to bottom, var(--buttonbordersubtle-master), var(--dialogbg-master)) !important;
+    background-color: var(--titlebarcol) !important;
+    background-image: var(--titlebarimg) !important;
 }
 
 .FullModalOverlay .DialogContent {
@@ -1305,7 +1306,7 @@ input.DialogInput.DialogInputPlaceholder.DialogTextInputBase {
 
 span._3rpUkswF6xc_ste4Ros_xM /* this is unrelated */ {
     color: var(--Text-master);
-    font-size: 27px /* Big Game Name Font Size */;
+    font-size: var(--gamenamefont) /* Big Game Name Font Size */;
 }
 
 .ROxNrcM6LrA4aUyH8IpFp /* Space inbetween minimizer and text */ {
@@ -1954,31 +1955,33 @@ img._dijeIFQK07Fymccmf6qA._3XYFKZ4dGPY0v1xxXRIwm6 {
     position: absolute;
     left: 271px;
     top: -32px;
-    width: calc(100vw - 392px);
+    width: var(--sortwidth);
     padding: 0;
     height: 26px;
 	background-color: rgba(56,54,53,.5);
 }
 
 ._2Szzh5sKyGgnLUR870zbDE._3LKQ3S_yqrebeNLF6aeiog {
-    position: absolute;
+    position: var(--bpmposition);
     right: 0;
-    width: 92px;
-    height: 64px;
-    background: url(https://i.imgur.com/cqTFFZQ.png);
-	background-position-x: 2px;
+    width: var(--bpmwidth);
+    height: var(--bpmheight);
+	min-width: 0;
+	min-height: 0;
+    background: var(--bpmimg);
+	background-position-x: 1px;
     top: 40px;
 	z-index: 2;
 }
 
 ._2Szzh5sKyGgnLUR870zbDE._3LKQ3S_yqrebeNLF6aeiog:hover {
-    background: url(https://i.imgur.com/tzUsjcZ.png);
-	background-position-x: 2px;
+    background: var(--bpmimg2);
+	background-position-x: 1px;
 }
 
 ._2Szzh5sKyGgnLUR870zbDE._3LKQ3S_yqrebeNLF6aeiog:active {
-    background: url(https://i.imgur.com/9pOiWkV.png);
-	background-position-x: 2px;
+    background: var(--bpmimg3);
+	background-position-x: 1px;
 }
 
 ._3LKQ3S_yqrebeNLF6aeiog ._34bQcTHo5QKzuujoEyU1tm {
@@ -2464,17 +2467,17 @@ div._20QAC4WMXm8qFE8waUT5oo > div._12vo5L1hsNGdao6_ssuirS > div > input {
     padding-left: 9px;
     padding-top: 32px;
     padding-bottom: 46px;
-    background: #383635 !important;
+    background: var(--floatpanelframe) !important;
 	min-width: 0 !important;
     min-height: 0 !important;
 }
 
 .DialogContent, .DialogContentTransition {
-    background: linear-gradient(to bottom, #383635, #494745) !important;
+    background: linear-gradient(to bottom, var(--dialogbg-master), var(--PropertySheetBG-master)) !important;
 }
 
 .RTicBCbDcEGkjsbmWzA8C.PageListColumn.Panel {
-    background: linear-gradient(to bottom, #252423 0%, #363433 5%, #1A1917 95%);
+    background: linear-gradient(to bottom, var(--dialogbg-master), var(--almostBlack-master) 95%);
 }
 
 ._1I3NifxqTHCkE-2DeritAs.DesktopUI, .DesktopUI ._1I3NifxqTHCkE-2DeritAs, .DialogContent._DialogLayout._1I3NifxqTHCkE-2DeritAs {
@@ -2486,7 +2489,7 @@ div._20QAC4WMXm8qFE8waUT5oo > div._12vo5L1hsNGdao6_ssuirS > div > input {
     display: block;
     height: 10px;
     width: 100%;
-    background: linear-gradient(to right, #5A5754, #201F1F);
+    background: linear-gradient(to right, var(--buttonface2-master), var(--darkclientbg-master));
 	min-width: 300px;
 }
 
@@ -2574,7 +2577,7 @@ div._20QAC4WMXm8qFE8waUT5oo > div._12vo5L1hsNGdao6_ssuirS > div > input {
 }
 
 ._1e6tjguQEHdYIehM9aRmO5, ._3kjELHPFlI9SV9QYNi_TaH, ._2_4_nZy-T2C3pHa81tGH76 {
-    background: linear-gradient(to bottom, #363433 12px, #1A1917 128px) !important;
+    background: linear-gradient(to bottom, var(--dialogbg-master) 12px, var(--almostBlack-master) 128px) !important;
 }
 
 ._3m0MnUo45wjLOfNLpZ-3KH, ._20evaxvMeG8jMJ31t-5-L5, ._2cIK-w-zexbpzoh8jWH-tn {
@@ -3186,9 +3189,9 @@ button._1iFnR7cGRa1kepep433pGx.h782PaUbu8xm3afLFh83E.Upr_VRmq8Pb8RWegwuVYb.Dialo
 }
 
 .ReactVirtualized__Grid.ReactVirtualized__List.lnGVVQQ3rDYWIgO-hc12V {
-    background: linear-gradient(to bottom, #363433 12px, #1A1917 128px) !important;
+    background: linear-gradient(to bottom, var(--dialogbg-master) 12px, var(--almostBlack-master) 128px) !important;
     border-radius: 4px;
-    border: 1px solid rgb(77,75,72);
+    border: 1px solid var(--buttonborderdisabled-master);
 }
 
 ._2n6FNLKyb6al_YPk13xS7S .d9dlNsZ74TUTz3j0b1Syi ._g4ceYb5tVuSmXg0aNEdR ._1G9v2mshuM0YQNG51iX5fH, ._2n6FNLKyb6al_YPk13xS7S .d9dlNsZ74TUTz3j0b1Syi ._g4ceYb5tVuSmXg0aNEdR svg.DesktopUI, .DesktopUI ._2n6FNLKyb6al_YPk13xS7S .d9dlNsZ74TUTz3j0b1Syi ._g4ceYb5tVuSmXg0aNEdR svg {

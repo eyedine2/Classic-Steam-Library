@@ -110,7 +110,7 @@ Comment these out like I am doing right now if you miss this stuff */
 .FriendsListContent {
     padding-left: 6px;
     padding-right: 6px;
-    background: url(https://i.imgur.com/styFQYb.png), linear-gradient(to bottom, black 0, var(--dialogbg-master) 175px);
+    background: var(--clientnostretch), linear-gradient(to bottom, black 0, var(--dialogbg-master) 175px);
     background-repeat: no-repeat;
     background-position: left -103px;
     background-color: var(--dialogbg-master);
@@ -130,7 +130,7 @@ Comment these out like I am doing right now if you miss this stuff */
 /* Header */
 
 .friendListHeaderContainer {
-    background-image: url(https://i.imgur.com/styFQYb.png), linear-gradient(to bottom, black, var(--dialogbg-master) 175px);
+    background-image: var(--clientnostretch), linear-gradient(to bottom, black, var(--dialogbg-master) 175px);
     background-repeat: no-repeat;
     background-position: top left;
     background-color: transparent;
@@ -363,7 +363,7 @@ Comment these out like I am doing right now if you miss this stuff */
 }
 
 .friendlistListContainer {
-    background: linear-gradient(to bottom, #363433 12px, #1A1917 128px);
+    background: linear-gradient(to bottom, var(--dialogbg-master) 12px, var(--almostBlack-master) 128px);
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup {
@@ -575,7 +575,7 @@ html._2GpKTB_eizdXpH2xVGbMKi .LQkrbbayZPY11qHm01t7F, .LQkrbbayZPY11qHm01t7F {
 .displayColumn.fullWidth {
     padding-left: 7px;
     padding-right: 7px;
-    background: url(https://i.imgur.com/styFQYb.png), linear-gradient(to bottom, #1A1917 50%, #2f2e2d 100%);
+    background: var(--clientnostretch), linear-gradient(to bottom, #1A1917 50%, #2f2e2d 100%);
     background-repeat: no-repeat;
     background-position: left -44px;
     background-color: #2f2e2d;
@@ -592,7 +592,7 @@ html._2GpKTB_eizdXpH2xVGbMKi .LQkrbbayZPY11qHm01t7F, .LQkrbbayZPY11qHm01t7F {
 /* Header */
 
 .titleBarContainer.ChatTabs {
-    background-image: url(https://i.imgur.com/styFQYb.png), linear-gradient(to bottom, black, var(--dialogbg-master) 175px);
+    background-image: var(--clientnostretch), linear-gradient(to bottom, black, var(--dialogbg-master) 175px);
     background-repeat: no-repeat;
     background-position: top left;
     background-color: transparent;
@@ -618,8 +618,12 @@ html._2GpKTB_eizdXpH2xVGbMKi .LQkrbbayZPY11qHm01t7F, .LQkrbbayZPY11qHm01t7F {
     min-width: 150px;
     height: 23px;
     width: auto;
-    background: linear-gradient(to bottom, var(--buttonface-master) , var(--dialogbg-master));
+    background: linear-gradient(to bottom, var(--buttonface-master), var(--dialogbg-master) var(--friendstabgradientstretch));
     border-radius: 0;
+}
+
+.X2iywwN7fcdh9zXpXVsrk:not(._1BNlZUYDbVr8VhCTmq7ksk) {
+	background: var(--friendsinactivetab);
 }
 
 .X2iywwN7fcdh9zXpXVsrk:not(:first-child) {
@@ -847,6 +851,8 @@ form._2gP0DqVyb1aEACymAe6if3, ._3grea2u6WuuGLHj9gJFmzY ._1IEiKQnjHpIv-m601y6hvP,
     max-height: 100%;
 }
 
+/* nagging about compact mode */
+
 @keyframes fade {
 	
 	0% {
@@ -878,4 +884,10 @@ form._2gP0DqVyb1aEACymAe6if3, ._3grea2u6WuuGLHj9gJFmzY ._1IEiKQnjHpIv-m601y6hvP,
 	animation-delay: 2s;
 	animation-fill-mode: forwards;
 	pointer-events: none !important;
+}
+
+/* This has never looked good */
+
+.labelHolder.ingame._2317WeOq8zJVeOi6ILQbF8 ._2nrSdZqzl3e01VZleoVaWp {
+	display: none;
 }

@@ -40,12 +40,51 @@
 	--Highlight5-master: var(--Highlight5);
 	--clientbg-master: var(--clientbg);
 	
+	/* imgs */
 
 	--logotexture: url(https://i.imgur.com/Dsr2r4l.png);
 	--clientstretch: url(https://i.imgur.com/WKlQeut.png);
 	--clientnostretch: url(https://i.imgur.com/styFQYb.png);
 	--clientstretch2: none;
 	--clientstretch3: url(https://i.imgur.com/vOcCyrv.png);
+	
+	/* big picture button */
+
+	--bpmposition: absolute;
+	--bpmimg: url(https://i.imgur.com/cqTFFZQ.png);
+	--bpmimg2: url(https://i.imgur.com/tzUsjcZ.png);
+	--bpmimg3: url(https://i.imgur.com/9pOiWkV.png);
+	--bpmwidth: 92px;
+	--bpmheight: 64px;
+	
+	/* category / sort panel */
+	
+	--sortwidth: calc(100vw - 392px);
+	
+	/* Play Button */
+	
+	--playbuttoncolor: linear-gradient(to bottom, var(--buttonface2-master) 0%, var(--almostBlack-master) 100%);
+	--playbuttonborder: 1px solid var(--buttonbordersubtle-master);
+	--playbuttonborderfocus: 1px solid var(--buttonborderfocussubtle-master);
+	--playbuttonfocus: linear-gradient(to bottom, var(--buttonface2-master) 0%, var(--almostBlack-master) 100%);
+	
+	/* Game Name Font */
+	
+	--gamenamefont: 27px;
+	
+	/* Panel Title Bars */
+	
+	--titlebarcol: var(--dialogbg-master);
+	--titlebarimg: linear-gradient(to bottom, var(--buttonbordersubtle-master), var(--dialogbg-master));
+	
+	/* Float Panel Frame */
+	
+	--floatpanelframe: var(--dialogbg-master);
+	
+	/* active friends panel thing */
+	
+	--friendstabgradientstretch: 100%;
+	--friendsinactivetab: linear-gradient(to bottom, var(--buttonface-master), var(--dialogbg-master) 35%);
 
 	/* 2013 Colors */
 	--dialogbg: rgb(56,54,53);
