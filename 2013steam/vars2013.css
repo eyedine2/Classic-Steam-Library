@@ -84,7 +84,7 @@
 	/* active friends panel thing */
 	
 	--friendstabgradientstretch: 100%;
-	--friendsinactivetab: linear-gradient(to bottom, var(--buttonface-master), var(--dialogbg-master) 35%);
+	--friendsinactivetab: linear-gradient(to bottom, var(--buttonface-master), var(--dialogbg-master) var(--friendstabgradientstretch));
 
 	/* 2013 Colors */
 	--dialogbg: rgb(56,54,53);
