@@ -1,12 +1,12 @@
 <!-- div style="color:red; border:10px; font-size:48px">Test</div -->
-<!-- style> .addon-details-segment { background: black !important; } </style -->
+<style> #addon-details-right-column { background: black !important; } </style>
 
 [![Video](https://user-images.githubusercontent.com/65731940/125979354-e86bb0ec-40d1-45af-b755-45e70f8cf844.png)](https://www.youtube.com/watch?v=IoKg5fYlZLs)
 <div class ="intro">
 <hr>
 <br>
 <br>
-Returns the Steam library to it's 2010-era look with CSS tweaks instead of reverting it.
+Returns the Steam library to it's 2013 and 2015 era looks with CSS tweaks instead of reverting it.
 <br>
 This is a large scale and somewhat messy project that has taken place over the course of several years. Things are not perfect here, but you probably aren't here for that.
 </div>
