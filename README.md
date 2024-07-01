@@ -1,6 +1,3 @@
-<!-- div style="color:red; border:10px; font-size:48px">Test</div -->
-<style> #addon-details-right-column { background: black !important; } </style>
-
 [![Video](https://user-images.githubusercontent.com/65731940/125979354-e86bb0ec-40d1-45af-b755-45e70f8cf844.png)](https://www.youtube.com/watch?v=IoKg5fYlZLs)
 <div class ="intro">
 <hr>
