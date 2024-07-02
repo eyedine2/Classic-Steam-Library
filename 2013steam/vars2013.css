@@ -85,6 +85,31 @@
 	
 	--friendstabgradientstretch: 100%;
 	--friendsinactivetab: linear-gradient(to bottom, var(--buttonface-master), var(--dialogbg-master) var(--friendstabgradientstretch));
+	
+	/* supernav */
+	
+	--supernavimg: var(--clientnostretch);
+	
+	/* context menu */
+	
+	--contextmenubg: var(--dialogbg-master);
+	--contextmenu1: var(--buttonbordersubtle-master);
+	--contextmenu2: var(--dialogbg-master);
+	--contextmenuborder: var(--buttonbordersubtle-master);
+	
+	/* Top Buttons */
+	
+	--ctrlbuttonwidth: 30px;
+	--ctrlbuttonheight: 30px;
+	--ctrlbuttonborderwidth: 1px;
+	--ctrlbuttonbackground1: var(--darkclientbg-master);
+	--ctrlbuttonbackground2: var(--dialogbg-master);
+	--ctrlbuttonbackgroundhover1: var(--darkclientbg-master);
+	--ctrlbuttonbackgroundhover2: var(--darkclientbg-master);
+	--ctrlbuttonbackgroundactive1: #5C7E10;
+	--ctrlbuttonbackgroundactive2: #35342F;
+	--ctrlbuttonbackgroundactivehover1: rgb(112,146,36);
+	--ctrlbuttonbackgroundactivehover2: rgb(112,146,36);
 
 	/* 2013 Colors */
 	--dialogbg: rgb(56,54,53);

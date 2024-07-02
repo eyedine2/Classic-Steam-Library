@@ -1051,16 +1051,16 @@ button.DialogButton:hover, ._1EC1xjjUGqI7fqX6PVzJA3:hover, .DialogDropDown._Dial
 /* Context Menu */
 
 .LQkrbbayZPY11qHm01t7F._1UOkn2fGQ25jnyqcEJbnlo.visible._2qyBZV8YvxstXuSKiYDF19, .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz ._DialogInputContainer, ._1ZpBQtDqcKBbfIIv01Vs1R > div.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R > div, .DesktopUI .LQkrbbayZPY11qHm01t7F, ._7K1n9EZg9218K75ZOzcHl .LQkrbbayZPY11qHm01t7F, .LQkrbbayZPY11qHm01t7F, ._2qyBZV8YvxstXuSKiYDF19 {
-    background-color: var(--dialogbg-master) !important;
-    background-image: linear-gradient(to bottom, var(--buttonbordersubtle-master), var(--dialogbg-master)) !important;
+    background-color: var(--contextmenubg) !important;
+    background-image: linear-gradient(to bottom, var(--contextmenu1), var(--contextmenu2)) !important;
 	border: 1.5px solid transparent !important;
 	border-radius: 1.5px;
-	box-shadow: 0 0 0px 1.5px var(--buttonbordersubtle-master) !important;
+	box-shadow: 0 0 0px 1.5px var(--contextmenuborder) !important;
 	padding: 1px !important;
 }
 
 .DesktopUI .pFo3kQOzrl9qVLPXXGIMp:hover, .DesktopUI .pFo3kQOzrl9qVLPXXGIMp._1KPWUt7wYWSfD3V7sYpsyT, ._7K1n9EZg9218K75ZOzcHl .pFo3kQOzrl9qVLPXXGIMp:hover, ._7K1n9EZg9218K75ZOzcHl .pFo3kQOzrl9qVLPXXGIMp._1KPWUt7wYWSfD3V7sYpsyT, .pFo3kQOzrl9qVLPXXGIMp:hover {
-    background: #314259;
+    background: #314259 !important;
 	color: var(--Text-master);
 }
 
@@ -1071,12 +1071,12 @@ button.DialogButton:hover, ._1EC1xjjUGqI7fqX6PVzJA3:hover, .DialogDropDown._Dial
 }
 
 .pFo3kQOzrl9qVLPXXGIMp.contextMenuItem, .pFo3kQOzrl9qVLPXXGIMp {
-    font-size: 12px;
+    font-size: 11px;
     padding: 6px;
     padding-top: 0px;
     padding-bottom: 0px;
-    color: var(--Text-master);
-	line-height: 22px;
+    color: var(--label-master);
+	line-height: 20px;
 	font-weight: bold;
     margin-top: 1px;
     margin-bottom: 1px;
@@ -1091,7 +1091,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 }
 
 ._2y2tUbsMx8OIwkimGSyHmb._3pofGqV0buiKAfMPEs3_82.Eq8Px4ixn5sAFSR6_9wWQ {
-    background-image: url(https://i.imgur.com/BgfuFRZ.png) !important;
+    background-image: var(--supernavimg) !important;
     background-repeat: repeat;
     background-position: top left;
 }
@@ -2077,12 +2077,12 @@ img._dijeIFQK07Fymccmf6qA._3XYFKZ4dGPY0v1xxXRIwm6 {
 }
 
 ._2Szzh5sKyGgnLUR870zbDE:not(._3LKQ3S_yqrebeNLF6aeiog) {
-    width: 30px !important;
-    height: 30px !important;
+    width: var(--ctrlbuttonwidth) !important;
+    height: var(--ctrlbuttonheight) !important;
     margin-right: 10px !important;
     padding: 0 !important;
-    border: 1px solid var(--buttonface2-master);
-    background: linear-gradient(to bottom, var(--darkclientbg-master), var(--dialogbg-master));
+    border: var(--ctrlbuttonborderwidth) solid var(--buttonface2-master);
+    background: linear-gradient(to bottom, var(--ctrlbuttonbackground1), var(--ctrlbuttonbackground2));
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-bottom-left-radius: var(--buttonradius);
@@ -2145,7 +2145,7 @@ img._dijeIFQK07Fymccmf6qA._3XYFKZ4dGPY0v1xxXRIwm6 {
 }
 
 .RtSv39ZoBOySnb8XQ5hJf._9YK5IY219Pm_F53DAxyYp:not(._1QQWjaXmb1eTHZpeIhQA_5):hover, .RtSv39ZoBOySnb8XQ5hJf._3qhGkQ5qLVNQQ-J2-uPoHt:not(._1QQWjaXmb1eTHZpeIhQA_5):hover, ._5wILZhsLODVwGfcJ0hKmJ:hover, .Utdt7JrpIm5JlpQmqyj1v:not(._1QQWjaXmb1eTHZpeIhQA_5):hover {
-    background: var(--buttonface-master) !important;
+    background: var(--ctrlbuttonbackgroundhover1);
 }
 
 .DesktopUI .title-area-icon.minimizeButton svg, .friendsui-container .title-area-icon.minimizeButton svg {
@@ -2334,18 +2334,22 @@ img._dijeIFQK07Fymccmf6qA._3XYFKZ4dGPY0v1xxXRIwm6 {
 
 /* Check icon */
 
-._24G4gV0rYtRbebXM44GkKk {
+._24G4gV0rYtRbebXM44GkKk, .DialogCheckbox {
     width: 15px;
     height: 15px;
     border: 1px solid var(--buttonface-master);
     border-radius: 2px;
 }
 
-._24G4gV0rYtRbebXM44GkKk._3ld7THBuSMiFtcB_Wo165i {
+.DialogCheckbox {
+	background-color: transparent !important;
+}
+
+._24G4gV0rYtRbebXM44GkKk._3ld7THBuSMiFtcB_Wo165i, .DialogCheckbox.Active {
     background-image: url(https://i.imgur.com/jBePFDn.png);
 }
 
-._2JtC3JSLKaOtdpAVEACsG1 {
+._2JtC3JSLKaOtdpAVEACsG1, .DialogCheckbox svg {
 	display: none !important;
 }
 
@@ -2360,7 +2364,7 @@ img._dijeIFQK07Fymccmf6qA._3XYFKZ4dGPY0v1xxXRIwm6 {
 }
 
 ._3lwcRYJ_r7x01Cn15bcdYI._3ZBFoxumQBb1JEVw_DZzaC, ._3lwcRYJ_r7x01Cn15bcdYI._3ZBFoxumQBb1JEVw_DZzaC:hover, ._3lwcRYJ_r7x01Cn15bcdYI, ._3lwcRYJ_r7x01Cn15bcdYI:hover {
-    background-color: transparent;
+    background: transparent;
 }
 
 ._3lwcRYJ_r7x01Cn15bcdYI.RadioButton {
@@ -2961,7 +2965,7 @@ button._1iFnR7cGRa1kepep433pGx.h782PaUbu8xm3afLFh83E.Upr_VRmq8Pb8RWegwuVYb.Dialo
 }
 
 .SoundtrackPlayer, .DialogContent._DialogLayout._31Kkeb6BIUOVu8QL-dgtY-, ._20v4MHXd0kP4rRu6ZTAGQU {
-    background-image: url(https://i.imgur.com/styFQYb.png), linear-gradient(to bottom, black, var(--dialogbg-master) 175px) !important;
+    background-image: var(--clientnostretch), linear-gradient(to bottom, black, var(--dialogbg-master) 175px) !important;
     background-repeat: no-repeat !important;
 }
 
@@ -3182,7 +3186,7 @@ button._1iFnR7cGRa1kepep433pGx.h782PaUbu8xm3afLFh83E.Upr_VRmq8Pb8RWegwuVYb.Dialo
     height: 18px;
     position: absolute;
     background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.2) 25%, rgba(0,0,0,0.2) 50%, transparent);
-    z-index: 1;
+    z-index: 0;
     pointer-events: none;
     top: 0;
     right: 0;
@@ -3245,18 +3249,16 @@ span._2mZ8LlvoUiyeEUtIWuTri {
 }
 
 .RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd {
-    background: linear-gradient(to bottom, #5C7E10, #35342F) !important;
-    border: 1px solid #5C7E10;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd:hover {
-    background: #5C7E10 !important;
+    background: url(https://i.imgur.com/7JnEuNq.png), linear-gradient(to bottom, var(--ctrlbuttonbackgroundactive1), var(--ctrlbuttonbackgroundactive2)) !important;
+    border: var(--ctrlbuttonborderwidth) solid var(--ctrlbuttonbackgroundactive1);
+    border-bottom-left-radius: var(--buttonradius);
+    border-bottom-right-radius: var(--buttonradius);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
 
 ._2Szzh5sKyGgnLUR870zbDE.RtSv39ZoBOySnb8XQ5hJf:not(._3L1c8C0o_xXzPy26aoLBFd) {
-    border: 1px solid var(--buttonface2-master);
+    border: var(--ctrlbuttonborderwidth) solid var(--buttonface2-master);
 }
 
 ._2Szzh5sKyGgnLUR870zbDE.Utdt7JrpIm5JlpQmqyj1v._1nKxf9MhTV5zdB5iUjAgYb:hover {
@@ -3377,4 +3379,98 @@ span._2mZ8LlvoUiyeEUtIWuTri {
 
 ._24G4gV0rYtRbebXM44GkKk:not(._1pmyxI3wxLrWwGnc52yVns):hover {
     border-radius: 2px;
+}
+
+/* Some more Context Menu work */
+
+/* play button */
+
+.Z5iAXBkRFGnwpXsO8ANTl.Stream, .Z5iAXBkRFGnwpXsO8ANTl.Connect, .Z5iAXBkRFGnwpXsO8ANTl.Launch, .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic, .Z5iAXBkRFGnwpXsO8ANTl.Play, .Z5iAXBkRFGnwpXsO8ANTl.Download, .Z5iAXBkRFGnwpXsO8ANTl.Update, .Z5iAXBkRFGnwpXsO8ANTl.PreLoad, .Z5iAXBkRFGnwpXsO8ANTl.Resume, .Z5iAXBkRFGnwpXsO8ANTl.Pause, .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp, .Z5iAXBkRFGnwpXsO8ANTl.Stop, .Z5iAXBkRFGnwpXsO8ANTl.Cancel, .Z5iAXBkRFGnwpXsO8ANTl.Install, .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp {
+    background: none !important;
+	text-transform: none;
+}
+
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream svg, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect svg, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch svg, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic svg, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play svg, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download svg, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update svg, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad svg, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume svg, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause svg, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp svg, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop svg, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel svg, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install svg, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp svg {
+    display: none;
+}
+
+/* svg replacement */
+
+svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu, ._3S8RX620BmLdH407KK505 .Htkkt1r5GiHi-0US69HQ_ svg, ._3aB-C2eTsfVtvZR5sC9N_r svg {
+    fill: transparent !important;
+    stroke: transparent !important;
+    background-image: url(https://i.imgur.com/DnP2rra.png);
+    background-repeat: no-repeat;
+}
+
+._3S8RX620BmLdH407KK505 .Htkkt1r5GiHi-0US69HQ_ svg path, ._3aB-C2eTsfVtvZR5sC9N_r svg path {
+	display: none !important;
+}
+
+._3S8RX620BmLdH407KK505 .Htkkt1r5GiHi-0US69HQ_ svg, ._3aB-C2eTsfVtvZR5sC9N_r svg {
+    height: 10px !important;
+}
+
+._3S8RX620BmLdH407KK505 .Htkkt1r5GiHi-0US69HQ_, ._3aB-C2eTsfVtvZR5sC9N_r {
+    width: auto !important;
+	height: auto !important;
+}
+
+button._30Og77vH37EtqaKCCDIAP9.DialogButton {
+    min-height: 0;
+    width: auto;
+}
+
+button._30Og77vH37EtqaKCCDIAP9 svg {
+    width: 12px;
+}
+
+._1WKUOT3FdB9-48MMP0Tz9l.Focusable {
+    margin-bottom: 34px;
+}
+
+/* Notification cancer */
+/* I don't know how many more "This Sucks" comments I got left in me */
+
+._5wILZhsLODVwGfcJ0hKmJ._1oEwirQksXfZ-3RWWslbAR {
+    background: linear-gradient(to bottom, var(--ctrlbuttonbackgroundactive1), var(--ctrlbuttonbackgroundactive2)) !important;
+}
+
+._5wILZhsLODVwGfcJ0hKmJ._1oEwirQksXfZ-3RWWslbAR:hover {
+    background: linear-gradient(to bottom, var(--ctrlbuttonbackgroundactivehover1), var(--ctrlbuttonbackgroundactivehover2)) !important;
+}
+
+._5wILZhsLODVwGfcJ0hKmJ._1oEwirQksXfZ-3RWWslbAR svg {
+    color: var(--Text-master) !important;
+}
+
+.EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD {
+    display: block;
+}
+
+.RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd svg {
+    display: none;
+}
+
+._2Szzh5sKyGgnLUR870zbDE.RtSv39ZoBOySnb8XQ5hJf:not(._3L1c8C0o_xXzPy26aoLBFd) svg {
+    display: none;
+}
+
+._2Szzh5sKyGgnLUR870zbDE.RtSv39ZoBOySnb8XQ5hJf {
+	background-image: url(https://i.imgur.com/his19Js.png), linear-gradient(to bottom, var(--ctrlbuttonbackground1), var(--ctrlbuttonbackground2));
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+}
+
+._2Szzh5sKyGgnLUR870zbDE.RtSv39ZoBOySnb8XQ5hJf:hover {
+	background-image: url(https://i.imgur.com/his19Js.png), linear-gradient(to bottom, var(--ctrlbuttonbackgroundhover1), var(--ctrlbuttonbackgroundhover2)) !important;
+	background-color: transparent !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+}
+
+.RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd:hover {
+	background: url(https://i.imgur.com/7JnEuNq.png), linear-gradient(to bottom, var(--ctrlbuttonbackgroundactivehover1), var(--ctrlbuttonbackgroundactivehover2)) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
 }

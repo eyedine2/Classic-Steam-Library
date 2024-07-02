@@ -85,6 +85,31 @@
 	
 	--friendstabgradientstretch: 50%;
 	--friendsinactivetab: var(--dialogbg-master);
+	
+	/* supernav */
+	
+	--supernavimg: none;
+	
+	/* context menu */
+	
+	--contextmenubg: rgb(75,75,75);
+	--contextmenu1: rgb(75,75,75);
+	--contextmenu2: rgb(54,54,54);
+	--contextmenuborder: none;
+	
+	/* Top Buttons */
+	
+	--ctrlbuttonwidth: 36px;
+	--ctrlbuttonheight: 24px;
+	--ctrlbuttonborderwidth: 0px;
+	--ctrlbuttonbackground1: rgb(27,44,61);
+	--ctrlbuttonbackground2: rgb(27,44,61);
+	--ctrlbuttonbackgroundhover1: rgb(47,64,81);
+	--ctrlbuttonbackgroundhover2: rgb(47,64,81);
+	--ctrlbuttonbackgroundactive1: rgb(92,126,16);
+	--ctrlbuttonbackgroundactive2: rgb(92,126,16);
+	--ctrlbuttonbackgroundactivehover1: rgb(112,146,36);
+	--ctrlbuttonbackgroundactivehover2: rgb(112,146,36);
 
 	/* 2014 colors */
 	--dialogbg-new: rgb(42,46,51);
