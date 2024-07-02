@@ -2669,7 +2669,7 @@ button.DialogButton::before {
 .C9tvuqqEXGcrkcAtHrQ_R.PopupFullWindow._290hvyptb3mP0rOSaapjgZ.OverlayBrowser_Browser {
     padding-left: 7px !important;
     padding-right: 7px !important;
-    background: url(https://i.imgur.com/styFQYb.png), linear-gradient(to bottom, #1A1917 50%, #2f2e2d 100%) !important;
+    background: var(--clientnostretch), linear-gradient(to bottom, #1A1917 50%, #2f2e2d 100%) !important;
     background-repeat: no-repeat !important;
     background-position: left -44px !important;
     background-color: #2f2e2d !important;
