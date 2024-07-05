@@ -43,7 +43,7 @@ What was once a hub of useless spam is now a re-envisioned version of the old "N
 <br>
 <br>
 ## Installation
-Installation differs slightly between Millennium and SFP. For SFP, drop the theme in the `steamui` folder or the `skins` folder inside steamui with SFP left patching. 
+Installation differs slightly between Millennium and SFP. For SFP, drop the theme in the `skins` folder inside `steamui`. The format should be `Steamui > Skins > 2013steam > *files*`. Leave SFP patching. Do not close it. 
 <br>
 <br>
 For Millennium, open the Millennium Community page and drop the theme onto Millennium. Then enable in your interface settings.
