@@ -29,9 +29,7 @@ if (document.title == 'Steam') {
 	);
 
 	function updateFriendsCount() {
-		const friendsOnline = [...friendStore.m_setFriends]
-			.filter((e) => friendStore.GetFriendState(e).m_persona.is_online)
-			.length;
+		const friendsOnline = friendStore.m_FriendsUIFriendStore.online_friends.length
 
 		document.body.style.setProperty('--friends-online-count', '"' + friendsOnline + '"');
 	}
