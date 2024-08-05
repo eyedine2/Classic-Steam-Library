@@ -67,6 +67,13 @@
 	--playbuttonborder: 0px solid var(--buttonbordersubtle-master);
 	--playbuttonborderfocus: var(--GameDetailsBlue-master);
 	--playbuttonfocus: var(--GameDetailsBlue-master);
+	--playbuttonimg: url(https://i.imgur.com/f2nxEQl.png);
+	--playbuttonimghover: url(https://i.imgur.com/f2nxEQl.png);
+	--pausebuttonimg: url(https://i.imgur.com/Abx4jB5.png);
+	--pausebuttonimghover: url(https://i.imgur.com/Abx4jB5.png);
+	--installbuttonimg: url(https://i.imgur.com/WMXgEPN.png);
+	--installbuttonimghover: url(https://i.imgur.com/WMXgEPN.png);
+	--buttonimgpos: center;
 	
 	/* Game Name Font */
 	

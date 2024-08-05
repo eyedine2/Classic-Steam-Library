@@ -417,9 +417,9 @@
 	background: var(--playbuttonfocus) !important;
 }
 
-._3ydigb6zZAjJ0JCDgHwSYA svg /* Button Icons */ {
-	width: 15px !important;
-    height: 15px !important;
+._3ydigb6zZAjJ0JCDgHwSYA svg, ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 svg /* Button Icons */ {
+	width: 17px !important;
+    height: 100% !important;
     margin-right: 4px !important;
 }
 
@@ -3473,4 +3473,66 @@ button._30Og77vH37EtqaKCCDIAP9 svg {
 	background: url(https://i.imgur.com/7JnEuNq.png), linear-gradient(to bottom, var(--ctrlbuttonbackgroundactivehover1), var(--ctrlbuttonbackgroundactivehover2)) !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
+}
+
+/* Old Styled News */
+
+/* Button images again */
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX svg {
+    fill: none !important;
+    color: transparent !important;
+	background-image: var(--installbuttonimg);
+    background-position: var(--buttonimgpos);
+    background-repeat: no-repeat;
+}
+
+._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 svg {
+    transform: none;
+    fill: none !important;
+    color: transparent !important;
+	background-image: var(--installbuttonimg);
+    background-position: var(--buttonimgpos);
+    background-repeat: no-repeat;
+}
+
+._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 svg > *, ._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX svg > * {
+	display: none !important;
+}
+
+/* Play */
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX svg.SVGIcon_Button.SVGIcon_Play, ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 svg.SVGIcon_Button.SVGIcon_Play {
+    background-image: var(--playbuttonimg);
+}
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:hover svg.SVGIcon_Button.SVGIcon_Play, ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5:hover svg.SVGIcon_Button.SVGIcon_Play {
+	background-image: var(--playbuttonimghover);
+	
+}
+
+/* Install */
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX svg.SVGIcon_Button.SVGIcon_Download, ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 svg.SVGIcon_Button.SVGIcon_Download {
+    background-image: var(--installbuttonimg);
+}
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:hover svg.SVGIcon_Button.SVGIcon_Download, ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5:hover svg.SVGIcon_Button.SVGIcon_Download {
+    background-image: var(--installbuttonimghover);
+}
+
+/* Pause */
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX svg.SVGIcon_Button.SVGIcon_Pause, ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5 svg.SVGIcon_Button.SVGIcon_Pause {
+    background-image: var(--pausebuttonimg);
+}
+
+._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:hover svg.SVGIcon_Button.SVGIcon_Pause, ._3AjoLnMNKxYmNTGTJCLfgs._3VOR2AeYATx3qSE0I-Pm-5:hover svg.SVGIcon_Button.SVGIcon_Pause {
+    background-image: var(--pausebuttonimghover);
+}
+
+/* big change */
+
+._3ydigb6zZAjJ0JCDgHwSYA {
+    padding: 0 7px 0 7px !important;
 }
