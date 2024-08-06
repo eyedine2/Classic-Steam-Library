@@ -1,3 +1,5 @@
+# This theme does not work in the Steam Beta. It only works on the stable branch of Steam!
+
 [![Video](https://i.imgur.com/vHOXT4X.png)](https://www.youtube.com/watch?v=IoKg5fYlZLs)
 <div class ="intro">
 <hr>
