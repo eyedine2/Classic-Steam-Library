@@ -313,7 +313,7 @@
     padding: 10px !important;
 }
 
-._34lrt5-Fc3usZU6trA1P0- /* Margins Between text and stats */ {
+._34lrt5-Fc3usZU6trA1P0-, ._3m_zjRTQBqcfzCjXLXUHcR::before /* Margins Between text and stats */ {
 	margin-right: 8px !important;
 }
 
@@ -3352,7 +3352,9 @@ span._2mZ8LlvoUiyeEUtIWuTri {
 }
 
 ._34lrt5-Fc3usZU6trA1P0-, div._1mDAVT4sTzFRwJtlKCw2Ws > div._1kiZKVbDe-9Ikootk57kpA._1aKegVl9_lSdNAyWYZQlr9 > div._3m_zjRTQBqcfzCjXLXUHcR::before {
-    text-align: right;
+    justify-content: end;
+    display: flex;
+    flex: 1;
 }
 
 ._2TYVGoD27ZMfjRirKQNLfk {
