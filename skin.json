@@ -1,4 +1,22 @@
 {
+    "Conditions": {
+        "2015 Theme": {
+            "default": "no",
+            "description": "Bluer but still old",
+            "values": {
+                "no": {
+                    "TargetCss": {
+                        "affects": [".*"],  "src": "2013steam/vars2013.css"
+                    }
+                },
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "2015steam/vars2015.css"
+                    }
+                }
+            }
+        }
+    },
     "Configuration": [
         {
             "Name": "2015 Theme",
