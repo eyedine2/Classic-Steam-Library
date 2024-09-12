@@ -1,7 +1,7 @@
 // Collection Panel repositioned beneath linkssection, by shadow
 
 const h = '._2b6WkTnmJxMuX1biL7aS3C.Panel'
-const i = '_2meE3N6-Wkw3yQUVtQK-i8'
+const i = 'NZMJ6g2iVnFsOOp-lDmIP'
 const n = '.DgVQapkBmhAW6oPY5rPZo.Panel'
 new MutationObserver((mo) => {
 	mo.forEach(function(m) {

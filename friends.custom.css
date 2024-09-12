@@ -322,11 +322,11 @@ Comment these out like I am doing right now if you miss this stuff */
     box-sizing: border-box;
 }
 
-.online .r62qzcdJQ0qezZglOtiUX, .online ._1k82NiWym4STegDGxRBHz2, .online ._2wpaptjZY-3Gn1HOPlL85O._1k82NiWym4STegDGxRBHz2 a, .online ._2wpaptjZY-3Gn1HOPlL85O._1k82NiWym4STegDGxRBHz2 a:hover, .online ._2wpaptjZY-3Gn1HOPlL85O._1k82NiWym4STegDGxRBHz2 a:active, .online ._2wpaptjZY-3Gn1HOPlL85O._1k82NiWym4STegDGxRBHz2 a:visited {
+.online .nOdcT-MoOaXGePXLyPe0H, .online ._2Ri005Wg_uXDTa71kdRbcN, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
     color: var(--FriendsOnlineColor);
 }
 
-.r62qzcdJQ0qezZglOtiUX {
+.nOdcT-MoOaXGePXLyPe0H {
     font-size: 12px !important;
 }
 
@@ -530,7 +530,7 @@ Comment these out like I am doing right now if you miss this stuff */
 
 /* This sucks so fucking much */
 
-.LQkrbbayZPY11qHm01t7F._1UOkn2fGQ25jnyqcEJbnlo.visible._2qyBZV8YvxstXuSKiYDF19, .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz ._DialogInputContainer, ._1ZpBQtDqcKBbfIIv01Vs1R > div.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R > div, .DesktopUI .LQkrbbayZPY11qHm01t7F, ._7K1n9EZg9218K75ZOzcHl .LQkrbbayZPY11qHm01t7F, .LQkrbbayZPY11qHm01t7F, ._2qyBZV8YvxstXuSKiYDF19 {
+.PP7LM0Ow1K5qkR8WElLpt._1UOkn2fGQ25jnyqcEJbnlo.visible._1S6CCCQlcTTAAHh3LMTLh1, .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz ._DialogInputContainer, ._1ZpBQtDqcKBbfIIv01Vs1R > div.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R > div, .DesktopUI .PP7LM0Ow1K5qkR8WElLpt, ._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt, .PP7LM0Ow1K5qkR8WElLpt, ._1S6CCCQlcTTAAHh3LMTLh1 {
     background-color: var(--dialogbg-master) !important;
     background-image: linear-gradient(to bottom, var(--buttonbordersubtle-master), var(--dialogbg-master)) !important;
 	border: 1px solid transparent !important;
@@ -539,18 +539,18 @@ Comment these out like I am doing right now if you miss this stuff */
 	padding: 1px !important;
 }
 
-.DesktopUI .pFo3kQOzrl9qVLPXXGIMp:hover, .DesktopUI .pFo3kQOzrl9qVLPXXGIMp._1KPWUt7wYWSfD3V7sYpsyT, ._7K1n9EZg9218K75ZOzcHl .pFo3kQOzrl9qVLPXXGIMp:hover, ._7K1n9EZg9218K75ZOzcHl .pFo3kQOzrl9qVLPXXGIMp._1KPWUt7wYWSfD3V7sYpsyT, .pFo3kQOzrl9qVLPXXGIMp:hover {
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover, .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI:hover, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK, ._1n7Wloe5jZ6fSuvV18NNWI:hover {
     background: #314259;
 	color: var(--Text-master);
 }
 
-._2y2tUbsMx8OIwkimGSyHmb, .friendsContextMenu {
+._2EstNjFIIZm_WUSKm5Wt7n, .friendsContextMenu {
 	padding: 0 !important;
 	border-radius: 2px !important;
 	box-sizing: border-box !important;
 }
 
-.pFo3kQOzrl9qVLPXXGIMp.contextMenuItem, .pFo3kQOzrl9qVLPXXGIMp {
+._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem, ._1n7Wloe5jZ6fSuvV18NNWI {
     font-size: 12px;
     padding: 6px;
     padding-top: 0px;
@@ -562,7 +562,7 @@ Comment these out like I am doing right now if you miss this stuff */
     margin-bottom: 1px;
 }
 
-html._2GpKTB_eizdXpH2xVGbMKi .LQkrbbayZPY11qHm01t7F, .LQkrbbayZPY11qHm01t7F {
+html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt, .PP7LM0Ow1K5qkR8WElLpt {
     box-sizing: border-box;
 }
 
@@ -612,7 +612,7 @@ html._2GpKTB_eizdXpH2xVGbMKi .LQkrbbayZPY11qHm01t7F, .LQkrbbayZPY11qHm01t7F {
     margin-right: 101px;
 }
 
-.X2iywwN7fcdh9zXpXVsrk {
+._2XZq-_f6npaQdAgeRzKIkz {
     padding-left: 6px;
     padding-right: 6px;
     min-width: 150px;
@@ -622,19 +622,19 @@ html._2GpKTB_eizdXpH2xVGbMKi .LQkrbbayZPY11qHm01t7F, .LQkrbbayZPY11qHm01t7F {
     border-radius: 0;
 }
 
-.X2iywwN7fcdh9zXpXVsrk:not(._1BNlZUYDbVr8VhCTmq7ksk) {
+._2XZq-_f6npaQdAgeRzKIkz:not(.Yd-DsWkYiFiYwpci--Yk_) {
 	background: var(--friendsinactivetab);
 }
 
-.X2iywwN7fcdh9zXpXVsrk:not(:first-child) {
+._2XZq-_f6npaQdAgeRzKIkz:not(:first-child) {
     margin-left: 4px;
 }
 
-.X2iywwN7fcdh9zXpXVsrk::before, .X2iywwN7fcdh9zXpXVsrk:last-of-type::after {
+._2XZq-_f6npaQdAgeRzKIkz::before, ._2XZq-_f6npaQdAgeRzKIkz:last-of-type::after {
 	display: none;
 }
 
-._3tIp1VL2rG6tO8sY0CeRl9 ._1YGAHSfGavQI6MODJq-pJB {
+._21I8pyEfvklCsrYIcsBtYY .nibodjvvrm86uCfnnAn4g {
     display: none;
 }
 
@@ -646,7 +646,7 @@ html._2GpKTB_eizdXpH2xVGbMKi .LQkrbbayZPY11qHm01t7F, .LQkrbbayZPY11qHm01t7F {
     height: auto;
 }
 
-.r62qzcdJQ0qezZglOtiUX {
+.nOdcT-MoOaXGePXLyPe0H {
     line-height: 12px;
 }
 
@@ -679,7 +679,7 @@ html._2GpKTB_eizdXpH2xVGbMKi .LQkrbbayZPY11qHm01t7F, .LQkrbbayZPY11qHm01t7F {
     stroke-width: 48px;
 }
 
-.X2iywwN7fcdh9zXpXVsrk:not(._1BNlZUYDbVr8VhCTmq7ksk) {
+._2XZq-_f6npaQdAgeRzKIkz:not(.Yd-DsWkYiFiYwpci--Yk_) {
     transform: translatey(-1px);
     border-bottom: 1px solid black;
 }
@@ -696,7 +696,7 @@ html._2GpKTB_eizdXpH2xVGbMKi .LQkrbbayZPY11qHm01t7F, .LQkrbbayZPY11qHm01t7F {
     background: var(--dialogbg-master);
 }
 
-._17ewzMiLZXQiOFFbpXAZdw {
+._1qeW35auMlJ5pJVNtBC-bF {
     display: none;
 }
 
@@ -774,7 +774,7 @@ html._2GpKTB_eizdXpH2xVGbMKi .LQkrbbayZPY11qHm01t7F, .LQkrbbayZPY11qHm01t7F {
 
 /* Chat tools / "Footer" */
 
-form._2gP0DqVyb1aEACymAe6if3, ._3grea2u6WuuGLHj9gJFmzY ._1IEiKQnjHpIv-m601y6hvP, .VoiceToggle {
+form._3Ule3rolhZJiBN4yNNtk1s, ._2WfNoLBdfKwyutA6ho4aSH .RVIs84dAE6wHcjH9tkinc, .VoiceToggle {
     background: none !important;
     border: 1px solid var(--buttonface-master) !important;
     border-radius: 5px !important;
@@ -813,33 +813,33 @@ form._2gP0DqVyb1aEACymAe6if3, ._3grea2u6WuuGLHj9gJFmzY ._1IEiKQnjHpIv-m601y6hvP,
 	fill: #fff !important;
 }
 
-._1IEiKQnjHpIv-m601y6hvP {
+.RVIs84dAE6wHcjH9tkinc {
     background: none !important;
     border: none !important;
 }
 
-._2GM2kkVRqL-SdkG4oQjUzY .SVGIcon_Submit path {
+.jaQN2IyN4P8LZXJ6P11qy .SVGIcon_Submit path {
     fill: var(--label2-master) !important;
 }
 
-._1IEiKQnjHpIv-m601y6hvP .SVGIcon_Submit path {
+.RVIs84dAE6wHcjH9tkinc .SVGIcon_Submit path {
     fill: var(--Text-master);
 }
 
-._3grea2u6WuuGLHj9gJFmzY {
+._2WfNoLBdfKwyutA6ho4aSH {
     background-color: transparent;
     padding: 0;
 }
 
-.K-lPMiafCuZRqjfXykujt .SVGIcon_Emoticon line, .K-lPMiafCuZRqjfXykujt .SVGIcon_Emoticon circle, .K-lPMiafCuZRqjfXykujt .SVGIcon_Emoticon path, ._24xNxnnkSf6A1WY3MnCCeg .SVGIcon_Paperclip path {
+.Aupswi7-c-w3XwNO5cp2i .SVGIcon_Emoticon line, .Aupswi7-c-w3XwNO5cp2i .SVGIcon_Emoticon circle, .Aupswi7-c-w3XwNO5cp2i .SVGIcon_Emoticon path, ._3zOBeq5W4cNK3lRz_7aroW .SVGIcon_Paperclip path {
     stroke: var(--label2-master);
 }
 
-._3grea2u6WuuGLHj9gJFmzY button:not(:last-child) {
+._2WfNoLBdfKwyutA6ho4aSH button:not(:last-child) {
     margin-right: 8px;
 }
 
-._3grea2u6WuuGLHj9gJFmzY button {
+._2WfNoLBdfKwyutA6ho4aSH button {
     max-width: 52px !important;
     max-height: 52px !important;
     width: 52px;
@@ -847,7 +847,7 @@ form._2gP0DqVyb1aEACymAe6if3, ._3grea2u6WuuGLHj9gJFmzY ._1IEiKQnjHpIv-m601y6hvP,
 	min-width: 52px !important;
 }
 
-._1X1-nhi0oX1Wy7y1mEIc1o {
+.W0OhkJtz8zMUW8Mhu0BMO {
     max-height: 100%;
 }
 
@@ -888,6 +888,6 @@ form._2gP0DqVyb1aEACymAe6if3, ._3grea2u6WuuGLHj9gJFmzY ._1IEiKQnjHpIv-m601y6hvP,
 
 /* This has never looked good */
 
-.labelHolder.ingame._2317WeOq8zJVeOi6ILQbF8 ._2nrSdZqzl3e01VZleoVaWp {
+.labelHolder.ingame._1JE5G7_FNm2SRDEEnOWMVv ._3sxE7F1LV2IcSX68YsH9dI {
 	display: none;
 }
