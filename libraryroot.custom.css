@@ -2257,14 +2257,17 @@ img.HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u {
     border: none;
 }
 
-#popup_target {
-    border: 1px solid black;
-    box-sizing: border-box;
-}
+/* #steamdesktopoverlay_OverlayPopupBody */
+body:not(._1UJDmU3N-pkv7oTJ_Zf9nK) {
+    #popup_target {
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
 
-.WindowFocus #popup_target {
-    border-image: linear-gradient(-225deg, black 50%, #4D678C);
-    border-image-slice: 1;
+    &.WindowFocus #popup_target {
+        border-image: linear-gradient(-225deg, black 50%, #4D678C);
+        border-image-slice: 1;
+    }
 }
 
 /* bottom */
@@ -2647,8 +2650,6 @@ button.DialogButton::before {
 /* overlay */
 
 .C9tvuqqEXGcrkcAtHrQ_R {
-    background: linear-gradient(to bottom, var(--buttonbordersubtle-master), var(--dialogbg-master)) !important;
-    box-shadow: 0 0 0px 1.5px var(--buttonbordersubtle-master) !important;
     border: 1px solid transparent;
     box-sizing: border-box;
     height: calc(100% - 4px) !important;
@@ -2656,6 +2657,11 @@ button.DialogButton::before {
     position: absolute;
     left: 2px;
     top: 2px;
+
+    &:not(.OverlayTimeline) {
+        background: linear-gradient(to bottom, var(--buttonbordersubtle-master), var(--dialogbg-master)) !important;
+        box-shadow: 0 0 0px 1.5px var(--buttonbordersubtle-master) !important;
+    }
 }
 
 .C9tvuqqEXGcrkcAtHrQ_R.PopupFullWindow.Wt45HcpWivkdscTAM-XYu.Settings {
@@ -2765,6 +2771,11 @@ button.DialogButton::before {
 
 ._2H8IHZhXaVl5APLWuYvNTP {
     display: none !important;
+}
+
+/* #mediadialog_MM */
+._21_rrXIoZ7yQbc0u7rhvkP {
+    border: none !important;
 }
 
 .DialogDropDown {
