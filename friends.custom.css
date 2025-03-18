@@ -851,6 +851,27 @@ form._3Ule3rolhZJiBN4yNNtk1s, ._2WfNoLBdfKwyutA6ho4aSH .RVIs84dAE6wHcjH9tkinc, .
     max-height: 100%;
 }
 
+.chatHistory {
+    padding-bottom: 24px !important;
+}
+
+.chatEntry form textarea:hover {
+    cursor: text !important;
+}
+
+.chatEntry form textarea {
+    scrollbar-width: none;
+}
+
+.chatEntry .compactableHeight div button:hover {
+    filter: brightness(1.25) !important;
+}
+
+.inviteAnotherFriendButton {
+    margin-right: 15px;
+    margin-top: -4px;
+}
+
 /* nagging about compact mode */
 
 @keyframes fade {
