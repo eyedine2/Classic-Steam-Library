@@ -44,7 +44,5 @@ What was once a hub of useless spam is now a re-envisioned version of the old "N
 <br>
 <br>
 <br>
-## Installation (SFP Only)
-This is only for the **SFP** patcher, **not** Millennium! 
-<br>
+## Installation (manual installation)
 Drop the theme in the `skins` folder inside `steamui`. Inside the skins folder should be a few folders (2013steam, 2015steam) and loose files (libraryroot.custom.css, etc), the theme should **NOT** be in a folder called "Classic-Steam-Library-main". Once that's done, Leave SFP patching. Do not close it. 
