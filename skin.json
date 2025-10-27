@@ -6,12 +6,14 @@
             "values": {
                 "no": {
                     "TargetCss": {
-                        "affects": [".*"],  "src": "2013steam/vars2013.css"
+                        "affects": [ ".*" ],
+                        "src": "2013steam/vars2013.css"
                     }
                 },
                 "yes": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "2015steam/vars2015.css"
+                        "affects": [ ".*" ],
+                        "src": "2015steam/vars2015.css"
                     }
                 }
             }
@@ -61,10 +63,10 @@
         "owner": "eyedine2",
         "repo_name": "Classic-Steam-Library"
     },
-    "header_image": "https://i.imgur.com/05lFTXw.png",
+    "header_image": "https://imgup.uk/proxy/?url=i.imgur.com/05lFTXw.png",
     "name": "Classic Steam Library",
     "source": "https://github.com/eyedine2/Classic-Steam-Library/tree/main",
-    "splash_image": "https://i.imgur.com/05lFTXw.png",
+    "splash_image": "https://imgup.uk/proxy/?url=i.imgur.com/05lFTXw.png",
     "tags": [
         "Dark",
         "Classic"
