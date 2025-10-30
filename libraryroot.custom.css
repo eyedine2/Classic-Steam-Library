@@ -8,7 +8,7 @@
 	border-right: 2px solid transparent !important;
 	border-top: 0px !important;
 	border-bottom: 0px !important;
-	background-image: url("https://i.imgur.com/R1VeTuY.png") !important;
+	background-image: url("https://imgup.uk/proxy/?url=i.imgur.com/R1VeTuY.png") !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
 	border-radius: var(--scrollradius) !important;
@@ -21,7 +21,7 @@
 	border-right: 2px solid transparent !important;
 	border-top: 0px !important;
 	border-bottom: 0px !important;
-	background-image: url("https://i.imgur.com/R1VeTuY.png") !important;
+	background-image: url("https://imgup.uk/proxy/?url=i.imgur.com/R1VeTuY.png") !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
 	border-radius: var(--scrollradius) !important;
@@ -52,22 +52,22 @@
 }
 
 ::-webkit-scrollbar-button:single-button:vertical:decrement {
-	background-image: url("https://i.imgur.com/yq1K42i.png");
+	background-image: url("https://imgup.uk/proxy/?url=i.imgur.com/yq1K42i.png");
 	background-color: var(--buttonface2-master);
 }
 
 ::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
-	background-image: url("https://i.imgur.com/C1mnmlC.png");
+	background-image: url("https://imgup.uk/proxy/?url=i.imgur.com/C1mnmlC.png");
 	background-color: var(--buttonfaceactive-master);
 }
 
 ::-webkit-scrollbar-button:single-button:vertical:increment {
-	background-image: url("https://i.imgur.com/NX4Z0fU.png");
+	background-image: url("https://imgup.uk/proxy/?url=i.imgur.com/NX4Z0fU.png");
 	background-color: var(--buttonface2-master);
 }
 
 ::-webkit-scrollbar-button:vertical:single-button:increment:hover {
-	background-image: url("https://i.imgur.com/EKk8diC.png");
+	background-image: url("https://imgup.uk/proxy/?url=i.imgur.com/EKk8diC.png");
 	background-color: var(--buttonfaceactive-master);
 }
 
@@ -930,7 +930,7 @@ button.DialogButton:hover, ._1EC1xjjUGqI7fqX6PVzJA3:hover, .DialogDropDown:hover
 
 ._1W34WpqfvufNgueNdZozwC::before /* old icon and description */ {
 	content: "Create, discover, and play content created by the Steam Community. ";
-    background: url(https://i.imgur.com/KRXesxW.png);
+    background: url(https://imgup.uk/proxy/?url=i.imgur.com/KRXesxW.png);
     background-repeat: no-repeat;
     min-width: 195px;
     max-width: 195px;
@@ -1633,7 +1633,7 @@ div.OINnOU8K5HzPe2nzczpZi.Panel > div > div > div._2pjdgFqp04LlhgtFS0rQn_ > div 
 
 .zeGUOeW3Cat4UJGCGwXPZ svg,
 .DialogDropDown_Arrow, ._15aGnszAf3gHD-PFdJBoFD {
-	background-image: url(https://i.imgur.com/DnP2rra.png);
+	background-image: url(https://imgup.uk/proxy/?url=i.imgur.com/DnP2rra.png);
     background-position: right;
     background-repeat: no-repeat;
     background-color: transparent !important;
@@ -1650,7 +1650,7 @@ div.OINnOU8K5HzPe2nzczpZi.Panel > div > div > div._2pjdgFqp04LlhgtFS0rQn_ > div 
 
 .zeGUOeW3Cat4UJGCGwXPZ:hover svg,
 .DialogDropDown:hover .DialogDropDown_Arrow, ._2PF_m-I5yte3WnQhpcz8RC:hover ._15aGnszAf3gHD-PFdJBoFD {
-    background-image: url(https://i.imgur.com/WKww45Z.png);
+    background-image: url(https://imgup.uk/proxy/?url=i.imgur.com/WKww45Z.png);
 }
 
 .zeGUOeW3Cat4UJGCGwXPZ path,
@@ -2030,20 +2030,20 @@ img.HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u {
 }
 
 ._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 #Layer_1 {
-    background-image: url(https://i.imgur.com/J4cibCm.png);
+    background-image: url(https://imgup.uk/proxy/?url=i.imgur.com/J4cibCm.png);
 }
 
 ._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6 svg.SVGIcon_Button.SVGIcon_ReadyToPlay {
-    background-image: url(https://i.imgur.com/XQPdwmb.png);
+    background-image: url(https://imgup.uk/proxy/?url=i.imgur.com/XQPdwmb.png);
 }
 
 ._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6._1QFFkxM5hw-43miIiylbwq svg.SVGIcon_Button.SVGIcon_ReadyToPlay {
-    background-image: url(https://i.imgur.com/XQPdwmb.png), linear-gradient(to bottom, rgb(85,125,171), rgb(49,65,89));
+    background-image: url(https://imgup.uk/proxy/?url=i.imgur.com/XQPdwmb.png), linear-gradient(to bottom, rgb(85,125,171), rgb(49,65,89));
     border-radius: 3px;
 }
 
 ._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6._1QFFkxM5hw-43miIiylbwq #Layer_1 {
-    background-image: url(https://i.imgur.com/J4cibCm.png), linear-gradient(to bottom, rgb(85,125,171), rgb(49,65,89));
+    background-image: url(https://imgup.uk/proxy/?url=i.imgur.com/J4cibCm.png), linear-gradient(to bottom, rgb(85,125,171), rgb(49,65,89));
     border-radius: 3px;
 }
 
@@ -2345,7 +2345,7 @@ body:not(._1UJDmU3N-pkv7oTJ_Zf9nK) {
 }
 
 ._9Ql-oVe_j8E-vsDdyVdWo.yLrDAetGoWx0GYqA6ShfS, .DialogCheckbox.Active {
-    background-image: url(https://i.imgur.com/jBePFDn.png) !important;
+    background-image: url(https://imgup.uk/proxy/?url=i.imgur.com/jBePFDn.png) !important;
 }
 
 ._2bl0iQ9xigbq4Zd1NI6NZl, .DialogCheckbox svg {
@@ -2823,7 +2823,7 @@ button.DialogButton::before {
 }
 
 .SoundtrackPlayer {
-    background-image: url(https://i.imgur.com/styFQYb.png), linear-gradient(to bottom, black, var(--dialogbg-master) 175px) !important;
+    background-image: url(https://imgup.uk/proxy/?url=i.imgur.com/styFQYb.png), linear-gradient(to bottom, black, var(--dialogbg-master) 175px) !important;
     background-repeat: no-repeat !important;
 }
 
@@ -3232,7 +3232,7 @@ span._2mZ8LlvoUiyeEUtIWuTri {
 }
 
 .RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd {
-    background: url(https://i.imgur.com/7JnEuNq.png), linear-gradient(to bottom, var(--ctrlbuttonbackgroundactive1), var(--ctrlbuttonbackgroundactive2)) !important;
+    background: url(https://imgup.uk/proxy/?url=i.imgur.com/7JnEuNq.png), linear-gradient(to bottom, var(--ctrlbuttonbackgroundactive1), var(--ctrlbuttonbackgroundactive2)) !important;
     border: var(--ctrlbuttonborderwidth) solid var(--ctrlbuttonbackgroundactive1);
     border-bottom-left-radius: var(--buttonradius);
     border-bottom-right-radius: var(--buttonradius);
@@ -3383,7 +3383,7 @@ span._2mZ8LlvoUiyeEUtIWuTri {
 svg.SVGIcon_Button.SVGIcon_DownArrowContextMenu, ._3S8RX620BmLdH407KK505 .Htkkt1r5GiHi-0US69HQ_ svg, ._3aB-C2eTsfVtvZR5sC9N_r svg {
     fill: transparent !important;
     stroke: transparent !important;
-    background-image: url(https://i.imgur.com/DnP2rra.png);
+    background-image: url(https://imgup.uk/proxy/?url=i.imgur.com/DnP2rra.png);
     background-repeat: no-repeat;
 }
 
@@ -3441,20 +3441,20 @@ button._30Og77vH37EtqaKCCDIAP9 svg {
 }
 
 ._2Szzh5sKyGgnLUR870zbDE.RtSv39ZoBOySnb8XQ5hJf {
-	background-image: url(https://i.imgur.com/his19Js.png), linear-gradient(to bottom, var(--ctrlbuttonbackground1), var(--ctrlbuttonbackground2));
+	background-image: url(https://imgup.uk/proxy/?url=i.imgur.com/his19Js.png), linear-gradient(to bottom, var(--ctrlbuttonbackground1), var(--ctrlbuttonbackground2));
 	background-repeat: no-repeat !important;
 	background-position: center !important;
 }
 
 ._2Szzh5sKyGgnLUR870zbDE.RtSv39ZoBOySnb8XQ5hJf:hover {
-	background-image: url(https://i.imgur.com/his19Js.png), linear-gradient(to bottom, var(--ctrlbuttonbackgroundhover1), var(--ctrlbuttonbackgroundhover2)) !important;
+	background-image: url(https://imgup.uk/proxy/?url=i.imgur.com/his19Js.png), linear-gradient(to bottom, var(--ctrlbuttonbackgroundhover1), var(--ctrlbuttonbackgroundhover2)) !important;
 	background-color: transparent !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
 }
 
 .RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd:hover {
-	background: url(https://i.imgur.com/7JnEuNq.png), linear-gradient(to bottom, var(--ctrlbuttonbackgroundactivehover1), var(--ctrlbuttonbackgroundactivehover2)) !important;
+	background: url(https://imgup.uk/proxy/?url=i.imgur.com/7JnEuNq.png), linear-gradient(to bottom, var(--ctrlbuttonbackgroundactivehover1), var(--ctrlbuttonbackgroundactivehover2)) !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
 }

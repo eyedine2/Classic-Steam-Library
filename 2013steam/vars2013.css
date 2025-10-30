@@ -42,18 +42,18 @@
 	
 	/* imgs */
 
-	--logotexture: url(https://i.imgur.com/Dsr2r4l.png);
-	--clientstretch: url(https://i.imgur.com/WKlQeut.png);
-	--clientnostretch: url(https://i.imgur.com/styFQYb.png);
+	--logotexture: url(https://imgup.uk/proxy/?url=i.imgur.com/Dsr2r4l.png);
+	--clientstretch: url(https://imgup.uk/proxy/?url=i.imgur.com/WKlQeut.png);
+	--clientnostretch: url(https://imgup.uk/proxy/?url=i.imgur.com/styFQYb.png);
 	--clientstretch2: none;
-	--clientstretch3: url(https://i.imgur.com/vOcCyrv.png);
+	--clientstretch3: url(https://imgup.uk/proxy/?url=i.imgur.com/vOcCyrv.png);
 	
 	/* big picture button */
 
 	--bpmposition: absolute;
-	--bpmimg: url(https://i.imgur.com/cqTFFZQ.png);
-	--bpmimg2: url(https://i.imgur.com/tzUsjcZ.png);
-	--bpmimg3: url(https://i.imgur.com/9pOiWkV.png);
+	--bpmimg: url(https://imgup.uk/proxy/?url=i.imgur.com/cqTFFZQ.png);
+	--bpmimg2: url(https://imgup.uk/proxy/?url=i.imgur.com/tzUsjcZ.png);
+	--bpmimg3: url(https://imgup.uk/proxy/?url=i.imgur.com/9pOiWkV.png);
 	--bpmwidth: 92px;
 	--bpmheight: 64px;
 	
@@ -67,12 +67,12 @@
 	--playbuttonborder: 1px solid var(--buttonbordersubtle-master);
 	--playbuttonborderfocus: 1px solid var(--buttonborderfocussubtle-master);
 	--playbuttonfocus: linear-gradient(to bottom, var(--buttonface2-master) 0%, var(--almostBlack-master) 100%);
-	--playbuttonimg: url(https://i.imgur.com/gZ3R5OQ.png);
-	--playbuttonimghover: url(https://i.imgur.com/qtkKNpd.png);
-	--pausebuttonimg: url(https://i.imgur.com/VUzpwni.png);
-	--pausebuttonimghover: url(https://i.imgur.com/Abx4jB5.png);
-	--installbuttonimg: url(https://i.imgur.com/fyBqwPa.png);
-	--installbuttonimghover: url(https://i.imgur.com/WMXgEPN.png);
+	--playbuttonimg: url(https://imgup.uk/proxy/?url=i.imgur.com/gZ3R5OQ.png);
+	--playbuttonimghover: url(https://imgup.uk/proxy/?url=i.imgur.com/qtkKNpd.png);
+	--pausebuttonimg: url(https://imgup.uk/proxy/?url=i.imgur.com/VUzpwni.png);
+	--pausebuttonimghover: url(https://imgup.uk/proxy/?url=i.imgur.com/Abx4jB5.png);
+	--installbuttonimg: url(https://imgup.uk/proxy/?url=i.imgur.com/fyBqwPa.png);
+	--installbuttonimghover: url(https://imgup.uk/proxy/?url=i.imgur.com/WMXgEPN.png);
 	--buttonimgpos: center 2px;
 	
 	/* Game Name Font */
