@@ -475,7 +475,7 @@ Comment these out like I am doing right now if you miss this stuff */
     left: 17px;
     bottom: 5px;
     margin: 0;
-    width: 100%;
+    width: auto;
 }
 
 .addFriendButton::before {
