@@ -42,18 +42,18 @@
 	
 	/* imgs */
 
-	--logotexture: url("images/logotexture.png");
-	--clientstretch: url("images/clientstretch.png");
-	--clientnostretch: url("images/clientnostretch.png");
+	--logotexture: url("2013steam/images/logotexture.png");
+	--clientstretch: url("2013steam/images/clientstretch.png");
+	--clientnostretch: url("2013steam/images/clientnostretch.png");
 	--clientstretch2: none;
-	--clientstretch3: url("images/clientstretch3.png");
+	--clientstretch3: url("2013steam/images/clientstretch3.png");
 	
 	/* big picture button */
 
 	--bpmposition: absolute;
-	--bpmimg: url("images/bpmimg.png");
-	--bpmimg2: url("images/bpmimg2.png");
-	--bpmimg3: url("images/bpmimg3.png");
+	--bpmimg: url("2013steam/images/bpmimg.png");
+	--bpmimg2: url("2013steam/images/bpmimg2.png");
+	--bpmimg3: url("2013steam/images/bpmimg3.png");
 	--bpmwidth: 92px;
 	--bpmheight: 64px;
 	
@@ -67,12 +67,12 @@
 	--playbuttonborder: 1px solid var(--buttonbordersubtle-master);
 	--playbuttonborderfocus: 1px solid var(--buttonborderfocussubtle-master);
 	--playbuttonfocus: linear-gradient(to bottom, var(--buttonface2-master) 0%, var(--almostBlack-master) 100%);
-	--playbuttonimg: url("images/playbuttonimg.png");
-	--playbuttonimghover: url("images/playbuttonimghover.png");
-	--pausebuttonimg: url("images/pausebuttonimg.png");
-	--pausebuttonimghover: url("images/pausebuttonimghover.png");
-	--installbuttonimg: url("images/installbuttonimg.png");
-	--installbuttonimghover: url("images/installbuttonimghover.png");
+	--playbuttonimg: url("2013steam/images/playbuttonimg.png");
+	--playbuttonimghover: url("2013steam/images/playbuttonimghover.png");
+	--pausebuttonimg: url("2013steam/images/pausebuttonimg.png");
+	--pausebuttonimghover: url("2013steam/images/pausebuttonimghover.png");
+	--installbuttonimg: url("2013steam/images/installbuttonimg.png");
+	--installbuttonimghover: url("2013steam/images/installbuttonimghover.png");
 	--buttonimgpos: center 2px;
 	
 	/* Game Name Font */

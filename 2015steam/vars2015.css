@@ -43,16 +43,16 @@
 	/* imgs */
 
 	--logotexture: none;
-	--clientstretch: url("images/clientstretch.png");
-	--clientnostretch: url("images/clientnostretch.png");
-	--clientstretch2: url("images/clientstretch2.png");
-	--clientstretch3: url("images/clientstretch3.png");
+	--clientstretch: url("2015steam/images/clientstretch.png");
+	--clientnostretch: url("2015steam/images/clientnostretch.png");
+	--clientstretch2: url("2015steam/images/clientstretch2.png");
+	--clientstretch3: url("2015steam/images/clientstretch3.png");
 	
 	/* big picture button */
 
 	--bpmposition: static;
-	--bpmimg: url("images/bpmimg.png");
-	--bpmimg2: url("images/bpmimg2.png");
+	--bpmimg: url("2015steam/images/bpmimg.png");
+	--bpmimg2: url("2015steam/images/bpmimg2.png");
 	--bpmimg3: var(--bpmimg2);
 	--bpmwidth: 20px;
 	--bpmheight: 14px;
@@ -67,11 +67,11 @@
 	--playbuttonborder: 0px solid var(--buttonbordersubtle-master);
 	--playbuttonborderfocus: var(--GameDetailsBlue-master);
 	--playbuttonfocus: var(--GameDetailsBlue-master);
-	--playbuttonimg: url("images/playbuttonimg.png");
-	--playbuttonimghover: url("images/playbuttonimghover.png");
-	--pausebuttonimg: url("images/pausebuttonimg.png");
-	--pausebuttonimghover: url("images/pausebuttonimghover.png");
-	--installbuttonimg: url("images/installbuttonimg.png");
+	--playbuttonimg: url("2015steam/images/playbuttonimg.png");
+	--playbuttonimghover: url("2015steam/images/playbuttonimghover.png");
+	--pausebuttonimg: url("2015steam/images/pausebuttonimg.png");
+	--pausebuttonimghover: url("2015steam/images/pausebuttonimghover.png");
+	--installbuttonimg: url("2015steam/images/installbuttonimg.png");
 	--installbuttonimghover: var(--installbuttonimg);
 	--buttonimgpos: center;
 	
