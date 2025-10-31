@@ -38,7 +38,7 @@ Comment these out like I am doing right now if you miss this stuff */
 	border-right: 2px solid transparent !important;
 	border-top: 0px !important;
 	border-bottom: 0px !important;
-	background-image: url("https://i.imgur.com/R1VeTuY.png") !important;
+	background-image: url("images/webkit_scrollbar_thumb.png") !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
 	border-radius: var(--scrollradius) !important;
@@ -51,7 +51,7 @@ Comment these out like I am doing right now if you miss this stuff */
 	border-right: 2px solid transparent !important;
 	border-top: 0px !important;
 	border-bottom: 0px !important;
-	background-image: url("https://i.imgur.com/R1VeTuY.png") !important;
+	background-image: url("images/webkit_scrollbar_thumb.png") !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
 	border-radius: var(--scrollradius) !important;
@@ -82,22 +82,22 @@ Comment these out like I am doing right now if you miss this stuff */
 }
 
 ::-webkit-scrollbar-button:single-button:vertical:decrement {
-	background-image: url("https://i.imgur.com/yq1K42i.png");
+	background-image: url("images/webkit_scrollbar_up.png");
 	background-color: var(--buttonface2-master);
 }
 
 ::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
-	background-image: url("https://i.imgur.com/C1mnmlC.png");
+	background-image: url("images/webkit_scrollbar_up_hover.png");
 	background-color: var(--buttonfaceactive-master);
 }
 
 ::-webkit-scrollbar-button:single-button:vertical:increment {
-	background-image: url("https://i.imgur.com/NX4Z0fU.png");
+	background-image: url("images/webkit_scrollbar_down.png");
 	background-color: var(--buttonface2-master);
 }
 
 ::-webkit-scrollbar-button:vertical:single-button:increment:hover {
-	background-image: url("https://i.imgur.com/EKk8diC.png");
+	background-image: url("images/webkit_scrollbar_down_hover.png");
 	background-color: var(--buttonfaceactive-master);
 }
 
@@ -210,14 +210,14 @@ Comment these out like I am doing right now if you miss this stuff */
     background-color: var(--dialogbg-master) !important;
     box-shadow: none !important;
     transition: none !important;
-    background-image: url(https://i.imgur.com/mJP3pfZ.png);
+    background-image: url("images/search_input.png");
     background-size: 18px;
     background-position: 3px center;
 }
 
 .TabSearchButton .searchIconButton {
     position: absolute;
-    background-image: url(https://i.imgur.com/mJP3pfZ.png);
+    background-image: url("images/search_input.png");
     background-size: 18px;
     width: 18px;
     height: 18px;

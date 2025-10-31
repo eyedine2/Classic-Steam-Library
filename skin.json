@@ -61,13 +61,13 @@
         "owner": "eyedine2",
         "repo_name": "Classic-Steam-Library"
     },
-    "header_image": "https://i.imgur.com/05lFTXw.png",
+    "header_image": "preview.png",
     "name": "Classic Steam Library",
     "source": "https://github.com/eyedine2/Classic-Steam-Library/tree/main",
-    "splash_image": "https://i.imgur.com/05lFTXw.png",
+    "splash_image": "preview.png",
     "tags": [
         "Dark",
         "Classic"
     ],
-    "version": "1.0"
+    "version": "1.1"
 }
