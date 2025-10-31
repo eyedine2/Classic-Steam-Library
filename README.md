@@ -1,11 +1,13 @@
-# This theme does not work in the Steam Beta. It only works on the stable branch of Steam!
+# Classic Steam Library
+>[!IMPORTANT] 
+>**This theme does not work in the Steam Beta. It only works on the stable branch of Steam!**
 
-[![Video](https://i.imgur.com/vHOXT4X.png)](https://www.youtube.com/watch?v=IoKg5fYlZLs)
+[![Video](preview.png)](https://www.youtube.com/watch?v=IoKg5fYlZLs)
 <div class ="intro">
 <hr>
 <br>
 <br>
-Returns the Steam library to it's 2013 and 2015 era looks with CSS tweaks instead of reverting it.
+Returns the Steam library to its 2013 and 2015 era looks with CSS tweaks instead of reverting it.
 <br>
 This is a large scale and somewhat messy project that has taken place over the course of several years. Things are not perfect here, but you probably aren't here for that.
 </div>
@@ -14,7 +16,7 @@ This is a large scale and somewhat messy project that has taken place over the c
 <br>
 <div class="a-container">
     <div class="image-gradient" id="left">
-        <img src="https://i.imgur.com/jyZZCCl.png" alt="Friends">
+        <img src="preview_friends.png" alt="Friends">
     </div>
     <div id="right">
         <h2>A Complete Rework</h2>
@@ -25,7 +27,7 @@ This is a large scale and somewhat messy project that has taken place over the c
 <br>
 <br>
 <div class="image-gradient" id="left">
-    <img src="https://i.imgur.com/Y5wJeOA.png">
+    <img src="preview_ach.png">
 </div>
 <br>
 
@@ -35,7 +37,7 @@ Poorly performing and visually noisy areas of the vanilla client have been smoot
 <br>
 <br>
 <div class="image-gradient" id="left">
-    <img src="https://i.imgur.com/lpfzOPl.png">
+    <img src="preview_news.png">
 </div>
 <br>
 
