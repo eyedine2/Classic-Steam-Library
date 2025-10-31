@@ -64,10 +64,11 @@
     "header_image": "preview.png",
     "name": "Classic Steam Library",
     "source": "https://github.com/eyedine2/Classic-Steam-Library/tree/main",
-    "splash_image": "preview.png",
+    "splash_image": "https://raw.githubusercontent.com/eyedine2/Classic-Steam-Library/refs/heads/main/preview.png",
     "tags": [
         "Dark",
         "Classic"
     ],
     "version": "1.1"
 }
+
