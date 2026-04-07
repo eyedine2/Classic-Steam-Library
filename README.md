@@ -1,10 +1,16 @@
 # Classic Steam Library
+>[!NOTE]
+>Support me and my future work on Ko-Fi: https://ko-fi.com/naii_
+
 >[!IMPORTANT] 
 >**This theme does not work in the Steam Beta. It only works on the stable branch of Steam!**
 
 [![Video](preview.png)](https://www.youtube.com/watch?v=IoKg5fYlZLs)
 <div class ="intro">
 <hr>
+<br>
+<br>
+
 <br>
 <br>
 Returns the Steam library to its 2013 and 2015 era looks with CSS tweaks instead of reverting it.
