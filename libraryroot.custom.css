@@ -3851,3 +3851,55 @@ svg._17z_pd5KtnIoB7X3ydiPR6 * {
 ._3mZ2rKd2RECK4q4ufmsDYX.pHDI1ddoKXceD5KL7W-4z {
 	opacity: 0;
 }
+
+/* ===== Achievements panel layout fix (issues #10 and #31) =====
+   The original rules pull .Body up by 114px (Highlight's margin-bottom: -114px)
+   so the "Most Recent" block overlaps the progress bar area. That only works
+   when the Featured block is present and the locked-achievements row is visible.
+   Uses readable (unhashed) class names, which are more stable across Steam updates. */
+
+/* Case 1: all achievements unlocked, or no locked row exists (e.g. only hidden ones left).
+   Keep the Featured block 114px tall so the button starts below the progress bar. */
+.Highlight.AllAchieved + .Body > .Featured,
+.Highlight + .Body:not(:has(> .Additional)) > .Featured {
+    min-height: 114px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    align-items: flex-start; /* keep icon + text at the top; the block is flex with align-items:center */
+}
+
+/* Case 2: no achievements unlocked yet (no Featured block).
+   Nothing to overlap, so switch the overlap trick off. */
+.AppDetailsSectionContainer:not(:has(.Featured)) > .Highlight:has(.AchievementProgressContainer) {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.AppDetailsSectionContainer:not(:has(.Featured)) .UnlockedLabel {
+    margin-left: 0;
+}
+
+/* Case 3 (optional, matches the 2012 look): hide the "unlocked 0/N" text and
+   empty progress bar when nothing is unlocked yet. Delete this rule to keep them. */
+.AppDetailsSectionContainer:not(:has(.Featured)) > .Highlight:has(.AchievementProgressContainer) {
+    display: none;
+}
+
+/* Case 4 (optional, matches the 2012 look): congratulations line under the bar
+   when every achievement is unlocked. English only. */
+.Highlight.AllAchieved + .Body > .Featured {
+    flex-wrap: wrap;
+    align-content: space-between;
+    min-height: 121px;
+}
+
+.Highlight.AllAchieved + .Body > .Featured::after {
+    content: "You\2019ve unlocked every single achievement.  Congratulations!";
+    white-space: pre;
+    flex: 0 0 100%;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--almostwhite-master);
+}
+
+/* ===== End achievements panel layout fix ===== */
