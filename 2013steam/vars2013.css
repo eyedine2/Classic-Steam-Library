@@ -4,7 +4,7 @@
 
 	/* Master Colors 2013 */
 
-	--HeaderColor: var(--GameDetailsGreen-master); 
+	--HeaderColor: var(--GameDetailsBlue-master); /* was GameDetailsGreen-master; blue matches the 2012 library */ 
 	--PanelColor: var(--backgroundstart);
 	--profilesize: 47px;
 	--profileborder: 4px;
